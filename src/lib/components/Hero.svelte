@@ -1,44 +1,16 @@
-<script>
-  import { onMount } from 'svelte';
-
-  onMount(() => {
-    // Simple floating animations
-    const robot = document.querySelector('.rt-robot-image');
-    const cloud = document.querySelector('.rt-cloud');
-    const rocket = document.querySelector('.rt-rocket');
-    const user = document.querySelector('.rt-float-user');
-
-    let frame = 0;
-    const animate = () => {
-      frame += 0.02;
-
-      // Up/down animations
-      if (robot) robot.style.transform = `translate3d(0px, ${Math.sin(frame) * 10}px, 0px)`;
-      if (user) user.style.transform = `translate3d(0px, ${Math.sin(frame + 1) * 15}px, 0px)`;
-
-      // Side to side animations
-      if (cloud) cloud.style.transform = `translate3d(${Math.sin(frame) * 20}px, 0px, 0px)`;
-      if (rocket) rocket.style.transform = `translate3d(${Math.sin(frame + 2) * 25}px, 0px, 0px)`;
-
-      requestAnimationFrame(animate);
-    };
-
-    animate();
-  });
-</script>
 <section data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e29" class="rt-home-v1-hero rt-position-relative">
       <div class="w-layout-blockcontainer rt-container-medium w-container">
         <div data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e2b" class="w-layout-hflex rt-productivity">
           <div class="w-layout-vflex rt-robot-box rt-position-relative">
             <div data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e2d" class="rt-robot-image-block rt-position-relative">
-              <img width="350" height="Auto" alt="Spline Image one" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680b67b06b8afe11f9ed03fe_Spline%20Image%20one.avif" loading="eager" data-w-id="266b3c56-04d4-1030-dfa1-6834dafddf42" class="rt-robot-image rt-autofit" style="transform: translate3d(0px, -2.6832px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d; will-change: transform;">
+              <img width="350" height="Auto" alt="Spline Image one" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680b67b06b8afe11f9ed03fe_Spline%20Image%20one.avif" loading="eager" data-w-id="266b3c56-04d4-1030-dfa1-6834dafddf42" class="rt-robot-image rt-autofit" style="transform-style: preserve-3d; will-change: transform;">
               <img width="192" height="21" alt="Shape" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d790_Robot%20shadow.svg" loading="lazy" class="rt-robot-shadow" style="transform: translate3d(0px, 0px, 0px) scale3d(0.973168, 0.973168, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d; will-change: transform;">
             </div>
             <img width="403" height="260" alt="Dashboard Image" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a35d8c8a43a90efd9fc6e_Frame.webp" data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e30" srcset="
                 https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a35d8c8a43a90efd9fc6e_Frame-p-500.webp 500w,
                 https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a35d8c8a43a90efd9fc6e_Frame-p-800.webp 800w,
                 https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a35d8c8a43a90efd9fc6e_Frame.webp       806w
-              " sizes="(max-width: 479px) 100vw, 403px" class="rt-stat-one" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"><img width="100" height="55" alt="Cloud" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf926202a4f1f698410e7_Cloud.webp" loading="eager" data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e31" class="rt-cloud" style="opacity: 1; transform: translate3d(-13.9938px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d; will-change: transform;"><img width="303" height="174" alt="Dashboard Image" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a36cc948881b7259c43c9_Dashboard-9-2.webp" loading="eager" data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e32" class="rt-stat-line-image" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"><img width="233.5" height="93" alt="Dashboard Image" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a360db03aeb95e0fce0e7_Group.webp" data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e33" class="rt-stat-line-image-two" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"><img width="46" height="54" alt="Rocket" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf9266a29175f2e719597_rocket.webp" loading="lazy" data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e34" class="rt-rocket" style="opacity: 1; transform: translate3d(-18.6584px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d; will-change: transform;"><img width="123" height="61" alt="User" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf927630cb9fa0101283a_User.webp" loading="eager" data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e35" class="rt-float-user" style="opacity: 1; transform: translate3d(0px, -13.9938px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d; will-change: transform;">
+              " sizes="(max-width: 479px) 100vw, 403px" class="rt-stat-one" style="opacity: 1; transform-style: preserve-3d;"><img width="100" height="55" alt="Cloud" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf926202a4f1f698410e7_Cloud.webp" loading="eager" data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e31" class="rt-cloud" style="opacity: 1; transform-style: preserve-3d; will-change: transform;"><img width="303" height="174" alt="Dashboard Image" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a36cc948881b7259c43c9_Dashboard-9-2.webp" loading="eager" data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e32" class="rt-stat-line-image" style="opacity: 1; transform-style: preserve-3d;"><img width="233.5" height="93" alt="Dashboard Image" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a360db03aeb95e0fce0e7_Group.webp" data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e33" class="rt-stat-line-image-two" style="opacity: 1; transform-style: preserve-3d;"><img width="46" height="54" alt="Rocket" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf9266a29175f2e719597_rocket.webp" loading="lazy" data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e34" class="rt-rocket" style="opacity: 1; transform-style: preserve-3d; will-change: transform;"><img width="123" height="61" alt="User" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf927630cb9fa0101283a_User.webp" loading="eager" data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e35" class="rt-float-user" style="opacity: 1; transform-style: preserve-3d; will-change: transform;">
           </div>
           <div class="w-layout-vflex rt-productivity-text-wrapper">
             <div class="w-layout-vflex rt-productivity-text">
