@@ -18,7 +18,7 @@
 									width="191"
 									height="36"
 									alt="Logo Black"
-									src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/68145452cd6fe44eaa5c9e91_logo-11.svg"
+									src="/mylogo.png"
 									class="rt-site-logo"
 							/></a>
 						</div>
@@ -75,12 +75,12 @@
 									aria-labelledby="w-dropdown-toggle-0"
 								>
 									<div class="rt-dropdown-list-wrapper">
-										<a href="/home-one" class="rt-nav-sub-menu w-inline-block" tabindex="0"
+										<a href="/" class="rt-nav-sub-menu w-inline-block" tabindex="0"
 											><div class="rt-dropdown-link">Home one</div></a
-										><a href="/home-two" class="rt-nav-sub-menu w-inline-block" tabindex="0"
+										><a href="/" class="rt-nav-sub-menu w-inline-block" tabindex="0"
 											><div class="rt-dropdown-link">Home two</div></a
 										><a
-											href="/home-three"
+											href="/"
 											aria-current="page"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
@@ -187,7 +187,7 @@
 														/>
 													</div>
 													<div class="rt-dropdown-link">Pricing one</div></a
-												><a href="/pricing-two" class="rt-nav-sub-menu w-inline-block"
+												><a href="/pricing-one" class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
 															width="20"
@@ -202,7 +202,7 @@
 											</div>
 											<div class="rt-nav-menu-block-one">
 												<a
-													href="https://botcloud.webflow.io/product/basic-plan"
+													href="#"
 													class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
@@ -227,7 +227,7 @@
 													</div>
 													<div class="rt-dropdown-link">Team</div></a
 												><a
-													href="https://botcloud.webflow.io/team-details/ashley-roberts"
+													href="#"
 													class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
@@ -239,7 +239,7 @@
 														/>
 													</div>
 													<div class="rt-dropdown-link">Team Details</div></a
-												><a href="/help-center" class="rt-nav-sub-menu w-inline-block"
+												><a href="#" class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
 															width="20"
@@ -251,7 +251,7 @@
 													</div>
 													<div class="rt-dropdown-link">Help Center</div></a
 												><a
-													href="https://botcloud.webflow.io/help-center-categories/usage-tips"
+													href="#"
 													class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
@@ -267,7 +267,7 @@
 											</div>
 											<div class="rt-nav-menu-block-one">
 												<a
-													href="https://botcloud.webflow.io/help-center/what-payment-methods-do-you-accept"
+													href="#"
 													class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
@@ -280,7 +280,7 @@
 													</div>
 													<div class="rt-dropdown-link">Help Center Details</div></a
 												><a
-													href="https://botcloud.webflow.io/401"
+													href="#"
 													class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
@@ -293,7 +293,7 @@
 													</div>
 													<div class="rt-dropdown-link">Password protected</div></a
 												><a
-													href="https://botcloud.webflow.io/404"
+													href="#"
 													class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
@@ -419,10 +419,10 @@
 											><div class="rt-dropdown-link">Service Two</div></a
 										><a href="/pricing-one" class="rt-nav-sub-menu w-inline-block" tabindex="0"
 											><div class="rt-dropdown-link">Pricing one</div></a
-										><a href="/pricing-two" class="rt-nav-sub-menu w-inline-block" tabindex="0"
+										><a href="/pricing-one" class="rt-nav-sub-menu w-inline-block" tabindex="0"
 											><div class="rt-dropdown-link">Pricing two</div></a
 										><a
-											href="https://botcloud.webflow.io/product/basic-plan"
+											href="#"
 											target="_blank"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
@@ -430,29 +430,29 @@
 										><a href="/team" class="rt-nav-sub-menu w-inline-block" tabindex="0"
 											><div class="rt-dropdown-link">Team</div></a
 										><a
-											href="https://botcloud.webflow.io/team-details/olivia-davis"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">Team details</div></a
-										><a href="/help-center" class="rt-nav-sub-menu w-inline-block" tabindex="0"
+										><a href="#" class="rt-nav-sub-menu w-inline-block" tabindex="0"
 											><div class="rt-dropdown-link">Help Center</div></a
 										><a
-											href="https://botcloud.webflow.io/help-center-categories/billing-queries"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">Help Center Category</div></a
 										><a
-											href="https://botcloud.webflow.io/help-center/what-payment-methods-do-you-accept"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">Help Center Details</div></a
 										><a
-											href="https://botcloud.webflow.io/401"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">Password Protected</div></a
 										><a
-											href="https://botcloud.webflow.io/404"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">404</div></a
@@ -511,7 +511,7 @@
 										<a href="/blog" class="rt-nav-sub-menu w-inline-block" tabindex="0"
 											><div class="rt-dropdown-link">Blog</div></a
 										><a
-											href="https://botcloud.webflow.io/blog-details/how-ai-is-reshaping-the-business-landscape"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">Blog details</div></a
@@ -561,17 +561,17 @@
 								>
 									<div class="rt-dropdown-list-wrapper">
 										<a
-											href="https://botcloud.webflow.io/product/basic-plan"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">Basic Plan</div></a
 										><a
-											href="https://botcloud.webflow.io/product/standard-plan"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">Standard Plan</div></a
 										><a
-											href="https://botcloud.webflow.io/product/premium-plan"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">Premium Plan</div></a
@@ -668,7 +668,7 @@
 									width="191"
 									height="36"
 									alt="Logo Black"
-									src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/68145452cd6fe44eaa5c9e91_logo-11.svg"
+									src="/mylogo.png"
 									class="rt-site-logo"
 							/></a>
 						</div>
@@ -724,12 +724,12 @@
 									aria-labelledby="w-dropdown-toggle-6"
 								>
 									<div class="rt-dropdown-list-wrapper">
-										<a href="/home-one" class="rt-nav-sub-menu w-inline-block" tabindex="0"
+										<a href="/" class="rt-nav-sub-menu w-inline-block" tabindex="0"
 											><div class="rt-dropdown-link">Home one</div></a
-										><a href="/home-two" class="rt-nav-sub-menu w-inline-block" tabindex="0"
+										><a href="/" class="rt-nav-sub-menu w-inline-block" tabindex="0"
 											><div class="rt-dropdown-link">Home two</div></a
 										><a
-											href="/home-three"
+											href="/"
 											aria-current="page"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
@@ -836,7 +836,7 @@
 														/>
 													</div>
 													<div class="rt-dropdown-link">Pricing one</div></a
-												><a href="/pricing-two" class="rt-nav-sub-menu w-inline-block"
+												><a href="/pricing-one" class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
 															width="20"
@@ -851,7 +851,7 @@
 											</div>
 											<div class="rt-nav-menu-block-one">
 												<a
-													href="https://botcloud.webflow.io/product/basic-plan"
+													href="#"
 													class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
@@ -876,7 +876,7 @@
 													</div>
 													<div class="rt-dropdown-link">Team</div></a
 												><a
-													href="https://botcloud.webflow.io/team-details/ashley-roberts"
+													href="#"
 													class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
@@ -888,7 +888,7 @@
 														/>
 													</div>
 													<div class="rt-dropdown-link">Team Details</div></a
-												><a href="/help-center" class="rt-nav-sub-menu w-inline-block"
+												><a href="#" class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
 															width="20"
@@ -900,7 +900,7 @@
 													</div>
 													<div class="rt-dropdown-link">Help Center</div></a
 												><a
-													href="https://botcloud.webflow.io/help-center-categories/usage-tips"
+													href="#"
 													class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
@@ -916,7 +916,7 @@
 											</div>
 											<div class="rt-nav-menu-block-one">
 												<a
-													href="https://botcloud.webflow.io/help-center/what-payment-methods-do-you-accept"
+													href="#"
 													class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
@@ -929,7 +929,7 @@
 													</div>
 													<div class="rt-dropdown-link">Help Center Details</div></a
 												><a
-													href="https://botcloud.webflow.io/401"
+													href="#"
 													class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
@@ -942,7 +942,7 @@
 													</div>
 													<div class="rt-dropdown-link">Password protected</div></a
 												><a
-													href="https://botcloud.webflow.io/404"
+													href="#"
 													class="rt-nav-sub-menu w-inline-block"
 													><div class="w-layout-hflex rt-mega-menu-icon">
 														<img
@@ -1062,7 +1062,7 @@
 										<a href="/blog" class="rt-nav-sub-menu w-inline-block" tabindex="0"
 											><div class="rt-dropdown-link">Blog</div></a
 										><a
-											href="https://botcloud.webflow.io/blog-details/ai-and-virtual-reality-a-creative-revolution"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">Blog details</div></a
@@ -1118,17 +1118,17 @@
 								>
 									<div class="rt-dropdown-list-wrapper">
 										<a
-											href="https://botcloud.webflow.io/product/basic-plan"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">Basic Plan</div></a
 										><a
-											href="https://botcloud.webflow.io/product/standard-plan"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">Standard Plan</div></a
 										><a
-											href="https://botcloud.webflow.io/product/premium-plan"
+											href="#"
 											class="rt-nav-sub-menu w-inline-block"
 											tabindex="0"
 											><div class="rt-dropdown-link">Premium Plan</div></a
