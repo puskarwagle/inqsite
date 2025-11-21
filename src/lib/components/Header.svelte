@@ -34,46 +34,16 @@
                           <div class="rt-dropdown-link">Service Two</div></a><a href="/pricing" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
                             <img width="20" height="20" alt="Bank" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg" loading="lazy">
                           </div>
-                          <div class="rt-dropdown-link">Pricing one</div></a><a href="/pricing-two" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="20" height="20" alt="Bank" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">Pricing Two</div></a>
+                          <div class="rt-dropdown-link">Pricing one</div></a>
                       </div>
                       <div class="rt-nav-menu-block-one">
-                        <a href="https://botcloud.webflow.io/product/basic-plan" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="20" height="20" alt="Bank" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">Pricing Details</div></a><a href="/team" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
+                        <a href="/team" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
                             <img width="28" height="27" alt="Team" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475197b4bbd56cd095f_Group%20(1).svg" loading="lazy" class="rt-mega-menu-icon">
                           </div>
-                          <div class="rt-dropdown-link">Team</div></a><a href="https://botcloud.webflow.io/team-details/ashley-roberts" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="28" height="27" alt="Team" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475197b4bbd56cd095f_Group%20(1).svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">Team Details</div></a><a href="/help-center" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
+                          <div class="rt-dropdown-link">Team</div></a><a href="/help-center-all" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
                             <img width="20" height="20" alt="Info" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475276f81aed5d2520f_Group.svg" loading="lazy">
                           </div>
-                          <div class="rt-dropdown-link">Help Center</div></a><a href="https://botcloud.webflow.io/help-center-categories/usage-tips" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="20" height="20" alt="Info" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475276f81aed5d2520f_Group.svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">
-                            Help Center category
-                          </div></a>
-                      </div>
-                      <div class="rt-nav-menu-block-one">
-                        <a href="https://botcloud.webflow.io/help-center/what-payment-methods-do-you-accept" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="20" height="20" alt="Info" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475276f81aed5d2520f_Group.svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">
-                            Help Center Details
-                          </div></a><a href="https://botcloud.webflow.io/401" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="17" height="18" alt="Lock" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b47576d9378071e26370_Vector%20(2).svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">
-                            Password protected
-                          </div></a><a href="https://botcloud.webflow.io/404" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="19" height="19" alt="Loading" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab44abba8ec6260c_Vector%20(3).svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">404</div></a>
+                          <div class="rt-dropdown-link">Help Center</div></a>
                       </div>
                     </div>
                     <div class="w-layout-hflex rt-mega-menu-inner-bottom-wrap">
@@ -109,11 +79,7 @@
                 </div>
                 <nav class="rt-dropdown-list w-dropdown-list" id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2" style="height: 0px;">
                   <div class="rt-dropdown-list-wrapper">
-                    <a href="/aboutus" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">About US</div></a><a href="/service-two" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Service one</div></a><a href="/service-one" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Service Two</div></a><a href="/pricing" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Pricing one</div></a><a href="/pricing-two" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Pricing two</div></a><a href="https://botcloud.webflow.io/product/basic-plan" target="_blank" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Pricing details</div></a><a href="/team" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Team</div></a><a href="https://botcloud.webflow.io/team-details/olivia-davis" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Team details</div></a><a href="/help-center" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Help Center</div></a><a href="https://botcloud.webflow.io/help-center-categories/billing-queries" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">
-                        Help Center Category
-                      </div></a><a href="https://botcloud.webflow.io/help-center/what-payment-methods-do-you-accept" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">
-                        Help Center Details
-                      </div></a><a href="https://botcloud.webflow.io/401" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Password Protected</div></a><a href="https://botcloud.webflow.io/404" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">404</div></a>
+                    <a href="/aboutus" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">About US</div></a><a href="/service-two" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Service one</div></a><a href="/service-one" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Service Two</div></a><a href="/pricing" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Pricing</div></a><a href="/team" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Team</div></a><a href="/help-center-all" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Help Center</div></a>
                   </div>
                 </nav>
               </div>
@@ -187,46 +153,16 @@
                           <div class="rt-dropdown-link">Service Two</div></a><a href="/pricing" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
                             <img width="20" height="20" alt="Bank" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg" loading="lazy">
                           </div>
-                          <div class="rt-dropdown-link">Pricing one</div></a><a href="/pricing-two" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="20" height="20" alt="Bank" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">Pricing Two</div></a>
+                          <div class="rt-dropdown-link">Pricing one</div></a>
                       </div>
                       <div class="rt-nav-menu-block-one">
-                        <a href="https://botcloud.webflow.io/product/basic-plan" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="20" height="20" alt="Bank" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">Pricing Details</div></a><a href="/team" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
+                        <a href="/team" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
                             <img width="28" height="27" alt="Team" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475197b4bbd56cd095f_Group%20(1).svg" loading="lazy" class="rt-mega-menu-icon">
                           </div>
-                          <div class="rt-dropdown-link">Team</div></a><a href="https://botcloud.webflow.io/team-details/ashley-roberts" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="28" height="27" alt="Team" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475197b4bbd56cd095f_Group%20(1).svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">Team Details</div></a><a href="/help-center" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
+                          <div class="rt-dropdown-link">Team</div></a><a href="/help-center-all" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
                             <img width="20" height="20" alt="Info" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475276f81aed5d2520f_Group.svg" loading="lazy">
                           </div>
-                          <div class="rt-dropdown-link">Help Center</div></a><a href="https://botcloud.webflow.io/help-center-categories/usage-tips" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="20" height="20" alt="Info" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475276f81aed5d2520f_Group.svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">
-                            Help Center category
-                          </div></a>
-                      </div>
-                      <div class="rt-nav-menu-block-one">
-                        <a href="https://botcloud.webflow.io/help-center/what-payment-methods-do-you-accept" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="20" height="20" alt="Info" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475276f81aed5d2520f_Group.svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">
-                            Help Center Details
-                          </div></a><a href="https://botcloud.webflow.io/401" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="17" height="18" alt="Lock" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b47576d9378071e26370_Vector%20(2).svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">
-                            Password protected
-                          </div></a><a href="https://botcloud.webflow.io/404" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
-                            <img width="19" height="19" alt="Loading" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab44abba8ec6260c_Vector%20(3).svg" loading="lazy">
-                          </div>
-                          <div class="rt-dropdown-link">404</div></a>
+                          <div class="rt-dropdown-link">Help Center</div></a>
                       </div>
                     </div>
                     <div class="w-layout-hflex rt-mega-menu-inner-bottom-wrap">
