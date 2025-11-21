@@ -1,0 +1,41 @@
+/* Landing styles shared by header and other landing page components. */
+/* Minimal header styles extracted for the Header component.
+   This is a small, safe starting point — keep or expand as you like.
+*/
+
+:root{
+  --rt-bg: #0b1020;
+  --rt-foreground: #ffffff;
+  --rt-accent: #10b981;
+}
+
+.rt-nav-block{
+  background: var(--rt-bg);
+  color: var(--rt-foreground);
+}
+
+.rt-container-small{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 20px;
+}
+
+.w-layout-hflex{ display:flex; align-items:center; justify-content:space-between; gap:16px; }
+
+.rt-site-logo{ display:block; height:36px; width:auto; }
+
+.rt-nav { display:flex; align-items:center; gap:18px; }
+
+.rt-menu-font{ text-transform:capitalize; font-weight:600; }
+
+.rt-dropdown-toggle{ cursor:pointer; display:flex; align-items:center; gap:8px; }
+
+.rt-button{ background:var(--rt-accent); color:#06201a; padding:8px 14px; border-radius:8px; text-decoration:none; }
+
+.rt-hamburger-menu{ width:40px; height:32px; display:flex; align-items:center; justify-content:center; cursor:pointer; }
+.rt-top-bar, .rt-middle-bar, .rt-bottom-bar{ width:20px; height:2px; background:var(--rt-foreground); margin:2px 0; }
+
+/* responsive tweaks */
+@media (max-width: 800px){
+  .rt-nav-menu{ display:none; }
+}
