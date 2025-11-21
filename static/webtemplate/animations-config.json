@@ -1,0 +1,159 @@
+{
+  "global": {
+    "threshold": 0.1,
+    "rootMargin": "-50px 0px -50px 0px",
+    "once": true,
+    "stagger": 50
+  },
+  "presets": {
+    "fadeUp": {
+      "opacity": [0, 1],
+      "translateY": [50, 0],
+      "duration": 800,
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+    },
+    "fadeIn": {
+      "opacity": [0, 1],
+      "duration": 600,
+      "easing": "ease-out"
+    },
+    "scaleUp": {
+      "opacity": [0, 1],
+      "scale": [0.95, 1],
+      "duration": 700,
+      "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+    },
+    "slideLeft": {
+      "opacity": [0, 1],
+      "translateX": [100, 0],
+      "duration": 900,
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+    },
+    "slideRight": {
+      "opacity": [0, 1],
+      "translateX": [-100, 0],
+      "duration": 900,
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+    },
+    "float": {
+      "type": "continuous",
+      "amplitude": 10,
+      "speed": 1.0,
+      "easing": "sine"
+    },
+    "rotate": {
+      "rotateZ": [0, 90],
+      "duration": 300,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+    }
+  },
+  "elements": {
+    ".rt-robot-image": {
+      "preset": "float",
+      "amplitude": 15,
+      "speed": 0.8,
+      "initialDelay": 0
+    },
+    ".rt-cloud": {
+      "preset": "float",
+      "amplitude": 8,
+      "speed": 1.2,
+      "initialDelay": 200
+    },
+    ".rt-rocket": {
+      "preset": "float",
+      "amplitude": 12,
+      "speed": 1.0,
+      "initialDelay": 400
+    },
+    ".rt-float-user": {
+      "preset": "float",
+      "amplitude": 10,
+      "speed": 0.9,
+      "initialDelay": 600
+    },
+    ".rt-robot-shadow": {
+      "preset": "float",
+      "amplitude": 2,
+      "speed": 0.8,
+      "scaleSync": true
+    },
+    "h1[data-w-id]": {
+      "preset": "fadeUp",
+      "delay": 100
+    },
+    "h2[data-w-id]": {
+      "preset": "fadeUp",
+      "delay": 100
+    },
+    "p[data-w-id]": {
+      "preset": "fadeUp",
+      "delay": 150
+    },
+    ".rt-operations-card-v1": {
+      "preset": "scaleUp",
+      "delay": 200
+    },
+    ".rt-button-wrapper": {
+      "preset": "fadeUp",
+      "delay": 200
+    },
+    ".rt-rating-block": {
+      "preset": "fadeIn",
+      "delay": 300
+    },
+    ".rt-expertise-left-box": {
+      "preset": "slideRight",
+      "delay": 200
+    },
+    ".rt-expertise-image-one": {
+      "preset": "slideLeft",
+      "delay": 100
+    },
+    ".rt-expertise-image-two-wrapper": {
+      "preset": "scaleUp",
+      "delay": 400
+    },
+    ".rt-technology-card": {
+      "preset": "scaleUp",
+      "delay": 150
+    },
+    ".rt-solution-box-v2": {
+      "preset": "fadeUp",
+      "delay": 100
+    },
+    ".rt-encryption-circle-block-three": {
+      "preset": "scaleUp",
+      "delay": 0
+    },
+    ".rt-encryption-circle-block-two": {
+      "preset": "scaleUp",
+      "delay": 100
+    },
+    ".rt-encryption-main-icon": {
+      "preset": "scaleUp",
+      "delay": 200
+    },
+    "[data-w-id]": {
+      "preset": "fadeUp",
+      "delay": 0
+    }
+  },
+  "ignore": [
+    ".rt-counter-train",
+    ".rt-button-hover-in",
+    ".rt-button-hover-out",
+    ".rt-button-text"
+  ],
+  "webflowManaged": [
+    ".rt-nav-block",
+    ".rt-navbar-block",
+    ".rt-dropdown",
+    ".rt-mega-menu-block",
+    ".rt-mega-menu-main",
+    ".w-dropdown",
+    ".w-nav-menu",
+    ".w-nav",
+    ".rt-desktop-nav-menu"
+  ]
+}
