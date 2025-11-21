@@ -3,7 +3,7 @@
         <div class="rt-container-small w-container">
           <div class="w-layout-hflex rt-nav-main">
             <div class="rt-nav-logo">
-              <a href="/" class="rt-logo w-nav-brand" aria-label="home"><img width="191" height="36" alt="Logo Black" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/68145452cd6fe44eaa5c9e91_logo-11.svg" class="rt-site-logo"></a>
+              <a href="/" class="rt-logo w-nav-brand" aria-label="home"><img width="191" height="36" alt="Logo Black" src="/mylogo.png" class="rt-site-logo"></a>
             </div>
             <nav role="navigation" id="w-node-_1b85dd4c-7485-c684-ea1d-d2fdaaa34427-aaa3441f" class="rt-nav w-nav-menu">
               
@@ -25,10 +25,10 @@
                         <a href="/aboutus" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
                             <img width="18" height="18" alt="Icon" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg" loading="lazy">
                           </div>
-                          <div class="rt-dropdown-link">About Us</div></a><a href="/jobQuest" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
+                          <div class="rt-dropdown-link">About Us</div></a><a href="/service-two" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
                             <img width="18" height="18" alt="Icon" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg" loading="lazy">
                           </div>
-                          <div class="rt-dropdown-link">Service one</div></a><a href="/inqcrm" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
+                          <div class="rt-dropdown-link">Service one</div></a><a href="/service-one" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
                             <img width="18" height="19" alt="Icon" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg" loading="lazy">
                           </div>
                           <div class="rt-dropdown-link">Service Two</div></a><a href="/pricing" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
@@ -109,7 +109,7 @@
                 </div>
                 <nav class="rt-dropdown-list w-dropdown-list" id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2" style="height: 0px;">
                   <div class="rt-dropdown-list-wrapper">
-                    <a href="/aboutus" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">About US</div></a><a href="/jobQuest" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Service one</div></a><a href="/inqcrm" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Service Two</div></a><a href="/pricing" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Pricing one</div></a><a href="/pricing-two" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Pricing two</div></a><a href="https://botcloud.webflow.io/product/basic-plan" target="_blank" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Pricing details</div></a><a href="/team" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Team</div></a><a href="https://botcloud.webflow.io/team-details/olivia-davis" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Team details</div></a><a href="/help-center" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Help Center</div></a><a href="https://botcloud.webflow.io/help-center-categories/billing-queries" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">
+                    <a href="/aboutus" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">About US</div></a><a href="/service-two" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Service one</div></a><a href="/service-one" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Service Two</div></a><a href="/pricing" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Pricing one</div></a><a href="/pricing-two" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Pricing two</div></a><a href="https://botcloud.webflow.io/product/basic-plan" target="_blank" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Pricing details</div></a><a href="/team" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Team</div></a><a href="https://botcloud.webflow.io/team-details/olivia-davis" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Team details</div></a><a href="/help-center" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">Help Center</div></a><a href="https://botcloud.webflow.io/help-center-categories/billing-queries" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">
                         Help Center Category
                       </div></a><a href="https://botcloud.webflow.io/help-center/what-payment-methods-do-you-accept" class="rt-nav-sub-menu w-inline-block" tabindex="0"><div class="rt-dropdown-link">
                         Help Center Details
@@ -119,14 +119,14 @@
               </div>
               <div data-delay="300" data-hover="true" data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa344cb" class="rt-dropdown w-dropdown" style="max-width: 1320px;">
                 <div class="rt-dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-3" aria-controls="w-dropdown-list-3" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="color: rgb(255, 255, 255);">
-                  <div class="rt-menu-font rt-color"><a href="/jobQuest">JobQuest</a></div>
+                  <div class="rt-menu-font rt-color"><a href="/service-two">JobQuest</a></div>
                   
                 </div>
                 
               </div>
               <div data-delay="300" data-hover="true" data-w-id="279266e4-0400-8d3d-783c-e063c01f41ce" class="rt-dropdown w-dropdown" style="max-width: 1320px;">
                 <div class="rt-dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-4" aria-controls="w-dropdown-list-4" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
-                  <div class="rt-menu-font rt-color"><a href="/inqcrm">InqCrm</a></div>
+                  <div class="rt-menu-font rt-color"><a href="/service-one">InqCrm</a></div>
                   
                 </div>
                 
@@ -156,7 +156,7 @@
         <div class="w-layout-blockcontainer rt-container-small w-container">
           <div class="w-layout-hflex rt-nav-two">
             <div class="rt-nav-logo">
-              <a href="/" class="rt-logo w-nav-brand"><img width="191" height="36" alt="Logo Black" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/68145452cd6fe44eaa5c9e91_logo-11.svg" class="rt-site-logo"></a>
+              <a href="/" class="rt-logo w-nav-brand"><img width="191" height="36" alt="Logo Black" src="/mylogo.png" class="rt-site-logo"></a>
             </div>
             <div id="w-node-_1b85dd4c-7485-c684-ea1d-d2fdaaa34540-aaa3441f" class="w-layout-hflex rt-nav-responsive">
               
@@ -178,10 +178,10 @@
                         <a href="/aboutus" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
                             <img width="18" height="18" alt="Icon" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg" loading="lazy">
                           </div>
-                          <div class="rt-dropdown-link">About Us</div></a><a href="/jobQuest" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
+                          <div class="rt-dropdown-link">About Us</div></a><a href="/service-two" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
                             <img width="18" height="18" alt="Icon" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg" loading="lazy">
                           </div>
-                          <div class="rt-dropdown-link">Service one</div></a><a href="/inqcrm" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
+                          <div class="rt-dropdown-link">Service one</div></a><a href="/service-one" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
                             <img width="18" height="19" alt="Icon" src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg" loading="lazy">
                           </div>
                           <div class="rt-dropdown-link">Service Two</div></a><a href="/pricing" class="rt-nav-sub-menu w-inline-block"><div class="w-layout-hflex rt-mega-menu-icon">
@@ -262,7 +262,7 @@
               </div>
               <div data-delay="300" data-hover="true" data-w-id="8c87f797-09a8-706e-1d50-cd91e2578e55" class="rt-dropdown w-dropdown">
                 <div class="rt-dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-9" aria-controls="w-dropdown-list-9" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="color: rgb(255, 255, 255);">
-                  <div class="rt-menu-font rt-color"><a href="/inqcrm">InqCrm</a></div>
+                  <div class="rt-menu-font rt-color"><a href="/service-one">InqCrm</a></div>
                   
                 </div>
                 
