@@ -1,3 +1,17 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce74" class="rt-ai-innovation">
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="rt-innovation-sticky-outer">
@@ -9,7 +23,7 @@
 					>
 						<div class="rt-ai-innovation-mobile-one">
 							<img
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217043835aecce9891_Screen%20one.webp"
+								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217043835aecce9891_Screen%20one.webp'}
 								loading="lazy"
 								width="310"
 								height="630"
@@ -24,7 +38,7 @@
 						</div>
 						<div class="rt-ai-innovation-mobile-two">
 							<img
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217c70ff8ed3782287_Scree%20two.webp"
+								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217c70ff8ed3782287_Scree%20two.webp'}
 								loading="lazy"
 								width="310"
 								height="630"
@@ -40,9 +54,7 @@
 					</div>
 					<div class="w-layout-vflex rt-ai-innovation-text-wrapper">
 						<div data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce7a">
-							<h2 data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce7b" class="rt-gap-off rt-h2-gap">
-								AI-Enabled Innovations to Elevate Your Business
-							</h2>
+							<h2 data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce7b" class="rt-gap-off rt-h2-gap">{getText('section_heading', 'AI-Enabled Innovations to Elevate Your Business')}</h2>
 							<p
 								data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce7d"
 								class="rt-ai-innovation-paragraph rt-gap-off rt-h2-paragraph-gap"
@@ -61,12 +73,12 @@
 										width="24"
 										height="24"
 										alt="Settings"
-										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg"
+										src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg'}
 										loading="lazy"
 									/>
 								</div>
 								<div class="w-layout-vflex rt-innovation-small-title-one">
-									<div class="rt-text-style-h5">Real-Time AI Insights</div>
+									<div class="rt-text-style-h5">{getText('realtime_ai_insights', 'Real-Time AI Insights')}</div>
 									<p>
 										Lorem ipsum dolor sit amet consectetur. Massa senectus enim sed in rutrum
 										aliquet fames a. Nisl massa a imperdiet.
@@ -82,12 +94,12 @@
 										width="20"
 										height="20"
 										alt="Configuration"
-										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1369e416066866d72b3_config-vertical.svg"
+										src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1369e416066866d72b3_config-vertical.svg'}
 										loading="lazy"
 									/>
 								</div>
 								<div class="w-layout-vflex rt-innovation-small-title-one">
-									<div class="rt-text-style-h5">Predictive Analytics</div>
+									<div class="rt-text-style-h5">{getText('predictive_analytics', 'Predictive Analytics')}</div>
 									<p>
 										Lorem ipsum dolor sit amet consectetur. Nisl proin est sed ultricies magna elit
 										eros. Aliquet nam ipsum amet orci.
@@ -106,14 +118,14 @@
 								class="rt-button w-inline-block"
 								><div class="w-layout-hflex rt-button-text-image-wrapper">
 									<div class="w-layout-hflex rt-button-text-wrap">
-										<div class="rt-button-text rt-button-hover-in">Explore More</div>
-										<div class="rt-button-text rt-button-hover-out">Explore More</div>
+										<div class="rt-button-text rt-button-hover-in">{getText('explore_more', 'Explore More')}</div>
+										<div class="rt-button-text rt-button-hover-out">{getText('explore_more', 'Explore More')}</div>
 									</div>
 									<img
 										width="10"
 										height="9"
 										alt="Arrow"
-										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+										src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 										loading="lazy"
 										class="rt-button-arrow-image"
 									/></div

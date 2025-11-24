@@ -7,6 +7,9 @@
 	import TeamD from '$lib/components/team/TeamD.svelte';
 	import Footer from '$lib/components/shared/Footer.svelte';
 
+	// Get content data from server
+	export let data;
+
 	if (typeof document !== 'undefined') {
 		const n = document.documentElement;
 		const t = ' w-mod-';
@@ -84,9 +87,9 @@
 	<link rel="stylesheet" href="/webtemplate/style2.css" />
 </svelte:head>
 
-<Header />
-<TeamA />
-<TeamB />
-<TeamC />
-<TeamD />
-<Footer />
+<Header content={data.content?.Header || {}} />
+<TeamA content={data.content?.TeamA || {}} />
+<TeamB content={data.content?.TeamB || {}} />
+<TeamC content={data.content?.TeamC || {}} />
+<TeamD content={data.content?.TeamD || {}} />
+<Footer content={data.content?.Footer || {}} />

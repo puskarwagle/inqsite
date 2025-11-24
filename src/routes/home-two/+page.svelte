@@ -13,6 +13,9 @@
 	import HomeTwoJ from '$lib/components/home-two/HomeTwoJ.svelte';
 	import Footer from '$lib/components/shared/Footer.svelte';
 
+	// Get content data from server
+	export let data;
+
 	if (typeof document !== 'undefined') {
 		const n = document.documentElement;
 		const t = ' w-mod-';
@@ -90,15 +93,15 @@
 	<link rel="stylesheet" href="/webtemplate/style2.css" />
 </svelte:head>
 
-<Header />
-<HomeTwoA />
-<HomeTwoB />
-<HomeTwoC />
-<HomeTwoD />
-<HomeTwoE />
-<HomeTwoF />
-<HomeTwoG />
-<HomeTwoH />
-<HomeTwoI />
-<HomeTwoJ />
-<Footer />
+<Header content={data.content?.Header || {}} />
+<HomeTwoA content={data.content?.HomeTwoA || {}} />
+<HomeTwoB content={data.content?.HomeTwoB || {}} />
+<HomeTwoC content={data.content?.HomeTwoC || {}} />
+<HomeTwoD content={data.content?.HomeTwoD || {}} />
+<HomeTwoE content={data.content?.HomeTwoE || {}} />
+<HomeTwoF content={data.content?.HomeTwoF || {}} />
+<HomeTwoG content={data.content?.HomeTwoG || {}} />
+<HomeTwoH content={data.content?.HomeTwoH || {}} />
+<HomeTwoI content={data.content?.HomeTwoI || {}} />
+<HomeTwoJ content={data.content?.HomeTwoJ || {}} />
+<Footer content={data.content?.Footer || {}} />

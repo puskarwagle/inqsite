@@ -1,3 +1,17 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section data-wf--rt-nav-v1--variant="main-button" class="rt-nav-block">
 	<div
 		data-animation="default"
@@ -13,12 +27,12 @@
 		<div class="rt-container-small w-container">
 			<div class="w-layout-hflex rt-nav-main">
 				<div class="rt-nav-logo">
-					<a href="/" class="rt-logo w-nav-brand" aria-label="home"
+					<a href={getLink('jobquest').href || '/'} class="rt-logo w-nav-brand" aria-label="home"
 						><img
 							width="191"
 							height="36"
 							alt="Logo Black"
-							src="/mylogo.png"
+							src={getImage('image_1').url || '/mylogo.png'}
 							class="rt-site-logo"
 						/></a
 					>
@@ -45,7 +59,7 @@
 							tabindex="0"
 							style="color: rgb(255, 255, 255);"
 						>
-							<div class="rt-menu-font rt-color"><a href="/service-two">JobQuest</a></div>
+							<div class="rt-menu-font rt-color"><a href="/service-two">{getText('jobquest', 'JobQuest')}</a></div>
 						</div>
 					</div>
 					<div
@@ -64,7 +78,7 @@
 							role="button"
 							tabindex="0"
 						>
-							<div class="rt-menu-font rt-color"><a href="/service-one">InqCrm</a></div>
+							<div class="rt-menu-font rt-color"><a href="/service-one">{getText('inqcrm', 'InqCrm')}</a></div>
 						</div>
 					</div>
 					<div
@@ -84,7 +98,7 @@
 							tabindex="0"
 							style="color: rgb(255, 255, 255);"
 						>
-							<div class="rt-menu-font rt-color"><a href="/aboutus">AiAgents</a></div>
+							<div class="rt-menu-font rt-color"><a href={getLink('aiagents').href || '/aboutus'}>{getText('aiagents', 'AiAgents')}</a></div>
 						</div>
 					</div>
 					<div data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa3444c" class="rt-mega-menu-main">
@@ -111,7 +125,7 @@
 										width="10"
 										height="6"
 										alt="Nav Arrow Down"
-										src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e0fe5a880ca04c7c46d1f4_Nav%20arrow%20down.svg"
+										src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e0fe5a880ca04c7c46d1f4_Nav%20arrow%20down.svg'}
 										loading="lazy"
 										class="rt-dropdown-black-icon rt-color"
 										style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
@@ -119,7 +133,7 @@
 										width="10"
 										height="6"
 										alt="Nav down arrow"
-										src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e8f523834181edf4189328_Nav%20down%20arrow.svg"
+										src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e8f523834181edf4189328_Nav%20down%20arrow.svg'}
 										loading="lazy"
 										class="rt-dropdown-green-icon rt-color"
 									/>
@@ -134,38 +148,38 @@
 						</div>
 						<div class="rt-mega-menu-block" style="width: 100%; height: 0px; display: none;">
 							<div class="w-layout-vflex rt-mega-menu-wrapper">
-								<div class="rt-text-style-h4">Inner Pages</div>
+								<div class="rt-text-style-h4">{getText('inner_pages', 'Inner Pages')}</div>
 								<div class="w-layout-hflex rt-mega-menu-inner-wrap">
 									<div class="rt-nav-menu-block-one">
-										<a href="/home-one" class="rt-nav-sub-menu w-inline-block"
+										<a href={getLink('inqcrm').href || '/home-one'} class="rt-nav-sub-menu w-inline-block"
 											><div class="w-layout-hflex rt-mega-menu-icon">
 												<img
 													width="18"
 													height="18"
 													alt="Icon"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg"
+													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
 													loading="lazy"
 												/>
 											</div>
-											<div class="rt-dropdown-link">Home One</div></a
+											<div class="rt-dropdown-link">{getText('home_one', 'Home One')}</div></a
 										><a href="/home-two" class="rt-nav-sub-menu w-inline-block"
 											><div class="w-layout-hflex rt-mega-menu-icon">
 												<img
 													width="18"
 													height="18"
 													alt="Icon"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg"
+													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
 													loading="lazy"
 												/>
 											</div>
-											<div class="rt-dropdown-link">Home Two</div></a
-										><a href="/aboutus" class="rt-nav-sub-menu w-inline-block"
+											<div class="rt-dropdown-link">{getText('home_two', 'Home Two')}</div></a
+										><a href={getLink('aiagents').href || '/aboutus'} class="rt-nav-sub-menu w-inline-block"
 											><div class="w-layout-hflex rt-mega-menu-icon">
 												<img
 													width="18"
 													height="18"
 													alt="Icon"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg"
+													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
 													loading="lazy"
 												/>
 											</div>
@@ -176,33 +190,33 @@
 													width="18"
 													height="18"
 													alt="Icon"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg"
+													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
 													loading="lazy"
 												/>
 											</div>
-											<div class="rt-dropdown-link">Service One</div></a
+											<div class="rt-dropdown-link">{getText('service_one', 'Service One')}</div></a
 										><a href="/service-two" class="rt-nav-sub-menu w-inline-block"
 											><div class="w-layout-hflex rt-mega-menu-icon">
 												<img
 													width="18"
 													height="19"
 													alt="Icon"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg"
+													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
 													loading="lazy"
 												/>
 											</div>
-											<div class="rt-dropdown-link">Service Two</div></a
+											<div class="rt-dropdown-link">{getText('service_two', 'Service Two')}</div></a
 										><a href="/pricing-one" class="rt-nav-sub-menu w-inline-block"
 											><div class="w-layout-hflex rt-mega-menu-icon">
 												<img
 													width="20"
 													height="20"
 													alt="Bank"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg"
+													src={getImage('image_5').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg'}
 													loading="lazy"
 												/>
 											</div>
-											<div class="rt-dropdown-link">Pricing</div></a
+											<div class="rt-dropdown-link">{getText('pricing', 'Pricing')}</div></a
 										>
 									</div>
 									<div class="rt-nav-menu-block-one">
@@ -212,24 +226,24 @@
 													width="28"
 													height="27"
 													alt="Team"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475197b4bbd56cd095f_Group%20(1).svg"
+													src={getImage('image_6').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475197b4bbd56cd095f_Group%20(1).svg'}
 													loading="lazy"
 													class="rt-mega-menu-icon"
 												/>
 											</div>
-											<div class="rt-dropdown-link">Team</div></a
+											<div class="rt-dropdown-link">{getText('team', 'Team')}</div></a
 										>
 									</div>
 								</div>
 								<div class="w-layout-hflex rt-mega-menu-inner-bottom-wrap">
 									<div class="w-layout-vflex rt-menu-bottom-text-wrapper">
 										<div class="w-layout-hflex rt-menu-bottom-text">
-											<div class="rt-text-style-h5">Explore AI Platform</div>
+											<div class="rt-text-style-h5">{getText('explore_ai_platform', 'Explore AI Platform')}</div>
 											<img
 												width="22"
 												height="26"
 												alt="Glitch"
-												src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b4754b0d64f857280970_Group%20(2).svg"
+												src={getImage('image_7').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b4754b0d64f857280970_Group%20(2).svg'}
 												loading="lazy"
 											/>
 										</div>
@@ -245,21 +259,17 @@
 												<div
 													class="rt-button-text rt-button-hover-in"
 													style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-												>
-													Get Started
-												</div>
+												>{getText('button_get_started', 'Get Started')}</div>
 												<div
 													class="rt-button-text rt-button-hover-out"
 													style="transform: translate3d(0px, 100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-												>
-													Get Started
-												</div>
+												>{getText('button_get_started', 'Get Started')}</div>
 											</div>
 											<img
 												width="10"
 												height="9"
 												alt="Arrow"
-												src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+												src={getImage('image_8').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 												loading="lazy"
 												class="rt-button-arrow-image"
 											/>
@@ -286,13 +296,13 @@
 							tabindex="0"
 							style="color: rgb(255, 255, 255);"
 						>
-							<div class="rt-menu-font rt-color">Pages</div>
+							<div class="rt-menu-font rt-color">{getText('pages', 'Pages')}</div>
 							<div class="rt-dropdown-icon-wrapper">
 								<img
 									width="10"
 									height="6"
 									alt="Nav Arrow Down"
-									src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e0fe5a880ca04c7c46d1f4_Nav%20arrow%20down.svg"
+									src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e0fe5a880ca04c7c46d1f4_Nav%20arrow%20down.svg'}
 									loading="lazy"
 									class="rt-dropdown-black-icon rt-color"
 									style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
@@ -300,7 +310,7 @@
 									width="10"
 									height="6"
 									alt="Nav down arrow"
-									src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e8f523834181edf4189328_Nav%20down%20arrow.svg"
+									src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e8f523834181edf4189328_Nav%20down%20arrow.svg'}
 									loading="lazy"
 									class="rt-dropdown-green-icon"
 								/>
@@ -313,20 +323,20 @@
 							style="height: 0px;"
 						>
 							<div class="rt-dropdown-list-wrapper">
-								<a href="/home-one" class="rt-nav-sub-menu w-inline-block" tabindex="0"
-									><div class="rt-dropdown-link">Home One</div></a
+								<a href={getLink('inqcrm').href || '/home-one'} class="rt-nav-sub-menu w-inline-block" tabindex="0"
+									><div class="rt-dropdown-link">{getText('home_one', 'Home One')}</div></a
 								><a href="/home-two" class="rt-nav-sub-menu w-inline-block" tabindex="0"
-									><div class="rt-dropdown-link">Home Two</div></a
-								><a href="/aboutus" class="rt-nav-sub-menu w-inline-block" tabindex="0"
-									><div class="rt-dropdown-link">About US</div></a
+									><div class="rt-dropdown-link">{getText('home_two', 'Home Two')}</div></a
+								><a href={getLink('aiagents').href || '/aboutus'} class="rt-nav-sub-menu w-inline-block" tabindex="0"
+									><div class="rt-dropdown-link">{getText('about_us', 'About US')}</div></a
 								><a href="/service-one" class="rt-nav-sub-menu w-inline-block" tabindex="0"
-									><div class="rt-dropdown-link">Service One</div></a
+									><div class="rt-dropdown-link">{getText('service_one', 'Service One')}</div></a
 								><a href="/service-two" class="rt-nav-sub-menu w-inline-block" tabindex="0"
-									><div class="rt-dropdown-link">Service Two</div></a
+									><div class="rt-dropdown-link">{getText('service_two', 'Service Two')}</div></a
 								><a href="/pricing-one" class="rt-nav-sub-menu w-inline-block" tabindex="0"
-									><div class="rt-dropdown-link">Pricing</div></a
+									><div class="rt-dropdown-link">{getText('pricing', 'Pricing')}</div></a
 								><a href="/team" class="rt-nav-sub-menu w-inline-block" tabindex="0"
-									><div class="rt-dropdown-link">Team</div></a
+									><div class="rt-dropdown-link">{getText('team', 'Team')}</div></a
 								>
 							</div>
 						</nav>
@@ -358,12 +368,12 @@
 		<div class="w-layout-blockcontainer rt-container-small w-container">
 			<div class="w-layout-hflex rt-nav-two">
 				<div class="rt-nav-logo">
-					<a href="/" class="rt-logo w-nav-brand"
+					<a href={getLink('jobquest').href || '/'} class="rt-logo w-nav-brand"
 						><img
 							width="191"
 							height="36"
 							alt="Logo Black"
-							src="/mylogo.png"
+							src={getImage('image_1').url || '/mylogo.png'}
 							class="rt-site-logo"
 						/></a
 					>
@@ -388,7 +398,7 @@
 							tabindex="0"
 							style="color: rgb(255, 255, 255);"
 						>
-							<div class="rt-menu-font rt-color">ecommerce</div>
+							<div class="rt-menu-font rt-color">{getText('ecommerce', 'ecommerce')}</div>
 						</div>
 					</div>
 					<div
@@ -408,7 +418,7 @@
 							style="color: rgb(255, 255, 255);"
 						>
 							<div class="rt-menu-font rt-color">
-								<a class="rt-menu-font rt-color" href="/service-one">InqCrm</a></div>
+								<a class="rt-menu-font rt-color" href="/service-one">{getText('inqcrm', 'InqCrm')}</a></div>
 						</div>
 					</div>
 					<div
@@ -427,7 +437,7 @@
 							tabindex="0"
 							style="color: rgb(255, 255, 255);"
 						>
-							<div class="rt-menu-font rt-color"><a href="/aboutus">AiAgents</a></div>
+							<div class="rt-menu-font rt-color"><a href={getLink('aiagents').href || '/aboutus'}>{getText('aiagents', 'AiAgents')}</a></div>
 						</div>
 					</div>
 					<div data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa34565" class="rt-mega-menu-main">
@@ -454,7 +464,7 @@
 										width="10"
 										height="6"
 										alt="Nav Arrow Down"
-										src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e0fe5a880ca04c7c46d1f4_Nav%20arrow%20down.svg"
+										src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e0fe5a880ca04c7c46d1f4_Nav%20arrow%20down.svg'}
 										loading="lazy"
 										class="rt-dropdown-black-icon rt-color"
 										style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
@@ -462,7 +472,7 @@
 										width="10"
 										height="6"
 										alt="Nav down arrow"
-										src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e8f523834181edf4189328_Nav%20down%20arrow.svg"
+										src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e8f523834181edf4189328_Nav%20down%20arrow.svg'}
 										loading="lazy"
 										class="rt-dropdown-green-icon rt-color"
 									/>
@@ -477,38 +487,38 @@
 						</div>
 						<div class="rt-mega-menu-block" style="width: 100%; display: none; height: 0px;">
 							<div class="w-layout-vflex rt-mega-menu-wrapper">
-								<div class="rt-text-style-h4">Inner Pages</div>
+								<div class="rt-text-style-h4">{getText('inner_pages', 'Inner Pages')}</div>
 								<div class="w-layout-hflex rt-mega-menu-inner-wrap">
 									<div class="rt-nav-menu-block-one">
-										<a href="/home-one" class="rt-nav-sub-menu w-inline-block"
+										<a href={getLink('inqcrm').href || '/home-one'} class="rt-nav-sub-menu w-inline-block"
 											><div class="w-layout-hflex rt-mega-menu-icon">
 												<img
 													width="18"
 													height="18"
 													alt="Icon"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg"
+													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
 													loading="lazy"
 												/>
 											</div>
-											<div class="rt-dropdown-link">Home One</div></a
+											<div class="rt-dropdown-link">{getText('home_one', 'Home One')}</div></a
 										><a href="/home-two" class="rt-nav-sub-menu w-inline-block"
 											><div class="w-layout-hflex rt-mega-menu-icon">
 												<img
 													width="18"
 													height="18"
 													alt="Icon"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg"
+													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
 													loading="lazy"
 												/>
 											</div>
-											<div class="rt-dropdown-link">Home Two</div></a
-										><a href="/aboutus" class="rt-nav-sub-menu w-inline-block"
+											<div class="rt-dropdown-link">{getText('home_two', 'Home Two')}</div></a
+										><a href={getLink('aiagents').href || '/aboutus'} class="rt-nav-sub-menu w-inline-block"
 											><div class="w-layout-hflex rt-mega-menu-icon">
 												<img
 													width="18"
 													height="18"
 													alt="Icon"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg"
+													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
 													loading="lazy"
 												/>
 											</div>
@@ -519,33 +529,33 @@
 													width="18"
 													height="18"
 													alt="Icon"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg"
+													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
 													loading="lazy"
 												/>
 											</div>
-											<div class="rt-dropdown-link">Service One</div></a
+											<div class="rt-dropdown-link">{getText('service_one', 'Service One')}</div></a
 										><a href="/service-two" class="rt-nav-sub-menu w-inline-block"
 											><div class="w-layout-hflex rt-mega-menu-icon">
 												<img
 													width="18"
 													height="19"
 													alt="Icon"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg"
+													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
 													loading="lazy"
 												/>
 											</div>
-											<div class="rt-dropdown-link">Service Two</div></a
+											<div class="rt-dropdown-link">{getText('service_two', 'Service Two')}</div></a
 										><a href="/pricing-one" class="rt-nav-sub-menu w-inline-block"
 											><div class="w-layout-hflex rt-mega-menu-icon">
 												<img
 													width="20"
 													height="20"
 													alt="Bank"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg"
+													src={getImage('image_5').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg'}
 													loading="lazy"
 												/>
 											</div>
-											<div class="rt-dropdown-link">Pricing</div></a
+											<div class="rt-dropdown-link">{getText('pricing', 'Pricing')}</div></a
 										>
 									</div>
 									<div class="rt-nav-menu-block-one">
@@ -555,24 +565,24 @@
 													width="28"
 													height="27"
 													alt="Team"
-													src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475197b4bbd56cd095f_Group%20(1).svg"
+													src={getImage('image_6').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475197b4bbd56cd095f_Group%20(1).svg'}
 													loading="lazy"
 													class="rt-mega-menu-icon"
 												/>
 											</div>
-											<div class="rt-dropdown-link">Team</div></a
+											<div class="rt-dropdown-link">{getText('team', 'Team')}</div></a
 										>
 									</div>
 								</div>
 								<div class="w-layout-hflex rt-mega-menu-inner-bottom-wrap">
 									<div class="w-layout-vflex rt-menu-bottom-text-wrapper">
 										<div class="w-layout-hflex rt-menu-bottom-text">
-											<div class="rt-text-style-h5">Explore AI Platform</div>
+											<div class="rt-text-style-h5">{getText('explore_ai_platform', 'Explore AI Platform')}</div>
 											<img
 												width="22"
 												height="26"
 												alt="Glitch"
-												src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b4754b0d64f857280970_Group%20(2).svg"
+												src={getImage('image_7').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b4754b0d64f857280970_Group%20(2).svg'}
 												loading="lazy"
 											/>
 										</div>
@@ -588,21 +598,17 @@
 												<div
 													class="rt-button-text rt-button-hover-in"
 													style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-												>
-													Get Started
-												</div>
+												>{getText('button_get_started', 'Get Started')}</div>
 												<div
 													class="rt-button-text rt-button-hover-out"
 													style="transform: translate3d(0px, 100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-												>
-													Get Started
-												</div>
+												>{getText('button_get_started', 'Get Started')}</div>
 											</div>
 											<img
 												width="10"
 												height="9"
 												alt="Arrow"
-												src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+												src={getImage('image_8').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 												loading="lazy"
 												class="rt-button-arrow-image"
 											/>
@@ -628,21 +634,17 @@
 											<div
 												class="rt-button-text rt-button-hover-in"
 												style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-											>
-												Get In Touch
-											</div>
+											>{getText('get_in_touch', 'Get In Touch')}</div>
 											<div
 												class="rt-button-text rt-button-hover-out"
 												style="transform: translate3d(0px, 100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-											>
-												Get In Touch
-											</div>
+											>{getText('get_in_touch', 'Get In Touch')}</div>
 										</div>
 										<img
 											width="10"
 											height="9"
 											alt="Arrow"
-											src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+											src={getImage('image_8').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 											loading="lazy"
 											class="rt-button-arrow-image"
 										/>
@@ -660,21 +662,17 @@
 											<div
 												class="rt-button-text rt-button-hover-in"
 												style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-											>
-												Get In Touch
-											</div>
+											>{getText('get_in_touch', 'Get In Touch')}</div>
 											<div
 												class="rt-button-text rt-button-hover-out"
 												style="transform: translate3d(0px, 100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
-											>
-												Get In Touch
-											</div>
+											>{getText('get_in_touch', 'Get In Touch')}</div>
 										</div>
 										<img
 											width="10"
 											height="9"
 											alt="Arrow"
-											src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+											src={getImage('image_8').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 											loading="lazy"
 											class="rt-button-arrow-image"
 										/>

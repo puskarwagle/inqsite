@@ -1,9 +1,21 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-innovation">
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-vflex rt-innovation-top-text rt-desktop-text-center">
-			<h2 data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a75556" class="rt-gap-off rt-h2-gap">
-				AI That Bridges Innovation and Human Intelligence
-			</h2>
+			<h2 data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a75556" class="rt-gap-off rt-h2-gap">{getText('section_heading', 'AI That Bridges Innovation and Human Intelligence')}</h2>
 			<p data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a75558" class="rt-gap-off rt-h2-paragraph-gap">
 				Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
 				vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.
@@ -19,7 +31,7 @@
 						width="488"
 						height="350"
 						alt="Intelligence"
-						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e023_Intelligence%202.webp"
+						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e023_Intelligence%202.webp'}
 						loading="lazy"
 						srcset="
 							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e023_Intelligence%25202-p-500.webp 500w,
@@ -31,10 +43,8 @@
 					/>
 				</div>
 				<div class="w-layout-vflex rt-innovation-text-wrap">
-					<div class="rt-text-style-h4">AI That Adapts to You</div>
-					<p class="rt-innovation-paragraph">
-						In dui cras odio sodales morbi ac egestas. Ipsum integer ultricies vitae purus amet.
-					</p>
+					<div class="rt-text-style-h4">{getText('ai_that_adapts', 'AI That Adapts to You')}</div>
+					<p class="rt-innovation-paragraph">{getText('in_dui_cras', 'In dui cras odio sodales morbi ac egestas. Ipsum integer ultricies vitae purus amet.')}</p>
 					<a
 						data-wf--rt-button-v1--variant="base"
 						data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
@@ -42,14 +52,14 @@
 						class="rt-button w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper">
 							<div class="w-layout-hflex rt-button-text-wrap">
-								<div class="rt-button-text rt-button-hover-in">Explore More</div>
-								<div class="rt-button-text rt-button-hover-out">Explore More</div>
+								<div class="rt-button-text rt-button-hover-in">{getText('explore_more', 'Explore More')}</div>
+								<div class="rt-button-text rt-button-hover-out">{getText('explore_more', 'Explore More')}</div>
 							</div>
 							<img
 								width="10"
 								height="9"
 								alt="Arrow"
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/></div
@@ -65,7 +75,7 @@
 						width="488"
 						height="350"
 						alt="Dashboard"
-						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f295e8dcb7a13ad9ad_Dashboard.webp"
+						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f295e8dcb7a13ad9ad_Dashboard.webp'}
 						loading="lazy"
 						srcset="
 							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f295e8dcb7a13ad9ad_Dashboard-p-500.webp 500w,
@@ -77,10 +87,8 @@
 					/>
 				</div>
 				<div class="w-layout-vflex rt-innovation-text-wrap">
-					<div class="rt-text-style-h4">AI-Powered Solutions for Growth</div>
-					<p class="rt-innovation-paragraph">
-						In dui cras odio sodales morbi ac egestas. Ipsum integer ultricies vitae purus amet.
-					</p>
+					<div class="rt-text-style-h4">{getText('aipowered_solutions_for', 'AI-Powered Solutions for Growth')}</div>
+					<p class="rt-innovation-paragraph">{getText('in_dui_cras', 'In dui cras odio sodales morbi ac egestas. Ipsum integer ultricies vitae purus amet.')}</p>
 					<a
 						data-wf--rt-button-v1--variant="base"
 						data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
@@ -88,14 +96,14 @@
 						class="rt-button w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper">
 							<div class="w-layout-hflex rt-button-text-wrap">
-								<div class="rt-button-text rt-button-hover-in">Explore More</div>
-								<div class="rt-button-text rt-button-hover-out">Explore More</div>
+								<div class="rt-button-text rt-button-hover-in">{getText('explore_more', 'Explore More')}</div>
+								<div class="rt-button-text rt-button-hover-out">{getText('explore_more', 'Explore More')}</div>
 							</div>
 							<img
 								width="10"
 								height="9"
 								alt="Arrow"
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/></div

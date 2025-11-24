@@ -1,11 +1,23 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-our-services rt-position-relative">
 	<div class="rt-service-layer"></div>
 	<div class="w-layout-hflex rt-service-content-wrapper rt-overflow-hidden">
 		<div class="rt-our-services-text-wrapper">
 			<div class="w-layout-vflex rt-our-services-text">
-				<h2 data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cf0f" class="rt-service-text-title">
-					Let Us Assist You with Our Superior Services
-				</h2>
+				<h2 data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cf0f" class="rt-service-text-title">{getText('section_heading', 'Let Us Assist You with Our Superior Services')}</h2>
 				<p
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cf11"
 					class="rt-service-paragraph rt-gap-off rt-h2-paragraph-gap"
@@ -22,14 +34,14 @@
 							<a href="pricing-one.html" class="rt-button w-inline-block"
 								><div class="w-layout-hflex rt-button-text-image-wrapper">
 									<div class="w-layout-hflex rt-button-text-wrap">
-										<div class="rt-button-text rt-button-hover-in">Join Us Today</div>
-										<div class="rt-button-text rt-button-hover-out">Join Us Today</div>
+										<div class="rt-button-text rt-button-hover-in">{getText('join_us_today', 'Join Us Today')}</div>
+										<div class="rt-button-text rt-button-hover-out">{getText('join_us_today', 'Join Us Today')}</div>
 									</div>
 									<img
 										width="10"
 										height="9"
 										alt="Arrow"
-										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+										src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 										loading="lazy"
 										class="rt-button-arrow-image"
 									/>
@@ -46,7 +58,7 @@
 				width="949.5"
 				height="494"
 				alt="Service"
-				src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cf88b22d1ca52984253e_Service.webp"
+				src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cf88b22d1ca52984253e_Service.webp'}
 				loading="lazy"
 				srcset="
 					https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cf88b22d1ca52984253e_Service-p-500.webp   500w,

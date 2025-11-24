@@ -107,15 +107,15 @@
 	<link rel="stylesheet" href="/webtemplate/style2.css" />
 </svelte:head>
 
-<div id="Header"><Header /></div>
+<div id="Header"><Header content={data.content?.Header || {}} /></div>
 <div id="HomeA"><HomeA content={data.content?.HomeA || {}} /></div>
-<!-- <div id="HomeB"><HomeB /></div> -->
-<div id="HomeC"><HomeC /></div>
-<div id="HomeD"><HomeD /></div>
-<div id="HomeE"><HomeE /></div>
-<div id="HomeF"><HomeF /></div>
-<div id="HomeG"><HomeG /></div>
-<div id="HomeH"><HomeH /></div>
-<div id="HomeI"><HomeI /></div>
-<div id="HomeL"><HomeL /></div>
+<div id="HomeB"><HomeB content={data.content?.HomeB || {}} /></div>
+<div id="HomeC"><HomeC content={data.content?.HomeC || {}} /></div>
+<div id="HomeD"><HomeD content={data.content?.HomeD || {}} /></div>
+<div id="HomeE"><HomeE content={data.content?.HomeE || {}} /></div>
+<div id="HomeF"><HomeF content={data.content?.HomeF || {}} /></div>
+<div id="HomeG"><HomeG content={data.content?.HomeG || {}} /></div>
+<div id="HomeH"><HomeH content={data.content?.HomeH || {}} /></div>
+<div id="HomeI"><HomeI content={data.content?.HomeI || {}} /></div>
+<div id="HomeL"><HomeL content={data.content?.HomeL || {}} /></div>
 <div id="Footer"><Footer content={data.content?.Footer || {}} /></div>

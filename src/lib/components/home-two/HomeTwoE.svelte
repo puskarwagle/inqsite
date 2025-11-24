@@ -1,9 +1,21 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-powered-solution">
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-vflex rt-powered-solution-title rt-desktop-text-center">
-			<h2 data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce52" class="rt-gap-off rt-h2-gap">
-				AI-Powered Choices, Superior Results
-			</h2>
+			<h2 data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce52" class="rt-gap-off rt-h2-gap">{getText('section_heading', 'AI-Powered Choices, Superior Results')}</h2>
 			<p
 				data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce54"
 				class="rt-powered-solution-paragraph rt-gap-off rt-h2-paragraph-gap"
@@ -17,12 +29,8 @@
 				data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce57"
 				class="w-layout-vflex rt-powered-solution-card"
 			>
-				<div class="rt-powered-solution-card-text rt-text-style-h5">
-					AI-Powered Solutions for Growth
-				</div>
-				<p class="rt-powered-solution-card-paragraph">
-					Ac vulputate eros nibh at velit. Donec ut hendrerit urna. Aenean tempor lobortis ornare.
-				</p>
+				<div class="rt-powered-solution-card-text rt-text-style-h5">{getText('aipowered_solutions_for', 'AI-Powered Solutions for Growth')}</div>
+				<p class="rt-powered-solution-card-paragraph">{getText('ac_vulputate_eros', 'Ac vulputate eros nibh at velit. Donec ut hendrerit urna. Aenean tempor lobortis ornare.')}</p>
 				<div class="w-layout-hflex rt-button-block">
 					<a
 						data-wf--rt-button-v1--variant="base"
@@ -31,14 +39,14 @@
 						class="rt-button w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper">
 							<div class="w-layout-hflex rt-button-text-wrap">
-								<div class="rt-button-text rt-button-hover-in">Explore More</div>
-								<div class="rt-button-text rt-button-hover-out">Explore More</div>
+								<div class="rt-button-text rt-button-hover-in">{getText('explore_more', 'Explore More')}</div>
+								<div class="rt-button-text rt-button-hover-out">{getText('explore_more', 'Explore More')}</div>
 							</div>
 							<img
 								width="10"
 								height="9"
 								alt="Arrow"
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/></div
@@ -48,7 +56,7 @@
 					width="95"
 					height="114"
 					alt="Rocket"
-					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf9266a29175f2e719597_rocket.webp"
+					src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf9266a29175f2e719597_rocket.webp'}
 					loading="lazy"
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce61"
 					class="rt-powered-solution-rocket-image"
@@ -59,9 +67,7 @@
 				class="w-layout-hflex rt-powered-solution-card-two rt-radious-fifteen rt-overflow-hidden"
 			>
 				<div class="w-layout-vflex rt-powered-solution-card-text-wrapper">
-					<div class="rt-powered-solution-card-text rt-text-style-h5">
-						Empowering Expansion with Intelligent AI
-					</div>
+					<div class="rt-powered-solution-card-text rt-text-style-h5">{getText('empowering_expansion_with', 'Empowering Expansion with Intelligent AI')}</div>
 					<div class="w-layout-hflex rt-powered-solution-points rt-top-padding">
 						<div class="rt-black-dot"></div>
 						<div class="rt-text-color-black">Lorem ipsum dolor sit amet</div>
@@ -77,14 +83,14 @@
 						class="rt-button rt-button-black w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper color-change">
 							<div class="w-layout-hflex rt-button-text-wrap">
-								<div class="rt-button-text rt-color-change rt-button-hover-in">Explore More</div>
-								<div class="rt-button-text rt-color-change rt-button-hover-out">Explore More</div>
+								<div class="rt-button-text rt-color-change rt-button-hover-in">{getText('explore_more', 'Explore More')}</div>
+								<div class="rt-button-text rt-color-change rt-button-hover-out">{getText('explore_more', 'Explore More')}</div>
 							</div>
 							<img
 								width="10"
 								height="9"
 								alt="Arrow"
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image rt-color-change"
 							/></div
@@ -98,7 +104,7 @@
 						width="270"
 						height="246"
 						alt="Growth"
-						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febdc_Growth.webp"
+						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febdc_Growth.webp'}
 						loading="lazy"
 						srcset="
 							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febdc_Growth-p-500.webp 500w,

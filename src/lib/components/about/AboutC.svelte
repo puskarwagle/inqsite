@@ -1,3 +1,17 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-imapact">
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-hflex rt-impact-content">
@@ -11,7 +25,7 @@
 						width="560"
 						height="698"
 						alt="Performance Dashboard"
-						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp"
+						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp'}
 						loading="lazy"
 						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp 1122w"
 						sizes="(max-width: 767px) 100vw, 560px"
@@ -22,7 +36,7 @@
 					width="560"
 					height="698"
 					alt="Performance Dashboard"
-					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp"
+					src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp'}
 					loading="lazy"
 					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp 1122w"
 					sizes="(max-width: 767px) 100vw, 560px"
@@ -31,9 +45,7 @@
 			</div>
 			<div class="w-layout-vflex rt-impact-text-wrapper">
 				<div class="w-layout-vflex rt-impact-text">
-					<h2 data-w-id="d8cc0c89-5611-467c-7b0c-409b05d85a8b" class="rt-gap-off rt-h2-gap">
-						AI-Enhanced Decision Making for Maximum Impact
-					</h2>
+					<h2 data-w-id="d8cc0c89-5611-467c-7b0c-409b05d85a8b" class="rt-gap-off rt-h2-gap">{getText('section_heading', 'AI-Enhanced Decision Making for Maximum Impact')}</h2>
 					<p
 						data-w-id="d8cc0c89-5611-467c-7b0c-409b05d85a8d"
 						class="rt-impact-paragraph rt-gap-off rt-h2-paragraph-gap"
@@ -48,20 +60,20 @@
 						class="w-layout-vflex rt-impact-card"
 					>
 						<div class="rt-impact-top-text">
-							<div class="rt-text-style-h1">23k</div>
-							<div class="rt-text-style-h6">Happy clients</div>
+							<div class="rt-text-style-h1">{getText('23k', '23k')}</div>
+							<div class="rt-text-style-h6">{getText('happy_clients', 'Happy clients')}</div>
 						</div>
-						<p>Lorem ipsum dolor sit ulamcorper atsit.</p>
+						<p>{getText('lorem_ipsum_dolor', 'Lorem ipsum dolor sit ulamcorper atsit.')}</p>
 					</div>
 					<div
 						data-w-id="d8cc0c89-5611-467c-7b0c-409b05d85a98"
 						class="w-layout-vflex rt-impact-card rt-color-change"
 					>
 						<div class="rt-impact-top-text">
-							<div class="rt-text-style-h1 rt-text-color-white">100+</div>
-							<div class="rt-text-style-h6 rt-text-color-white">Team Member</div>
+							<div class="rt-text-style-h1 rt-text-color-white">{getText('100', '100+')}</div>
+							<div class="rt-text-style-h6 rt-text-color-white">{getText('team_member', 'Team Member')}</div>
 						</div>
-						<p class="paragraph">Lorem ipsum dolor sit ulamcorper atsit.</p>
+						<p class="paragraph">{getText('lorem_ipsum_dolor', 'Lorem ipsum dolor sit ulamcorper atsit.')}</p>
 					</div>
 				</div>
 			</div>

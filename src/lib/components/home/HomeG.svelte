@@ -1,9 +1,21 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-ai-insights">
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="rt-ai-insights-top-title">
-			<h2 data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1016" class="rt-gap-off rt-h2-gap" style="">
-				AI-Driven Insights for Smarter Decision-Making
-			</h2>
+			<h2 data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1016" class="rt-gap-off rt-h2-gap" style="">{getText('section_heading', 'AI-Driven Insights for Smarter Decision-Making')}</h2>
 			<p
 				data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1018"
 				class="rt-ai-insights-top-title-paragraph"
@@ -20,13 +32,13 @@
 				class="rt-insights-card-v1 rt-shadow w-inline-block"
 				style=""
 				><div class="w-layout-hflex rt-insight-top-title">
-					<div class="rt-text-style-h5">The Power of AI in Your Hands</div>
+					<div class="rt-text-style-h5">{getText('the_power_of', 'The Power of AI in Your Hands')}</div>
 					<div class="w-layout-hflex rt-insight-arrow-block">
 						<img
 							width="12"
 							height="11"
 							alt="Arrow"
-							src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+							src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 							loading="lazy"
 						/>
 					</div>
@@ -38,7 +50,7 @@
 				<div class="w-layout-hflex rt-ai-insights-card-image-box rt-overflow-hidden">
 					<img
 						class="rt-autofit rt-drop-shadow rt-insight-image"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf925b82e7d923152249a_Insight-chart.webp"
+						src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf925b82e7d923152249a_Insight-chart.webp'}
 						width="455"
 						height="317"
 						alt="Insight Chart"
@@ -59,13 +71,13 @@
 				class="rt-insights-card-v1 rt-shadow w-inline-block"
 				style=""
 				><div class="w-layout-hflex rt-insight-top-title">
-					<div class="rt-text-style-h5">Experience AI That Adapts to Your Needs</div>
+					<div class="rt-text-style-h5">{getText('experience_ai_that', 'Experience AI That Adapts to Your Needs')}</div>
 					<div class="w-layout-hflex rt-insight-arrow-block">
 						<img
 							width="12"
 							height="11"
 							alt="Arrow"
-							src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+							src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 							loading="lazy"
 						/>
 					</div>
@@ -77,7 +89,7 @@
 				<div class="w-layout-hflex rt-ai-insights-card-image-box-two rt-overflow-hidden">
 					<img
 						class="rt-autofit rt-drop-shadow rt-insight-image-two"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c0_Insight-chart-two.webp"
+						src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c0_Insight-chart-two.webp'}
 						width="455"
 						height="317"
 						alt="Insight 2"

@@ -1,3 +1,17 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-ai-business-operation-v1">
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-hflex rt-ai-business-operation-block">
@@ -7,9 +21,7 @@
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0fe7"
 						class="rt-gap-off rt-h2-gap"
 						style=""
-					>
-						Cloud Integration for Seamless Business Operations
-					</h2>
+					>{getText('section_heading', 'Cloud Integration for Seamless Business Operations')}</h2>
 					<p
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0fe9"
 						class="rt-ai-business-operation-paragraph rt-gap-off"
@@ -33,7 +45,7 @@
 								01
 							</div>
 							<div class="w-layout-hflex rt-operation-main-title">
-								<div class="rt-text-style-h5">Custom Software Tailored to Your Needs</div>
+								<div class="rt-text-style-h5">{getText('custom_software_tailored', 'Custom Software Tailored to Your Needs')}</div>
 								<div class="w-layout-hflex rt-dropdown-icon-block">
 									<div class="rt-dropdown-icon-one"></div>
 									<div
@@ -61,7 +73,7 @@
 								02
 							</div>
 							<div class="w-layout-hflex rt-operation-main-title">
-								<div class="rt-text-style-h5">Powerful Software For Smarter Work</div>
+								<div class="rt-text-style-h5">{getText('powerful_software_for', 'Powerful Software For Smarter Work')}</div>
 								<div class="w-layout-hflex rt-dropdown-icon-block">
 									<div class="rt-dropdown-icon-one"></div>
 									<div
@@ -89,7 +101,7 @@
 								03
 							</div>
 							<div class="w-layout-hflex rt-operation-main-title">
-								<div class="rt-text-style-h5">Achieve More With Cloud Technology</div>
+								<div class="rt-text-style-h5">{getText('achieve_more_with', 'Achieve More With Cloud Technology')}</div>
 								<div class="w-layout-hflex rt-dropdown-icon-block">
 									<div class="rt-dropdown-icon-one"></div>
 									<div
@@ -111,7 +123,7 @@
 			>
 				<img
 					class="rt-autofit rt-operation-image rt-tab-full-image"
-					src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7bb_AI%20Operations.webp"
+					src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7bb_AI%20Operations.webp'}
 					width="410"
 					height="650"
 					alt="AI Operations"

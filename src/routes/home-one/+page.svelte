@@ -11,6 +11,9 @@
 	import HomeOneH from '$lib/components/home-one/HomeOneH.svelte';
 	import Footer from '$lib/components/shared/Footer.svelte';
 
+	// Get content data from server
+	export let data;
+
 	if (typeof document !== 'undefined') {
 		const n = document.documentElement;
 		const t = ' w-mod-';
@@ -88,13 +91,13 @@
 	<link rel="stylesheet" href="/webtemplate/style2.css" />
 </svelte:head>
 
-<Header />
-<HomeOneA />
-<HomeOneB />
-<HomeOneC />
-<HomeOneD />
-<HomeOneE />
-<HomeOneF />
-<HomeOneG />
-<HomeOneH />
-<Footer />
+<Header content={data.content?.Header || {}} />
+<HomeOneA content={data.content?.HomeOneA || {}} />
+<HomeOneB content={data.content?.HomeOneB || {}} />
+<HomeOneC content={data.content?.HomeOneC || {}} />
+<HomeOneD content={data.content?.HomeOneD || {}} />
+<HomeOneE content={data.content?.HomeOneE || {}} />
+<HomeOneF content={data.content?.HomeOneF || {}} />
+<HomeOneG content={data.content?.HomeOneG || {}} />
+<HomeOneH content={data.content?.HomeOneH || {}} />
+<Footer content={data.content?.Footer || {}} />

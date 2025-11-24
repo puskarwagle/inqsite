@@ -5,6 +5,9 @@
 	import ContactB from '$lib/components/contact/ContactB.svelte';
 	import Footer from '$lib/components/shared/Footer.svelte';
 
+	// Get content data from server
+	export let data;
+
 	if (typeof document !== 'undefined') {
 		const n = document.documentElement;
 		const t = ' w-mod-';
@@ -82,7 +85,7 @@
 	<link rel="stylesheet" href="/webtemplate/style2.css" />
 </svelte:head>
 
-<Header />
-<ContactA />
-<ContactB />
-<Footer />
+<Header content={data.content?.Header || {}} />
+<ContactA content={data.content?.ContactA || {}} />
+<ContactB content={data.content?.ContactB || {}} />
+<Footer content={data.content?.Footer || {}} />

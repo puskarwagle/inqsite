@@ -102,11 +102,11 @@
 
 <div id="Header"><Header content={data.content?.Header || {}} /></div>
 <div id="AboutA"><AboutA content={data.content?.AboutA || {}} /></div>
-<div id="AboutB"><AboutB /></div>
-<div id="AboutC"><AboutC /></div>
-<div id="AboutD"><AboutD /></div>
-<div id="AboutE"><AboutE /></div>
-<div id="AboutF"><AboutF /></div>
-<div id="AboutG"><AboutG /></div>
-<div id="AboutH"><AboutH /></div>
+<div id="AboutB"><AboutB content={data.content?.AboutB || {}} /></div>
+<div id="AboutC"><AboutC content={data.content?.AboutC || {}} /></div>
+<div id="AboutD"><AboutD content={data.content?.AboutD || {}} /></div>
+<div id="AboutE"><AboutE content={data.content?.AboutE || {}} /></div>
+<div id="AboutF"><AboutF content={data.content?.AboutF || {}} /></div>
+<div id="AboutG"><AboutG content={data.content?.AboutG || {}} /></div>
+<div id="AboutH"><AboutH content={data.content?.AboutH || {}} /></div>
 <div id="Footer"><Footer content={data.content?.Footer || {}} /></div>

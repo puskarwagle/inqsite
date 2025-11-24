@@ -1,31 +1,27 @@
 {
   "componentName": "HomeB",
-  "lastModified": "2025-11-24T19:37:09.795Z",
+  "lastModified": "2025-11-24T19:42:42.013Z",
   "texts": {
     "section_heading": "AI-Powered Automation for Seamless Business Operations",
-    "at_vero_eos": "At vero eos et accusamus et iusto odio ducimus qui blanditiis.",
-    "voluptas_assumenda_est": "Voluptas assumenda est, omnis dolor Temporibus autem quibusdam",
     "ai_that_learns": "AI That Learns and Grows",
+    "at_vero_eos": "At vero eos et accusamus et iusto odio ducimus qui blanditiis.",
     "explore_more": "Explore More",
     "aipowered_solutions_for": "AI-Powered Solutions for Growth",
+    "voluptas_assumenda_est": "Voluptas assumenda est, omnis dolor Temporibus autem quibusdam",
     "intelligent_ai_smarter": "Intelligent AI, Smarter Decisions"
   },
   "images": {
     "image_1": {
-      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d798_Operation.webp",
-      "alt": ""
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d798_Operation.webp"
     },
     "image_2": {
-      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
-      "alt": ""
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
     },
     "image_3": {
-      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d795_Operations%202.webp",
-      "alt": ""
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d795_Operations%202.webp"
     },
     "image_4": {
-      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d79b_Operation%203.webp",
-      "alt": ""
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d79b_Operation%203.webp"
     }
   },
   "links": {}

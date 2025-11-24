@@ -1,9 +1,21 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-contact-hero-v3">
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-vflex rt-contact-top-header-v2 rt-desktop-text-center">
-			<h1 data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206da3" class="rt-gap-off rt-h1-gap">
-				Have Any questions? Don&#x27;t hesitate to contact us
-			</h1>
+			<h1 data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206da3" class="rt-gap-off rt-h1-gap">{getText('hero_heading', 'Have Any questions? Don&#x27;t hesitate to contact us')}</h1>
 			<p
 				data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206da5"
 				class="rt-paragraph-gap rt-contact-top-paragraph-v2"
@@ -19,9 +31,7 @@
 			>
 				<div class="rt-contact-form-v2">
 					<div class="w-layout-vflex rt-connect-v3 rt-desktop-text-center">
-						<div data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206dab" class="rt-text-style-h3">
-							Send a message
-						</div>
+						<div data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206dab" class="rt-text-style-h3">{getText('send_a_message', 'Send a message')}</div>
 						<p data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206dad">
 							Lorem ipsum dolor sit amet consectetur adipiscing elit Proin sem eros ornare sed
 							lacinia
@@ -131,21 +141,17 @@
 													<div
 														data-w-id="7f8fa9db-bfb6-5fda-dcb1-6cc9bda10c3d"
 														class="rt-button-text rt-button-hover-in"
-													>
-														Inquire Now
-													</div>
+													>{getText('inquire_now', 'Inquire Now')}</div>
 													<div
 														data-w-id="7f8fa9db-bfb6-5fda-dcb1-6cc9bda10c3f"
 														class="rt-button-text rt-button-hover-out"
-													>
-														Inquire Now
-													</div>
+													>{getText('inquire_now', 'Inquire Now')}</div>
 												</div>
 												<img
 													width="10"
 													height="9"
 													alt="Arrow"
-													src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+													src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 													loading="lazy"
 													class="rt-button-arrow-image"
 												/>
@@ -167,12 +173,8 @@
 			<div class="w-layout-vflex rt-office-details">
 				<div class="rt-get-in-touch-box-v2">
 					<div class="w-layout-vflex rt-contact-top-text-wrapper">
-						<div data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206dd1" class="rt-text-style-h3">
-							Contact us
-						</div>
-						<p data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206dd3" class="rt-gap-off">
-							Lorem sed feugiat risus neque magna cursus ornare vulputate It is a long established.
-						</p>
+						<div data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206dd1" class="rt-text-style-h3">{getText('button_contact', 'Contact us')}</div>
+						<p data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206dd3" class="rt-gap-off">{getText('lorem_sed_feugiat', 'Lorem sed feugiat risus neque magna cursus ornare vulputate It is a long established.')}</p>
 					</div>
 					<div class="w-layout-vflex rt-details-point-v2">
 						<div
@@ -184,12 +186,12 @@
 									width="17"
 									height="23"
 									alt="Location"
-									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e6c9903345d767d80297_Group%201000001678%20(1).svg"
+									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e6c9903345d767d80297_Group%201000001678%20(1).svg'}
 									loading="lazy"
 								/>
 							</div>
 							<div class="w-layout-vflex rt-get-in-text-wrapper-v2 rt-chnage-width">
-								<div class="rt-text-style-h5">Main Office</div>
+								<div class="rt-text-style-h5">{getText('main_office', 'Main Office')}</div>
 								<div>410 Sandtown, California 94001, USA</div>
 							</div>
 						</div>
@@ -202,16 +204,16 @@
 									width="20"
 									height="20"
 									alt="Call"
-									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e78b1bcb2dff07421493_Vector%20(7).svg"
+									src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e78b1bcb2dff07421493_Vector%20(7).svg'}
 									loading="lazy"
 								/>
 							</div>
 							<div class="w-layout-vflex rt-get-in-text-wrapper-v2">
-								<div class="rt-text-style-h5">Phone No</div>
+								<div class="rt-text-style-h5">{getText('phone_no', 'Phone No')}</div>
 								<div class="w-layout-vflex rt-contact-call-numbar-box">
 									<div>
 										<a href="tel:8884567890" class="rt-call-link">(888) 456 7890 </a>/
-										<a href="tel:8882345680" class="rt-call-link">(888) 234 5680</a>
+										<a href={getLink('phone_link').href || 'tel:8882345680'} class="rt-call-link">{getLink('phone_link').text || '(888) 234 5680'}</a>
 										<a href="contact-two.html#" class="rt-call-hide-slash">/</a>
 									</div>
 									<div><a href="tel:8884567890" class="rt-call-link">(888) 456 7890</a></div>

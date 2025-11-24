@@ -1,9 +1,21 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section data-wf--rt-faq-v1--variant="base" class="rt-faq">
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-vflex rt-faq-top-text">
-			<h2 data-w-id="0f0a4370-4efc-1ee0-8032-a8000c383736" class="rt-gap-off rt-h2-gap">
-				We Always Ready To Answer Your Any Query
-			</h2>
+			<h2 data-w-id="0f0a4370-4efc-1ee0-8032-a8000c383736" class="rt-gap-off rt-h2-gap">{getText('section_heading', 'We Always Ready To Answer Your Any Query')}</h2>
 			<p data-w-id="0f0a4370-4efc-1ee0-8032-a8000c383738" class="rt-gap-off rt-h2-paragraph-gap">
 				Etiam viverra purus sed aliquet tincidunt diam auctor nibhe eget elementum lobortis ante
 				massa quis dui suspendisse.
@@ -23,7 +35,7 @@
 						width="20"
 						height="21"
 						alt="Query"
-						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec8142dbc93f64df00b_home-minus.svg"
+						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec8142dbc93f64df00b_home-minus.svg'}
 						loading="lazy"
 					/>
 					<div>General</div></a
@@ -32,7 +44,7 @@
 						width="20"
 						height="21"
 						alt="Query"
-						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec8664314ab928bf3b3_question-square.svg"
+						src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec8664314ab928bf3b3_question-square.svg'}
 						loading="lazy"
 					/>
 					<div>Support</div></a
@@ -41,7 +53,7 @@
 						width="20"
 						height="21"
 						alt="Query"
-						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec86f7296d59b02abc9_rows.svg"
+						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec86f7296d59b02abc9_rows.svg'}
 						loading="lazy"
 					/>
 					<div>Others</div></a
@@ -54,7 +66,7 @@
 						class="w-layout-vflex rt-faq-box active rt-margin"
 					>
 						<div class="w-layout-hflex rt-query-box active">
-							<div class="rt-text-style-h6 active">How secure is my data with your AI system?</div>
+							<div class="rt-text-style-h6 active">{getText('how_secure_is', 'How secure is my data with your AI system?')}</div>
 							<div class="w-layout-hflex rt-query-icon-block">
 								<div class="rt-query-plus-icon active"></div>
 								<div class="rt-query-plus-icon-two active"></div>
@@ -73,7 +85,7 @@
 						class="w-layout-vflex rt-faq-box rt-margin"
 					>
 						<div class="w-layout-hflex rt-query-box">
-							<div class="rt-text-style-h6 active">What kind of customer support do you offer?</div>
+							<div class="rt-text-style-h6 active">{getText('what_kind_of', 'What kind of customer support do you offer?')}</div>
 							<div class="w-layout-hflex rt-query-icon-block">
 								<div class="rt-query-plus-icon"></div>
 								<div class="rt-query-plus-icon-two"></div>
@@ -92,7 +104,7 @@
 						class="w-layout-vflex rt-faq-box rt-margin"
 					>
 						<div class="w-layout-hflex rt-query-box">
-							<div class="rt-text-style-h6 active">Can AI handle sensitive data?</div>
+							<div class="rt-text-style-h6 active">{getText('can_ai_handle', 'Can AI handle sensitive data?')}</div>
 							<div class="w-layout-hflex rt-query-icon-block">
 								<div class="rt-query-plus-icon"></div>
 								<div class="rt-query-plus-icon-two"></div>
@@ -108,7 +120,7 @@
 					</div>
 					<div data-w-id="68fa8c62-2e74-f639-0ac0-9a0a43e29cdc" class="w-layout-vflex rt-faq-box">
 						<div class="w-layout-hflex rt-query-box">
-							<div class="rt-text-style-h6 active">How does the AI platform work?</div>
+							<div class="rt-text-style-h6 active">{getText('how_does_the', 'How does the AI platform work?')}</div>
 							<div class="w-layout-hflex rt-query-icon-block">
 								<div class="rt-query-plus-icon"></div>
 								<div class="rt-query-plus-icon-two"></div>
@@ -129,9 +141,7 @@
 						class="w-layout-vflex rt-faq-box active rt-margin"
 					>
 						<div class="w-layout-hflex rt-query-box active">
-							<div class="rt-text-style-h6 active">
-								What should I do if AI responses seem inaccurate?
-							</div>
+							<div class="rt-text-style-h6 active">{getText('what_should_i', 'What should I do if AI responses seem inaccurate?')}</div>
 							<div class="w-layout-hflex rt-query-icon-block">
 								<div class="rt-query-plus-icon active"></div>
 								<div class="rt-query-plus-icon-two active"></div>
@@ -150,7 +160,7 @@
 						class="w-layout-vflex rt-faq-box rt-margin"
 					>
 						<div class="w-layout-hflex rt-query-box">
-							<div class="rt-text-style-h6 active">How do I reach technical support?</div>
+							<div class="rt-text-style-h6 active">{getText('how_do_i', 'How do I reach technical support?')}</div>
 							<div class="w-layout-hflex rt-query-icon-block">
 								<div class="rt-query-plus-icon"></div>
 								<div class="rt-query-plus-icon-two"></div>
@@ -169,7 +179,7 @@
 						class="w-layout-vflex rt-faq-box rt-margin"
 					>
 						<div class="w-layout-hflex rt-query-box">
-							<div class="rt-text-style-h6 active">Can I rollback AI changes or actions?</div>
+							<div class="rt-text-style-h6 active">{getText('can_i_rollback', 'Can I rollback AI changes or actions?')}</div>
 							<div class="w-layout-hflex rt-query-icon-block">
 								<div class="rt-query-plus-icon"></div>
 								<div class="rt-query-plus-icon-two"></div>
@@ -185,7 +195,7 @@
 					</div>
 					<div data-w-id="ac04a20a-1fd4-7516-acb2-5e03ea24413c" class="w-layout-vflex rt-faq-box">
 						<div class="w-layout-hflex rt-query-box">
-							<div class="rt-text-style-h6 active">Do you offer live onboarding or demos?</div>
+							<div class="rt-text-style-h6 active">{getText('do_you_offer', 'Do you offer live onboarding or demos?')}</div>
 							<div class="w-layout-hflex rt-query-icon-block">
 								<div class="rt-query-plus-icon"></div>
 								<div class="rt-query-plus-icon-two"></div>
@@ -225,7 +235,7 @@
 						class="w-layout-vflex rt-faq-box rt-margin"
 					>
 						<div class="w-layout-hflex rt-query-box">
-							<div class="rt-text-style-h6 active">Can I integrate this with other tools?</div>
+							<div class="rt-text-style-h6 active">{getText('can_i_integrate', 'Can I integrate this with other tools?')}</div>
 							<div class="w-layout-hflex rt-query-icon-block">
 								<div class="rt-query-plus-icon"></div>
 								<div class="rt-query-plus-icon-two"></div>
@@ -244,7 +254,7 @@
 						class="w-layout-vflex rt-faq-box rt-margin"
 					>
 						<div class="w-layout-hflex rt-query-box">
-							<div class="rt-text-style-h6 active">Does the AI support multilingual use?</div>
+							<div class="rt-text-style-h6 active">{getText('does_the_ai', 'Does the AI support multilingual use?')}</div>
 							<div class="w-layout-hflex rt-query-icon-block">
 								<div class="rt-query-plus-icon"></div>
 								<div class="rt-query-plus-icon-two"></div>
@@ -260,7 +270,7 @@
 					</div>
 					<div data-w-id="6cdd1185-984d-f42a-dc89-ae2282f6231a" class="w-layout-vflex rt-faq-box">
 						<div class="w-layout-hflex rt-query-box">
-							<div class="rt-text-style-h6 active">What are the pricing plans?</div>
+							<div class="rt-text-style-h6 active">{getText('what_are_the', 'What are the pricing plans?')}</div>
 							<div class="w-layout-hflex rt-query-icon-block">
 								<div class="rt-query-plus-icon"></div>
 								<div class="rt-query-plus-icon-two"></div>

@@ -1,3 +1,17 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-integration rt-position-relative">
 	<div class="rt-integration-layer"></div>
 	<div class="w-layout-blockcontainer rt-container-small w-container">
@@ -6,9 +20,7 @@
 				data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1033"
 				class="rt-text-color-white rt-gap-off rt-h2-gap"
 				style=""
-			>
-				Efficient integration solutions for seamless workflows
-			</h2>
+			>{getText('section_heading', 'Efficient integration solutions for seamless workflows')}</h2>
 			<p
 				data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1035"
 				class="rt-integration-paragraph rt-desktop-text-center"
@@ -29,7 +41,7 @@
 						width="43"
 						height="58"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cc_Users.svg"
+						src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cc_Users.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon"
 					/>
@@ -39,7 +51,7 @@
 						width="62"
 						height="62"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c4_User%202.svg"
+						src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c4_User%202.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon"
 					/>
@@ -49,7 +61,7 @@
 						width="54"
 						height="54"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ca_User%203.svg"
+						src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ca_User%203.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon"
 					/>
@@ -59,7 +71,7 @@
 						width="50"
 						height="50"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c8_User%204.svg"
+						src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c8_User%204.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon"
 					/>
@@ -69,7 +81,7 @@
 						width="44"
 						height="43"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c5_User%205.svg"
+						src={getImage('image_5').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c5_User%205.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon"
 					/>
@@ -79,7 +91,7 @@
 						width="49"
 						height="48"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c3_User%206.svg"
+						src={getImage('image_6').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c3_User%206.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon"
 					/>
@@ -95,7 +107,7 @@
 						width="62"
 						height="54"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c9_Uesr%207.svg"
+						src={getImage('image_7').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c9_Uesr%207.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
 					/>
@@ -105,7 +117,7 @@
 						width="48"
 						height="65"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cc_Users.svg"
+						src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cc_Users.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
 					/>
@@ -115,7 +127,7 @@
 						width="70"
 						height="70"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c4_User%202.svg"
+						src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c4_User%202.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
 					/>
@@ -125,7 +137,7 @@
 						width="61"
 						height="61"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ca_User%203.svg"
+						src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ca_User%203.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
 					/>
@@ -135,7 +147,7 @@
 						width="56"
 						height="56"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c8_User%204.svg"
+						src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c8_User%204.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
 					/>
@@ -145,7 +157,7 @@
 						width="49"
 						height="48"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c5_User%205.svg"
+						src={getImage('image_5').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c5_User%205.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
 					/>
@@ -155,7 +167,7 @@
 						width="54"
 						height="54"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c3_User%206.svg"
+						src={getImage('image_6').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c3_User%206.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
 					/>
@@ -165,7 +177,7 @@
 						width="51"
 						height="51"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cd_User%209.svg"
+						src={getImage('image_8').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cd_User%209.svg'}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
 					/>
@@ -181,7 +193,7 @@
 						width="62"
 						height="54"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c9_Uesr%207.svg"
+						src={getImage('image_7').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c9_Uesr%207.svg'}
 						loading="lazy"
 					/>
 				</div>
@@ -190,7 +202,7 @@
 						width="43"
 						height="58"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cc_Users.svg"
+						src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cc_Users.svg'}
 						loading="lazy"
 					/>
 				</div>
@@ -199,7 +211,7 @@
 						width="62"
 						height="62"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c4_User%202.svg"
+						src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c4_User%202.svg'}
 						loading="lazy"
 					/>
 				</div>
@@ -208,7 +220,7 @@
 						width="54"
 						height="54"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ca_User%203.svg"
+						src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ca_User%203.svg'}
 						loading="lazy"
 					/>
 				</div>
@@ -217,7 +229,7 @@
 						width="50"
 						height="50"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c8_User%204.svg"
+						src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c8_User%204.svg'}
 						loading="lazy"
 					/>
 				</div>
@@ -226,7 +238,7 @@
 						width="44"
 						height="43"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c5_User%205.svg"
+						src={getImage('image_5').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c5_User%205.svg'}
 						loading="lazy"
 					/>
 				</div>
@@ -235,7 +247,7 @@
 						width="49"
 						height="48"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c3_User%206.svg"
+						src={getImage('image_6').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c3_User%206.svg'}
 						loading="lazy"
 					/>
 				</div>
@@ -244,7 +256,7 @@
 						width="51"
 						height="51"
 						alt="Client"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cd_User%209.svg"
+						src={getImage('image_8').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cd_User%209.svg'}
 						loading="lazy"
 					/>
 				</div>

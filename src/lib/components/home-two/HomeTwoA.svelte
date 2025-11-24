@@ -1,3 +1,17 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-home-v2-hero">
 	<div>
 		<div class="rt-green-dot"></div>
@@ -9,9 +23,7 @@
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-hflex rt-automate-solution">
 			<div class="w-layout-vflex rt-automate-solution-text-wrapper-v2">
-				<h1 data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cd97" class="rt-gap-off rt-h1-gap">
-					Automate Conversations with Intelligent AI Solutions
-				</h1>
+				<h1 data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cd97" class="rt-gap-off rt-h1-gap">{getText('hero_heading', 'Automate Conversations with Intelligent AI Solutions')}</h1>
 				<p
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cd99"
 					class="rt-automate-solution-paragraph-v2 rt-gap-off rt-h2-paragraph-gap"
@@ -30,14 +42,14 @@
 						class="rt-button w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper">
 							<div class="w-layout-hflex rt-button-text-wrap">
-								<div class="rt-button-text rt-button-hover-in">Join Us Today</div>
-								<div class="rt-button-text rt-button-hover-out">Join Us Today</div>
+								<div class="rt-button-text rt-button-hover-in">{getText('join_us_today', 'Join Us Today')}</div>
+								<div class="rt-button-text rt-button-hover-out">{getText('join_us_today', 'Join Us Today')}</div>
 							</div>
 							<img
 								width="10"
 								height="9"
 								alt="Arrow"
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/></div
@@ -55,7 +67,7 @@
 									width="15"
 									height="17"
 									alt="Play button"
-									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931bfc626df83f9d83c_Play%20button.svg"
+									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931bfc626df83f9d83c_Play%20button.svg'}
 									loading="lazy"
 								/>
 							</div>
@@ -63,15 +75,11 @@
 								<div
 									data-w-id="d1fcb99f-03d8-310f-1df0-693bc9a3c68d"
 									class="rt-button-text rt-button-hover-in"
-								>
-									Watch video
-								</div>
+								>{getText('button_watch_video', 'Watch video')}</div>
 								<div
 									data-w-id="d1fcb99f-03d8-310f-1df0-693bc9a3c68f"
 									class="rt-button-text rt-button-hover-out"
-								>
-									Watch video
-								</div>
+								>{getText('button_watch_video', 'Watch video')}</div>
 							</div>
 							<script type="application/json" class="w-json">
 								{
@@ -99,7 +107,7 @@
 		<div class="w-layout-hflex rt-solution-dashboard rt-position-relative">
 			<div data-w-id="3e644226-a296-7e69-8492-6e223b2c1b5e" class="rt-solution-dashboard-image-one">
 				<img
-					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b3997c8e2f33aceabd809_Home%20Two%20Dashboard.avif"
+					src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b3997c8e2f33aceabd809_Home%20Two%20Dashboard.avif'}
 					alt="Home Two Dashboard"
 					width="1065"
 					height="630"
@@ -111,7 +119,7 @@
 				class="rt-solution-dashboard-image-two-wrapper"
 			>
 				<img
-					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf92507c68ccfe6dff032_Line%20Styling.webp"
+					src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf92507c68ccfe6dff032_Line%20Styling.webp'}
 					loading="lazy"
 					width="222"
 					height="221"
