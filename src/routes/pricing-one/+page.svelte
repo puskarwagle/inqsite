@@ -1,10 +1,8 @@
 <script>
 	import { onMount } from 'svelte';
 	import Header from '$lib/components/shared/Header.svelte';
-	import ServiceTwoA from '$lib/components/service-two/ServiceTwoA.svelte';
-	import ServiceTwoB from '$lib/components/service-two/ServiceTwoB.svelte';
-	import ServiceTwoC from '$lib/components/service-two/ServiceTwoC.svelte';
-	import ServiceTwoD from '$lib/components/service-two/ServiceTwoD.svelte';
+	import PricingA from '$lib/components/pricing/PricingA.svelte';
+	import PricingB from '$lib/components/pricing/PricingB.svelte';
 	import Footer from '$lib/components/shared/Footer.svelte';
 
 	if (typeof document !== 'undefined') {
@@ -85,8 +83,6 @@
 </svelte:head>
 
 <Header />
-<ServiceTwoA />
-<ServiceTwoB />
-<ServiceTwoC />
-<ServiceTwoD />
+<PricingA />
+<PricingB />
 <Footer />

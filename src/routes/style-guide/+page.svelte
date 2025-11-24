@@ -1,1 +1,716 @@
-<section class="rt-information-hero"><div class="w-layout-blockcontainer rt-container-small w-container"><div class="w-layout-vflex rt-information-hero-main"><h1 class="rt-gap-off">Style guide</h1></div></div></section><section class="rt-information-inner"><div class="w-layout-blockcontainer rt-container-small w-container"><div class="w-layout-vflex rt-style-guide-main"><div class="w-layout-vflex rt-style-guide-blocks"><div class="w-layout-hflex rt-style-guide-blocks-top"><img width="40" height="Auto" alt="Icon" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637bd_Frame.svg" loading="lazy"/><div class="rt-text-style-h5">Colors</div></div><div class="rt-style-guide-border"></div><div class="rt-style-guide-colors"><div class="rt-color-blocks"><div class="rt-color-showcase rt-color-one"></div><div class="w-layout-hflex rt-color-information"><div class="rt-text-style-h6">Light Green</div><div class="rt-color-code">#d3f3aa</div></div></div><div class="rt-color-blocks"><div class="rt-color-showcase color-two"></div><div class="w-layout-hflex rt-color-information"><div class="rt-text-style-h6">Primary</div><div class="rt-color-code">#0f1214</div></div></div><div class="rt-color-blocks"><div class="rt-color-showcase color-three"></div><div class="w-layout-hflex rt-color-information"><div class="rt-text-style-h6">Cream</div><div class="rt-color-code">#faf2e8</div></div></div><div class="rt-color-blocks"><div class="rt-color-showcase color-seven"></div><div class="w-layout-hflex rt-color-information"><div class="rt-text-style-h6">Light Blue</div><div class="rt-color-code">#f2f8ff</div></div></div><div class="rt-color-blocks"><div class="rt-color-showcase color-four"></div><div class="w-layout-hflex rt-color-information"><div class="rt-text-style-h6">Grey</div><div class="rt-color-code">#d3d3d3</div></div></div><div class="rt-color-blocks"><div class="rt-color-showcase color-five"></div><div class="w-layout-hflex rt-color-information"><div class="rt-text-style-h6">Light Grey</div><div class="rt-color-code">#f8f8f8</div></div></div></div></div><div class="w-layout-vflex rt-style-guide-blocks"><div class="w-layout-hflex rt-style-guide-blocks-top"><img width="40" height="Auto" alt="Icon" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637b9_Group%20407.svg" loading="lazy"/><div class="rt-text-style-h5">Typography</div></div><div class="rt-style-guide-border"></div><div class="w-layout-vflex rt-typography-wrapper"><div class="w-layout-hflex rt-typography-row rt-row-top"><div class="rt-typography-text"></div><div class="w-layout-hflex rt-typography-informations"><div class="rt-text-color-font">Size</div><div class="rt-text-color-font">Line height</div><div class="rt-text-color-font">Weights</div></div></div><div class="w-layout-hflex rt-typography-row"><div class="rt-typography-text"><h1 class="rt-gap-off">H1</h1></div><div class="w-layout-hflex rt-typography-informations"><div class="rt-text-color-font">54px</div><div class="rt-text-color-font">1.16</div><div class="rt-text-color-font">Bold</div></div></div><div class="w-layout-hflex rt-typography-row"><div class="rt-typography-text"><h2 class="rt-gap-off">H2</h2></div><div class="w-layout-hflex rt-typography-informations"><div class="rt-text-color-font">36px</div><div class="rt-text-color-font">1.75</div><div class="rt-text-color-font">Bold</div></div></div><div class="w-layout-hflex rt-typography-row"><div class="rt-typography-text"><h3 class="rt-gap-off">H3</h3></div><div class="w-layout-hflex rt-typography-informations"><div class="rt-text-color-font">28px</div><div class="rt-text-color-font">1.33</div><div class="rt-text-color-font">Bold</div></div></div><div class="w-layout-hflex rt-typography-row"><div class="rt-typography-text"><h4 class="rt-gap-off">H4</h4></div><div class="w-layout-hflex rt-typography-informations"><div class="rt-text-color-font">24px</div><div class="rt-text-color-font">1.33</div><div class="rt-text-color-font">Bold</div></div></div><div class="w-layout-hflex rt-typography-row"><div class="rt-typography-text"><h5 class="rt-gap-off">H5</h5></div><div class="w-layout-hflex rt-typography-informations"><div class="rt-text-color-font">20px</div><div class="rt-text-color-font">1.5</div><div class="rt-text-color-font">Bold</div></div></div><div class="w-layout-hflex rt-typography-row"><div class="rt-typography-text"><h6 class="rt-gap-off">H6</h6></div><div class="w-layout-hflex rt-typography-informations"><div class="rt-text-color-font">18px</div><div class="rt-text-color-font">1.6</div><div class="rt-text-color-font">Bold</div></div></div><div class="w-layout-hflex rt-typography-row"><div class="rt-typography-text"><p class="rt-gap-off rt-text-color-font">Body font</p></div><div class="w-layout-hflex rt-typography-informations"><div class="rt-text-color-font">16px</div><div class="rt-text-color-font">1.75</div><div class="rt-text-color-font">Normal</div></div></div><div class="w-layout-hflex rt-typography-row"><div class="rt-typography-text"><p class="rt-gap-off rt-text-color-font">Menu font</p></div><div class="w-layout-hflex rt-typography-informations"><div class="rt-text-color-font">14px</div><div class="rt-text-color-font">1.75</div><div class="rt-text-color-font">Normal</div></div></div><div class="w-layout-hflex rt-typography-row"><div class="rt-typography-text"><p class="rt-gap-off rt-text-color-font">Button font</p></div><div class="w-layout-hflex rt-typography-informations"><div class="rt-text-color-font">14px</div><div class="rt-text-color-font">1.75</div><div class="rt-text-color-font">Normal</div></div></div></div></div><div class="w-layout-vflex rt-style-guide-blocks"><div class="w-layout-hflex rt-style-guide-blocks-top"><img width="40" height="40" alt="Icon" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637b0_Shadow.svg" loading="lazy"/><div class="rt-text-style-h5">Shadows</div></div><div class="rt-style-guide-border"></div><div class="rt-shadow-blocks"><div class="rt-shadow-box rt-shadow"><div class="rt-text-color-font">Small</div></div><div class="rt-shadow-box rt-drop-shadow"><div class="rt-text-color-font">Medium</div></div><div class="rt-shadow-box shadow-box-large"><div class="rt-text-color-font">Large</div></div></div></div><div class="w-layout-vflex rt-style-guide-blocks"><div class="w-layout-hflex rt-style-guide-blocks-top"><img width="40" height="Auto" alt="Icons" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637ba_Vector%202-3.svg" loading="lazy"/><div class="rt-text-style-h5">Logo</div></div><div class="rt-style-guide-border"></div><div class="w-layout-vflex rt-style-guide-logo-wrapper"><div class="rt-text-style-h6">Favicons</div><div class="rt-logo-showcase-box"><img width="32" height="32" alt="FavIcon" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/681456b7c5ffeb737dbb278e_32.png" loading="lazy"/><img width="256" height="256" alt="FavIcon" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/681456bea78922b278d4187a_256.png" loading="lazy"/></div></div><div class="w-layout-vflex rt-style-guide-logo-wrapper bottom-margin-off"><div class="rt-text-style-h6">Brand logo</div><div class="rt-logo-showcase-box"><div class="rt-icons-logo-boxes"><img loading="lazy" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68145452cd6fe44eaa5c9e91_logo-11.svg" alt="Logo Black"/></div><div class="rt-icons-logo-boxes background-black"><img loading="lazy" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6814545003fa6f23bfa87cf2_logo-10.svg" alt="Logo White"/></div></div></div></div><div class="w-layout-vflex rt-style-guide-blocks"><div class="w-layout-hflex rt-style-guide-blocks-top"><img width="33" height="Auto" alt="Icon" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637b4_Buttons-2.svg" loading="lazy"/><div class="rt-text-style-h5">Buttons</div></div><div class="rt-style-guide-border"></div><div class="w-layout-hflex rt-style-guide-button-wrapper"><a data-wf--rt-button-v1--variant="base" data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539" href="index.html" class="rt-button w-inline-block"><div class="w-layout-hflex rt-button-text-image-wrapper"><div class="w-layout-hflex rt-button-text-wrap"><div class="rt-button-text rt-button-hover-in">Button Style One</div><div class="rt-button-text rt-button-hover-out">Button Style One</div></div><img width="10" height="9" alt="Arrow" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg" loading="lazy" class="rt-button-arrow-image"/></div></a><a data-wf--rt-button-v2--variant="base" data-w-id="f63f91f4-b7e1-4ea7-4fb5-ef7294740b09" href="index.html" class="rt-button rt-button-black w-inline-block"><div class="w-layout-hflex rt-button-text-image-wrapper color-change"><div class="w-layout-hflex rt-button-text-wrap"><div class="rt-button-text rt-color-change rt-button-hover-in">Button Style Two</div><div class="rt-button-text rt-color-change rt-button-hover-out">Button Style Two</div></div><img width="10" height="9" alt="Arrow" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg" loading="lazy" class="rt-button-arrow-image rt-color-change"/></div></a><a data-w-id="e477ecfe-ff19-eae1-fd29-07a2a1bfae03" href="index.html" class="rt-button-v2 w-inline-block"><div class="w-layout-vflex rt-button-text-wrapper"><div class="rt-button-text">Button Style Three</div><div class="rt-button-text">Button Style Three</div></div><div class="w-layout-hflex rt-button-arrow-wrapper"><img width="10" height="10" alt="Arrow" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg" loading="lazy" class="rt-autofit"/><img width="10" height="10" alt="Arrow" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg" loading="lazy" class="rt-autofit"/></div><div class="rt-button-hover-line"></div></a></div></div><div class="w-layout-vflex rt-style-guide-blocks"><div class="w-layout-hflex rt-style-guide-blocks-top"><img width="37" height="Auto" alt="Icon" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637bb_List.svg" loading="lazy"/><div class="rt-text-style-h5">Lists</div></div><div class="rt-style-guide-border"></div><div class="w-layout-hflex list-gaps"><div class="w-richtext"><ul role="list"><li>List Item One</li><li>List Item Two</li><li>List Item Three</li></ul></div><div class="w-richtext"><ol role="list"><li>List Item One</li><li>List Item Two</li><li>List Item Three</li></ol></div></div></div><div class="w-layout-vflex rt-style-guide-blocks"><div class="w-layout-hflex rt-style-guide-blocks-top"><img width="40" height="Auto" alt="Icon" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637b1_Icon-16.svg" loading="lazy"/><div class="rt-text-style-h5">Icons</div></div><div class="rt-style-guide-border"></div><div class="w-layout-vflex rt-style-guide-logo-wrapper"><div class="rt-text-style-h6">Social icons</div><div class="rt-logo-showcase-box"><img width="17" height="Auto" alt="Social Icons" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637a6_X%20dark.svg" loading="lazy"/><img width="17" height="Auto" alt="Social Icons" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637a7_facebook-2%201.svg" loading="lazy"/><img width="17" height="Auto" alt="Instagram" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67eb90361a5cb052ca6740e9_INsta%20black.svg" loading="lazy"/><img width="Auto" height="Auto" alt="Social Icons" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637a8_linked%201.svg" loading="lazy"/></div></div><div class="w-layout-vflex rt-style-guide-logo-wrapper bottom-margin-off"><div class="rt-text-style-h6">Line icons</div><div class="rt-logo-showcase-box"><img width="Auto" height="40" alt="Insight" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3655859baabea4578bd7f_Insight.svg" loading="lazy"/><img width="Auto" height="40" alt="Settings" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f365587c9f154095f79144_Settings.svg" loading="lazy"/><img width="Auto" height="40" alt="Insight" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f365586793a219708e9d79_Insight%203.svg" loading="lazy"/><img width="Auto" height="40" alt="Insight" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f365577c9f154095f7910d_Insight%202.svg" loading="lazy"/><img width="40" height="40" alt="Cloud" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efaf27d44ed5a9778a5fd6_Cloud.svg" loading="lazy"/><img width="Auto" height="40" alt="Insight" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36558b5b7dea3e6cce1a9_Insight%206.svg" loading="lazy"/><img width="Auto" height="40" alt="Insight" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3655827fbe65f4d9b3a7d_Insight%204.svg" loading="lazy"/><img width="Auto" height="40" alt="Share" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3655855a886b88a073044_Share.svg" loading="lazy"/><img width="Auto" height="40" alt="Potential" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea914d652c340f0e467f54_Potential.svg" loading="lazy"/><img width="Auto" height="40" alt="Potential" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea914d652c340f0e467f55_Potential%202.svg" loading="lazy"/><img width="Auto" height="40" alt="Possibilities logo" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8170_Possibilities%20logo%202.svg" loading="lazy"/></div></div></div><div class="w-layout-vflex rt-style-guide-blocks"><div class="w-layout-hflex rt-style-guide-blocks-top"><img width="40" height="Auto" alt="Icon" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637bc_Avatar%20Outline.svg" loading="lazy"/><div class="rt-text-style-h5">Avatars</div></div><div class="rt-style-guide-border"></div><div class="rt-logo-showcase-box"><div class="w-layout-vflex rt-avatars-box"><img width="54" height="54" alt="User 2" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe9_User%209.webp" loading="lazy" class="border-radius-full"/><div class="rt-text-color-font">54px</div></div><div class="w-layout-vflex rt-avatars-box"><img width="170" height="170" alt="User 2" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe9_User%209.webp" loading="lazy" class="border-radius-full"/><div class="rt-text-color-font">170px</div></div></div></div><div class="w-layout-vflex rt-style-guide-blocks"><div class="w-layout-hflex rt-style-guide-blocks-top"><img width="43" height="Auto" alt="Icons" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637b2_Placeholder%20icon.svg" loading="lazy"/><div class="rt-text-style-h5">Placeholder</div></div><div class="rt-style-guide-border"></div><div class="w-layout-vflex rt-style-guide-logo-wrapper"><div class="rt-text-style-h6">Inputs</div><div class="w-layout-hflex rt-form-iteams"><div class="rt-gap-off form-showcase w-form"><form id="wf-form-Style-Guide-Form" name="wf-form-Style-Guide-Form" data-name="Style Guide Form" method="get" data-wf-page-id="67f2c3dc6455127fcc583296" data-wf-element-id="d2bb154c-abb6-b98e-03de-808d353a450b" data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"><input class="rt-contact-form-input w-input" maxlength="256" name="Style-Guide-Field" data-name="Style Guide Field" placeholder="Placeholder" type="text" id="Style-Guide-Field" required=""/></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><div class="rt-footer-cta-form w-form"><form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="67f2c3dc6455127fcc583296" data-wf-element-id="d2bb154c-abb6-b98e-03de-808d353a4514" data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"><div class="w-layout-hflex rt-form-input-wrapper"><input class="rt-contact-form-input w-input" maxlength="256" name="field-2" data-name="Field 2" placeholder="Your email" type="text" id="field-2" required=""/><div data-w-id="e0c3a69b-1d26-4ca4-e91e-eeebad619d99" class="rt-form-button-box rt-position-relative rt-change-position"><input type="submit" data-wait="Please wait..." class="rt-form-button w-button" value="Submit Now"/><div class="w-layout-hflex rt-button rt-event-none"><div class="w-layout-hflex rt-button-text-image-wrapper"><div class="w-layout-hflex rt-button-text-wrap"><div data-w-id="988c225f-9804-583d-8be4-3cbf621a5af5" class="rt-button-text rt-button-hover-in">Add To Cart</div><div data-w-id="988c225f-9804-583d-8be4-3cbf621a5af7" class="rt-button-text rt-button-hover-out">Add To Cart</div></div><img width="10" height="9" alt="Arrow" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg" loading="lazy" class="rt-button-arrow-image"/></div></div></div></div></form><div class="rt-success-message w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="rt-error-message w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div><div class="w-layout-vflex rt-style-guide-logo-wrapper"><div class="rt-text-style-h6">Text area</div><div class="rt-gap-off w-form"><form id="wf-form-Style-Guide-Form-Two" name="wf-form-Style-Guide-Form-Two" data-name="Style Guide Form Two" method="get" data-wf-page-id="67f2c3dc6455127fcc583296" data-wf-element-id="d2bb154c-abb6-b98e-03de-808d353a4523" data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"><textarea id="Style-Guide-Textarea" name="Style-Guide-Textarea" maxlength="5000" data-name="Style Guide Textarea" placeholder="Placeholder" class="rt-textarea w-input"></textarea></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div><div class="w-layout-vflex rt-style-guide-logo-wrapper bottom-margin-off"><div class="rt-text-style-h6">States messages</div><div class="rt-success-message"><div>Thank you! Your submission has been received!</div></div></div></div><div class="w-layout-vflex rt-style-guide-blocks"><div class="w-layout-hflex rt-style-guide-blocks-top"><img width="43" height="Auto" alt="Icon" src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637b3_Rich%20Text.svg" loading="lazy"/><div class="rt-text-style-h5">Rich text</div></div><div class="rt-style-guide-border"></div><div class="w-richtext"><p>Lorem ipsum pellentesque elementum fringilla ullamcorper. Ut tellus massa magnis nibh tristique. Dui sem quam convallis tellus fames Nisl eget dui commodo vestibulum pellentesque ac et tincidunt. Venenatis sed vulputate <strong>turpis fermentum tempor. Non eget eget risus felis purus aliquam odio</strong> dolor pretium. Quam viverra leo cras ipsum Volutpat egestas sit vel quis. Sollicitudin phasellus nisl aenean suspendisse.</p><p>Lorem ipsum dolor sit amet consectetur. Tincidunt sed porta adipiscing et. Feugiat volutpat at felis amet enim lacus at nullam. Quisque praesent sed et ac pellentesque commodo augue sed.</p><p>Lorem ipsum dolor sit amet consectetur. Velit dictum vulputate risus ornare nisl mauris phasellus. Donec nibh risus molestie dolor condimentum morbi quis. Viverra pharetra ipsum vitae volutpat penatibus viverra imperdiet. Morbi ultrices varius posuere tincidunt gravida consectetur at amet.</p><p>‍</p><h4>AI Innovations &amp; Future Insights</h4><p>Lorem ipsum pellentesque elementum fringilla ullamcorper. Ut tellus massa magnis nibh tristique. Dui sem quam convallis tellus fames Nisl eget dui commodo vestibulum pellentesque ac et tincidunt. Venenatis sed vulputate <strong>fermentum tempor. Non eget eget risus felis purus aliquam odio</strong> dolor pretium. Quam viverra leo cras ipsum Volutpat egestas sit vel quis. Sollicitudin phasellus nisl aenean suspendisse.</p><p>‍</p><h4>Simplifying AI Mastery into Actionable Steps</h4><ol role="list"><li><strong>Integrate AI Solutions :</strong> Lorem ipsum dolor sit amet consectetur. Velit dictum vulputate risus ornare nisl mauris phasellus. Donec nibh risus molestie dolor condimentum morbi quis. Viverra pharetra ipsum vitae volutpat penatibus viverra imperdiet. Morbi ultrices varius posuere tincidunt gravida consectetur at amet. Morbi lectus tempus ipsum mauris nisl turpis eu sed. Dictum sed a ut nibh.</li><li><strong>Optimize Performance :</strong> Lorem ipsum dolor sit amet consectetur. Velit dictum vulputate risus ornare nisl mauris phasellus. Donec nibh risus molestie dolor condimentum morbi quis. Viverra pharetra ipsum vitae  penatibus viverra  ultrices varius posuere tincidunt gravida consectetur at amet. Morbi lectus tempus ipsum mauris nisl turpis eu sed. Dictum sed a ut nibh.</li></ol></div></div></div></div></section>
+<section class="rt-information-hero">
+	<div class="w-layout-blockcontainer rt-container-small w-container">
+		<div class="w-layout-vflex rt-information-hero-main">
+			<h1 class="rt-gap-off">Style guide</h1>
+		</div>
+	</div>
+</section>
+<section class="rt-information-inner">
+	<div class="w-layout-blockcontainer rt-container-small w-container">
+		<div class="w-layout-vflex rt-style-guide-main">
+			<div class="w-layout-vflex rt-style-guide-blocks">
+				<div class="w-layout-hflex rt-style-guide-blocks-top">
+					<img
+						width="40"
+						height="Auto"
+						alt="Icon"
+						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637bd_Frame.svg"
+						loading="lazy"
+					/>
+					<div class="rt-text-style-h5">Colors</div>
+				</div>
+				<div class="rt-style-guide-border"></div>
+				<div class="rt-style-guide-colors">
+					<div class="rt-color-blocks">
+						<div class="rt-color-showcase rt-color-one"></div>
+						<div class="w-layout-hflex rt-color-information">
+							<div class="rt-text-style-h6">Light Green</div>
+							<div class="rt-color-code">#d3f3aa</div>
+						</div>
+					</div>
+					<div class="rt-color-blocks">
+						<div class="rt-color-showcase color-two"></div>
+						<div class="w-layout-hflex rt-color-information">
+							<div class="rt-text-style-h6">Primary</div>
+							<div class="rt-color-code">#0f1214</div>
+						</div>
+					</div>
+					<div class="rt-color-blocks">
+						<div class="rt-color-showcase color-three"></div>
+						<div class="w-layout-hflex rt-color-information">
+							<div class="rt-text-style-h6">Cream</div>
+							<div class="rt-color-code">#faf2e8</div>
+						</div>
+					</div>
+					<div class="rt-color-blocks">
+						<div class="rt-color-showcase color-seven"></div>
+						<div class="w-layout-hflex rt-color-information">
+							<div class="rt-text-style-h6">Light Blue</div>
+							<div class="rt-color-code">#f2f8ff</div>
+						</div>
+					</div>
+					<div class="rt-color-blocks">
+						<div class="rt-color-showcase color-four"></div>
+						<div class="w-layout-hflex rt-color-information">
+							<div class="rt-text-style-h6">Grey</div>
+							<div class="rt-color-code">#d3d3d3</div>
+						</div>
+					</div>
+					<div class="rt-color-blocks">
+						<div class="rt-color-showcase color-five"></div>
+						<div class="w-layout-hflex rt-color-information">
+							<div class="rt-text-style-h6">Light Grey</div>
+							<div class="rt-color-code">#f8f8f8</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-layout-vflex rt-style-guide-blocks">
+				<div class="w-layout-hflex rt-style-guide-blocks-top">
+					<img
+						width="40"
+						height="Auto"
+						alt="Icon"
+						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637b9_Group%20407.svg"
+						loading="lazy"
+					/>
+					<div class="rt-text-style-h5">Typography</div>
+				</div>
+				<div class="rt-style-guide-border"></div>
+				<div class="w-layout-vflex rt-typography-wrapper">
+					<div class="w-layout-hflex rt-typography-row rt-row-top">
+						<div class="rt-typography-text"></div>
+						<div class="w-layout-hflex rt-typography-informations">
+							<div class="rt-text-color-font">Size</div>
+							<div class="rt-text-color-font">Line height</div>
+							<div class="rt-text-color-font">Weights</div>
+						</div>
+					</div>
+					<div class="w-layout-hflex rt-typography-row">
+						<div class="rt-typography-text"><h1 class="rt-gap-off">H1</h1></div>
+						<div class="w-layout-hflex rt-typography-informations">
+							<div class="rt-text-color-font">54px</div>
+							<div class="rt-text-color-font">1.16</div>
+							<div class="rt-text-color-font">Bold</div>
+						</div>
+					</div>
+					<div class="w-layout-hflex rt-typography-row">
+						<div class="rt-typography-text"><h2 class="rt-gap-off">H2</h2></div>
+						<div class="w-layout-hflex rt-typography-informations">
+							<div class="rt-text-color-font">36px</div>
+							<div class="rt-text-color-font">1.75</div>
+							<div class="rt-text-color-font">Bold</div>
+						</div>
+					</div>
+					<div class="w-layout-hflex rt-typography-row">
+						<div class="rt-typography-text"><h3 class="rt-gap-off">H3</h3></div>
+						<div class="w-layout-hflex rt-typography-informations">
+							<div class="rt-text-color-font">28px</div>
+							<div class="rt-text-color-font">1.33</div>
+							<div class="rt-text-color-font">Bold</div>
+						</div>
+					</div>
+					<div class="w-layout-hflex rt-typography-row">
+						<div class="rt-typography-text"><h4 class="rt-gap-off">H4</h4></div>
+						<div class="w-layout-hflex rt-typography-informations">
+							<div class="rt-text-color-font">24px</div>
+							<div class="rt-text-color-font">1.33</div>
+							<div class="rt-text-color-font">Bold</div>
+						</div>
+					</div>
+					<div class="w-layout-hflex rt-typography-row">
+						<div class="rt-typography-text"><h5 class="rt-gap-off">H5</h5></div>
+						<div class="w-layout-hflex rt-typography-informations">
+							<div class="rt-text-color-font">20px</div>
+							<div class="rt-text-color-font">1.5</div>
+							<div class="rt-text-color-font">Bold</div>
+						</div>
+					</div>
+					<div class="w-layout-hflex rt-typography-row">
+						<div class="rt-typography-text"><h6 class="rt-gap-off">H6</h6></div>
+						<div class="w-layout-hflex rt-typography-informations">
+							<div class="rt-text-color-font">18px</div>
+							<div class="rt-text-color-font">1.6</div>
+							<div class="rt-text-color-font">Bold</div>
+						</div>
+					</div>
+					<div class="w-layout-hflex rt-typography-row">
+						<div class="rt-typography-text">
+							<p class="rt-gap-off rt-text-color-font">Body font</p>
+						</div>
+						<div class="w-layout-hflex rt-typography-informations">
+							<div class="rt-text-color-font">16px</div>
+							<div class="rt-text-color-font">1.75</div>
+							<div class="rt-text-color-font">Normal</div>
+						</div>
+					</div>
+					<div class="w-layout-hflex rt-typography-row">
+						<div class="rt-typography-text">
+							<p class="rt-gap-off rt-text-color-font">Menu font</p>
+						</div>
+						<div class="w-layout-hflex rt-typography-informations">
+							<div class="rt-text-color-font">14px</div>
+							<div class="rt-text-color-font">1.75</div>
+							<div class="rt-text-color-font">Normal</div>
+						</div>
+					</div>
+					<div class="w-layout-hflex rt-typography-row">
+						<div class="rt-typography-text">
+							<p class="rt-gap-off rt-text-color-font">Button font</p>
+						</div>
+						<div class="w-layout-hflex rt-typography-informations">
+							<div class="rt-text-color-font">14px</div>
+							<div class="rt-text-color-font">1.75</div>
+							<div class="rt-text-color-font">Normal</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-layout-vflex rt-style-guide-blocks">
+				<div class="w-layout-hflex rt-style-guide-blocks-top">
+					<img
+						width="40"
+						height="40"
+						alt="Icon"
+						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637b0_Shadow.svg"
+						loading="lazy"
+					/>
+					<div class="rt-text-style-h5">Shadows</div>
+				</div>
+				<div class="rt-style-guide-border"></div>
+				<div class="rt-shadow-blocks">
+					<div class="rt-shadow-box rt-shadow"><div class="rt-text-color-font">Small</div></div>
+					<div class="rt-shadow-box rt-drop-shadow">
+						<div class="rt-text-color-font">Medium</div>
+					</div>
+					<div class="rt-shadow-box shadow-box-large">
+						<div class="rt-text-color-font">Large</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-layout-vflex rt-style-guide-blocks">
+				<div class="w-layout-hflex rt-style-guide-blocks-top">
+					<img
+						width="40"
+						height="Auto"
+						alt="Icons"
+						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637ba_Vector%202-3.svg"
+						loading="lazy"
+					/>
+					<div class="rt-text-style-h5">Logo</div>
+				</div>
+				<div class="rt-style-guide-border"></div>
+				<div class="w-layout-vflex rt-style-guide-logo-wrapper">
+					<div class="rt-text-style-h6">Favicons</div>
+					<div class="rt-logo-showcase-box">
+						<img
+							width="32"
+							height="32"
+							alt="FavIcon"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/681456b7c5ffeb737dbb278e_32.png"
+							loading="lazy"
+						/><img
+							width="256"
+							height="256"
+							alt="FavIcon"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/681456bea78922b278d4187a_256.png"
+							loading="lazy"
+						/>
+					</div>
+				</div>
+				<div class="w-layout-vflex rt-style-guide-logo-wrapper bottom-margin-off">
+					<div class="rt-text-style-h6">Brand logo</div>
+					<div class="rt-logo-showcase-box">
+						<div class="rt-icons-logo-boxes">
+							<img
+								loading="lazy"
+								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68145452cd6fe44eaa5c9e91_logo-11.svg"
+								alt="Logo Black"
+							/>
+						</div>
+						<div class="rt-icons-logo-boxes background-black">
+							<img
+								loading="lazy"
+								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6814545003fa6f23bfa87cf2_logo-10.svg"
+								alt="Logo White"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-layout-vflex rt-style-guide-blocks">
+				<div class="w-layout-hflex rt-style-guide-blocks-top">
+					<img
+						width="33"
+						height="Auto"
+						alt="Icon"
+						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637b4_Buttons-2.svg"
+						loading="lazy"
+					/>
+					<div class="rt-text-style-h5">Buttons</div>
+				</div>
+				<div class="rt-style-guide-border"></div>
+				<div class="w-layout-hflex rt-style-guide-button-wrapper">
+					<a
+						data-wf--rt-button-v1--variant="base"
+						data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
+						href="index.html"
+						class="rt-button w-inline-block"
+						><div class="w-layout-hflex rt-button-text-image-wrapper">
+							<div class="w-layout-hflex rt-button-text-wrap">
+								<div class="rt-button-text rt-button-hover-in">Button Style One</div>
+								<div class="rt-button-text rt-button-hover-out">Button Style One</div>
+							</div>
+							<img
+								width="10"
+								height="9"
+								alt="Arrow"
+								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+								loading="lazy"
+								class="rt-button-arrow-image"
+							/>
+						</div></a
+					><a
+						data-wf--rt-button-v2--variant="base"
+						data-w-id="f63f91f4-b7e1-4ea7-4fb5-ef7294740b09"
+						href="index.html"
+						class="rt-button rt-button-black w-inline-block"
+						><div class="w-layout-hflex rt-button-text-image-wrapper color-change">
+							<div class="w-layout-hflex rt-button-text-wrap">
+								<div class="rt-button-text rt-color-change rt-button-hover-in">
+									Button Style Two
+								</div>
+								<div class="rt-button-text rt-color-change rt-button-hover-out">
+									Button Style Two
+								</div>
+							</div>
+							<img
+								width="10"
+								height="9"
+								alt="Arrow"
+								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+								loading="lazy"
+								class="rt-button-arrow-image rt-color-change"
+							/>
+						</div></a
+					><a
+						data-w-id="e477ecfe-ff19-eae1-fd29-07a2a1bfae03"
+						href="index.html"
+						class="rt-button-v2 w-inline-block"
+						><div class="w-layout-vflex rt-button-text-wrapper">
+							<div class="rt-button-text">Button Style Three</div>
+							<div class="rt-button-text">Button Style Three</div>
+						</div>
+						<div class="w-layout-hflex rt-button-arrow-wrapper">
+							<img
+								width="10"
+								height="10"
+								alt="Arrow"
+								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+								loading="lazy"
+								class="rt-autofit"
+							/><img
+								width="10"
+								height="10"
+								alt="Arrow"
+								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+								loading="lazy"
+								class="rt-autofit"
+							/>
+						</div>
+						<div class="rt-button-hover-line"></div></a
+					>
+				</div>
+			</div>
+			<div class="w-layout-vflex rt-style-guide-blocks">
+				<div class="w-layout-hflex rt-style-guide-blocks-top">
+					<img
+						width="37"
+						height="Auto"
+						alt="Icon"
+						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637bb_List.svg"
+						loading="lazy"
+					/>
+					<div class="rt-text-style-h5">Lists</div>
+				</div>
+				<div class="rt-style-guide-border"></div>
+				<div class="w-layout-hflex list-gaps">
+					<div class="w-richtext">
+						<ul role="list">
+							<li>List Item One</li>
+							<li>List Item Two</li>
+							<li>List Item Three</li>
+						</ul>
+					</div>
+					<div class="w-richtext">
+						<ol role="list">
+							<li>List Item One</li>
+							<li>List Item Two</li>
+							<li>List Item Three</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+			<div class="w-layout-vflex rt-style-guide-blocks">
+				<div class="w-layout-hflex rt-style-guide-blocks-top">
+					<img
+						width="40"
+						height="Auto"
+						alt="Icon"
+						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637b1_Icon-16.svg"
+						loading="lazy"
+					/>
+					<div class="rt-text-style-h5">Icons</div>
+				</div>
+				<div class="rt-style-guide-border"></div>
+				<div class="w-layout-vflex rt-style-guide-logo-wrapper">
+					<div class="rt-text-style-h6">Social icons</div>
+					<div class="rt-logo-showcase-box">
+						<img
+							width="17"
+							height="Auto"
+							alt="Social Icons"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637a6_X%20dark.svg"
+							loading="lazy"
+						/><img
+							width="17"
+							height="Auto"
+							alt="Social Icons"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637a7_facebook-2%201.svg"
+							loading="lazy"
+						/><img
+							width="17"
+							height="Auto"
+							alt="Instagram"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67eb90361a5cb052ca6740e9_INsta%20black.svg"
+							loading="lazy"
+						/><img
+							width="Auto"
+							height="Auto"
+							alt="Social Icons"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637a8_linked%201.svg"
+							loading="lazy"
+						/>
+					</div>
+				</div>
+				<div class="w-layout-vflex rt-style-guide-logo-wrapper bottom-margin-off">
+					<div class="rt-text-style-h6">Line icons</div>
+					<div class="rt-logo-showcase-box">
+						<img
+							width="Auto"
+							height="40"
+							alt="Insight"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3655859baabea4578bd7f_Insight.svg"
+							loading="lazy"
+						/><img
+							width="Auto"
+							height="40"
+							alt="Settings"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f365587c9f154095f79144_Settings.svg"
+							loading="lazy"
+						/><img
+							width="Auto"
+							height="40"
+							alt="Insight"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f365586793a219708e9d79_Insight%203.svg"
+							loading="lazy"
+						/><img
+							width="Auto"
+							height="40"
+							alt="Insight"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f365577c9f154095f7910d_Insight%202.svg"
+							loading="lazy"
+						/><img
+							width="40"
+							height="40"
+							alt="Cloud"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efaf27d44ed5a9778a5fd6_Cloud.svg"
+							loading="lazy"
+						/><img
+							width="Auto"
+							height="40"
+							alt="Insight"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36558b5b7dea3e6cce1a9_Insight%206.svg"
+							loading="lazy"
+						/><img
+							width="Auto"
+							height="40"
+							alt="Insight"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3655827fbe65f4d9b3a7d_Insight%204.svg"
+							loading="lazy"
+						/><img
+							width="Auto"
+							height="40"
+							alt="Share"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3655855a886b88a073044_Share.svg"
+							loading="lazy"
+						/><img
+							width="Auto"
+							height="40"
+							alt="Potential"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea914d652c340f0e467f54_Potential.svg"
+							loading="lazy"
+						/><img
+							width="Auto"
+							height="40"
+							alt="Potential"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea914d652c340f0e467f55_Potential%202.svg"
+							loading="lazy"
+						/><img
+							width="Auto"
+							height="40"
+							alt="Possibilities logo"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8170_Possibilities%20logo%202.svg"
+							loading="lazy"
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="w-layout-vflex rt-style-guide-blocks">
+				<div class="w-layout-hflex rt-style-guide-blocks-top">
+					<img
+						width="40"
+						height="Auto"
+						alt="Icon"
+						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637bc_Avatar%20Outline.svg"
+						loading="lazy"
+					/>
+					<div class="rt-text-style-h5">Avatars</div>
+				</div>
+				<div class="rt-style-guide-border"></div>
+				<div class="rt-logo-showcase-box">
+					<div class="w-layout-vflex rt-avatars-box">
+						<img
+							width="54"
+							height="54"
+							alt="User 2"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe9_User%209.webp"
+							loading="lazy"
+							class="border-radius-full"
+						/>
+						<div class="rt-text-color-font">54px</div>
+					</div>
+					<div class="w-layout-vflex rt-avatars-box">
+						<img
+							width="170"
+							height="170"
+							alt="User 2"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe9_User%209.webp"
+							loading="lazy"
+							class="border-radius-full"
+						/>
+						<div class="rt-text-color-font">170px</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-layout-vflex rt-style-guide-blocks">
+				<div class="w-layout-hflex rt-style-guide-blocks-top">
+					<img
+						width="43"
+						height="Auto"
+						alt="Icons"
+						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637b2_Placeholder%20icon.svg"
+						loading="lazy"
+					/>
+					<div class="rt-text-style-h5">Placeholder</div>
+				</div>
+				<div class="rt-style-guide-border"></div>
+				<div class="w-layout-vflex rt-style-guide-logo-wrapper">
+					<div class="rt-text-style-h6">Inputs</div>
+					<div class="w-layout-hflex rt-form-iteams">
+						<div class="rt-gap-off form-showcase w-form">
+							<form
+								id="wf-form-Style-Guide-Form"
+								name="wf-form-Style-Guide-Form"
+								data-name="Style Guide Form"
+								method="get"
+								data-wf-page-id="67f2c3dc6455127fcc583296"
+								data-wf-element-id="d2bb154c-abb6-b98e-03de-808d353a450b"
+								data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"
+							>
+								<input
+									class="rt-contact-form-input w-input"
+									maxlength="256"
+									name="Style-Guide-Field"
+									data-name="Style Guide Field"
+									placeholder="Placeholder"
+									type="text"
+									id="Style-Guide-Field"
+									required=""
+								/>
+							</form>
+							<div class="w-form-done">
+								<div>Thank you! Your submission has been received!</div>
+							</div>
+							<div class="w-form-fail">
+								<div>Oops! Something went wrong while submitting the form.</div>
+							</div>
+						</div>
+						<div class="rt-footer-cta-form w-form">
+							<form
+								id="email-form"
+								name="email-form"
+								data-name="Email Form"
+								method="get"
+								data-wf-page-id="67f2c3dc6455127fcc583296"
+								data-wf-element-id="d2bb154c-abb6-b98e-03de-808d353a4514"
+								data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"
+							>
+								<div class="w-layout-hflex rt-form-input-wrapper">
+									<input
+										class="rt-contact-form-input w-input"
+										maxlength="256"
+										name="field-2"
+										data-name="Field 2"
+										placeholder="Your email"
+										type="text"
+										id="field-2"
+										required=""
+									/>
+									<div
+										data-w-id="e0c3a69b-1d26-4ca4-e91e-eeebad619d99"
+										class="rt-form-button-box rt-position-relative rt-change-position"
+									>
+										<input
+											type="submit"
+											data-wait="Please wait..."
+											class="rt-form-button w-button"
+											value="Submit Now"
+										/>
+										<div class="w-layout-hflex rt-button rt-event-none">
+											<div class="w-layout-hflex rt-button-text-image-wrapper">
+												<div class="w-layout-hflex rt-button-text-wrap">
+													<div
+														data-w-id="988c225f-9804-583d-8be4-3cbf621a5af5"
+														class="rt-button-text rt-button-hover-in"
+													>
+														Add To Cart
+													</div>
+													<div
+														data-w-id="988c225f-9804-583d-8be4-3cbf621a5af7"
+														class="rt-button-text rt-button-hover-out"
+													>
+														Add To Cart
+													</div>
+												</div>
+												<img
+													width="10"
+													height="9"
+													alt="Arrow"
+													src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+													loading="lazy"
+													class="rt-button-arrow-image"
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+							<div class="rt-success-message w-form-done">
+								<div>Thank you! Your submission has been received!</div>
+							</div>
+							<div class="rt-error-message w-form-fail">
+								<div>Oops! Something went wrong while submitting the form.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="w-layout-vflex rt-style-guide-logo-wrapper">
+					<div class="rt-text-style-h6">Text area</div>
+					<div class="rt-gap-off w-form">
+						<form
+							id="wf-form-Style-Guide-Form-Two"
+							name="wf-form-Style-Guide-Form-Two"
+							data-name="Style Guide Form Two"
+							method="get"
+							data-wf-page-id="67f2c3dc6455127fcc583296"
+							data-wf-element-id="d2bb154c-abb6-b98e-03de-808d353a4523"
+							data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"
+						>
+							<textarea
+								id="Style-Guide-Textarea"
+								name="Style-Guide-Textarea"
+								maxlength="5000"
+								data-name="Style Guide Textarea"
+								placeholder="Placeholder"
+								class="rt-textarea w-input"
+							></textarea>
+						</form>
+						<div class="w-form-done"><div>Thank you! Your submission has been received!</div></div>
+						<div class="w-form-fail">
+							<div>Oops! Something went wrong while submitting the form.</div>
+						</div>
+					</div>
+				</div>
+				<div class="w-layout-vflex rt-style-guide-logo-wrapper bottom-margin-off">
+					<div class="rt-text-style-h6">States messages</div>
+					<div class="rt-success-message">
+						<div>Thank you! Your submission has been received!</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-layout-vflex rt-style-guide-blocks">
+				<div class="w-layout-hflex rt-style-guide-blocks-top">
+					<img
+						width="43"
+						height="Auto"
+						alt="Icon"
+						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f2c53130d898ed84c637b3_Rich%20Text.svg"
+						loading="lazy"
+					/>
+					<div class="rt-text-style-h5">Rich text</div>
+				</div>
+				<div class="rt-style-guide-border"></div>
+				<div class="w-richtext">
+					<p>
+						Lorem ipsum pellentesque elementum fringilla ullamcorper. Ut tellus massa magnis nibh
+						tristique. Dui sem quam convallis tellus fames Nisl eget dui commodo vestibulum
+						pellentesque ac et tincidunt. Venenatis sed vulputate <strong
+							>turpis fermentum tempor. Non eget eget risus felis purus aliquam odio</strong
+						> dolor pretium. Quam viverra leo cras ipsum Volutpat egestas sit vel quis. Sollicitudin
+						phasellus nisl aenean suspendisse.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur. Tincidunt sed porta adipiscing et. Feugiat
+						volutpat at felis amet enim lacus at nullam. Quisque praesent sed et ac pellentesque
+						commodo augue sed.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur. Velit dictum vulputate risus ornare nisl mauris
+						phasellus. Donec nibh risus molestie dolor condimentum morbi quis. Viverra pharetra
+						ipsum vitae volutpat penatibus viverra imperdiet. Morbi ultrices varius posuere
+						tincidunt gravida consectetur at amet.
+					</p>
+					<p>‍</p>
+					<h4>AI Innovations &amp; Future Insights</h4>
+					<p>
+						Lorem ipsum pellentesque elementum fringilla ullamcorper. Ut tellus massa magnis nibh
+						tristique. Dui sem quam convallis tellus fames Nisl eget dui commodo vestibulum
+						pellentesque ac et tincidunt. Venenatis sed vulputate <strong
+							>fermentum tempor. Non eget eget risus felis purus aliquam odio</strong
+						> dolor pretium. Quam viverra leo cras ipsum Volutpat egestas sit vel quis. Sollicitudin
+						phasellus nisl aenean suspendisse.
+					</p>
+					<p>‍</p>
+					<h4>Simplifying AI Mastery into Actionable Steps</h4>
+					<ol role="list">
+						<li>
+							<strong>Integrate AI Solutions :</strong> Lorem ipsum dolor sit amet consectetur. Velit
+							dictum vulputate risus ornare nisl mauris phasellus. Donec nibh risus molestie dolor condimentum
+							morbi quis. Viverra pharetra ipsum vitae volutpat penatibus viverra imperdiet. Morbi ultrices
+							varius posuere tincidunt gravida consectetur at amet. Morbi lectus tempus ipsum mauris
+							nisl turpis eu sed. Dictum sed a ut nibh.
+						</li>
+						<li>
+							<strong>Optimize Performance :</strong> Lorem ipsum dolor sit amet consectetur. Velit dictum
+							vulputate risus ornare nisl mauris phasellus. Donec nibh risus molestie dolor condimentum
+							morbi quis. Viverra pharetra ipsum vitae  penatibus viverra  ultrices varius posuere tincidunt
+							gravida consectetur at amet. Morbi lectus tempus ipsum mauris nisl turpis eu sed. Dictum
+							sed a ut nibh.
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

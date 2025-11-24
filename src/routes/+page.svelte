@@ -1,113 +1,118 @@
 <script>
-  import { onMount } from 'svelte';
-  import Header from '$lib/components/Header.svelte';
-  import Hero from '$lib/components/Hero.svelte';
-  import Section2 from '$lib/components/Section2.svelte';
-  import Section3 from '$lib/components/Section3.svelte';
-  import Section4 from '$lib/components/Section4.svelte';
-  import Section5 from '$lib/components/Section5.svelte';
-  import Section6 from '$lib/components/Section6.svelte';
-  import Section7 from '$lib/components/Section7.svelte';
-  import Section8 from '$lib/components/Section8.svelte';
-  import Section9 from '$lib/components/Section9.svelte';
-  import Section10 from '$lib/components/Section10.svelte';
-  import Section11 from '$lib/components/Section11.svelte';
-  import Section12 from '$lib/components/Section12.svelte';
-  import Footer from '$lib/components/Footer.svelte';
+	import { onMount } from 'svelte';
+	import Header from '$lib/components/shared/Header.svelte';
+	import HomeA from '$lib/components/home/HomeA.svelte';
+	import HomeB from '$lib/components/home/HomeB.svelte';
+	import HomeC from '$lib/components/home/HomeC.svelte';
+	import HomeD from '$lib/components/home/HomeD.svelte';
+	import HomeE from '$lib/components/home/HomeE.svelte';
+	import HomeF from '$lib/components/home/HomeF.svelte';
+	import HomeG from '$lib/components/home/HomeG.svelte';
+	import HomeH from '$lib/components/home/HomeH.svelte';
+	import HomeI from '$lib/components/home/HomeI.svelte';
+	import HomeL from '$lib/components/home/HomeL.svelte';
+	import Footer from '$lib/components/shared/Footer.svelte';
 
-  // Add w-mod-js and w-mod-touch classes immediately
-  if (typeof document !== 'undefined') {
-    const n = document.documentElement;
-    const t = ' w-mod-';
-    n.className += t + 'js';
-    if ('ontouchstart' in window || (window.DocumentTouch && document instanceof window.DocumentTouch)) {
-      n.className += t + 'touch';
-    }
-  }
+	// Add w-mod-js and w-mod-touch classes immediately
+	if (typeof document !== 'undefined') {
+		const n = document.documentElement;
+		const t = ' w-mod-';
+		n.className += t + 'js';
+		if (
+			'ontouchstart' in window ||
+			(window.DocumentTouch && document instanceof window.DocumentTouch)
+		) {
+			n.className += t + 'touch';
+		}
+	}
 
-  onMount(() => {
-    // Ensure scripts load in order and reinitialize Webflow
-    const loadScript = (src, integrity, crossOrigin) => {
-      return new Promise((resolve, reject) => {
-        if (document.querySelector(`script[src="${src}"]`)) {
-          resolve();
-          return;
-        }
-        const script = document.createElement('script');
-        script.src = src;
-        if (integrity) script.integrity = integrity;
-        if (crossOrigin) script.crossOrigin = crossOrigin;
-        script.onload = resolve;
-        script.onerror = reject;
-        document.body.appendChild(script);
-      });
-    };
+	onMount(() => {
+		// Ensure scripts load in order and reinitialize Webflow
+		const loadScript = (src, integrity, crossOrigin) => {
+			return new Promise((resolve, reject) => {
+				if (document.querySelector(`script[src="${src}"]`)) {
+					resolve();
+					return;
+				}
+				const script = document.createElement('script');
+				script.src = src;
+				if (integrity) script.integrity = integrity;
+				if (crossOrigin) script.crossOrigin = crossOrigin;
+				script.onload = resolve;
+				script.onerror = reject;
+				document.body.appendChild(script);
+			});
+		};
 
-    // Load jQuery then Webflow
-    loadScript(
-      'https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67a1ea8462c51e3f81e40a7e',
-      'sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=',
-      'anonymous'
-    ).then(() => {
-      return loadScript('https://wubflow-shield.nocodexport.dev/67a1ea8462c51e3f81e40a7e/js/webflow.b84d2903.f63c6a72bbd4d49f.js');
-    }).then(() => {
-      // Give DOM a moment to settle, then reinitialize Webflow
-      setTimeout(() => {
-        if (window.Webflow) {
-          try {
-            window.Webflow.destroy();
-            window.Webflow.ready();
-            const ix2 = window.Webflow.require('ix2');
-            if (ix2 && ix2.init) {
-              ix2.init();
-              console.log('Webflow IX2 initialized');
-            }
-          } catch (e) {
-            console.warn('Webflow init error:', e);
-          }
-        }
-      }, 100);
-    }).catch(err => {
-      console.warn('Script loading failed:', err);
-    });
-  });
+		// Load jQuery then Webflow
+		loadScript(
+			'https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67a1ea8462c51e3f81e40a7e',
+			'sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=',
+			'anonymous'
+		)
+			.then(() => {
+				return loadScript(
+					'https://wubflow-shield.nocodexport.dev/67a1ea8462c51e3f81e40a7e/js/webflow.b84d2903.f63c6a72bbd4d49f.js'
+				);
+			})
+			.then(() => {
+				// Give DOM a moment to settle, then reinitialize Webflow
+				setTimeout(() => {
+					if (window.Webflow) {
+						try {
+							window.Webflow.destroy();
+							window.Webflow.ready();
+							const ix2 = window.Webflow.require('ix2');
+							if (ix2 && ix2.init) {
+								ix2.init();
+								console.log('Webflow IX2 initialized');
+							}
+						} catch (e) {
+							console.warn('Webflow init error:', e);
+						}
+					}
+				}, 100);
+			})
+			.catch((err) => {
+				console.warn('Script loading failed:', err);
+			});
+	});
 </script>
 
 <svelte:head>
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-  <script>
-    WebFont.load({
-      google: {
-        families: ['Inter:regular,500,600,700,800', 'Manrope:regular,600,700']
-      }
-    });
-  </script>
-  <script>
-    window.__WEBFLOW_CURRENCY_SETTINGS = {
-      currencyCode: 'USD',
-      symbol: '$',
-      decimal: '.',
-      fractionDigits: 2,
-      group: ',',
-      template: '{{wf {"path":"symbol","type":"PlainText"} }} {{wf {"path":"amount","type":"CommercePrice"} }} {{wf {"path":"currencyCode","type":"PlainText"} }}',
-      hideDecimalForWholeNumbers: false
-    };
-  </script>
-  <link rel="stylesheet" href="/webtemplate/style.css">
-  <link rel="stylesheet" href="/webtemplate/style2.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: ['Inter:regular,500,600,700,800', 'Manrope:regular,600,700']
+			}
+		});
+	</script>
+	<script>
+		window.__WEBFLOW_CURRENCY_SETTINGS = {
+			currencyCode: 'USD',
+			symbol: '$',
+			decimal: '.',
+			fractionDigits: 2,
+			group: ',',
+			template:
+				'{{wf {"path":"symbol","type":"PlainText"} }} {{wf {"path":"amount","type":"CommercePrice"} }} {{wf {"path":"currencyCode","type":"PlainText"} }}',
+			hideDecimalForWholeNumbers: false
+		};
+	</script>
+	<link rel="stylesheet" href="/webtemplate/style.css" />
+	<link rel="stylesheet" href="/webtemplate/style2.css" />
 </svelte:head>
 
 <Header />
-<Hero />
-<Section2 />
-<Section3 />
-<Section4 />
-<Section5 />
-<Section6 />
-<Section7 />
-<Section8 />
-<Section9 />
-<Section10 />
-<Section11 />
-<Section12 />
+<HomeA />
+<HomeB />
+<HomeC />
+<HomeD />
+<HomeE />
+<HomeF />
+<HomeG />
+<HomeH />
+<HomeI />
+<HomeL />
 <Footer />

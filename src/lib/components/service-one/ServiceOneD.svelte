@@ -1,0 +1,277 @@
+<section class="rt-possibilities">
+	<div data-w-id="b0970569-eae0-1832-c7f5-94d7755d2b57" class="rt-possibilities-scroll-wrapper">
+		<div class="rt-possibilities-scroll-content">
+			<div class="w-layout-blockcontainer rt-container-small rt-full-container w-container">
+				<div class="w-layout-vflex rt-possibilities-top-title rt-desktop-text-center">
+					<h2 data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b59c" class="rt-gap-off rt-h2-gap">
+						Unlocking New Possibilities with Artificial Intelligence
+					</h2>
+					<p
+						data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b59e"
+						class="rt-gap-off rt-h2-paragraph-gap"
+					>
+						Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
+						vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.
+					</p>
+				</div>
+				<div class="w-layout-hflex rt-possibilities-ideas">
+					<div class="w-layout-vflex rt-possibilities-left-box">
+						<div class="w-layout-hflex rt-possibilities-left-box-content one">
+							<div class="w-layout-hflex rt-possibilities-icon one">
+								<img
+									width="36"
+									height="24"
+									alt="Expert"
+									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3a94c9eef54d4a99699_Vector%2032.svg"
+									loading="lazy"
+								/>
+							</div>
+							<div class="w-layout-vflex rt-possibilities-left-box-text-wrap">
+								<div class="rt-text-style-h5">AI Transforming the Future</div>
+								<p>We design business models and growth strategies to effective competitive.</p>
+							</div>
+						</div>
+						<div class="w-layout-hflex rt-possibilities-left-box-content two">
+							<div class="w-layout-hflex rt-possibilities-icon two">
+								<img
+									width="27"
+									height="30"
+									alt="Expert"
+									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3a97b5199127f892234_Group%202584.svg"
+									loading="lazy"
+								/>
+							</div>
+							<div class="w-layout-vflex rt-possibilities-left-box-text-wrap">
+								<div class="rt-text-style-h5">AI-Driven Smart Technologies</div>
+								<p>We design business models and growth strategies to effective competitive.</p>
+							</div>
+						</div>
+						<div class="w-layout-hflex rt-possibilities-left-box-content three">
+							<div class="w-layout-hflex rt-possibilities-icon three">
+								<img
+									width="19"
+									height="28"
+									alt="Expert"
+									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3a99e416066866f2423_Group%202585.svg"
+									loading="lazy"
+								/>
+							</div>
+							<div class="w-layout-vflex rt-possibilities-left-box-text-wrap">
+								<div class="rt-text-style-h5">Redefining Intelligence with AI</div>
+								<p>We design business models and growth strategies to effective competitive.</p>
+							</div>
+						</div>
+					</div>
+					<div
+						class="w-layout-vflex rt-possibilities-right-box rt-position-relative rt-overflow-hidden"
+					>
+						<img
+							width="654"
+							height="460"
+							alt="Possibilities Dashboard"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%20dashboard.webp"
+							loading="lazy"
+							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%2520dashboard-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%2520dashboard-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%2520dashboard-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%20dashboard.webp 1308w"
+							sizes="(max-width: 767px) 100vw, 654px"
+							class="rt-possibilities-right-box-image"
+						/><img
+							width="654"
+							height="460"
+							alt="Order"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order.webp"
+							loading="lazy"
+							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order.webp 1324w"
+							sizes="(max-width: 767px) 100vw, 654px"
+							class="rt-possibilities-right-box-image-two"
+						/><img
+							width="654"
+							height="460"
+							alt="Artificial"
+							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial.webp"
+							loading="lazy"
+							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial.webp 1328w"
+							sizes="(max-width: 767px) 100vw, 654px"
+							class="rt-possibilities-right-box-image-three"
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="w-layout-blockcontainer rt-container-small w-container">
+		<div class="rt-counter-v3">
+			<div data-wf--rt-counter-v1--variant="base" class="w-layout-grid rt-our-achievement-v1">
+				<div class="w-layout-vflex rt-achievement-box">
+					<div
+						data-w-id="73eb367f-86c6-0ebc-de7f-236ac5f86f86"
+						class="w-layout-hflex rt-counter rt-overflow-hidden"
+					>
+						<div class="w-layout-vflex rt-counter-block rt-margin">
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">0</div>
+							</div>
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">1</div>
+							</div>
+						</div>
+						<div class="w-layout-vflex rt-counter-block rt-margin">
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">0</div>
+								<div class="rt-text-style-h1 counter-color-change">1</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+							</div>
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">3</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+							</div>
+						</div>
+						<div class="w-layout-vflex rt-counter-block">
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">0</div>
+								<div class="rt-text-style-h1 counter-color-change">1</div>
+							</div>
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">1</div>
+							</div>
+						</div>
+					</div>
+					<div class="rt-text-style-h5 counter-color-chnage">New Features</div>
+				</div>
+				<div class="w-layout-vflex rt-achievement-box rt-border-remove-tab">
+					<div
+						data-w-id="73eb367f-86c6-0ebc-de7f-236ac5f86fab"
+						class="w-layout-hflex rt-counter rt-overflow-hidden"
+					>
+						<div class="w-layout-vflex rt-counter-block rt-margin">
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">0</div>
+								<div class="rt-text-style-h1 counter-color-change">1</div>
+							</div>
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+							</div>
+						</div>
+						<div class="w-layout-vflex rt-counter-block">
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">0</div>
+								<div class="rt-text-style-h1 counter-color-change">1</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">3</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">5</div>
+								<div class="rt-text-style-h1 counter-color-change">6</div>
+								<div class="rt-text-style-h1 counter-color-change">7</div>
+							</div>
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">8</div>
+								<div class="rt-text-style-h1 counter-color-change">3</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+							</div>
+						</div>
+						<div class="rt-text-style-h1 counter-color-change">K</div>
+					</div>
+					<div class="rt-text-style-h5 counter-color-chnage">APP Download</div>
+				</div>
+				<div class="w-layout-vflex rt-achievement-box">
+					<div
+						data-w-id="73eb367f-86c6-0ebc-de7f-236ac5f86fdf"
+						class="w-layout-hflex rt-counter rt-overflow-hidden"
+					>
+						<div class="w-layout-vflex rt-counter-block">
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">0</div>
+								<div class="rt-text-style-h1 counter-color-change">1</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+							</div>
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">5</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+							</div>
+						</div>
+						<div class="w-layout-vflex rt-counter-block">
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">0</div>
+								<div class="rt-text-style-h1 counter-color-change">1</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+							</div>
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">3</div>
+								<div class="rt-text-style-h1 counter-color-change">3</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+							</div>
+						</div>
+						<div class="rt-text-style-h1 counter-color-change">K</div>
+					</div>
+					<div class="rt-text-style-h5 counter-color-chnage">Happy Clients</div>
+				</div>
+				<div class="w-layout-vflex rt-achievement-box rt-border-remove">
+					<div
+						data-w-id="73eb367f-86c6-0ebc-de7f-236ac5f8700b"
+						class="w-layout-hflex rt-counter rt-overflow-hidden"
+					>
+						<div class="w-layout-vflex rt-counter-block rt-margin">
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">0</div>
+								<div class="rt-text-style-h1 counter-color-change">1</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">3</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">5</div>
+								<div class="rt-text-style-h1 counter-color-change">6</div>
+								<div class="rt-text-style-h1 counter-color-change">7</div>
+								<div class="rt-text-style-h1 counter-color-change">8</div>
+							</div>
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">9</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+							</div>
+						</div>
+						<div class="w-layout-vflex rt-counter-block">
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">0</div>
+								<div class="rt-text-style-h1 counter-color-change">1</div>
+								<div class="rt-text-style-h1 counter-color-change">2</div>
+								<div class="rt-text-style-h1 counter-color-change">3</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">5</div>
+								<div class="rt-text-style-h1 counter-color-change">6</div>
+								<div class="rt-text-style-h1 counter-color-change">7</div>
+							</div>
+							<div class="w-layout-vflex rt-counter-train">
+								<div class="rt-text-style-h1 counter-color-change">8</div>
+								<div class="rt-text-style-h1 counter-color-change">3</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+								<div class="rt-text-style-h1 counter-color-change">4</div>
+							</div>
+						</div>
+						<div class="rt-text-style-h1 counter-color-change">%</div>
+					</div>
+					<div class="rt-text-style-h5 counter-color-chnage">Positive rate</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
