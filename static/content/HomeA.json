@@ -1,0 +1,88 @@
+{
+  "componentName": "HomeA",
+  "lastModified": "2025-11-24T17:50:39.544Z",
+  "texts": {
+    "hero_heading": "Elevate Productivity with Future-Ready AI Applications ok ok sdfasdf",
+    "hero_paragraph": "Lorem ipsum dolor sit amet consectetur. Amet ullamcorper atsit eros risus eget tristique diam imperdiet. Eleifend",
+    "button_get_started": "Get Started",
+    "button_watch_video": "Watch video",
+    "rating_score": "4.9/5",
+    "rating_label": "AI Performance Rating",
+    "achievement_1_value": "121",
+    "achievement_1_label": "New Features",
+    "achievement_2_value": "27K",
+    "achievement_2_label": "APP Download",
+    "achievement_3_value": "42K",
+    "achievement_3_label": "Happy Clients",
+    "achievement_4_value": "92%",
+    "achievement_4_label": "Positive rate"
+  },
+  "images": {
+    "robot_main": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680b67b06b8afe11f9ed03fe_Spline%20Image%20one.avif",
+      "alt": "Spline Image one"
+    },
+    "robot_shadow": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d790_Robot%20shadow.svg",
+      "alt": "Shape"
+    },
+    "dashboard_main": {
+      "url": "/uploads/1764006635804_sanakadik.jpg",
+      "alt": "Dashboard Image"
+    },
+    "cloud": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf926202a4f1f698410e7_Cloud.webp",
+      "alt": "Cloud"
+    },
+    "stat_line": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a36cc948881b7259c43c9_Dashboard-9-2.webp",
+      "alt": "Dashboard Image"
+    },
+    "stat_line_two": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a360db03aeb95e0fce0e7_Group.webp",
+      "alt": "Dashboard Image"
+    },
+    "rocket": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf9266a29175f2e719597_rocket.webp",
+      "alt": "Rocket"
+    },
+    "float_user": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf927630cb9fa0101283a_User.webp",
+      "alt": "User"
+    },
+    "rating_users_1": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf9270ce1a503421d3681_Users.webp",
+      "alt": "User"
+    },
+    "rating_users_2": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d78e_Users%202.webp",
+      "alt": "Users"
+    },
+    "rating_users_3": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d78f_Users%203.webp",
+      "alt": "Users"
+    },
+    "rating_stars": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d793_Star.svg",
+      "alt": "Star"
+    },
+    "button_arrow": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": "Arrow"
+    },
+    "play_button": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931bfc626df83f9d83c_Play%20button.svg",
+      "alt": "Play button"
+    }
+  },
+  "links": {
+    "cta_button": {
+      "href": "/about",
+      "text": "Get Started"
+    },
+    "video_url": {
+      "href": "https://youtube.com/watch?v=v1M4ydNlgP0",
+      "text": "Watch video"
+    }
+  }
+}

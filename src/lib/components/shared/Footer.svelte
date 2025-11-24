@@ -1,3 +1,17 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section data-wf--rt-footer-v1--variant="base" class="rt-footer-v1 rt-position-relative">
 	<div class="rt-footer-layer"></div>
 	<div class="w-layout-blockcontainer rt-container-small w-container">
@@ -11,21 +25,21 @@
 						id="w-node-_4f860c93-1d67-c871-603e-07e0bac3d140-bac3d13a"
 						class="rt-text-style-h5 rt-text-color-white rt-span-2"
 					>
-						Stay Connected
+						{getText('contact_heading', 'Stay Connected')}
 					</div>
 					<div class="w-layout-hflex rt-contact-box">
 						<img
 							width="18"
 							height="18"
-							alt="Mail"
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7e1_mail.svg"
+							alt={getImage('mail_icon').alt || 'Mail'}
+							src={getImage('mail_icon').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7e1_mail.svg'}
 							loading="lazy"
 							class="rt-mail-logo"
 						/>
 						<div class="w-layout-vflex rt-contact-information">
-							<div class="rt-contact-text">email address</div>
-							<a href="mailto:info@example.com" class="rt-text-color-white rt-text-color-change">
-								info@example.com
+							<div class="rt-contact-text">{getText('email_label', 'email address')}</div>
+							<a href={getLink('email_link').href || 'mailto:info@example.com'} class="rt-text-color-white rt-text-color-change">
+								{getText('email', 'info@example.com')}
 							</a>
 						</div>
 					</div>
@@ -33,30 +47,30 @@
 						<img
 							width="18"
 							height="18"
-							alt="Call"
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7e0_Call.svg"
+							alt={getImage('phone_icon').alt || 'Call'}
+							src={getImage('phone_icon').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7e0_Call.svg'}
 							loading="lazy"
 							class="rt-mail-logo"
 						/>
 						<div class="w-layout-vflex rt-contact-information">
-							<div class="rt-contact-text">Phone Number</div>
-							<a href="tel:88812345678" class="rt-text-color-white rt-text-color-change"
-								>(888) 1234-5678</a
+							<div class="rt-contact-text">{getText('phone_label', 'Phone Number')}</div>
+							<a href={getLink('phone_link').href || 'tel:88812345678'} class="rt-text-color-white rt-text-color-change"
+								>{getText('phone', '(888) 1234-5678')}</a
 							>
 						</div>
 					</div>
 				</div>
 				<div class="w-layout-vflex rt-nav-link-box-one">
-					<div class="rt-text-style-h5 rt-text-color-white">Quick Links</div>
+					<div class="rt-text-style-h5 rt-text-color-white">{getText('quick_links_heading', 'Quick Links')}</div>
 					<div class="w-layout-vflex rt-contact-box-two">
-						<a href="/" class="rt-text-color-white rt-footer-text-hover">Home</a><a
-							href="/aboutus"
+						<a href={getLink('home').href || '/'} class="rt-text-color-white rt-footer-text-hover">{getLink('home').text || 'Home'}</a><a
+							href={getLink('about').href || '/aboutus'}
 							aria-current="page"
-							class="rt-text-color-white rt-footer-text-hover w--current">About Us</a
-						><a href="/jobQuest" class="rt-text-color-white rt-footer-text-hover">Service</a><a
-							href="#"
-							class="rt-text-color-white rt-footer-text-hover">Blog</a
-						><a href="/contact" class="rt-text-color-white rt-footer-text-hover">Contact</a>
+							class="rt-text-color-white rt-footer-text-hover w--current">{getLink('about').text || 'About Us'}</a
+						><a href={getLink('service').href || '/jobQuest'} class="rt-text-color-white rt-footer-text-hover">{getLink('service').text || 'Service'}</a><a
+							href={getLink('blog').href || '#'}
+							class="rt-text-color-white rt-footer-text-hover">{getLink('blog').text || 'Blog'}</a
+						><a href={getLink('contact').href || '/contact'} class="rt-text-color-white rt-footer-text-hover">{getLink('contact').text || 'Contact'}</a>
 					</div>
 				</div>
 				<div

@@ -1,0 +1,34 @@
+{
+  "componentName": "ContactA",
+  "lastModified": "2025-11-24T17:42:25.334Z",
+  "texts": {
+    "hero_heading": "Have Any questions? Don&#x27;t hesitate to contact us",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur adipiscing elit Proin sem eros ornare sed lacinia",
+    "lorem_sed_feugiat": "Lorem sed feugiat risus neque magna cursus ornare vulputate It is a long established.",
+    "send_a_message": "Send a message",
+    "inquire_now": "Inquire Now",
+    "button_contact": "Contact us",
+    "main_office": "Main Office",
+    "phone_no": "Phone No"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e6c9903345d767d80297_Group%201000001678%20(1).svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e78b1bcb2dff07421493_Vector%20(7).svg",
+      "alt": ""
+    }
+  },
+  "links": {
+    "phone_link": {
+      "href": "tel:8882345680",
+      "text": "(888) 234 5680"
+    }
+  }
+}

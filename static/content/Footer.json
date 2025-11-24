@@ -1,0 +1,113 @@
+{
+  "componentName": "Footer",
+  "lastModified": "2025-11-24T17:37:36.158Z",
+  "texts": {
+    "contact_heading": "Stay Connected ooooooooooooooo",
+    "email_label": "email address",
+    "email": "info@example.com",
+    "phone_label": "Phone Number",
+    "phone": "(888) 1234-5678",
+    "quick_links_heading": "Quick Links",
+    "utility_heading": "Utility Pages",
+    "about_paragraph": "Morbi sed libero consequat id suspendisse congue in tristique tincidunt.",
+    "cta_button": "Get In Touch",
+    "footer_cta_text": "Begin Your SaaS Journey with Expert Guidance",
+    "follow_us": "Follow-US"
+  },
+  "images": {
+    "logo": {
+      "url": "/mylogo.png",
+      "alt": "Logo White"
+    },
+    "mail_icon": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7e1_mail.svg",
+      "alt": "Mail"
+    },
+    "phone_icon": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7e0_Call.svg",
+      "alt": "Call"
+    },
+    "arrow_button": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": "Arrow"
+    },
+    "big_arrow_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e4_Arrow%202.svg",
+      "alt": "Big Arrow"
+    },
+    "big_arrow_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f8dc48f7fbdc29bb25183f_Vector.svg",
+      "alt": "Big Arrow"
+    },
+    "social_facebook": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e5_Fb.svg",
+      "alt": "Facebook"
+    },
+    "social_twitter": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e7_Twitter.svg",
+      "alt": "Twitter"
+    },
+    "social_linkedin": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e6_Linkedin.svg",
+      "alt": "Linkedin"
+    },
+    "social_instagram": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e8_Instagram.svg",
+      "alt": "Instagram"
+    }
+  },
+  "links": {
+    "email_link": {
+      "href": "mailto:info@example.com",
+      "text": "info@example.com"
+    },
+    "phone_link": {
+      "href": "tel:88812345678",
+      "text": "(888) 1234-5678"
+    },
+    "home": {
+      "href": "/",
+      "text": "Home"
+    },
+    "about": {
+      "href": "/aboutus",
+      "text": "About Us"
+    },
+    "service": {
+      "href": "/jobQuest",
+      "text": "Service"
+    },
+    "blog": {
+      "href": "#",
+      "text": "Blog"
+    },
+    "contact": {
+      "href": "/contact",
+      "text": "Contact"
+    },
+    "cta": {
+      "href": "/contact",
+      "text": "Get In Touch"
+    },
+    "footer_cta": {
+      "href": "/contact",
+      "text": "Begin Your SaaS Journey"
+    },
+    "social_facebook": {
+      "href": "https://www.facebook.com",
+      "text": "Facebook"
+    },
+    "social_twitter": {
+      "href": "https://x.com",
+      "text": "Twitter"
+    },
+    "social_linkedin": {
+      "href": "https://in.linkedin.com",
+      "text": "LinkedIn"
+    },
+    "social_instagram": {
+      "href": "https://www.instagram.com",
+      "text": "Instagram"
+    }
+  }
+}

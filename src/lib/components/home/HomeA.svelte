@@ -1,3 +1,17 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section
 	data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e29"
 	class="rt-home-v1-hero rt-position-relative"
@@ -12,8 +26,8 @@
 					<img
 						width="350"
 						height="Auto"
-						alt="Spline Image one"
-						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680b67b06b8afe11f9ed03fe_Spline%20Image%20one.avif"
+						alt={getImage('robot_main').alt || 'Spline Image one'}
+						src={getImage('robot_main').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680b67b06b8afe11f9ed03fe_Spline%20Image%20one.avif'}
 						loading="eager"
 						data-w-id="266b3c56-04d4-1030-dfa1-6834dafddf42"
 						class="rt-robot-image rt-autofit"
@@ -96,15 +110,14 @@
 						class="rt-gap-off rt-h1-gap"
 						style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
 					>
-						Elevate Productivity with Future-Ready AI Applications
+						{getText('hero_heading', 'Elevate Productivity with Future-Ready AI Applications')}
 					</h1>
 					<p
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e3a"
 						class="rt-productivity-paragraph rt-gap-off rt-h2-paragraph-gap"
 						style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
 					>
-						Lorem ipsum dolor sit amet consectetur. Amet ullamcorper atsit eros risus eget tristique
-						diam imperdiet. Eleifend
+						{getText('hero_paragraph', 'Lorem ipsum dolor sit amet consectetur. Amet ullamcorper atsit eros risus eget tristique diam imperdiet. Eleifend')}
 					</p>
 				</div>
 				<div
@@ -115,7 +128,7 @@
 					<a
 						data-wf--rt-button-v1--variant="base"
 						data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-						href="/about"
+						href={getLink('cta_button').href || '/about'}
 						class="rt-button w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper">
 							<div class="w-layout-hflex rt-button-text-wrap">
@@ -123,13 +136,13 @@
 									class="rt-button-text rt-button-hover-in"
 									style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
 								>
-									Get Started
+									{getText('button_get_started', 'Get Started')}
 								</div>
 								<div
 									class="rt-button-text rt-button-hover-out"
 									style="transform: translate3d(0px, 100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
 								>
-									Get Started
+									{getText('button_get_started', 'Get Started')}
 								</div>
 							</div>
 							<img

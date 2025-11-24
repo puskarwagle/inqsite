@@ -28,6 +28,65 @@
 					id="w-node-_1b85dd4c-7485-c684-ea1d-d2fdaaa34427-aaa3441f"
 					class="rt-nav w-nav-menu"
 				>
+					<div
+						data-delay="300"
+						data-hover="true"
+						data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa344cb"
+						class="rt-dropdown w-dropdown"
+						style="max-width: 1320px;"
+					>
+						<div
+							class="rt-dropdown-toggle w-dropdown-toggle"
+							id="w-dropdown-toggle-3"
+							aria-controls="w-dropdown-list-3"
+							aria-haspopup="menu"
+							aria-expanded="false"
+							role="button"
+							tabindex="0"
+							style="color: rgb(255, 255, 255);"
+						>
+							<div class="rt-menu-font rt-color"><a href="/service-two">JobQuest</a></div>
+						</div>
+					</div>
+					<div
+						data-delay="300"
+						data-hover="true"
+						data-w-id="279266e4-0400-8d3d-783c-e063c01f41ce"
+						class="rt-dropdown w-dropdown"
+						style="max-width: 1320px;"
+					>
+						<div
+							class="rt-dropdown-toggle w-dropdown-toggle"
+							id="w-dropdown-toggle-4"
+							aria-controls="w-dropdown-list-4"
+							aria-haspopup="menu"
+							aria-expanded="false"
+							role="button"
+							tabindex="0"
+						>
+							<div class="rt-menu-font rt-color"><a href="/service-one">InqCrm</a></div>
+						</div>
+					</div>
+					<div
+						data-delay="300"
+						data-hover="true"
+						data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa344e0"
+						class="rt-dropdown w-dropdown"
+						style="max-width: 1320px;"
+					>
+						<div
+							class="rt-dropdown-toggle w-dropdown-toggle"
+							id="w-dropdown-toggle-5"
+							aria-controls="w-dropdown-list-5"
+							aria-haspopup="menu"
+							aria-expanded="false"
+							role="button"
+							tabindex="0"
+							style="color: rgb(255, 255, 255);"
+						>
+							<div class="rt-menu-font rt-color"><a href="/aboutus">AiAgents</a></div>
+						</div>
+					</div>
 					<div data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa3444c" class="rt-mega-menu-main">
 						<div
 							data-delay="300"
@@ -272,65 +331,6 @@
 							</div>
 						</nav>
 					</div>
-					<div
-						data-delay="300"
-						data-hover="true"
-						data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa344cb"
-						class="rt-dropdown w-dropdown"
-						style="max-width: 1320px;"
-					>
-						<div
-							class="rt-dropdown-toggle w-dropdown-toggle"
-							id="w-dropdown-toggle-3"
-							aria-controls="w-dropdown-list-3"
-							aria-haspopup="menu"
-							aria-expanded="false"
-							role="button"
-							tabindex="0"
-							style="color: rgb(255, 255, 255);"
-						>
-							<div class="rt-menu-font rt-color"><a href="/service-two">JobQuest</a></div>
-						</div>
-					</div>
-					<div
-						data-delay="300"
-						data-hover="true"
-						data-w-id="279266e4-0400-8d3d-783c-e063c01f41ce"
-						class="rt-dropdown w-dropdown"
-						style="max-width: 1320px;"
-					>
-						<div
-							class="rt-dropdown-toggle w-dropdown-toggle"
-							id="w-dropdown-toggle-4"
-							aria-controls="w-dropdown-list-4"
-							aria-haspopup="menu"
-							aria-expanded="false"
-							role="button"
-							tabindex="0"
-						>
-							<div class="rt-menu-font rt-color"><a href="/service-one">InqCrm</a></div>
-						</div>
-					</div>
-					<div
-						data-delay="300"
-						data-hover="true"
-						data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa344e0"
-						class="rt-dropdown w-dropdown"
-						style="max-width: 1320px;"
-					>
-						<div
-							class="rt-dropdown-toggle w-dropdown-toggle"
-							id="w-dropdown-toggle-5"
-							aria-controls="w-dropdown-list-5"
-							aria-haspopup="menu"
-							aria-expanded="false"
-							role="button"
-							tabindex="0"
-							style="color: rgb(255, 255, 255);"
-						>
-							<div class="rt-menu-font rt-color"><a href="/aboutus">AiAgents</a></div>
-						</div>
-					</div>
 				</nav>
 				<div class="rt-nav-right-side">
 					<div
@@ -372,6 +372,64 @@
 					id="w-node-_1b85dd4c-7485-c684-ea1d-d2fdaaa34540-aaa3441f"
 					class="w-layout-hflex rt-nav-responsive"
 				>
+					<div
+						data-delay="300"
+						data-hover="true"
+						data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa345e4"
+						class="rt-dropdown w-dropdown"
+					>
+						<div
+							class="rt-dropdown-toggle w-dropdown-toggle"
+							id="w-dropdown-toggle-8"
+							aria-controls="w-dropdown-list-8"
+							aria-haspopup="menu"
+							aria-expanded="false"
+							role="button"
+							tabindex="0"
+							style="color: rgb(255, 255, 255);"
+						>
+							<div class="rt-menu-font rt-color">ecommerce</div>
+						</div>
+					</div>
+					<div
+						data-delay="300"
+						data-hover="true"
+						data-w-id="8c87f797-09a8-706e-1d50-cd91e2578e55"
+						class="rt-dropdown w-dropdown"
+					>
+						<div
+							class="rt-dropdown-toggle w-dropdown-toggle"
+							id="w-dropdown-toggle-9"
+							aria-controls="w-dropdown-list-9"
+							aria-haspopup="menu"
+							aria-expanded="false"
+							role="button"
+							tabindex="0"
+							style="color: rgb(255, 255, 255);"
+						>
+							<div class="rt-menu-font rt-color">
+								<a class="rt-menu-font rt-color" href="/service-one">InqCrm</a></div>
+						</div>
+					</div>
+					<div
+						data-delay="300"
+						data-hover="true"
+						data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa345f9"
+						class="rt-dropdown w-dropdown"
+					>
+						<div
+							class="rt-dropdown-toggle w-dropdown-toggle"
+							id="w-dropdown-toggle-10"
+							aria-controls="w-dropdown-list-10"
+							aria-haspopup="menu"
+							aria-expanded="false"
+							role="button"
+							tabindex="0"
+							style="color: rgb(255, 255, 255);"
+						>
+							<div class="rt-menu-font rt-color"><a href="/aboutus">AiAgents</a></div>
+						</div>
+					</div>
 					<div data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa34565" class="rt-mega-menu-main">
 						<div
 							data-delay="300"
@@ -552,63 +610,6 @@
 									>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div
-						data-delay="300"
-						data-hover="true"
-						data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa345e4"
-						class="rt-dropdown w-dropdown"
-					>
-						<div
-							class="rt-dropdown-toggle w-dropdown-toggle"
-							id="w-dropdown-toggle-8"
-							aria-controls="w-dropdown-list-8"
-							aria-haspopup="menu"
-							aria-expanded="false"
-							role="button"
-							tabindex="0"
-							style="color: rgb(255, 255, 255);"
-						>
-							<div class="rt-menu-font rt-color">blog</div>
-						</div>
-					</div>
-					<div
-						data-delay="300"
-						data-hover="true"
-						data-w-id="8c87f797-09a8-706e-1d50-cd91e2578e55"
-						class="rt-dropdown w-dropdown"
-					>
-						<div
-							class="rt-dropdown-toggle w-dropdown-toggle"
-							id="w-dropdown-toggle-9"
-							aria-controls="w-dropdown-list-9"
-							aria-haspopup="menu"
-							aria-expanded="false"
-							role="button"
-							tabindex="0"
-							style="color: rgb(255, 255, 255);"
-						>
-							<div class="rt-menu-font rt-color"><a href="/service-one">InqCrm</a></div>
-						</div>
-					</div>
-					<div
-						data-delay="300"
-						data-hover="true"
-						data-w-id="1b85dd4c-7485-c684-ea1d-d2fdaaa345f9"
-						class="rt-dropdown w-dropdown"
-					>
-						<div
-							class="rt-dropdown-toggle w-dropdown-toggle"
-							id="w-dropdown-toggle-10"
-							aria-controls="w-dropdown-list-10"
-							aria-haspopup="menu"
-							aria-expanded="false"
-							role="button"
-							tabindex="0"
-							style="color: rgb(255, 255, 255);"
-						>
-							<div class="rt-menu-font rt-color"><a href="/aboutus">AiAgents</a></div>
 						</div>
 					</div>
 				</div>

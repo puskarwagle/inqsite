@@ -13,6 +13,9 @@
 	import HomeL from '$lib/components/home/HomeL.svelte';
 	import Footer from '$lib/components/shared/Footer.svelte';
 
+	// Get content data from server
+	export let data;
+
 	// Add w-mod-js and w-mod-touch classes immediately
 	if (typeof document !== 'undefined') {
 		const n = document.documentElement;
@@ -105,8 +108,8 @@
 </svelte:head>
 
 <Header />
-<HomeA />
-<HomeB />
+<HomeA content={data.content?.HomeA || {}} />
+<!-- <HomeB /> -->
 <HomeC />
 <HomeD />
 <HomeE />
@@ -115,4 +118,4 @@
 <HomeH />
 <HomeI />
 <HomeL />
-<Footer />
+<Footer content={data.content?.Footer || {}} />

@@ -51,7 +51,7 @@
     ".rt-robot-image": {
       "preset": "float",
       "amplitude": 15,
-      "speed": 0.8,
+      "speed": 2,
       "initialDelay": 0
     },
     ".rt-cloud": {
