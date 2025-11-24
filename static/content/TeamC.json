@@ -1,0 +1,34 @@
+{
+  "componentName": "TeamC",
+  "lastModified": "2025-11-24T19:37:09.818Z",
+  "texts": {
+    "100": "100+",
+    "section_heading": "Revolutionizing Industries with AI Intelligence",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id justo rhoncuys eleifend ipsum non, aliquet quam. Nulla sagittis porttitor sapien euismod sapien sollicitudin Nunc ornare lacus sapien.",
+    "happy_clients": "Happy clients",
+    "team_member": "Team Member"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbe0_Message%20screen.webp",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc5_Message.webp",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbda_Message%203.webp",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc9_Message%202.webp",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbd5_Message%204.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

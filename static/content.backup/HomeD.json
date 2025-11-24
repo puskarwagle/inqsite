@@ -1,0 +1,80 @@
+{
+  "componentName": "HomeD",
+  "lastModified": "2025-11-24T19:02:34.121Z",
+  "texts": {
+    "section_heading": "Bringing Intelligence to Automation with AI",
+    "in_dui_cras": "In dui cras odio sodales morbi ac egestas. Ipsum integer ultricies vitae purus amet.",
+    "pulvinar_tempus_duis": "Pulvinar tempus duis nam metus et nunc nisl. Natoque at aliquam viverra sed. Velit quis nunc.",
+    "neque_convallis_faucibus": "Neque convallis faucibus lorem sit quis vitae quisque. Dignissim scelerisque vulputate.",
+    "dui_mi_accumsan": "Dui mi accumsan lorem arcu dignissim porta tortor non. Ac mauris vulputate mattis amet.",
+    "ai_that_adapts": "AI That adapts to you",
+    "intelligent_ai_smarter": "Intelligent AI, Smarter Decisions",
+    "secure_data_encryption": "Secure Data Encryption",
+    "explore_more": "Explore More",
+    "aidriven_insights_for": "AI-Driven Insights for Growth",
+    "automated_workflows": "Automated Workflows"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7a7_AI%20data.webp",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b1_Ai%20data.webp",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7a5_AI%20data%203.webp",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b0_AI%20data%202.webp",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ac_Ai%20data%204.webp",
+      "alt": ""
+    },
+    "image_6": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    },
+    "image_7": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf9253fe9e5ac9a033b9a_Data%20logo%203.svg",
+      "alt": ""
+    },
+    "image_8": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b5_Data%20logo.svg",
+      "alt": ""
+    },
+    "image_9": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b2_Data%20logo%204.svg",
+      "alt": ""
+    },
+    "image_10": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b4_Data%20logo%202.svg",
+      "alt": ""
+    },
+    "image_11": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf925b82e7d923152247a_Data%20logo%205.svg",
+      "alt": ""
+    },
+    "image_12": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b6_Data%20logo%206.svg",
+      "alt": ""
+    },
+    "image_13": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf925fa6f57de3c7631c0_Data%20logo%20main.svg",
+      "alt": ""
+    },
+    "image_14": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805cd53d5c6efbff6fdc703_Intelligence.webp",
+      "alt": ""
+    },
+    "image_15": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ae_Ai%20bar.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

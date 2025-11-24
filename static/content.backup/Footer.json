@@ -1,0 +1,49 @@
+{
+  "componentName": "Footer",
+  "lastModified": "2025-11-24T19:02:34.152Z",
+  "texts": {
+    "morbi_sed_libero": "Morbi sed libero consequat id suspendisse congue in tristique tincidunt.",
+    "gettextcontactheading_stay_connected": "{getText('contact_heading', 'Stay Connected')}",
+    "gettextemaillabel_email_address": "{getText('email_label', 'email address')}",
+    "gettextphonelabel_phone_number": "{getText('phone_label', 'Phone Number')}",
+    "gettextquicklinksheading_quick_links": "{getText('quick_links_heading', 'Quick Links')}",
+    "utility_pages": "Utility Pages",
+    "get_in_touch": "Get In Touch",
+    "begin_your_saas": "Begin Your SaaS Journey with Expert Guidance"
+  },
+  "images": {
+    "image_1": {
+      "url": "/mylogo.png",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e4_Arrow%202.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f8dc48f7fbdc29bb25183f_Vector.svg",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e5_Fb.svg",
+      "alt": ""
+    },
+    "image_6": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e7_Twitter.svg",
+      "alt": ""
+    },
+    "image_7": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e6_Linkedin.svg",
+      "alt": ""
+    },
+    "image_8": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e8_Instagram.svg",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

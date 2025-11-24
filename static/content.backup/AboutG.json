@@ -1,0 +1,35 @@
+{
+  "componentName": "AboutG",
+  "lastModified": "2025-11-24T19:02:34.135Z",
+  "texts": {
+    "section_heading": "We Always Ready To Answer Your Any Query",
+    "etiam_viverra_purus": "Etiam viverra purus sed aliquet tincidunt diam auctor nibhe eget elementum lobortis ante massa quis dui suspendisse.",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.",
+    "how_secure_is": "How secure is my data with your AI system?",
+    "what_kind_of": "What kind of customer support do you offer?",
+    "can_ai_handle": "Can AI handle sensitive data?",
+    "how_does_the": "How does the AI platform work?",
+    "what_should_i": "What should I do if AI responses seem inaccurate?",
+    "how_do_i": "How do I reach technical support?",
+    "can_i_rollback": "Can I rollback AI changes or actions?",
+    "do_you_offer": "Do you offer live onboarding or demos?",
+    "does_the_ai": "Does the AI support multilingual use?",
+    "can_i_integrate": "Can I integrate this with other tools?",
+    "what_are_the": "What are the pricing plans?"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec8142dbc93f64df00b_home-minus.svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec8664314ab928bf3b3_question-square.svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec86f7296d59b02abc9_rows.svg",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

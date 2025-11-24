@@ -1,14 +1,63 @@
 {
   "pages": {
+    "/": [
+      "HomeA",
+      "HomeB",
+      "HomeC",
+      "HomeD",
+      "HomeE",
+      "HomeF",
+      "HomeG",
+      "HomeH",
+      "HomeI",
+      "HomeL"
+    ],
     "/aboutus": [
       "AboutA",
       "AboutB",
-      "AboutC"
+      "AboutC",
+      "AboutD",
+      "AboutE",
+      "AboutF",
+      "AboutG",
+      "AboutH"
+    ],
+    "/team": [
+      "TeamA",
+      "TeamB",
+      "TeamC",
+      "TeamD"
+    ],
+    "/contact": [
+      "ContactA",
+      "ContactB"
+    ],
+    "/home-one": [
+      "HomeOneA",
+      "HomeOneB",
+      "HomeOneC",
+      "HomeOneD",
+      "HomeOneE",
+      "HomeOneF",
+      "HomeOneG",
+      "HomeOneH"
+    ],
+    "/home-two": [
+      "HomeTwoA",
+      "HomeTwoB",
+      "HomeTwoC",
+      "HomeTwoD",
+      "HomeTwoE",
+      "HomeTwoF",
+      "HomeTwoG",
+      "HomeTwoH",
+      "HomeTwoI",
+      "HomeTwoJ"
     ]
   },
   "sharedComponents": [
     "Header",
     "Footer"
   ],
-  "lastUpdated": "2025-11-24T18:05:59.373Z"
+  "lastUpdated": "2025-11-24T19:37:09.838Z"
 }

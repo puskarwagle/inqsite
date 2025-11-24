@@ -1,0 +1,34 @@
+{
+  "componentName": "HomeTwoB",
+  "lastModified": "2025-11-24T19:02:34.168Z",
+  "texts": {
+    "trusted_by_15000": "Trusted by 15,000+ founders &amp; business owners"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf6_User.svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf7_User%202.svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf9_User%203.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf4_User%204.svg",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf5_User%205.svg",
+      "alt": ""
+    },
+    "image_6": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfa_User%206.svg",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

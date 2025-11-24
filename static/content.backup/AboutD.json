@@ -1,0 +1,31 @@
+{
+  "componentName": "AboutD",
+  "lastModified": "2025-11-24T19:02:34.133Z",
+  "texts": {
+    "section_heading": "Advanced solutions for your needs",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Turpis a risus turpis arcu in quis.",
+    "seamless_ai_solutions": "Seamless AI Solutions for Modern Businesses",
+    "innovative_ai_transforming": "Innovative AI Transforming Digital Landscapes",
+    "aipowered_systems_for": "AI-Powered Systems for Maximum Efficiency",
+    "redefining_business_with": "Redefining Business with Artificial Intelligence"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712d61624088e1cb5162_Solution%20block.webp",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712db518cdbd3fd581fe_Solution%202.webp",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712ea47c152f5bd98da8_Solution%203.webp",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67fe36c35f933a91e1427bf8_Intellegence%20image.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

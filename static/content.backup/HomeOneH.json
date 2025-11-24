@@ -1,0 +1,21 @@
+{
+  "componentName": "HomeOneH",
+  "lastModified": "2025-11-24T19:02:34.164Z",
+  "texts": {
+    "section_heading": "AI-Driven Security for a Safer Digital World",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Massa senectus enim sed in rutrum aliquet fames a. Nisl massa a imperdiet.",
+    "ai_that_protects": "AI That Protects and Secures Your Data",
+    "smart_ai_for": "Smart AI for Ultimate Cybersecurity"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff326bbf4bb92961422ef9_Digital%20image.webp",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff326b808437661828b4b2_Digital%20image%20two.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

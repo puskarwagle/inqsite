@@ -1,0 +1,34 @@
+{
+  "componentName": "ContactB",
+  "lastModified": "2025-11-24T19:02:34.149Z",
+  "texts": {
+    "section_heading": "Discover our branch offices globally and connect instantly",
+    "1234_innovation_blvd": "1234 Innovation Blvd, Suite 200 San Mateo, CA 94403, USA",
+    "alexanderplatz_510178_berlin": "Alexanderplatz 510178 Berlin",
+    "123_example_street": "123 Example Street, Sydney NSW 2000, Australia",
+    "1234_maple_avenue": "1234 Maple Avenue, Suite 567, Toronto, ON M5H 2N2 Canada",
+    "calfornia": "Calfornia",
+    "germany": "Germany",
+    "australia": "Australia",
+    "canada": "Canada"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfa9_Singapore.webp",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfaf_Office.webp",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfac_Office2.webp",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfb2_Office%203.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

@@ -1,0 +1,35 @@
+{
+  "componentName": "HomeC",
+  "lastModified": "2025-11-24T19:37:09.799Z",
+  "texts": {
+    "section_heading": "Revolutionizing the Future with AI-Powered Solutions",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Ipsum neque ridiculus quis dignissim vulputate elementum netus. Fermentum in feugiat",
+    "seotech_gives_you": "Seotech gives you the blocks &amp; components you need to create a truly professional website, landing page",
+    "the_future_of": "The Future of AI-Driven Business Solutions",
+    "ai_that_makes": "AI That Makes Smarter Decisions for You",
+    "explore_more": "Explore More"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805e0a147f9db32c77edf60_Group%201321315615%20(1).svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805e0a14c9eef54d4a7996d_Group%201321315616.svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7a0_Revolution.webp",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf92507c68ccfe6dff032_Line%20Styling.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

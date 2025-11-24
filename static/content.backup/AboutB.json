@@ -1,0 +1,31 @@
+{
+  "componentName": "AboutB",
+  "lastModified": "2025-11-24T19:02:34.131Z",
+  "texts": {
+    "section_heading": "AI-Powered Automation for Seamless Business Operations",
+    "voluptas_assumenda_est": "Voluptas assumenda est, omnis dolor Temporibus autem quibusdam",
+    "ai_that_adapts": "AI That Adapts to Your Needs",
+    "the_future_is": "The Future is AI-Powered",
+    "leading_the_ai": "Leading the AI Revolution",
+    "ai_that_moves": "AI That Moves the World Forward"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e143a4013924794b675f8a_Operation%202.webp",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e143a4013924794b675f8d_Operation.webp",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e143a4013924794b675f87_Operation%204.webp",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e143a4013924794b675f84_Operation%203.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

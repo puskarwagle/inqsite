@@ -13,7 +13,7 @@ export async function GET() {
 
 		const files = fs.readdirSync(CONTENT_DIR);
 		const components = files
-			.filter(file => file.endsWith('.json'))
+			.filter(file => file.endsWith('.json') && file !== '_registry.json')
 			.map(file => {
 				const componentName = file.replace('.json', '');
 				const content = JSON.parse(

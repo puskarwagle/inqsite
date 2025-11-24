@@ -183,6 +183,125 @@ function isCounterNumber(text) {
 }
 
 /**
+ * Detect if a component is already integrated with CMS
+ */
+function isIntegratedComponent(html) {
+	// Check for the integration markers
+	const hasContentProp = html.includes('export let content');
+	const hasGetTextHelper = html.includes('getText') && html.includes('fallback');
+	return hasContentProp && hasGetTextHelper;
+}
+
+/**
+ * Extract content from integrated component (has getText/getImage/getLink)
+ * This extracts the fallback values from the template patterns
+ */
+function extractFromIntegratedComponent(html, componentName) {
+	const content = {
+		componentName,
+		lastModified: new Date().toISOString(),
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	console.log(`   → Detected integrated component, extracting fallback values...`);
+
+	// Extract getText patterns: {getText('key', 'fallback value')}
+	const getTextRegex = /\{getText\(['"]([^'"]+)['"]\s*,\s*['"]([^'"]*)['"]\)\}/g;
+	let match;
+	while ((match = getTextRegex.exec(html)) !== null) {
+		const key = match[1];
+		const value = match[2];
+		if (value && !isCounterNumber(value)) {
+			content.texts[key] = value;
+		}
+	}
+
+	// Extract getImage patterns for URLs: getImage('key').url || 'fallback'
+	const getImageUrlRegex = /getImage\(['"]([^'"]+)['"]\)\.url\s*\|\|\s*['"](.*?)['"]/g;
+	while ((match = getImageUrlRegex.exec(html)) !== null) {
+		const key = match[1];
+		const url = match[2];
+		if (!content.images[key]) {
+			content.images[key] = {};
+		}
+		content.images[key].url = url;
+	}
+
+	// Extract getImage patterns for alt text: getImage('key').alt || 'fallback'
+	const getImageAltRegex = /getImage\(['"]([^'"]+)['"]\)\.alt\s*\|\|\s*['"](.*?)['"]/g;
+	while ((match = getImageAltRegex.exec(html)) !== null) {
+		const key = match[1];
+		const alt = match[2];
+		if (!content.images[key]) {
+			content.images[key] = {};
+		}
+		content.images[key].alt = alt;
+	}
+
+	// Extract getLink patterns for href: getLink('key').href || 'fallback'
+	const getLinkHrefRegex = /getLink\(['"]([^'"]+)['"]\)\.href\s*\|\|\s*['"](.*?)['"]/g;
+	while ((match = getLinkHrefRegex.exec(html)) !== null) {
+		const key = match[1];
+		const href = match[2];
+		if (!content.links[key]) {
+			content.links[key] = {};
+		}
+		content.links[key].href = href;
+	}
+
+	// Extract getLink patterns for text: {getLink('key').text || 'fallback'}
+	const getLinkTextRegex = /\{?getLink\(['"]([^'"]+)['"]\)\.text\s*\|\|\s*['"](.*?)['"]\}?/g;
+	while ((match = getLinkTextRegex.exec(html)) !== null) {
+		const key = match[1];
+		const text = match[2];
+		if (!content.links[key]) {
+			content.links[key] = {};
+		}
+		content.links[key].text = text;
+	}
+
+	return content;
+}
+
+/**
+ * Validate extracted content doesn't contain template literals
+ */
+function validateExtractedContent(content) {
+	const errors = [];
+
+	// Check texts
+	for (const [key, value] of Object.entries(content.texts || {})) {
+		if (typeof value === 'string' && (value.includes('{getText') || value.includes('{getImage') || value.includes('{getLink'))) {
+			errors.push(`Text key "${key}" contains template literal: ${value.substring(0, 50)}...`);
+		}
+	}
+
+	// Check images
+	for (const [key, img] of Object.entries(content.images || {})) {
+		if (img.url && img.url.includes('{getImage')) {
+			errors.push(`Image key "${key}" URL contains template literal`);
+		}
+		if (img.alt && img.alt.includes('{getImage')) {
+			errors.push(`Image key "${key}" alt contains template literal`);
+		}
+	}
+
+	// Check links
+	for (const [key, link] of Object.entries(content.links || {})) {
+		if (link.href && link.href.includes('{getLink')) {
+			errors.push(`Link key "${key}" href contains template literal`);
+		}
+		if (link.text && link.text.includes('{getLink')) {
+			errors.push(`Link key "${key}" text contains template literal`);
+		}
+	}
+
+	return errors;
+}
+
+/**
  * Extract text content from HTML string
  */
 function extractTextContent(html, componentName) {
@@ -324,7 +443,24 @@ function processComponent(componentPath, componentName, componentFolder) {
 	console.log(`\n📄 Processing: ${componentName}`);
 
 	const html = fs.readFileSync(componentPath, 'utf-8');
-	const content = extractTextContent(html, componentName);
+
+	// Detect extraction mode
+	let content;
+	if (isIntegratedComponent(html)) {
+		// Use template pattern extraction for integrated components
+		content = extractFromIntegratedComponent(html, componentName);
+	} else {
+		// Use HTML extraction for non-integrated components
+		console.log(`   → Non-integrated component, extracting from HTML...`);
+		content = extractTextContent(html, componentName);
+	}
+
+	// Validate extracted content
+	const validationErrors = validateExtractedContent(content);
+	if (validationErrors.length > 0) {
+		console.error(`   ⚠️  Validation warnings for ${componentName}:`);
+		validationErrors.forEach(error => console.error(`      - ${error}`));
+	}
 
 	// Count extracted items
 	const textCount = Object.keys(content.texts).length;

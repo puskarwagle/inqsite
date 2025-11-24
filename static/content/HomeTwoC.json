@@ -1,0 +1,37 @@
+{
+  "componentName": "HomeTwoC",
+  "lastModified": "2025-11-24T19:37:09.830Z",
+  "texts": {
+    "section_heading": "AI-Powered Solutions to Transform Your Industry",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.",
+    "voluptas_assumenda_est": "Voluptas assumenda est, omnis dolor Temporibus autem.",
+    "the_ai_revolution": "The AI Revolution",
+    "smart_ai_solutions": "Smart AI Solutions",
+    "cloud_approach": "Cloud Approach",
+    "powering_ai_evolution": "Powering AI Evolution",
+    "security_solution": "Security Solution"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e0a147f9db32c77edf60_Group%201321315615%20(1).svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e0a14c9eef54d4a7996d_Group%201321315616.svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e134401c74ef906779d2_Group%201321315624.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1351bcb2dff073de7d8_Vector%20(1).svg",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e13483e9d2ad29725075_Vector%20(2).svg",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

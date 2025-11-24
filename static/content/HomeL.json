@@ -1,0 +1,33 @@
+{
+  "componentName": "HomeL",
+  "lastModified": "2025-11-24T19:37:09.807Z",
+  "texts": {
+    "section_heading": "Insights and Updates from Our Recent Posts",
+    "how_ai_is": "How AI is Reshaping the Business Landscape",
+    "blending_intelligence_and": "Blending Intelligence and Immersion for Creativity",
+    "ai_in_customer": "AI in Customer Service: The New Standard"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/68060095b0772f5c96e3de97_Small%20Image%20(7).webp",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf925e3ae73778f61ace6_Calender.svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7df_User.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/6805f384894ded930d20c714_Small%20Image(8).webp",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67ea227fe2ee3679eab02ea3_Post%20image%20(7).webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

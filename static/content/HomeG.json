@@ -1,0 +1,26 @@
+{
+  "componentName": "HomeG",
+  "lastModified": "2025-11-24T19:37:09.803Z",
+  "texts": {
+    "section_heading": "AI-Driven Insights for Smarter Decision-Making",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam",
+    "lorem_ipsum_commodo": "Lorem ipsum commodo sed dignissim suspendisse urna Aliquam aliquam nunc etac Sit dolor sed gravida.",
+    "the_power_of": "The Power of AI in Your Hands",
+    "experience_ai_that": "Experience AI That Adapts to Your Needs"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf925b82e7d923152249a_Insight-chart.webp",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c0_Insight-chart-two.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

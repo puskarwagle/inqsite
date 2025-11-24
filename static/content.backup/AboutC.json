@@ -1,0 +1,19 @@
+{
+  "componentName": "AboutC",
+  "lastModified": "2025-11-24T19:02:34.132Z",
+  "texts": {
+    "100": "100+",
+    "section_heading": "AI-Enhanced Decision Making for Maximum Impact",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit ulamcorper atsit.",
+    "23k": "23k",
+    "happy_clients": "Happy clients",
+    "team_member": "Team Member"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

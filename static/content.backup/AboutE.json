@@ -1,0 +1,38 @@
+{
+  "componentName": "AboutE",
+  "lastModified": "2025-11-24T19:02:34.133Z",
+  "texts": {
+    "section_heading": "Revolutionizing Industries with AI Intelligence",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur.",
+    "simpler_process": "Simpler Process",
+    "previous_documentation": "Previous Documentation",
+    "ai_powered_building": "AI Powered Building"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e329842d2aaa810039b9_Group%201321315407.svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e328940cc8c6e304689d_Group%201321315408.svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e328704c4d4313d87c52_Group%201321315409.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0f7bc963f0394fa8e_1.webp",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0b65a027dddf454e3_2.webp",
+      "alt": ""
+    },
+    "image_6": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0ac7691cd07eded11_3.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

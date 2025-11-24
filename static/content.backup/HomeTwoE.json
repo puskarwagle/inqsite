@@ -1,0 +1,28 @@
+{
+  "componentName": "HomeTwoE",
+  "lastModified": "2025-11-24T19:02:34.170Z",
+  "texts": {
+    "section_heading": "AI-Powered Choices, Superior Results",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.",
+    "ac_vulputate_eros": "Ac vulputate eros nibh at velit. Donec ut hendrerit urna. Aenean tempor lobortis ornare.",
+    "explore_more_explore": "Explore More Explore More",
+    "aipowered_solutions_for": "AI-Powered Solutions for Growth",
+    "explore_more": "Explore More",
+    "empowering_expansion_with": "Empowering Expansion with Intelligent AI"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf9266a29175f2e719597_rocket.webp",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febdc_Growth.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

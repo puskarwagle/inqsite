@@ -1,0 +1,41 @@
+{
+  "componentName": "HomeOneA",
+  "lastModified": "2025-11-24T19:02:34.154Z",
+  "texts": {
+    "hero_heading": "AI-Powered Analytics for Better Decision Making",
+    "eu_eget_accumsan": "Eu eget accumsan risus montes nibh hac. Ut condimentum nunc accumsan mollis dis. Lacus non ante Netus ultricies.",
+    "join_us_today": "Join Us Today",
+    "button_watch_video": "Watch video"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931bfc626df83f9d83c_Play%20button.svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b6ab530f82a1616800b12_Robot%20Small.avif",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff5700d905dc1e4c0e4aed_Home%20three%20banner.webp",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b35614a605efb904edd3f_Clip%20path%20group-2.avif",
+      "alt": ""
+    },
+    "image_6": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea8a4e7d7db185a493ad83_Statistics.webp",
+      "alt": ""
+    },
+    "image_7": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea780c8f6403356889cafc_Users.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

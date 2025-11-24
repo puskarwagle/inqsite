@@ -1,0 +1,31 @@
+{
+  "componentName": "AboutF",
+  "lastModified": "2025-11-24T19:37:09.812Z",
+  "texts": {
+    "section_heading": "Intelligent Decision-Making Made Easy",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur Molestie ullamcorp elit non diam at pharetra integer non fringilla. Non cras sapien rutrum Maecenas tellus posuere faucibus tincidunt.",
+    "shaping_the_future": "Shaping the Future with AI Innovation",
+    "leading_the_ai": "Leading the AI Revolution",
+    "transforming_life_with": "Transforming Life with AI",
+    "explore_more": "Explore More"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800fb2113073c7667a03435_Group%201009004142.webp",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e328ac7691cd07fe8503_Vector%20(3).svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3286ff8c966566c97e0_atom.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

@@ -1,0 +1,22 @@
+{
+  "componentName": "HomeOneF",
+  "lastModified": "2025-11-24T19:37:09.827Z",
+  "texts": {
+    "section_heading": "AI That Works Behind the Scenes to Enhance Your Life",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus.",
+    "ai_that_makes": "AI That Makes Everyday Tasks Easier",
+    "ai_that_works": "AI That Works While You Innovate",
+    "advancing_humanity_with": "Advancing Humanity with Smart AI"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b527854b22f07cfcb1939_Frame-2.webp",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

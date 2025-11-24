@@ -1,0 +1,32 @@
+{
+  "componentName": "HomeOneC",
+  "lastModified": "2025-11-24T19:37:09.824Z",
+  "texts": {
+    "section_heading": "Unleashing the Power of Artificial Intelligence",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien",
+    "explore_more_explore": "Explore More Explore More",
+    "explore_more": "Explore More",
+    "intelligent_ai_tools": "Intelligent AI Tools Driving Growth",
+    "aipowered_solutions_for": "AI-Powered Solutions for Growth",
+    "ai_solutions_to": "AI Solutions to Scale Smarter"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e0a147f9db32c77edf60_Group%201321315615%20(1).svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e0a14c9eef54d4a7996d_Group%201321315616.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e134401c74ef906779d2_Group%201321315624.svg",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

@@ -1,0 +1,48 @@
+{
+  "componentName": "HomeOneE",
+  "lastModified": "2025-11-24T19:37:09.826Z",
+  "texts": {
+    "section_heading": "AI-Driven Growth Strategies for Enterprises",
+    "aipowered_workflows_for": "AI-Powered Workflows for Maximum Efficiency",
+    "let_us_assist": "Let Us Assist You with Our Superior Services",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Nisl proin est sed ultricies magna elit eros. Aliquet nam ipsum amet orci.",
+    "proin_posuere_lacus": "Proin posuere lacus egestas ultricies lobortis. Lobortis nascetur ac pulvinar fermentum augue id. Commodo odio augue.",
+    "explore_more_explore": "Explore More Explore More",
+    "join_us_today": "Join Us Today",
+    "intelligent_ai_smarter": "Intelligent AI, Smarter Decisions",
+    "aipowered_smart_assistants": "AI-Powered Smart Assistants",
+    "ai_that_simplifies": "AI That Simplifies Daily Tasks",
+    "explore_more": "Explore More"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800f2027a148c256e8b1340_Mask%20group%20(22).webp",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f2649775f90f30811f_Strategie%202.webp",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1352316d137911a14a8_Group%201321315626.svg",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e02d_Workflow.webp",
+      "alt": ""
+    },
+    "image_6": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    },
+    "image_7": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800e5cea79ab1712ce75ed1_Cta.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

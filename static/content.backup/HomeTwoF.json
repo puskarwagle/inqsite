@@ -1,0 +1,35 @@
+{
+  "componentName": "HomeTwoF",
+  "lastModified": "2025-11-24T19:02:34.171Z",
+  "texts": {
+    "section_heading": "AI-Enabled Innovations to Elevate Your Business",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Nisl proin est sed ultricies magna elit eros. Aliquet nam ipsum amet orci.",
+    "explore_more_explore": "Explore More Explore More",
+    "realtime_ai_insights": "Real-Time AI Insights",
+    "predictive_analytics": "Predictive Analytics",
+    "explore_more": "Explore More"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217043835aecce9891_Screen%20one.webp",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217c70ff8ed3782287_Scree%20two.webp",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1369e416066866d72b3_config-vertical.svg",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

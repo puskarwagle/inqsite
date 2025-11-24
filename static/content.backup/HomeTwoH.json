@@ -1,0 +1,35 @@
+{
+  "componentName": "HomeTwoH",
+  "lastModified": "2025-11-24T19:02:34.173Z",
+  "texts": {
+    "section_heading": "Empowering Industries with Advanced AI Capabilities",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Lectus aliquam tempus vivamus leo nisl.",
+    "aidriven_efficiency_for": "AI-Driven Efficiency for Every Industry",
+    "leading_ai_for": "Leading AI for a Smarter Future",
+    "automation_with_ai": "Automation with AI Intelligence",
+    "aipowered_chatbots_amp": "AI-Powered Chatbots &amp; Assistants"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1352316d137911a14a8_Group%201321315626.svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec08_Small%20arrow.svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1352316d137911a14bf_brand-slack.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e13593e1bc968b98ab6b_components.svg",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e13483e9d2ad29725075_Vector%20(2).svg",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

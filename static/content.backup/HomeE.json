@@ -1,0 +1,36 @@
+{
+  "componentName": "HomeE",
+  "lastModified": "2025-11-24T19:02:34.122Z",
+  "texts": {
+    "section_heading": "AI That Simplifies Complex Problems Instantly",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam",
+    "sit_et_donec": "Sit et donec nunc odio im sum platea integer cursus.",
+    "augue_aliquam_volutpat": "Augue aliquam volutpat dui dolor purus miet nam atnam.",
+    "automated_ai_conversations": "Automated AI Conversations",
+    "aitohuman_interaction": "AI-to-Human Interaction",
+    "explore_more": "Explore More"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf92607c68ccfe6dff095_Performance-stat.webp",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6800841c90fb84230c9c4728_Complex.webp",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805e0a15665bac885966e7d_chat-messages.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805e0a1d0576dff0ddb1030_Group%201321315622.svg",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

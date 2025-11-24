@@ -85,7 +85,9 @@
 	}
 
 	function getPageComponents(page) {
-		return registry.pages[page] || [];
+		const pageComps = registry.pages[page] || [];
+		// Filter out shared components (Header, Footer)
+		return pageComps.filter(comp => comp !== 'Header' && comp !== 'Footer');
 	}
 
 	function getPageName(page) {
@@ -104,7 +106,11 @@
 	async function loadComponents() {
 		try {
 			const res = await fetch('/api/components');
-			components = await res.json();
+			const allComponents = await res.json();
+			// Filter out shared components (Header, Footer)
+			components = allComponents.filter(
+				comp => comp.name !== 'Header' && comp.name !== 'Footer'
+			);
 			if (components.length > 0 && !selectedComponent) {
 				selectedComponent = components[0].name;
 				await loadContent();
@@ -189,19 +195,11 @@
 
 <svelte:head>
 	<title>Content Management - Admin</title>
-	<link rel="stylesheet" href="/webtemplate/style.css" />
-	<link rel="stylesheet" href="/webtemplate/style2.css" />
 	<style>
 		* {
 			margin: 0;
 			padding: 0;
 			box-sizing: border-box;
-		}
-		/* Scope site styles to header only */
-		.admin-container .admin-content,
-		.admin-container .sidebar,
-		.admin-container .editor {
-			all: revert;
 		}
 	</style>
 </svelte:head>

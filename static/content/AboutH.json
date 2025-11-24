@@ -1,0 +1,31 @@
+{
+  "componentName": "AboutH",
+  "lastModified": "2025-11-24T19:37:09.814Z",
+  "texts": {
+    "section_heading": "Testimonials that reflect our strong commitment",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.",
+    "aenean_euismod_cursus": "“Aenean euismod cursus velit ut sollicitud. Maecna molestie nisl semper accumsanva rius justo grafevida dolor a viverra mi nulla at arcu phasellus in orci efficit.”",
+    "james_carter": "James Carter",
+    "emily_johnson": "Emily Johnson",
+    "robert_turner": "Robert Turner"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd503cbd7e331b5952c1be_icon%20section.svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e017_User%201.jpg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e039_User%202.webp",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e038_User%203.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

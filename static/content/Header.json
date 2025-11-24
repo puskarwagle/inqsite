@@ -1,0 +1,70 @@
+{
+  "componentName": "Header",
+  "lastModified": "2025-11-24T19:37:09.836Z",
+  "texts": {
+    "button_get_started": "Get Started",
+    "jobquest": "JobQuest",
+    "inqcrm": "InqCrm",
+    "aiagents": "AiAgents",
+    "pages": "Pages",
+    "inner_pages": "Inner Pages",
+    "home_one": "Home One",
+    "home_two": "Home Two",
+    "about_us": "About US",
+    "service_one": "Service One",
+    "service_two": "Service Two",
+    "pricing": "Pricing",
+    "team": "Team",
+    "explore_ai_platform": "Explore AI Platform",
+    "ecommerce": "ecommerce",
+    "get_in_touch": "Get In Touch"
+  },
+  "images": {
+    "image_1": {
+      "url": "/mylogo.png",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e0fe5a880ca04c7c46d1f4_Nav%20arrow%20down.svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e8f523834181edf4189328_Nav%20down%20arrow.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg",
+      "alt": ""
+    },
+    "image_6": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475197b4bbd56cd095f_Group%20(1).svg",
+      "alt": ""
+    },
+    "image_7": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b4754b0d64f857280970_Group%20(2).svg",
+      "alt": ""
+    },
+    "image_8": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    }
+  },
+  "links": {
+    "jobquest": {
+      "href": "/",
+      "text": "JobQuest"
+    },
+    "inqcrm": {
+      "href": "/home-one",
+      "text": "InqCrm"
+    },
+    "aiagents": {
+      "href": "/aboutus",
+      "text": "AiAgents"
+    }
+  }
+}

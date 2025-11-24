@@ -1,0 +1,43 @@
+{
+  "componentName": "HomeH",
+  "lastModified": "2025-11-24T19:37:09.806Z",
+  "texts": {
+    "section_heading": "Efficient integration solutions for seamless workflows",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Odio faucibus mollis dui mattis &nbsp;eu tristique ut sit felis orci non."
+  },
+  "images": {
+    "image_1": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cc_Users.svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c4_User%202.svg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ca_User%203.svg",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c8_User%204.svg",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c5_User%205.svg",
+      "alt": ""
+    },
+    "image_6": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c3_User%206.svg",
+      "alt": ""
+    },
+    "image_7": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c9_Uesr%207.svg",
+      "alt": ""
+    },
+    "image_8": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cd_User%209.svg",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

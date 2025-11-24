@@ -1,0 +1,18 @@
+{
+  "componentName": "HomeF",
+  "lastModified": "2025-11-24T19:02:34.123Z",
+  "texts": {
+    "section_heading": "Cloud Integration for Seamless Business Operations",
+    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum odio eget orci mattis laoreet. In nec",
+    "custom_software_tailored": "Custom Software Tailored to Your Needs",
+    "powerful_software_for": "Powerful Software For Smarter Work",
+    "achieve_more_with": "Achieve More With Cloud Technology"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7bb_AI%20Operations.webp",
+      "alt": ""
+    }
+  },
+  "links": {}
+}

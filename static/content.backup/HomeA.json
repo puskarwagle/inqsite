@@ -1,0 +1,72 @@
+{
+  "componentName": "HomeA",
+  "lastModified": "2025-11-24T19:18:20.340Z",
+  "texts": {
+    "hero_heading": "{getText('hero_heading', 'Elevate Productivity with Future-Ready AI Applications')}asdfas",
+    "gettextheroparagraph_lorem_ipsum": "{getText('hero_paragraph', 'Lorem ipsum dolor sit amet consectetur. Amet ullamcorper atsit eros risus eget tristique diam imperdiet. Eleifend')}",
+    "button_get_started": "{getText('button_get_started', 'Get Started')}",
+    "button_watch_video": "Watch video",
+    "ai_performance_rating": "AI Performance Rating",
+    "new_features": "New Features",
+    "k": "K",
+    "app_download": "APP Download",
+    "happy_clients": "Happy Clients",
+    "text_8": "%",
+    "positive_rate": "Positive rate"
+  },
+  "images": {
+    "image_1": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d790_Robot%20shadow.svg",
+      "alt": ""
+    },
+    "image_2": {
+      "url": "/uploads/1764011898087_puskar.jpg",
+      "alt": ""
+    },
+    "image_3": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf926202a4f1f698410e7_Cloud.webp",
+      "alt": ""
+    },
+    "image_4": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a36cc948881b7259c43c9_Dashboard-9-2.webp",
+      "alt": ""
+    },
+    "image_5": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a360db03aeb95e0fce0e7_Group.webp",
+      "alt": ""
+    },
+    "image_6": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf9266a29175f2e719597_rocket.webp",
+      "alt": ""
+    },
+    "image_7": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf927630cb9fa0101283a_User.webp",
+      "alt": ""
+    },
+    "image_8": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": ""
+    },
+    "image_9": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931bfc626df83f9d83c_Play%20button.svg",
+      "alt": ""
+    },
+    "image_10": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf9270ce1a503421d3681_Users.webp",
+      "alt": ""
+    },
+    "image_11": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d78e_Users%202.webp",
+      "alt": ""
+    },
+    "image_12": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d78f_Users%203.webp",
+      "alt": ""
+    },
+    "image_13": {
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d793_Star.svg",
+      "alt": ""
+    }
+  },
+  "links": {}
+}
