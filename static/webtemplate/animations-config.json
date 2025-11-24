@@ -77,67 +77,8 @@
       "amplitude": 2,
       "speed": 0.8,
       "scaleSync": true
-    },
-    "h1[data-w-id]": {
-      "preset": "fadeUp",
-      "delay": 100
-    },
-    "h2[data-w-id]": {
-      "preset": "fadeUp",
-      "delay": 100
-    },
-    "p[data-w-id]": {
-      "preset": "fadeUp",
-      "delay": 150
-    },
-    ".rt-operations-card-v1": {
-      "preset": "scaleUp",
-      "delay": 200
-    },
-    ".rt-button-wrapper": {
-      "preset": "fadeUp",
-      "delay": 200
-    },
-    ".rt-rating-block": {
-      "preset": "fadeIn",
-      "delay": 300
-    },
-    ".rt-expertise-left-box": {
-      "preset": "slideRight",
-      "delay": 200
-    },
-    ".rt-expertise-image-one": {
-      "preset": "slideLeft",
-      "delay": 100
-    },
-    ".rt-expertise-image-two-wrapper": {
-      "preset": "scaleUp",
-      "delay": 400
-    },
-    ".rt-technology-card": {
-      "preset": "scaleUp",
-      "delay": 150
-    },
-    ".rt-solution-box-v2": {
-      "preset": "fadeUp",
-      "delay": 100
-    },
-    ".rt-encryption-circle-block-three": {
-      "preset": "scaleUp",
-      "delay": 0
-    },
-    ".rt-encryption-circle-block-two": {
-      "preset": "scaleUp",
-      "delay": 100
-    },
-    ".rt-encryption-main-icon": {
-      "preset": "scaleUp",
-      "delay": 200
-    },
-    "[data-w-id]": {
-      "preset": "fadeUp",
-      "delay": 0
     }
+
   },
   "ignore": [
     ".rt-counter-train",
