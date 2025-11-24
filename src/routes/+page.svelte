@@ -107,15 +107,15 @@
 	<link rel="stylesheet" href="/webtemplate/style2.css" />
 </svelte:head>
 
-<Header />
-<HomeA content={data.content?.HomeA || {}} />
-<!-- <HomeB /> -->
-<HomeC />
-<HomeD />
-<HomeE />
-<HomeF />
-<HomeG />
-<HomeH />
-<HomeI />
-<HomeL />
-<Footer content={data.content?.Footer || {}} />
+<div id="Header"><Header /></div>
+<div id="HomeA"><HomeA content={data.content?.HomeA || {}} /></div>
+<!-- <div id="HomeB"><HomeB /></div> -->
+<div id="HomeC"><HomeC /></div>
+<div id="HomeD"><HomeD /></div>
+<div id="HomeE"><HomeE /></div>
+<div id="HomeF"><HomeF /></div>
+<div id="HomeG"><HomeG /></div>
+<div id="HomeH"><HomeH /></div>
+<div id="HomeI"><HomeI /></div>
+<div id="HomeL"><HomeL /></div>
+<div id="Footer"><Footer content={data.content?.Footer || {}} /></div>

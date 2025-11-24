@@ -1,3 +1,17 @@
+<script>
+	// Accept content from parent page
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	// Helper function to get content with fallback
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section
 	data-w-id="3949d65c-e80a-8d0b-badd-57cf44540304"
 	class="rt-about-hero-v3 rt-position-relative"
@@ -6,14 +20,13 @@
 		<div class="w-layout-hflex rt-monitoring">
 			<div class="w-layout-vflex rt-monitoring-text-wrapper rt-desktop-text-center">
 				<h1 data-w-id="3949d65c-e80a-8d0b-badd-57cf44540308" class="rt-gap-off rt-h1-gap">
-					Maximizing Productivity with AI-Powered Tracking
+					{getText('hero_heading', 'Maximizing Productivity with AI-Powered Tracking')}
 				</h1>
 				<p
 					data-w-id="3949d65c-e80a-8d0b-badd-57cf4454030a"
 					class="rt-monitoring-paragraph rt-gap-off rt-h2-paragraph-gap"
 				>
-					Eu eget accumsan risus montes nibh hac. Ut condimentum nunc accumsan mollis dis. Lacus non
-					ante Netus ultricies.
+					{getText('eu_eget_accumsan', 'Eu eget accumsan risus montes nibh hac. Ut condimentum nunc accumsan mollis dis. Lacus non ante Netus ultricies.')}
 				</p>
 				<div
 					data-w-id="3949d65c-e80a-8d0b-badd-57cf4454030c"

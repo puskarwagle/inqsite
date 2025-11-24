@@ -7,10 +7,99 @@
 	let loading = false;
 	let saving = false;
 	let message = '';
+	let registry = { pages: {}, sharedComponents: [] };
+	let visitSiteUrl = '/';
+	let viewMode = 'pages'; // 'pages' or 'components'
+	let selectedPage = null;
 
 	onMount(async () => {
+		await loadRegistry();
 		await loadComponents();
+
+		// Restore state after page reload
+		const savedComponent = sessionStorage.getItem('cms_selected_component');
+		if (savedComponent && components.some(c => c.name === savedComponent)) {
+			selectedComponent = savedComponent;
+
+			// Find which page this component belongs to
+			for (const [page, pageComponents] of Object.entries(registry.pages)) {
+				if (pageComponents.includes(savedComponent)) {
+					selectedPage = page;
+					viewMode = 'components';
+					break;
+				}
+			}
+
+			await loadContent();
+		}
+
+		// Clear the saved state
+		sessionStorage.removeItem('cms_selected_component');
 	});
+
+	async function loadRegistry() {
+		try {
+			const res = await fetch('/content/_registry.json');
+			registry = await res.json();
+		} catch (error) {
+			console.error('Failed to load registry:', error);
+		}
+	}
+
+	function updateVisitSiteUrl() {
+		if (!selectedComponent) {
+			visitSiteUrl = '/';
+			return;
+		}
+
+		// Find which page this component belongs to
+		for (const [page, pageComponents] of Object.entries(registry.pages)) {
+			if (pageComponents.includes(selectedComponent)) {
+				// Found the page - create URL with anchor
+				visitSiteUrl = `${page}#${selectedComponent}`;
+				return;
+			}
+		}
+
+		// Check if it's a shared component
+		if (registry.sharedComponents.includes(selectedComponent)) {
+			visitSiteUrl = '/'; // Default to home for shared components
+		} else {
+			visitSiteUrl = '/'; // Default fallback
+		}
+	}
+
+	function selectPage(page) {
+		selectedPage = page;
+		viewMode = 'components';
+	}
+
+	function backToPages() {
+		viewMode = 'pages';
+		selectedPage = null;
+	}
+
+	function selectComponent(componentName) {
+		selectedComponent = componentName;
+		loadContent();
+	}
+
+	function getPageComponents(page) {
+		return registry.pages[page] || [];
+	}
+
+	function getPageName(page) {
+		const names = {
+			'/': 'Home',
+			'/aboutus': 'About Us',
+			'/team': 'Team',
+			'/contact': 'Contact',
+			'/pricing-one': 'Pricing',
+			'/service-one': 'Service One',
+			'/service-two': 'Service Two'
+		};
+		return names[page] || page;
+	}
 
 	async function loadComponents() {
 		try {
@@ -33,6 +122,7 @@
 		try {
 			const res = await fetch(`/api/content/${selectedComponent}`);
 			content = await res.json();
+			updateVisitSiteUrl();
 		} catch (error) {
 			console.error('Failed to load content:', error);
 			message = 'Failed to load content';
@@ -54,8 +144,13 @@
 
 			const result = await res.json();
 			if (result.success) {
-				message = '✓ Saved successfully!';
-				setTimeout(() => (message = ''), 3000);
+				message = '✓ Saved successfully! Reloading...';
+
+				// Save current state before reload
+				sessionStorage.setItem('cms_selected_component', selectedComponent);
+
+				// Reload entire page to refresh both CMS and site
+				setTimeout(() => window.location.reload(), 1000);
 			} else {
 				message = '✗ Failed to save';
 			}
@@ -94,11 +189,19 @@
 
 <svelte:head>
 	<title>Content Management - Admin</title>
+	<link rel="stylesheet" href="/webtemplate/style.css" />
+	<link rel="stylesheet" href="/webtemplate/style2.css" />
 	<style>
 		* {
 			margin: 0;
 			padding: 0;
 			box-sizing: border-box;
+		}
+		/* Scope site styles to header only */
+		.admin-container .admin-content,
+		.admin-container .sidebar,
+		.admin-container .editor {
+			all: revert;
 		}
 	</style>
 </svelte:head>
@@ -106,32 +209,48 @@
 <div class="admin-container">
 	<header class="admin-header">
 		<h1>Content Management System</h1>
-		<a href="/" class="view-site">← View Site</a>
+		<a href={visitSiteUrl} class="view-site" target="_blank">← View Site</a>
 	</header>
 
 	<div class="admin-content">
 		<div class="sidebar">
-			<label for="component-select">Select Component:</label>
-			<select
-				id="component-select"
-				bind:value={selectedComponent}
-				on:change={loadContent}
-				class="component-select"
-			>
-				{#each components as comp}
-					<option value={comp.name}>{comp.name}</option>
-				{/each}
-			</select>
-
-			<div class="component-info">
-				{#if content}
-					<p class="info-text">
-						{Object.keys(content.texts || {}).length} texts<br />
-						{Object.keys(content.images || {}).length} images<br />
-						{Object.keys(content.links || {}).length} links
-					</p>
-				{/if}
-			</div>
+			{#if viewMode === 'pages'}
+				<div class="sidebar-header">
+					<h3>Select Page</h3>
+				</div>
+				<div class="page-cards">
+					{#each Object.keys(registry.pages) as page}
+						<button class="page-card" on:click={() => selectPage(page)}>
+							<div class="page-card-title">{getPageName(page)}</div>
+							<div class="page-card-count">
+								{getPageComponents(page).length} components
+							</div>
+						</button>
+					{/each}
+				</div>
+			{:else if viewMode === 'components'}
+				<div class="sidebar-header">
+					<button class="back-button" on:click={backToPages}>← Back</button>
+					<h3>{getPageName(selectedPage)}</h3>
+				</div>
+				<div class="component-cards">
+					{#each getPageComponents(selectedPage) as comp}
+						<button
+							class="component-card {selectedComponent === comp ? 'active' : ''}"
+							on:click={() => selectComponent(comp)}
+						>
+							<div class="component-card-title">{comp}</div>
+							{#if selectedComponent === comp && content}
+								<div class="component-card-info">
+									{Object.keys(content.texts || {}).length} texts,
+									{Object.keys(content.images || {}).length} images,
+									{Object.keys(content.links || {}).length} links
+								</div>
+							{/if}
+						</button>
+					{/each}
+				</div>
+			{/if}
 		</div>
 
 		<div class="editor">
@@ -290,39 +409,93 @@
 	}
 
 	.sidebar {
-		width: 280px;
+		width: 320px;
 		background: #fff;
 		border-right: 1px solid #e0e0e0;
-		padding: 2rem;
+		padding: 1.5rem;
+		overflow-y: auto;
 	}
 
-	.sidebar label {
-		display: block;
-		font-size: 0.875rem;
-		font-weight: 500;
-		color: #666;
-		margin-bottom: 0.5rem;
-	}
-
-	.component-select {
-		width: 100%;
-		padding: 0.75rem;
-		border: 1px solid #ddd;
-		border-radius: 6px;
-		font-size: 0.95rem;
+	.sidebar-header {
 		margin-bottom: 1.5rem;
 	}
 
-	.component-info {
-		padding: 1rem;
-		background: #f9f9f9;
-		border-radius: 6px;
+	.sidebar-header h3 {
+		font-size: 1.1rem;
+		font-weight: 600;
+		color: #333;
+		margin-top: 0.5rem;
 	}
 
-	.info-text {
-		font-size: 0.875rem;
+	.back-button {
+		background: none;
+		border: none;
+		color: #007bff;
+		font-size: 0.9rem;
+		cursor: pointer;
+		padding: 0.5rem 0;
+		margin-bottom: 0.5rem;
+		display: block;
+	}
+
+	.back-button:hover {
+		color: #0056b3;
+		text-decoration: underline;
+	}
+
+	.page-cards,
+	.component-cards {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+	}
+
+	.page-card,
+	.component-card {
+		background: #f8f9fa;
+		border: 2px solid #e0e0e0;
+		border-radius: 8px;
+		padding: 1rem;
+		text-align: left;
+		cursor: pointer;
+		transition: all 0.2s ease;
+		font-family: inherit;
+	}
+
+	.page-card:hover,
+	.component-card:hover {
+		background: #e9ecef;
+		border-color: #007bff;
+		transform: translateY(-2px);
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+
+	.component-card.active {
+		background: #007bff;
+		border-color: #0056b3;
+		color: #fff;
+	}
+
+	.page-card-title,
+	.component-card-title {
+		font-size: 1rem;
+		font-weight: 600;
+		margin-bottom: 0.25rem;
+	}
+
+	.component-card.active .component-card-title {
+		color: #fff;
+	}
+
+	.page-card-count {
+		font-size: 0.85rem;
 		color: #666;
-		line-height: 1.6;
+	}
+
+	.component-card-info {
+		font-size: 0.75rem;
+		margin-top: 0.5rem;
+		opacity: 0.9;
 	}
 
 	.editor {

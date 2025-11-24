@@ -11,6 +11,9 @@
 	import AboutH from '$lib/components/about/AboutH.svelte';
 	import Footer from '$lib/components/shared/Footer.svelte';
 
+	// Get content data from server
+	export let data;
+
 	if (typeof document !== 'undefined') {
 		const n = document.documentElement;
 		const t = ' w-mod-';
@@ -97,13 +100,13 @@
 	<link rel="stylesheet" href="/webtemplate/style2.css" />
 </svelte:head>
 
-<Header />
-<AboutA />
-<AboutB />
-<AboutC />
-<AboutD />
-<AboutE />
-<AboutF />
-<AboutG />
-<AboutH />
-<Footer />
+<div id="Header"><Header content={data.content?.Header || {}} /></div>
+<div id="AboutA"><AboutA content={data.content?.AboutA || {}} /></div>
+<div id="AboutB"><AboutB /></div>
+<div id="AboutC"><AboutC /></div>
+<div id="AboutD"><AboutD /></div>
+<div id="AboutE"><AboutE /></div>
+<div id="AboutF"><AboutF /></div>
+<div id="AboutG"><AboutG /></div>
+<div id="AboutH"><AboutH /></div>
+<div id="Footer"><Footer content={data.content?.Footer || {}} /></div>

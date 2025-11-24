@@ -1,8 +1,8 @@
 {
   "componentName": "AboutA",
-  "lastModified": "2025-11-24T17:48:12.015Z",
+  "lastModified": "2025-11-24T18:05:59.367Z",
   "texts": {
-    "hero_heading": "Maximizing Productivity with AI-Powered Tracking sfdasd",
+    "hero_heading": "Maximizing Productivity with AI-Powered Tracking",
     "eu_eget_accumsan": "Eu eget accumsan risus montes nibh hac. Ut condimentum nunc accumsan mollis dis. Lacus non ante Netus ultricies.",
     "our_services": "Our Services"
   },
@@ -12,7 +12,7 @@
       "alt": ""
     },
     "image_2": {
-      "url": "/uploads/1764006232903_puskar.jpg",
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee565ccf66833f831163eb_Banner%20main%20image.webp",
       "alt": ""
     }
   },
