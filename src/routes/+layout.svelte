@@ -15,8 +15,8 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-{#if !isAdminPage && !isErrorPage}
+<!-- {#if !isAdminPage && !isErrorPage}
 	<Header />
-{/if}
+{/if} -->
 
 {@render children()}
