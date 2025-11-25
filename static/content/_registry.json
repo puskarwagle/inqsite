@@ -53,11 +53,29 @@
       "HomeTwoH",
       "HomeTwoI",
       "HomeTwoJ"
+    ],
+    "/pricing-one": [
+      "PricingA",
+      "PricingB"
+    ],
+    "/service-one": [
+      "ServiceOneA",
+      "ServiceOneB",
+      "ServiceOneC",
+      "ServiceOneD",
+      "ServiceOneE",
+      "ServiceOneF"
+    ],
+    "/service-two": [
+      "ServiceTwoA",
+      "ServiceTwoB",
+      "ServiceTwoC",
+      "ServiceTwoD"
     ]
   },
   "sharedComponents": [
     "Header",
     "Footer"
   ],
-  "lastUpdated": "2025-11-25T06:33:38.646Z"
+  "lastUpdated": "2025-11-25T08:40:22.105Z"
 }

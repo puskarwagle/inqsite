@@ -16,7 +16,7 @@
 		<div class="w-layout-hflex rt-efficiency">
 			<div class="w-layout-vflex rt-efficiency-text-wrapper rt-desktop-text-center">
 				<h1 data-w-id="c33874e0-050b-268a-567d-ae90eb8f5971" class="rt-gap-off rt-h1-gap">
-					Boost Efficiency with Cutting-Edge AI Solutions
+					{getText('hero_heading', 'Boost Efficiency with Cutting-Edge AI Solutions')}
 				</h1>
 				<p
 					data-w-id="c33874e0-050b-268a-567d-ae90eb8f5973"
@@ -29,12 +29,12 @@
 					<a
 						data-wf--rt-button-v1--variant="base"
 						data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-						href="about.html"
+						href={getLink('about_link').href || 'about.html'}
 						class="rt-button w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper">
 							<div class="w-layout-hflex rt-button-text-wrap">
-								<div class="rt-button-text rt-button-hover-in">Explore More</div>
-								<div class="rt-button-text rt-button-hover-out">Explore More</div>
+								<div class="rt-button-text rt-button-hover-in">{getText('explore_more_button', 'Explore More')}</div>
+								<div class="rt-button-text rt-button-hover-out">{getText('explore_more_button', 'Explore More')}</div>
 							</div>
 							<img
 								width="10"

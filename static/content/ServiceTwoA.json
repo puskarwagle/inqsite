@@ -1,0 +1,20 @@
+{
+  "componentName": "ServiceTwoA",
+  "lastModified": "2025-11-25T07:44:04.448Z",
+  "texts": {
+    "hero_heading": "Boost Efficiency with Cutting-Edge AI Solutions",
+    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet consectetur. Amet ullamcorper atsit eros risus eget tristique diam imperdiet. Eleifend",
+    "explore_more_button": "Explore More",
+    "arrow": "Arrow",
+    "banner": "Banner",
+    "statistics": "Statistics",
+    "efficiency_statistics": "Efficiency Statistics",
+    "line": "Line"
+  },
+  "images": {},
+  "links": {
+    "about_link": {
+      "href": "about.html"
+    }
+  }
+}

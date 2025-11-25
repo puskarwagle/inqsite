@@ -45,7 +45,7 @@
 					<a
 						data-wf--rt-button-v1--variant="base"
 						data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-						href="service-one.html"
+						href={getLink('service_one_link').href || 'service-one.html'}
 						class="rt-button w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper">
 							<div class="w-layout-hflex rt-button-text-wrap">
@@ -89,7 +89,7 @@
 					<a
 						data-wf--rt-button-v1--variant="base"
 						data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-						href="service-one.html"
+						href={getLink('service_one_link').href || 'service-one.html'}
 						class="rt-button w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper">
 							<div class="w-layout-hflex rt-button-text-wrap">

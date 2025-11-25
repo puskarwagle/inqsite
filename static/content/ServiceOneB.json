@@ -1,0 +1,24 @@
+{
+  "componentName": "ServiceOneB",
+  "lastModified": "2025-11-25T08:40:22.105Z",
+  "texts": {
+    "section_heading": "Data-Driven AI for Smarter Business Strategies",
+    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue.",
+    "business": "Business",
+    "ai_powered_insights_heading": "AI-Powered Insights",
+    "lorem_ipsum_voluptas_assumenda": "Lorem ipsum Voluptas assumenda est, omnis dolor Temporibus autem quibusdam amet ullamcorper atsit eros risus eget trist.",
+    "explore_more_button": "Explore More",
+    "arrow": "Arrow",
+    "ai_automation_heading": "AI Automation",
+    "performance_driven_heading": "Performance-Driven"
+  },
+  "images": {},
+  "links": {
+    "service_one_link": {
+      "href": "service-one.html"
+    },
+    "service_two_link": {
+      "href": "service-two.html"
+    }
+  }
+}

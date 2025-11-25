@@ -1,0 +1,19 @@
+{
+  "componentName": "ServiceOneA",
+  "lastModified": "2025-11-25T07:44:03.214Z",
+  "texts": {
+    "hero_heading": "Elevate Productivity with Future-Ready AI Applications",
+    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet consectetur. Amet ullamcorper atsit eros risus eget tristique diam imperdiet. Eleifend",
+    "explore_more": "Explore More",
+    "arrow": "Arrow",
+    "service_two_dashboard_image": "Service Two Dashboard Image",
+    "line": "Line",
+    "spline_image_one": "Spline Image one"
+  },
+  "images": {},
+  "links": {
+    "about_link": {
+      "href": "about.html"
+    }
+  }
+}

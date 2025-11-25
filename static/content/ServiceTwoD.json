@@ -1,0 +1,23 @@
+{
+  "componentName": "ServiceTwoD",
+  "lastModified": "2025-11-25T07:44:05.041Z",
+  "texts": {
+    "leverage": "Leverage",
+    "section_1_heading": "Leveraging AI for Data-Driven Business Excellence",
+    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id eros blandit aliquam odio et porta diam. Proin tempor porta purus rutrum elementum lorem ipsum dolor sit amet consectetur.",
+    "explore_more_button": "Explore More",
+    "arrow": "Arrow",
+    "section_2_heading": "Use AI Desk to Master Artificial Intelligence",
+    "tick": "Tick",
+    "feature_1_heading": "AI Elevated Performance",
+    "feature_2_heading": "Redefining Intelligence with AI",
+    "feature_3_heading": "Intelligent Automation, Powered by AI",
+    "campaign": "Campaign"
+  },
+  "images": {},
+  "links": {
+    "about_link": {
+      "href": "about.html"
+    }
+  }
+}

@@ -17,7 +17,7 @@
 			<div class="w-layout-vflex rt-expertise-left-box-wrapper">
 				<div class="w-layout-vflex rt-expertise-left-box-text-wrapper">
 					<h2 data-w-id="2a1f2f09-2f72-3f5a-b508-a785f2a1c16e" class="rt-gap-off rt-h2-gap">
-						Harness AI Desk to Elevate Your Expertise
+						{getText('section_heading', 'Harness AI Desk to Elevate Your Expertise')}
 					</h2>
 					<p
 						data-w-id="4176857f-2602-fec1-3f7a-7fd2a1d6c8e1"
@@ -39,7 +39,7 @@
 							/>
 						</div>
 						<div class="w-layout-vflex rt-erpertise-text-block">
-							<div class="rt-text-style-h5">Secure the perfect platform fit</div>
+							<div class="rt-text-style-h5">{getText('feature_1_heading', 'Secure the perfect platform fit')}</div>
 							<p>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis metus neque lobortis pellentesque.')}</p>
 						</div>
 					</div>
@@ -57,7 +57,7 @@
 							/>
 						</div>
 						<div class="w-layout-vflex rt-erpertise-text-block">
-							<div class="rt-text-style-h5">Enhance algorithm capabilities</div>
+							<div class="rt-text-style-h5">{getText('feature_2_heading', 'Enhance algorithm capabilities')}</div>
 							<p>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis metus neque lobortis pellentesque.')}</p>
 						</div>
 					</div>

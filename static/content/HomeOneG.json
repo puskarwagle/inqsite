@@ -1,53 +1,49 @@
 {
   "componentName": "HomeOneG",
-  "lastModified": "2025-11-24T19:37:09.827Z",
+  "lastModified": "2025-11-25T08:40:22.085Z",
   "texts": {
+    "client": "Client",
+    "capabilities_icon": "Capabilities Icon",
     "section_heading": "Transform Operations Through Seamless Platform Integrations",
-    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus.",
-    "explore_more_explore": "Explore More Explore More",
-    "explore_more": "Explore More"
+    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus.",
+    "explore_more": "Explore More",
+    "arrow": "Arrow"
   },
   "images": {
     "image_1": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c8_User%204.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c8_User%204.svg"
     },
     "image_2": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c4_User%202.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c4_User%202.svg"
     },
     "image_3": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c3_User%206.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c3_User%206.svg"
     },
     "image_4": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ca_User%203.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ca_User%203.svg"
     },
     "image_5": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c5_User%205.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c5_User%205.svg"
     },
     "image_6": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febec_Capabilities%20icon%205.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febec_Capabilities%20icon%205.svg"
     },
     "image_7": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b6_Data%20logo%206.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b6_Data%20logo%206.svg"
     },
     "image_8": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febef_Capabilities%20icon%203.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febef_Capabilities%20icon%203.svg"
     },
     "image_9": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febed_Capabilities%20icon%204.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febed_Capabilities%20icon%204.svg"
     },
     "image_10": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
     }
   },
-  "links": {}
+  "links": {
+    "about_link": {
+      "href": "about.html"
+    }
+  }
 }

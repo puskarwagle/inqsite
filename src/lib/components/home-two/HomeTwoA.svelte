@@ -28,8 +28,7 @@
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cd99"
 					class="rt-automate-solution-paragraph-v2 rt-gap-off rt-h2-paragraph-gap"
 				>
-					Eu eget accumsan risus montes nibh hac. Ut condimentum nunc accumsan mollis dis. Lacus non
-					ante Netus ultricies.
+					{getText('eu_eget_accumsan', 'Eu eget accumsan risus montes nibh hac. Ut condimentum nunc accumsan mollis dis. Lacus non ante Netus ultricies.')}
 				</p>
 				<div
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cd9b"
@@ -38,7 +37,7 @@
 					<a
 						data-wf--rt-button-v1--variant="base"
 						data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-						href="service-one.html"
+						href={getLink('service_one_link').href || 'service-one.html'}
 						class="rt-button w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper">
 							<div class="w-layout-hflex rt-button-text-wrap">
@@ -56,7 +55,7 @@
 					></a>
 					<div class="w-layout-hflex rt-video-block">
 						<a
-							href="home-two.html#"
+							href={getLink('home_two_video_link').href || 'home-two.html#'}
 							data-w-id="d1fcb99f-03d8-310f-1df0-693bc9a3c689"
 							class="rt-hero-video-button-block w-inline-block w-lightbox"
 							><div

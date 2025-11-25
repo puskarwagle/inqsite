@@ -1,35 +1,37 @@
 {
   "componentName": "HomeTwoF",
-  "lastModified": "2025-11-24T19:37:09.832Z",
+  "lastModified": "2025-11-25T08:40:22.101Z",
   "texts": {
+    "innovation": "Innovation",
     "section_heading": "AI-Enabled Innovations to Elevate Your Business",
-    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Nisl proin est sed ultricies magna elit eros. Aliquet nam ipsum amet orci.",
-    "explore_more_explore": "Explore More Explore More",
+    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet consectetur. Nisl proin est sed ultricies magna elit eros. Aliquet nam ipsum amet orci.",
+    "settings": "Settings",
     "realtime_ai_insights": "Real-Time AI Insights",
+    "configuration": "Configuration",
     "predictive_analytics": "Predictive Analytics",
-    "explore_more": "Explore More"
+    "explore_more": "Explore More",
+    "arrow": "Arrow"
   },
   "images": {
     "image_1": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217043835aecce9891_Screen%20one.webp",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217043835aecce9891_Screen%20one.webp"
     },
     "image_2": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217c70ff8ed3782287_Scree%20two.webp",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217c70ff8ed3782287_Scree%20two.webp"
     },
     "image_3": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg"
     },
     "image_4": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1369e416066866d72b3_config-vertical.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1369e416066866d72b3_config-vertical.svg"
     },
     "image_5": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
     }
   },
-  "links": {}
+  "links": {
+    "about_link": {
+      "href": "about.html"
+    }
+  }
 }

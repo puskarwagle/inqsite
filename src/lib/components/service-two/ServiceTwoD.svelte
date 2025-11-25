@@ -32,7 +32,7 @@
 			<div class="w-layout-vflex rt-data-driven-text-wrapper">
 				<div class="w-layout-vflex rt-data-driven-text">
 					<h2 data-w-id="80f88a04-db08-2628-3d94-c471f131f1cb" class="rt-gap-off rt-h2-gap">
-						Leveraging AI for Data-Driven Business Excellence
+						{getText('section_1_heading', 'Leveraging AI for Data-Driven Business Excellence')}
 					</h2>
 					<p
 						data-w-id="5cf932be-3945-2eee-e653-b53f7facae52"
@@ -43,12 +43,12 @@
 					<a
 						data-wf--rt-button-v1--variant="base"
 						data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-						href="about.html"
+						href={getLink('about_link').href || 'about.html'}
 						class="rt-button w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper">
 							<div class="w-layout-hflex rt-button-text-wrap">
-								<div class="rt-button-text rt-button-hover-in">Explore More</div>
-								<div class="rt-button-text rt-button-hover-out">Explore More</div>
+								<div class="rt-button-text rt-button-hover-in">{getText('explore_more_button', 'Explore More')}</div>
+								<div class="rt-button-text rt-button-hover-out">{getText('explore_more_button', 'Explore More')}</div>
 							</div>
 							<img
 								width="10"
@@ -67,7 +67,7 @@
 			<div class="w-layout-vflex rt-artificial-text-wrapper">
 				<div class="w-layout-vflex rt-data-driven-text">
 					<h2 data-w-id="6a3e135c-2809-30ec-0335-3884a3b04f68" class="rt-gap-off rt-h2-gap">
-						Use AI Desk to Master Artificial Intelligence
+						{getText('section_2_heading', 'Use AI Desk to Master Artificial Intelligence')}
 					</h2>
 					<p
 						data-w-id="6a3e135c-2809-30ec-0335-3884a3b04f6a"
@@ -85,7 +85,7 @@
 								height="24"
 								alt={getText('tick', 'Tick')}
 							/>
-							<div class="rt-text-style-h6">AI Elevated Performance</div>
+							<div class="rt-text-style-h6">{getText('feature_1_heading', 'AI Elevated Performance')}</div>
 						</div>
 						<div
 							data-w-id="9542f032-5bfc-8e61-4522-154fb08158a4"
@@ -98,7 +98,7 @@
 								height="24"
 								alt={getText('tick', 'Tick')}
 							/>
-							<div class="rt-text-style-h6">Redefining Intelligence with AI</div>
+							<div class="rt-text-style-h6">{getText('feature_2_heading', 'Redefining Intelligence with AI')}</div>
 						</div>
 						<div
 							data-w-id="9542f032-5bfc-8e61-4522-154fb08158a8"
@@ -111,7 +111,7 @@
 								height="24"
 								alt={getText('tick', 'Tick')}
 							/>
-							<div class="rt-text-style-h6">Intelligent Automation, Powered by AI</div>
+							<div class="rt-text-style-h6">{getText('feature_3_heading', 'Intelligent Automation, Powered by AI')}</div>
 						</div>
 					</div>
 				</div>

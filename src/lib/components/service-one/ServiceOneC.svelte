@@ -45,7 +45,7 @@
 			<div class="w-layout-vflex rt-revolution-text-wrapper-v3">
 				<div class="w-layout-vflex rt-revolution-text-v3">
 					<h2 data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b585" class="rt-gap-off rt-h2-gap">
-						Revolutionizing Industries with AI Intelligence
+						{getText('section_heading', 'Revolutionizing Industries with AI Intelligence')}
 					</h2>
 					<p data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b587" class="rt-revolution-paragraph-v3">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis velit sed sollicitudin semper. Donec mattis pulvinar quam')}</p>
 				</div>
@@ -63,10 +63,9 @@
 							class="rt-revolution-box-icon-v3"
 						/>
 						<div class="w-layout-vflex rt-revolution-box-text-wrapper-v3">
-							<div class="rt-text-style-h5">Machine Learning Edge</div>
+							<div class="rt-text-style-h5">{getText('machine_learning_edge_heading', 'Machine Learning Edge')}</div>
 							<p>
-								Proin consectetur risus quis euismod ultricies. Maecenas a auctor magna eu efficitur
-								leo risus dapibus facilisis.
+								{getText('machine_learning_edge_description', 'Proin consectetur risus quis euismod ultricies. Maecenas a auctor magna eu efficitur leo risus dapibus facilisis.')}
 							</p>
 						</div>
 					</div>
@@ -83,10 +82,9 @@
 							class="rt-revolution-box-icon-v3"
 						/>
 						<div class="w-layout-vflex rt-revolution-box-text-wrapper-v3">
-							<div class="rt-text-style-h5">AI-Powered Innovation</div>
+							<div class="rt-text-style-h5">{getText('ai_powered_innovation_heading', 'AI-Powered Innovation')}</div>
 							<p>
-								Proin consectetur risus quis euismod ultricies. Maecenas a auctor magna eu efficitur
-								leo risus dapibus facilisis.
+								{getText('ai_powered_innovation_description', 'Proin consectetur risus quis euismod ultricies. Maecenas a auctor magna eu efficitur leo risus dapibus facilisis.')}
 							</p>
 						</div>
 					</div>

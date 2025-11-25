@@ -1,21 +1,24 @@
 {
   "componentName": "HomeTwoG",
-  "lastModified": "2025-11-24T19:37:09.833Z",
+  "lastModified": "2025-11-25T08:40:22.101Z",
   "texts": {
     "section_heading": "Unlock Growth with Intelligent AI-Powered Technologies",
-    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Convallis eget phasellus eget nibh eu ut etiam. Tellus neque cras condimentum tristique a tempor. In auctor cras accumsan nam. Enim orci fermentum ultrices sit donec.",
-    "explore_more_explore": "Explore More Explore More",
-    "explore_more": "Explore More"
+    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet consectetur. Convallis eget phasellus eget nibh eu ut etiam. Tellus neque cras condimentum tristique a tempor. In auctor cras accumsan nam. Enim orci fermentum ultrices sit donec.",
+    "explore_more": "Explore More",
+    "arrow": "Arrow",
+    "growth": "Growth"
   },
   "images": {
     "image_1": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
     },
     "image_2": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec06_Growth.webp",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec06_Growth.webp"
     }
   },
-  "links": {}
+  "links": {
+    "about_link": {
+      "href": "about.html"
+    }
+  }
 }

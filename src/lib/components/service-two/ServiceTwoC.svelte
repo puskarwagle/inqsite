@@ -31,7 +31,7 @@
 					/>
 				</div>
 				<div class="w-layout-vflex rt-technology-card-text-wrapper">
-					<div class="rt-text-style-h5">Revolutionizing AI Systems</div>
+					<div class="rt-text-style-h5">{getText('feature_1_heading', 'Revolutionizing AI Systems')}</div>
 					<p class="rt-technology-card-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis.')}</p>
 				</div>
 				<div data-w-id="9eb56fab-101f-7be4-dc97-06c3132fef9a" class="rt-technology-card-line"></div>
@@ -53,7 +53,7 @@
 					/>
 				</div>
 				<div class="w-layout-vflex rt-technology-card-text-wrapper">
-					<div class="rt-text-style-h5">Advanced AI Technology</div>
+					<div class="rt-text-style-h5">{getText('feature_2_heading', 'Advanced AI Technology')}</div>
 					<p class="rt-technology-card-paragraph active">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis.')}</p>
 				</div>
 				<div
@@ -78,7 +78,7 @@
 					/>
 				</div>
 				<div class="w-layout-vflex rt-technology-card-text-wrapper">
-					<div class="rt-text-style-h5">AI Mastery Hub</div>
+					<div class="rt-text-style-h5">{getText('feature_3_heading', 'AI Mastery Hub')}</div>
 					<p class="rt-technology-card-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis.')}</p>
 				</div>
 				<div data-w-id="2a249cce-28b2-7138-c8ee-07c1d955822d" class="rt-technology-card-line"></div>

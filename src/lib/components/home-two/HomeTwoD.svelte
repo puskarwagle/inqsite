@@ -285,8 +285,7 @@
 							</div>
 						</div>
 						<div style="height: 0px" class="rt-dropdown-text-width-v2">
-							Ut quis mi eget erat vehicula aliquam eget id odio elit. Dolor vitae risus
-							pellentesque aliquet
+							{getText('ut_quis_mi_eget', 'Ut quis mi eget erat vehicula aliquam eget id odio elit. Dolor vitae risus pellentesque aliquet')}
 						</div>
 					</div>
 					<div
@@ -320,8 +319,7 @@
 							</div>
 						</div>
 						<div class="rt-dropdown-text-width-v2 active">
-							Ut quis mi eget erat vehicula aliquam eget id odio elit. Dolor vitae risus
-							pellentesque aliquet
+							{getText('ut_quis_mi_eget', 'Ut quis mi eget erat vehicula aliquam eget id odio elit. Dolor vitae risus pellentesque aliquet')}
 						</div>
 					</div>
 					<div data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce44" class="rt-complex-problem-block">
@@ -352,8 +350,7 @@
 							</div>
 						</div>
 						<div style="height: 0px" class="rt-dropdown-text-width-v2">
-							Ut quis mi eget erat vehicula aliquam eget id odio elit. Dolor vitae risus
-							pellentesque aliquet
+							{getText('ut_quis_mi_eget', 'Ut quis mi eget erat vehicula aliquam eget id odio elit. Dolor vitae risus pellentesque aliquet')}
 						</div>
 					</div>
 				</div>

@@ -17,7 +17,7 @@
 			<div class="w-layout-blockcontainer rt-container-small rt-full-container w-container">
 				<div class="w-layout-vflex rt-possibilities-top-title rt-desktop-text-center">
 					<h2 data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b59c" class="rt-gap-off rt-h2-gap">
-						Unlocking New Possibilities with Artificial Intelligence
+						{getText('section_heading', 'Unlocking New Possibilities with Artificial Intelligence')}
 					</h2>
 					<p
 						data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b59e"
@@ -37,8 +37,8 @@
 								/>
 							</div>
 							<div class="w-layout-vflex rt-possibilities-left-box-text-wrap">
-								<div class="rt-text-style-h5">AI Transforming the Future</div>
-								<p>We design business models and growth strategies to effective competitive.</p>
+								<div class="rt-text-style-h5">{getText('ai_transforming_future_heading', 'AI Transforming the Future')}</div>
+								<p>{getText('ai_transforming_future_description', 'We design business models and growth strategies to effective competitive.')}</p>
 							</div>
 						</div>
 						<div class="w-layout-hflex rt-possibilities-left-box-content two">
@@ -52,8 +52,8 @@
 								/>
 							</div>
 							<div class="w-layout-vflex rt-possibilities-left-box-text-wrap">
-								<div class="rt-text-style-h5">AI-Driven Smart Technologies</div>
-								<p>We design business models and growth strategies to effective competitive.</p>
+								<div class="rt-text-style-h5">{getText('ai_driven_technologies_heading', 'AI-Driven Smart Technologies')}</div>
+								<p>{getText('ai_driven_technologies_description', 'We design business models and growth strategies to effective competitive.')}</p>
 							</div>
 						</div>
 						<div class="w-layout-hflex rt-possibilities-left-box-content three">
@@ -67,8 +67,8 @@
 								/>
 							</div>
 							<div class="w-layout-vflex rt-possibilities-left-box-text-wrap">
-								<div class="rt-text-style-h5">Redefining Intelligence with AI</div>
-								<p>We design business models and growth strategies to effective competitive.</p>
+								<div class="rt-text-style-h5">{getText('redefining_intelligence_heading', 'Redefining Intelligence with AI')}</div>
+								<p>{getText('redefining_intelligence_description', 'We design business models and growth strategies to effective competitive.')}</p>
 							</div>
 						</div>
 					</div>
@@ -147,7 +147,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="rt-text-style-h5 counter-color-chnage">New Features</div>
+					<div class="rt-text-style-h5 counter-color-chnage">{getText('new_features_label', 'New Features')}</div>
 				</div>
 				<div class="w-layout-vflex rt-achievement-box rt-border-remove-tab">
 					<div
@@ -188,7 +188,7 @@
 						</div>
 						<div class="rt-text-style-h1 counter-color-change">K</div>
 					</div>
-					<div class="rt-text-style-h5 counter-color-chnage">APP Download</div>
+					<div class="rt-text-style-h5 counter-color-chnage">{getText('app_download_label', 'APP Download')}</div>
 				</div>
 				<div class="w-layout-vflex rt-achievement-box">
 					<div
@@ -224,7 +224,7 @@
 						</div>
 						<div class="rt-text-style-h1 counter-color-change">K</div>
 					</div>
-					<div class="rt-text-style-h5 counter-color-chnage">Happy Clients</div>
+					<div class="rt-text-style-h5 counter-color-chnage">{getText('happy_clients_label', 'Happy Clients')}</div>
 				</div>
 				<div class="w-layout-vflex rt-achievement-box rt-border-remove">
 					<div
@@ -279,7 +279,7 @@
 						</div>
 						<div class="rt-text-style-h1 counter-color-change">%</div>
 					</div>
-					<div class="rt-text-style-h5 counter-color-chnage">Positive rate</div>
+					<div class="rt-text-style-h5 counter-color-chnage">{getText('positive_rate_label', 'Positive rate')}</div>
 				</div>
 			</div>
 		</div>

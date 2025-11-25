@@ -15,7 +15,7 @@
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-vflex rt-pricing-top-text-wrapper rt-desktop-text-center">
 			<h2 data-w-id="1655b1ac-c894-871b-a355-2da52bc7cb25" class="rt-gap-off rt-h2-gap">
-				Subscription comparison
+				{getText('section_heading', 'Subscription comparison')}
 			</h2>
 			<p data-w-id="1655b1ac-c894-871b-a355-2da52bc7cb27" class="rt-pricing-top-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id magna malesuada tempor mi eget auctor dolor.')}</p>
 		</div>
@@ -27,23 +27,23 @@
 						id="w-node-_1655b1ac-c894-871b-a355-2da52bc7cb2d-45b6abdd"
 						class="w-layout-vflex rt-pricing-top-heading-wrapper"
 					>
-						<div class="rt-text-style-h5 rt-desktop-text-center">Basic plan</div>
+						<div class="rt-text-style-h5 rt-desktop-text-center">{getText('basic_plan', 'Basic plan')}</div>
 						<div class="rt-price-value-v3">
-							<sup class="dollar">$</sup>199<span class="rt-pricing-plan-time">/ month</span>
+							<sup class="dollar">{getText('currency_symbol', '$')}</sup>{getText('basic_plan_price', '199')}<span class="rt-pricing-plan-time">{getText('per_month', '/ month')}</span>
 						</div>
 						<div class="rt-desktop-text-center">
-							No <span class="rt-text-color-black">credit card</span> required.
+							{getText('no_credit_card_required', 'No ')}<span class="rt-text-color-black">{getText('credit_card', 'credit card')}</span>{getText('required', ' required.')}
 						</div>
 						<div class="rt-price-table-button-wrapper">
 							<a
 								data-wf--rt-button-v1--variant="base"
 								data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-								href="https://aiorbit.webflow.io/product/basic-plan"
+								href={getLink('basic_plan_link').href || 'https://aiorbit.webflow.io/product/basic-plan'}
 								class="rt-button w-inline-block"
 								><div class="w-layout-hflex rt-button-text-image-wrapper">
 									<div class="w-layout-hflex rt-button-text-wrap">
-										<div class="rt-button-text rt-button-hover-in">Select Plan</div>
-										<div class="rt-button-text rt-button-hover-out">Select Plan</div>
+										<div class="rt-button-text rt-button-hover-in">{getText('select_plan', 'Select Plan')}</div>
+										<div class="rt-button-text rt-button-hover-out">{getText('select_plan', 'Select Plan')}</div>
 									</div>
 									<img
 										width="10"
@@ -61,12 +61,12 @@
 						id="w-node-_1655b1ac-c894-871b-a355-2da52bc7cb40-45b6abdd"
 						class="w-layout-vflex rt-pricing-top-heading-wrapper rt-cell-background-change rt-radious-top"
 					>
-						<div class="rt-text-style-h5 rt-desktop-text-center">Standard plan</div>
+						<div class="rt-text-style-h5 rt-desktop-text-center">{getText('standard_plan', 'Standard plan')}</div>
 						<div class="rt-price-value-v3">
-							<sup class="dollar">$</sup>299<span class="rt-pricing-plan-time">/ month</span>
+							<sup class="dollar">{getText('currency_symbol', '$')}</sup>{getText('standard_plan_price', '299')}<span class="rt-pricing-plan-time">{getText('per_month', '/ month')}</span>
 						</div>
 						<div class="rt-desktop-text-center">
-							No <span class="rt-text-color-black">credit card</span> required.
+							{getText('no_credit_card_required', 'No ')}<span class="rt-text-color-black">{getText('credit_card', 'credit card')}</span>{getText('required', ' required.')}
 						</div>
 						<div class="rt-price-table-button-wrapper">
 							<div
@@ -76,12 +76,12 @@
 							>
 								<div class="rt-border-block">
 									<a
-										href="https://aiorbit.webflow.io/product/standard-plan"
+										href={getLink('standard_plan_link').href || 'https://aiorbit.webflow.io/product/standard-plan'}
 										class="rt-button w-inline-block"
 										><div class="w-layout-hflex rt-button-text-image-wrapper">
 											<div class="w-layout-hflex rt-button-text-wrap">
-												<div class="rt-button-text rt-button-hover-in">Select Plan</div>
-												<div class="rt-button-text rt-button-hover-out">Select Plan</div>
+												<div class="rt-button-text rt-button-hover-in">{getText('select_plan', 'Select Plan')}</div>
+												<div class="rt-button-text rt-button-hover-out">{getText('select_plan', 'Select Plan')}</div>
 											</div>
 											<img
 												width="10"
@@ -101,23 +101,23 @@
 						id="w-node-_1655b1ac-c894-871b-a355-2da52bc7cb53-45b6abdd"
 						class="w-layout-vflex rt-pricing-top-heading-wrapper"
 					>
-						<div class="rt-text-style-h5 rt-desktop-text-center">Premium plan</div>
+						<div class="rt-text-style-h5 rt-desktop-text-center">{getText('premium_plan', 'Premium plan')}</div>
 						<div class="rt-price-value-v3">
-							<sup class="dollar">$</sup>399<span class="rt-pricing-plan-time">/ month</span>
+							<sup class="dollar">{getText('currency_symbol', '$')}</sup>{getText('premium_plan_price', '399')}<span class="rt-pricing-plan-time">{getText('per_month', '/ month')}</span>
 						</div>
 						<div class="rt-desktop-text-center">
-							No <span class="rt-text-color-black">credit card</span> required.
+							{getText('no_credit_card_required', 'No ')}<span class="rt-text-color-black">{getText('credit_card', 'credit card')}</span>{getText('required', ' required.')}
 						</div>
 						<div class="rt-price-table-button-wrapper">
 							<a
 								data-wf--rt-button-v1--variant="base"
 								data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-								href="https://aiorbit.webflow.io/product/premium-plan"
+								href={getLink('premium_plan_link').href || 'https://aiorbit.webflow.io/product/premium-plan'}
 								class="rt-button w-inline-block"
 								><div class="w-layout-hflex rt-button-text-image-wrapper">
 									<div class="w-layout-hflex rt-button-text-wrap">
-										<div class="rt-button-text rt-button-hover-in">Select Plan</div>
-										<div class="rt-button-text rt-button-hover-out">Select Plan</div>
+										<div class="rt-button-text rt-button-hover-in">{getText('select_plan', 'Select Plan')}</div>
+										<div class="rt-button-text rt-button-hover-out">{getText('select_plan', 'Select Plan')}</div>
 									</div>
 									<img
 										width="10"
@@ -135,7 +135,7 @@
 			</div>
 			<div class="w-layout-hflex rt-price-table-row rt-middle-row rt-table-row-background-color">
 				<div class="rt-table-left-column">
-					<div class="rt-text-style-h6">AI-Powered chatbot</div>
+					<div class="rt-text-style-h6">{getText('ai_powered_chatbot', 'AI-Powered chatbot')}</div>
 				</div>
 				<div class="w-layout-grid rt-pricing-right-column">
 					<div
@@ -178,7 +178,7 @@
 			</div>
 			<div class="w-layout-hflex rt-price-table-row rt-middle-row">
 				<div class="rt-table-left-column">
-					<div class="rt-text-style-h6">AI Processing Speed</div>
+					<div class="rt-text-style-h6">{getText('ai_processing_speed', 'AI Processing Speed')}</div>
 				</div>
 				<div class="w-layout-grid rt-pricing-right-column">
 					<div
@@ -221,7 +221,7 @@
 			</div>
 			<div class="w-layout-hflex rt-price-table-row rt-middle-row rt-table-row-background-color">
 				<div class="rt-table-left-column">
-					<div class="rt-text-style-h6">Multi-Language support</div>
+					<div class="rt-text-style-h6">{getText('multi_language_support', 'Multi-Language support')}</div>
 				</div>
 				<div class="w-layout-grid rt-pricing-right-column">
 					<div
@@ -264,7 +264,7 @@
 			</div>
 			<div class="w-layout-hflex rt-price-table-row rt-middle-row">
 				<div class="rt-table-left-column">
-					<div class="rt-text-style-h6">Omni channel integration</div>
+					<div class="rt-text-style-h6">{getText('omni_channel_integration', 'Omni channel integration')}</div>
 				</div>
 				<div class="w-layout-grid rt-pricing-right-column">
 					<div
@@ -307,32 +307,32 @@
 			</div>
 			<div class="w-layout-hflex rt-price-table-row rt-middle-row rt-table-row-background-color">
 				<div class="rt-table-left-column">
-					<div class="rt-text-style-h6">Customizable chatbot flows</div>
+					<div class="rt-text-style-h6">{getText('customizable_chatbot_flows', 'Customizable chatbot flows')}</div>
 				</div>
 				<div class="w-layout-grid rt-pricing-right-column">
 					<div
 						id="w-node-_1655b1ac-c894-871b-a355-2da52bc7cb97-45b6abdd"
 						class="rt-pricing-table-icon-wrapper rt-pricing-cell-padding-change"
 					>
-						<div>5 times</div>
+						<div>{getText('5_times', '5 times')}</div>
 					</div>
 					<div
 						id="w-node-_1655b1ac-c894-871b-a355-2da52bc7cb9a-45b6abdd"
 						class="rt-pricing-table-icon-wrapper rt-column-background rt-pricing-cell-padding-change"
 					>
-						<div>30 times</div>
+						<div>{getText('30_times', '30 times')}</div>
 					</div>
 					<div
 						id="w-node-_1655b1ac-c894-871b-a355-2da52bc7cb9d-45b6abdd"
 						class="rt-pricing-table-icon-wrapper rt-pricing-cell-padding-change"
 					>
-						<div>Unlimited</div>
+						<div>{getText('unlimited', 'Unlimited')}</div>
 					</div>
 				</div>
 			</div>
 			<div class="w-layout-hflex rt-price-table-row rt-middle-row">
 				<div class="rt-table-left-column">
-					<div class="rt-text-style-h6">Security &amp; Compliance</div>
+					<div class="rt-text-style-h6">{getText('security_compliance', 'Security & Compliance')}</div>
 				</div>
 				<div class="w-layout-grid rt-pricing-right-column">
 					<div
@@ -380,25 +380,25 @@
 						id="w-node-_1655b1ac-c894-871b-a355-2da52bc7cbb0-45b6abdd"
 						class="rt-pricing-table-icon-wrapper rt-pricing-cell-padding-change"
 					>
-						<div>10 GB</div>
+						<div>{getText('10_gb', '10 GB')}</div>
 					</div>
 					<div
 						id="w-node-_1655b1ac-c894-871b-a355-2da52bc7cbb3-45b6abdd"
 						class="rt-pricing-table-icon-wrapper rt-column-background rt-pricing-cell-padding-change"
 					>
-						<div>100GB</div>
+						<div>{getText('100gb', '100GB')}</div>
 					</div>
 					<div
 						id="w-node-_1655b1ac-c894-871b-a355-2da52bc7cbb6-45b6abdd"
 						class="rt-pricing-table-icon-wrapper rt-pricing-cell-padding-change"
 					>
-						<div>Unlimited</div>
+						<div>{getText('unlimited', 'Unlimited')}</div>
 					</div>
 				</div>
 			</div>
 			<div class="w-layout-hflex rt-price-table-row rt-middle-row">
 				<div class="rt-table-left-column">
-					<div class="rt-text-style-h6">Dedicated account manager</div>
+					<div class="rt-text-style-h6">{getText('dedicated_account_manager', 'Dedicated account manager')}</div>
 				</div>
 				<div class="w-layout-grid rt-pricing-right-column">
 					<div

@@ -1,0 +1,55 @@
+{
+  "componentName": "PricingA",
+  "lastModified": "2025-11-25T08:40:22.103Z",
+  "texts": {
+    "section_heading": "Select the plan that suits you best",
+    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id magna malesuada tempor mi eget auctor dolor.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "basic_plan": "Basic Plan",
+    "basic_plan_price_monthly": "$199",
+    "per_month": "/ month",
+    "free_icons_offer": "Get over 700 top-notch icons for FREE!",
+    "price_tick": "Price Tick",
+    "ai_processing_speed": "AI Processing Speed",
+    "api_access": "API Access",
+    "custom_ai_models": "Custom AI Models",
+    "automated_workflows": "Automated Workflows",
+    "10gb_data_storage": "10GB Data Storage",
+    "standard_response_time": "Standard response time",
+    "limited_api_access": "Limited API access",
+    "no_priority_updates": "No priority updates",
+    "select_plan": "Select Plan",
+    "arrow": "Arrow",
+    "cancel_anytime": "Cancel Anytime",
+    "star": "Star",
+    "recommended": "Recommended",
+    "standard_plan": "Standard Plan",
+    "standard_plan_price_monthly": "$299",
+    "100gb_data_storage": "100GB Data Storage",
+    "faster_response_time": "Faster response time",
+    "full_api_access": "Full API access",
+    "regular_feature_updates": "Regular feature updates",
+    "premium_plan": "Premium Plan",
+    "premium_plan_price_monthly": "$399",
+    "unlimited_data_storage": "Unlimited Data Storage",
+    "priority_response_time": "Priority response time",
+    "custom_api_integrations": "Custom API integrations",
+    "early_access_to_new_features": "Early access to new features",
+    "basic_plan_price_yearly": "$149",
+    "standard_plan_price_yearly": "$249",
+    "premium_plan_price_yearly": "$349"
+  },
+  "images": {},
+  "links": {
+    "basic_plan_link": {
+      "href": "https://aiorbit.webflow.io/product/basic-plan"
+    },
+    "standard_plan_link": {
+      "href": "https://aiorbit.webflow.io/product/standard-plan"
+    },
+    "premium_plan_link": {
+      "href": "https://aiorbit.webflow.io/product/premium-plan"
+    }
+  }
+}

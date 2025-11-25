@@ -1,0 +1,63 @@
+{
+  "componentName": "ServiceOneE",
+  "lastModified": "2025-11-25T07:44:03.837Z",
+  "texts": {
+    "section_heading": "Select the pricing plan that best fits your business",
+    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam",
+    "monthly_tab": "Monthly",
+    "yearly_tab": "Yearly",
+    "select_plan_button": "Select Plan",
+    "arrow": "Arrow",
+    "tick": "Tick",
+    "feature_ai_processing_speed": "AI Processing Speed",
+    "feature_api_access": "API Access",
+    "feature_custom_ai_models": "Custom AI Models",
+    "feature_automated_workflows": "Automated Workflows",
+    "feature_10gb_storage": "10GB Data Storage",
+    "feature_standard_response_time": "Standard response time",
+    "feature_limited_api_access": "Limited API access",
+    "feature_no_priority_updates": "No priority updates",
+    "monthly_standard_plan_name": "Standard Plan",
+    "monthly_standard_plan_price": "$299",
+    "monthly_standard_plan_per": "Per month",
+    "feature_faster_response_time": "Faster response time",
+    "feature_full_api_access": "Full API access",
+    "feature_regular_updates": "Regular feature updates",
+    "monthly_premium_plan_name": "Premium Plan",
+    "monthly_premium_plan_price": "$399",
+    "monthly_premium_plan_per": "Per month",
+    "feature_priority_response_time": "Priority response time",
+    "feature_custom_api_integrations": "Custom API integrations",
+    "feature_early_access": "Early access to new features",
+    "yearly_basic_plan_name": "Basic Plan",
+    "yearly_basic_plan_price": "$149",
+    "yearly_basic_plan_per": "Per month",
+    "yearly_standard_plan_name": "Standard Plan",
+    "yearly_standard_plan_price": "$249",
+    "yearly_standard_plan_per": "Per month",
+    "yearly_premium_plan_name": "Premium Plan",
+    "yearly_premium_plan_price": "$349",
+    "yearly_premium_plan_per": "Per month"
+  },
+  "images": {},
+  "links": {
+    "monthly_basic_plan_link": {
+      "href": "https://aiorbit.webflow.io/product/basic-plan"
+    },
+    "monthly_standard_plan_link": {
+      "href": "https://aiorbit.webflow.io/product/standard-plan"
+    },
+    "monthly_premium_plan_link": {
+      "href": "https://aiorbit.webflow.io/product/premium-plan"
+    },
+    "yearly_basic_plan_link": {
+      "href": "https://aiorbit.webflow.io/product/basic-plan"
+    },
+    "yearly_standard_plan_link": {
+      "href": "https://aiorbit.webflow.io/product/standard-plan"
+    },
+    "yearly_premium_plan_link": {
+      "href": "https://aiorbit.webflow.io/product/premium-plan"
+    }
+  }
+}

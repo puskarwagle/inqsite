@@ -15,7 +15,7 @@
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-vflex rt-business-strategides-top-text rt-desktop-text-center">
 			<h2 data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b544" class="rt-gap-off rt-h2-gap">
-				Data-Driven AI for Smarter Business Strategies
+				{getText('section_heading', 'Data-Driven AI for Smarter Business Strategies')}
 			</h2>
 			<p data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b546" class="rt-gap-off rt-h2-paragraph-gap">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue.')}</p>
 		</div>
@@ -46,16 +46,16 @@
 					/>
 				</div>
 				<div class="w-layout-vflex rt-business-strategies-text-block">
-					<div class="rt-text-style-h5">AI-Powered Insights</div>
+					<div class="rt-text-style-h5">{getText('ai_powered_insights_heading', 'AI-Powered Insights')}</div>
 					<p class="rt-business-strategies-paragraph">{getText('lorem_ipsum_voluptas_assumenda', 'Lorem ipsum Voluptas assumenda est, omnis dolor Temporibus autem quibusdam amet ullamcorper atsit eros risus eget trist.')}</p>
 					<a
 						data-w-id="e477ecfe-ff19-eae1-fd29-07a2a1bfae03"
-						href="service-one.html"
+						href={getLink('service_one_link').href || 'service-one.html'}
 						aria-current="page"
 						class="rt-button-v2 w-inline-block w--current"
 						><div class="w-layout-vflex rt-button-text-wrapper">
-							<div class="rt-button-text">Explore More</div>
-							<div class="rt-button-text">Explore More</div>
+							<div class="rt-button-text">{getText('explore_more_button', 'Explore More')}</div>
+							<div class="rt-button-text">{getText('explore_more_button', 'Explore More')}</div>
 						</div>
 						<div class="w-layout-hflex rt-button-arrow-wrapper">
 							<img
@@ -95,15 +95,15 @@
 					/>
 				</div>
 				<div class="w-layout-vflex rt-business-strategies-text-block">
-					<div class="rt-text-style-h5">AI Automation</div>
+					<div class="rt-text-style-h5">{getText('ai_automation_heading', 'AI Automation')}</div>
 					<p class="rt-business-strategies-paragraph">{getText('lorem_ipsum_voluptas_assumenda', 'Lorem ipsum Voluptas assumenda est, omnis dolor Temporibus autem quibusdam amet ullamcorper atsit eros risus eget trist.')}</p>
 					<a
 						data-w-id="e477ecfe-ff19-eae1-fd29-07a2a1bfae03"
-						href="service-two.html"
+						href={getLink('service_two_link').href || 'service-two.html'}
 						class="rt-button-v2 w-inline-block"
 						><div class="w-layout-vflex rt-button-text-wrapper">
-							<div class="rt-button-text">Explore More</div>
-							<div class="rt-button-text">Explore More</div>
+							<div class="rt-button-text">{getText('explore_more_button', 'Explore More')}</div>
+							<div class="rt-button-text">{getText('explore_more_button', 'Explore More')}</div>
 						</div>
 						<div class="w-layout-hflex rt-button-arrow-wrapper">
 							<img
@@ -143,16 +143,16 @@
 					/>
 				</div>
 				<div class="w-layout-vflex rt-business-strategies-text-block">
-					<div class="rt-text-style-h5">Performance-Driven</div>
+					<div class="rt-text-style-h5">{getText('performance_driven_heading', 'Performance-Driven')}</div>
 					<p class="rt-business-strategies-paragraph">{getText('lorem_ipsum_voluptas_assumenda', 'Lorem ipsum Voluptas assumenda est, omnis dolor Temporibus autem quibusdam amet ullamcorper atsit eros risus eget trist.')}</p>
 					<a
 						data-w-id="e477ecfe-ff19-eae1-fd29-07a2a1bfae03"
-						href="service-one.html"
+						href={getLink('service_one_link').href || 'service-one.html'}
 						aria-current="page"
 						class="rt-button-v2 w-inline-block w--current"
 						><div class="w-layout-vflex rt-button-text-wrapper">
-							<div class="rt-button-text">Explore More</div>
-							<div class="rt-button-text">Explore More</div>
+							<div class="rt-button-text">{getText('explore_more_button', 'Explore More')}</div>
+							<div class="rt-button-text">{getText('explore_more_button', 'Explore More')}</div>
 						</div>
 						<div class="w-layout-hflex rt-button-arrow-wrapper">
 							<img

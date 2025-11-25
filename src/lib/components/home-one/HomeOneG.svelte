@@ -198,7 +198,7 @@
 			<a
 				data-wf--rt-button-v1--variant="base"
 				data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-				href="about.html"
+				href={getLink('about_link').href || 'about.html'}
 				class="rt-button w-inline-block"
 				><div class="w-layout-hflex rt-button-text-image-wrapper">
 					<div class="w-layout-hflex rt-button-text-wrap">

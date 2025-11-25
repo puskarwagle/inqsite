@@ -32,7 +32,7 @@
 					<a
 						data-wf--rt-button-v1--variant="base"
 						data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-						href="service-one.html"
+						href={getLink('service_one_link').href || 'service-one.html'}
 						class="rt-button w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper">
 							<div class="w-layout-hflex rt-button-text-wrap">
@@ -71,12 +71,12 @@
 					</div>
 					<div class="w-layout-hflex rt-powered-solution-points rt-change">
 						<div class="rt-black-dot"></div>
-						<div class="rt-text-color-black">Ac vulputate eros nibh at velit.</div>
+						<div class="rt-text-color-black">{getText('ac_vulputate_eros_nibh', 'Ac vulputate eros nibh at velit.')}</div>
 					</div>
 					<a
 						data-wf--rt-button-v2--variant="base"
 						data-w-id="f63f91f4-b7e1-4ea7-4fb5-ef7294740b09"
-						href="service-two.html"
+						href={getLink('service_two_link').href || 'service-two.html'}
 						class="rt-button rt-button-black w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper color-change">
 							<div class="w-layout-hflex rt-button-text-wrap">

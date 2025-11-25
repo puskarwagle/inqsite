@@ -15,7 +15,7 @@
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-vflex rt-price-top-text rt-desktop-text-center">
 			<h1 data-w-id="1655b1ac-c894-871b-a355-2da52bc7c9ac" class="rt-gap-off rt-h1-gap">
-				Select the plan that suits you best
+				{getText('section_heading', 'Select the plan that suits you best')}
 			</h1>
 			<p
 				data-w-id="1655b1ac-c894-871b-a355-2da52bc7c9ae"
@@ -35,23 +35,22 @@
 			>
 				<div class="rt-price-toggle-button w-tab-menu">
 					<a data-w-tab="Tab 1" class="rt-toggle-text w-inline-block w-tab-link w--current"
-						><div>Monthly</div></a
-					><a data-w-tab="Tab 2" class="rt-toggle-text w-inline-block w-tab-link"
-						><div>Yearly</div></a
-					>
-				</div>
+						><div>{getText('monthly', 'Monthly')}</div></a
+					                    ><a data-w-tab="Tab 2" class="rt-toggle-text w-inline-block w-tab-link"
+											><div>{getText('yearly', 'Yearly')}</div></a
+										>				</div>
 				<div class="rt-price-card-block w-tab-content">
 					<div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
 						<div class="w-layout-grid rt-price-card-wrapper-v2">
 							<div class="rt-pricing-plan-card-v2 rt-radious-fifteen">
 								<div class="w-layout-hflex rt-card-text-top-v2">
 									<div class="rt-card-text-top-text-wrapper-v2">
-										<div class="rt-text-style-h5">Basic Plan</div>
+										<div class="rt-text-style-h5">{getText('basic_plan', 'Basic Plan')}</div>
 										<div class="w-layout-hflex rt-price-value-v2">
-											<div class="rt-text-style-h2">$199</div>
-											<div>/ month</div>
+											<div class="rt-text-style-h2">{getText('basic_plan_price_monthly', '$199')}</div>
+											<div>{getText('per_month', '/ month')}</div>
 										</div>
-										<p>Get over 700 top-notch icons for FREE!</p>
+										<p>{getText('free_icons_offer', 'Get over 700 top-notch icons for FREE!')}</p>
 									</div>
 								</div>
 								<div class="w-layout-vflex rt-price-card-details-v2">
@@ -66,7 +65,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>AI Processing Speed</div>
+										<div>{getText('ai_processing_speed', 'AI Processing Speed')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -79,7 +78,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>API Access</div>
+										<div>{getText('api_access', 'API Access')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -92,7 +91,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Custom AI Models</div>
+										<div>{getText('custom_ai_models', 'Custom AI Models')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -105,7 +104,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Automated Workflows</div>
+										<div>{getText('automated_workflows', 'Automated Workflows')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -118,7 +117,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>10GB Data Storage</div>
+										<div>{getText('10gb_data_storage', '10GB Data Storage')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -128,7 +127,7 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Standard response time</div>
+										<div>{getText('standard_response_time', 'Standard response time')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -138,7 +137,7 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Limited API access</div>
+										<div>{getText('limited_api_access', 'Limited API access')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -148,26 +147,26 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>No priority updates</div>
+										<div>{getText('no_priority_updates', 'No priority updates')}</div>
 									</div>
 								</div>
 								<div class="w-layout-vflex rt-button-block-center">
 									<a
 										data-wf--rt-button-v2--variant="padding"
 										data-w-id="f63f91f4-b7e1-4ea7-4fb5-ef7294740b09"
-										href="https://aiorbit.webflow.io/product/basic-plan"
+										href={getLink('basic_plan_link').href || 'https://aiorbit.webflow.io/product/basic-plan'}
 										class="rt-button rt-button-black w-variant-0b421581-c6c8-2584-17fd-15cc55a70555 w-inline-block"
 										><div class="w-layout-hflex rt-button-text-image-wrapper color-change">
 											<div class="w-layout-hflex rt-button-text-wrap">
 												<div
 													class="rt-button-text rt-color-change w-variant-0b421581-c6c8-2584-17fd-15cc55a70555 rt-button-hover-in"
 												>
-													Select Plan
+													{getText('select_plan', 'Select Plan')}
 												</div>
 												<div
 													class="rt-button-text rt-color-change w-variant-0b421581-c6c8-2584-17fd-15cc55a70555 rt-button-hover-out"
 												>
-													Select Plan
+													{getText('select_plan', 'Select Plan')}
 												</div>
 											</div>
 											<img
@@ -180,7 +179,7 @@
 											/>
 										</div></a
 									>
-									<div class="rt-price-cancel-link">Cancel Anytime</div>
+									<div class="rt-price-cancel-link">{getText('cancel_anytime', 'Cancel Anytime')}</div>
 								</div>
 							</div>
 							<div class="rt-pricing-plan-card-v2 rt-radious-fifteen active">
@@ -192,16 +191,16 @@
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f562_Star%2068.svg"
 										loading="lazy"
 									/>
-									<div>Recommended</div>
+									<div>{getText('recommended', 'Recommended')}</div>
 								</div>
 								<div class="w-layout-hflex rt-card-text-top-v2">
 									<div class="rt-card-text-top-text-wrapper-v2">
-										<div class="rt-text-style-h5">Standard Plan</div>
+										<div class="rt-text-style-h5">{getText('standard_plan', 'Standard Plan')}</div>
 										<div class="w-layout-hflex rt-price-value-v2">
-											<div class="rt-text-style-h2">$299</div>
-											<div>/ month</div>
+											<div class="rt-text-style-h2">{getText('standard_plan_price_monthly', '$299')}</div>
+											<div>{getText('per_month', '/ month')}</div>
 										</div>
-										<p>Get over 700 top-notch icons for FREE!</p>
+										<p>{getText('free_icons_offer', 'Get over 700 top-notch icons for FREE!')}</p>
 									</div>
 								</div>
 								<div class="w-layout-vflex rt-price-card-details-v2">
@@ -216,7 +215,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>AI Processing Speed</div>
+										<div>{getText('ai_processing_speed', 'AI Processing Speed')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -229,7 +228,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>API Access</div>
+										<div>{getText('api_access', 'API Access')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -242,7 +241,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Custom AI Models</div>
+										<div>{getText('custom_ai_models', 'Custom AI Models')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -255,7 +254,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Automated Workflows</div>
+										<div>{getText('automated_workflows', 'Automated Workflows')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -268,7 +267,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>100GB Data Storage</div>
+										<div>{getText('100gb_data_storage', '100GB Data Storage')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -278,7 +277,7 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Faster response time</div>
+										<div>{getText('faster_response_time', 'Faster response time')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -288,7 +287,7 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Full API access</div>
+										<div>{getText('full_api_access', 'Full API access')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -298,19 +297,19 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Regular feature updates</div>
+										<div>{getText('regular_feature_updates', 'Regular feature updates')}</div>
 									</div>
 								</div>
 								<div class="w-layout-vflex rt-button-block-center">
 									<a
 										data-wf--rt-button-v1--variant="padding"
 										data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-										href="https://aiorbit.webflow.io/product/standard-plan"
+										href={getLink('standard_plan_link').href || 'https://aiorbit.webflow.io/product/standard-plan'}
 										class="rt-button w-variant-d0d31aa2-ab56-3185-ec08-96b77848f9ee w-inline-block"
 										><div class="w-layout-hflex rt-button-text-image-wrapper">
 											<div class="w-layout-hflex rt-button-text-wrap">
-												<div class="rt-button-text rt-button-hover-in">Select Plan</div>
-												<div class="rt-button-text rt-button-hover-out">Select Plan</div>
+												<div class="rt-button-text rt-button-hover-in">{getText('select_plan', 'Select Plan')}</div>
+												<div class="rt-button-text rt-button-hover-out">{getText('select_plan', 'Select Plan')}</div>
 											</div>
 											<img
 												width="10"
@@ -322,18 +321,18 @@
 											/>
 										</div></a
 									>
-									<div class="rt-price-cancel-link">Cancel Anytime</div>
+									<div class="rt-price-cancel-link">{getText('cancel_anytime', 'Cancel Anytime')}</div>
 								</div>
 							</div>
 							<div class="rt-pricing-plan-card-v2 rt-radious-fifteen">
 								<div class="w-layout-hflex rt-card-text-top-v2">
 									<div class="rt-card-text-top-text-wrapper-v2">
-										<div class="rt-text-style-h5">Premium Plan</div>
+										<div class="rt-text-style-h5">{getText('premium_plan', 'Premium Plan')}</div>
 										<div class="w-layout-hflex rt-price-value-v2">
-											<div class="rt-text-style-h2">$399</div>
-											<div>/ month</div>
+											<div class="rt-text-style-h2">{getText('premium_plan_price_monthly', '$399')}</div>
+											<div>{getText('per_month', '/ month')}</div>
 										</div>
-										<p>Get over 700 top-notch icons for FREE!</p>
+										<p>{getText('free_icons_offer', 'Get over 700 top-notch icons for FREE!')}</p>
 									</div>
 								</div>
 								<div class="w-layout-vflex rt-price-card-details-v2">
@@ -348,7 +347,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>AI Processing Speed</div>
+										<div>{getText('ai_processing_speed', 'AI Processing Speed')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -361,7 +360,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>API Access</div>
+										<div>{getText('api_access', 'API Access')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -374,7 +373,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Custom AI Models</div>
+										<div>{getText('custom_ai_models', 'Custom AI Models')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -387,7 +386,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Automated Workflows</div>
+										<div>{getText('automated_workflows', 'Automated Workflows')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -400,7 +399,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Unlimited Data Storage</div>
+										<div>{getText('unlimited_data_storage', 'Unlimited Data Storage')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -410,7 +409,7 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Priority response time</div>
+										<div>{getText('priority_response_time', 'Priority response time')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -420,7 +419,7 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Custom API integrations</div>
+										<div>{getText('custom_api_integrations', 'Custom API integrations')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -430,26 +429,26 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Early access to new features</div>
+										<div>{getText('early_access_to_new_features', 'Early access to new features')}</div>
 									</div>
 								</div>
 								<div class="w-layout-vflex rt-button-block-center">
 									<a
 										data-wf--rt-button-v2--variant="padding"
 										data-w-id="f63f91f4-b7e1-4ea7-4fb5-ef7294740b09"
-										href="https://aiorbit.webflow.io/product/premium-plan"
+										href={getLink('premium_plan_link').href || 'https://aiorbit.webflow.io/product/premium-plan'}
 										class="rt-button rt-button-black w-variant-0b421581-c6c8-2584-17fd-15cc55a70555 w-inline-block"
 										><div class="w-layout-hflex rt-button-text-image-wrapper color-change">
 											<div class="w-layout-hflex rt-button-text-wrap">
 												<div
 													class="rt-button-text rt-color-change w-variant-0b421581-c6c8-2584-17fd-15cc55a70555 rt-button-hover-in"
 												>
-													Select Plan
+													{getText('select_plan', 'Select Plan')}
 												</div>
 												<div
 													class="rt-button-text rt-color-change w-variant-0b421581-c6c8-2584-17fd-15cc55a70555 rt-button-hover-out"
 												>
-													Select Plan
+													{getText('select_plan', 'Select Plan')}
 												</div>
 											</div>
 											<img
@@ -462,7 +461,7 @@
 											/>
 										</div></a
 									>
-									<div class="rt-price-cancel-link">Cancel Anytime</div>
+									<div class="rt-price-cancel-link">{getText('cancel_anytime', 'Cancel Anytime')}</div>
 								</div>
 							</div>
 						</div>
@@ -472,12 +471,12 @@
 							<div class="rt-pricing-plan-card-v2 rt-radious-fifteen">
 								<div class="w-layout-hflex rt-card-text-top-v2">
 									<div class="rt-card-text-top-text-wrapper-v2">
-										<div class="rt-text-style-h5">Basic Plan</div>
+										<div class="rt-text-style-h5">{getText('basic_plan', 'Basic Plan')}</div>
 										<div class="w-layout-hflex rt-price-value-v2">
-											<div class="rt-text-style-h2">$149</div>
-											<div>/ month</div>
+											<div class="rt-text-style-h2">{getText('basic_plan_price_yearly', '$149')}</div>
+											<div>{getText('per_month', '/ month')}</div>
 										</div>
-										<p>Get over 700 top-notch icons for FREE!</p>
+										<p>{getText('free_icons_offer', 'Get over 700 top-notch icons for FREE!')}</p>
 									</div>
 								</div>
 								<div class="w-layout-vflex rt-price-card-details-v2">
@@ -492,7 +491,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>AI Processing Speed</div>
+										<div>{getText('ai_processing_speed', 'AI Processing Speed')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -505,7 +504,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>API Access</div>
+										<div>{getText('api_access', 'API Access')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -518,7 +517,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Custom AI Models</div>
+										<div>{getText('custom_ai_models', 'Custom AI Models')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -531,7 +530,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Automated Workflows</div>
+										<div>{getText('automated_workflows', 'Automated Workflows')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -544,7 +543,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>10GB Data Storage</div>
+										<div>{getText('10gb_data_storage', '10GB Data Storage')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -554,7 +553,7 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Standard response time</div>
+										<div>{getText('standard_response_time', 'Standard response time')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -564,7 +563,7 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Limited API access</div>
+										<div>{getText('limited_api_access', 'Limited API access')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -574,26 +573,26 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>No priority updates</div>
+										<div>{getText('no_priority_updates', 'No priority updates')}</div>
 									</div>
 								</div>
 								<div class="w-layout-vflex rt-button-block-center">
 									<a
 										data-wf--rt-button-v2--variant="padding"
 										data-w-id="f63f91f4-b7e1-4ea7-4fb5-ef7294740b09"
-										href="https://aiorbit.webflow.io/product/basic-plan"
+										href={getLink('basic_plan_link').href || 'https://aiorbit.webflow.io/product/basic-plan'}
 										class="rt-button rt-button-black w-variant-0b421581-c6c8-2584-17fd-15cc55a70555 w-inline-block"
 										><div class="w-layout-hflex rt-button-text-image-wrapper color-change">
 											<div class="w-layout-hflex rt-button-text-wrap">
 												<div
 													class="rt-button-text rt-color-change w-variant-0b421581-c6c8-2584-17fd-15cc55a70555 rt-button-hover-in"
 												>
-													Select Plan
+													{getText('select_plan', 'Select Plan')}
 												</div>
 												<div
 													class="rt-button-text rt-color-change w-variant-0b421581-c6c8-2584-17fd-15cc55a70555 rt-button-hover-out"
 												>
-													Select Plan
+													{getText('select_plan', 'Select Plan')}
 												</div>
 											</div>
 											<img
@@ -606,7 +605,7 @@
 											/>
 										</div></a
 									>
-									<div class="rt-price-cancel-link">Cancel Anytime</div>
+									<div class="rt-price-cancel-link">{getText('cancel_anytime', 'Cancel Anytime')}</div>
 								</div>
 							</div>
 							<div class="rt-pricing-plan-card-v2 rt-radious-fifteen active">
@@ -618,16 +617,16 @@
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f562_Star%2068.svg"
 										loading="lazy"
 									/>
-									<div>Recommended</div>
+									<div>{getText('recommended', 'Recommended')}</div>
 								</div>
 								<div class="w-layout-hflex rt-card-text-top-v2">
 									<div class="rt-card-text-top-text-wrapper-v2">
-										<div class="rt-text-style-h5">Standard Plan</div>
+										<div class="rt-text-style-h5">{getText('standard_plan', 'Standard Plan')}</div>
 										<div class="w-layout-hflex rt-price-value-v2">
-											<div class="rt-text-style-h2">$249</div>
-											<div>/ month</div>
+											<div class="rt-text-style-h2">{getText('standard_plan_price_yearly', '$249')}</div>
+											<div>{getText('per_month', '/ month')}</div>
 										</div>
-										<p>Get over 700 top-notch icons for FREE!</p>
+										<p>{getText('free_icons_offer', 'Get over 700 top-notch icons for FREE!')}</p>
 									</div>
 								</div>
 								<div class="w-layout-vflex rt-price-card-details-v2">
@@ -642,7 +641,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>AI Processing Speed</div>
+										<div>{getText('ai_processing_speed', 'AI Processing Speed')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -655,7 +654,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>API Access</div>
+										<div>{getText('api_access', 'API Access')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -668,7 +667,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Custom AI Models</div>
+										<div>{getText('custom_ai_models', 'Custom AI Models')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -681,7 +680,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Automated Workflows</div>
+										<div>{getText('automated_workflows', 'Automated Workflows')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -694,7 +693,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>100GB Data Storage</div>
+										<div>{getText('100gb_data_storage', '100GB Data Storage')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -704,7 +703,7 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Faster response time</div>
+										<div>{getText('faster_response_time', 'Faster response time')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -714,7 +713,7 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Full API access</div>
+										<div>{getText('full_api_access', 'Full API access')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -724,19 +723,19 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Regular feature updates</div>
+										<div>{getText('regular_feature_updates', 'Regular feature updates')}</div>
 									</div>
 								</div>
 								<div class="w-layout-vflex rt-button-block-center">
 									<a
 										data-wf--rt-button-v1--variant="padding"
 										data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-										href="https://aiorbit.webflow.io/product/standard-plan"
+										href={getLink('standard_plan_link').href || 'https://aiorbit.webflow.io/product/standard-plan'}
 										class="rt-button w-variant-d0d31aa2-ab56-3185-ec08-96b77848f9ee w-inline-block"
 										><div class="w-layout-hflex rt-button-text-image-wrapper">
 											<div class="w-layout-hflex rt-button-text-wrap">
-												<div class="rt-button-text rt-button-hover-in">Select Plan</div>
-												<div class="rt-button-text rt-button-hover-out">Select Plan</div>
+												<div class="rt-button-text rt-button-hover-in">{getText('select_plan', 'Select Plan')}</div>
+												<div class="rt-button-text rt-button-hover-out">{getText('select_plan', 'Select Plan')}</div>
 											</div>
 											<img
 												width="10"
@@ -748,18 +747,18 @@
 											/>
 										</div></a
 									>
-									<div class="rt-price-cancel-link">Cancel Anytime</div>
+									<div class="rt-price-cancel-link">{getText('cancel_anytime', 'Cancel Anytime')}</div>
 								</div>
 							</div>
 							<div class="rt-pricing-plan-card-v2 rt-radious-fifteen">
 								<div class="w-layout-hflex rt-card-text-top-v2">
 									<div class="rt-card-text-top-text-wrapper-v2">
-										<div class="rt-text-style-h5">Premium Plan</div>
+										<div class="rt-text-style-h5">{getText('premium_plan', 'Premium Plan')}</div>
 										<div class="w-layout-hflex rt-price-value-v2">
-											<div class="rt-text-style-h2">$349</div>
-											<div>/ month</div>
+											<div class="rt-text-style-h2">{getText('premium_plan_price_yearly', '$349')}</div>
+											<div>{getText('per_month', '/ month')}</div>
 										</div>
-										<p>Get over 700 top-notch icons for FREE!</p>
+										<p>{getText('free_icons_offer', 'Get over 700 top-notch icons for FREE!')}</p>
 									</div>
 								</div>
 								<div class="w-layout-vflex rt-price-card-details-v2">
@@ -774,7 +773,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>AI Processing Speed</div>
+										<div>{getText('ai_processing_speed', 'AI Processing Speed')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -787,7 +786,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>API Access</div>
+										<div>{getText('api_access', 'API Access')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -800,7 +799,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Custom AI Models</div>
+										<div>{getText('custom_ai_models', 'Custom AI Models')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -813,7 +812,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Automated Workflows</div>
+										<div>{getText('automated_workflows', 'Automated Workflows')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<div class="w-layout-hflex rt-price-icon-block-v2">
@@ -826,7 +825,7 @@
 												class="rt-price-icon"
 											/>
 										</div>
-										<div>Unlimited Data Storage</div>
+										<div>{getText('unlimited_data_storage', 'Unlimited Data Storage')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -836,7 +835,7 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Priority response time</div>
+										<div>{getText('priority_response_time', 'Priority response time')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -846,7 +845,7 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Custom API integrations</div>
+										<div>{getText('custom_api_integrations', 'Custom API integrations')}</div>
 									</div>
 									<div class="w-layout-hflex rt-price-details-v2">
 										<img
@@ -856,26 +855,26 @@
 											src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
 											loading="lazy"
 										/>
-										<div>Early access to new features</div>
+										<div>{getText('early_access_to_new_features', 'Early access to new features')}</div>
 									</div>
 								</div>
 								<div class="w-layout-vflex rt-button-block-center">
 									<a
 										data-wf--rt-button-v2--variant="padding"
 										data-w-id="f63f91f4-b7e1-4ea7-4fb5-ef7294740b09"
-										href="https://aiorbit.webflow.io/product/premium-plan"
+										href={getLink('premium_plan_link').href || 'https://aiorbit.webflow.io/product/premium-plan'}
 										class="rt-button rt-button-black w-variant-0b421581-c6c8-2584-17fd-15cc55a70555 w-inline-block"
 										><div class="w-layout-hflex rt-button-text-image-wrapper color-change">
 											<div class="w-layout-hflex rt-button-text-wrap">
 												<div
 													class="rt-button-text rt-color-change w-variant-0b421581-c6c8-2584-17fd-15cc55a70555 rt-button-hover-in"
 												>
-													Select Plan
+													{getText('select_plan', 'Select Plan')}
 												</div>
 												<div
 													class="rt-button-text rt-color-change w-variant-0b421581-c6c8-2584-17fd-15cc55a70555 rt-button-hover-out"
 												>
-													Select Plan
+													{getText('select_plan', 'Select Plan')}
 												</div>
 											</div>
 											<img
@@ -888,7 +887,7 @@
 											/>
 										</div></a
 									>
-									<div class="rt-price-cancel-link">Cancel Anytime</div>
+									<div class="rt-price-cancel-link">{getText('cancel_anytime', 'Cancel Anytime')}</div>
 								</div>
 							</div>
 						</div>

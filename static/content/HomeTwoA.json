@@ -1,29 +1,36 @@
 {
   "componentName": "HomeTwoA",
-  "lastModified": "2025-11-24T19:37:09.829Z",
+  "lastModified": "2025-11-25T08:40:22.100Z",
   "texts": {
     "hero_heading": "Automate Conversations with Intelligent AI Solutions",
     "eu_eget_accumsan": "Eu eget accumsan risus montes nibh hac. Ut condimentum nunc accumsan mollis dis. Lacus non ante Netus ultricies.",
     "join_us_today": "Join Us Today",
-    "button_watch_video": "Watch video"
+    "arrow": "Arrow",
+    "play_button": "Play button",
+    "button_watch_video": "Watch video",
+    "home_two_dashboard": "Home Two Dashboard",
+    "statistics": "Statistics"
   },
   "images": {
     "image_1": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
     },
     "image_2": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931bfc626df83f9d83c_Play%20button.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931bfc626df83f9d83c_Play%20button.svg"
     },
     "image_3": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b3997c8e2f33aceabd809_Home%20Two%20Dashboard.avif",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b3997c8e2f33aceabd809_Home%20Two%20Dashboard.avif"
     },
     "image_4": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf92507c68ccfe6dff032_Line%20Styling.webp",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf92507c68ccfe6dff032_Line%20Styling.webp"
     }
   },
-  "links": {}
+  "links": {
+    "service_one_link": {
+      "href": "service-one.html"
+    },
+    "home_two_video_link": {
+      "href": "home-two.html#"
+    }
+  }
 }

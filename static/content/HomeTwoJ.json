@@ -1,20 +1,24 @@
 {
   "componentName": "HomeTwoJ",
-  "lastModified": "2025-11-24T19:37:09.835Z",
+  "lastModified": "2025-11-25T08:40:22.103Z",
   "texts": {
     "section_heading": "Let Us Assist You with Our Superior Services",
     "proin_posuere_lacus": "Proin posuere lacus egestas ultricies lobortis. Lobortis nascetur ac pulvinar fermentum augue id. Commodo odio augue.",
-    "join_us_today": "Join Us Today"
+    "join_us_today": "Join Us Today",
+    "arrow": "Arrow",
+    "service": "Service"
   },
   "images": {
     "image_1": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
     },
     "image_2": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cf88b22d1ca52984253e_Service.webp",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cf88b22d1ca52984253e_Service.webp"
     }
   },
-  "links": {}
+  "links": {
+    "pricing_one_link": {
+      "href": "pricing-one.html"
+    }
+  }
 }

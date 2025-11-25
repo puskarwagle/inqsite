@@ -1,0 +1,44 @@
+{
+  "componentName": "PricingB",
+  "lastModified": "2025-11-25T08:40:22.104Z",
+  "texts": {
+    "section_heading": "Subscription comparison",
+    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id magna malesuada tempor mi eget auctor dolor.",
+    "basic_plan": "Basic plan",
+    "currency_symbol": "$",
+    "per_month": "/ month",
+    "no_credit_card_required": "No ",
+    "credit_card": "credit card",
+    "required": " required.",
+    "select_plan": "Select Plan",
+    "arrow": "Arrow",
+    "standard_plan": "Standard plan",
+    "premium_plan": "Premium plan",
+    "ai_powered_chatbot": "AI-Powered chatbot",
+    "price_tick": "Price Tick",
+    "ai_processing_speed": "AI Processing Speed",
+    "multi_language_support": "Multi-Language support",
+    "price_cross_tick": "Price Cross Tick",
+    "omni_channel_integration": "Omni channel integration",
+    "customizable_chatbot_flows": "Customizable chatbot flows",
+    "5_times": "5 times",
+    "30_times": "30 times",
+    "unlimited": "Unlimited",
+    "security_compliance": "Security & Compliance",
+    "10_gb": "10 GB",
+    "100gb": "100GB",
+    "dedicated_account_manager": "Dedicated account manager"
+  },
+  "images": {},
+  "links": {
+    "basic_plan_link": {
+      "href": "https://aiorbit.webflow.io/product/basic-plan"
+    },
+    "standard_plan_link": {
+      "href": "https://aiorbit.webflow.io/product/standard-plan"
+    },
+    "premium_plan_link": {
+      "href": "https://aiorbit.webflow.io/product/premium-plan"
+    }
+  }
+}

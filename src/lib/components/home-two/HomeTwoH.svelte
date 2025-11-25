@@ -28,7 +28,7 @@
 			>
 				<a
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cead"
-					href="service-one.html"
+					href={getLink('service_one_link').href || 'service-one.html'}
 					class="rt-capabilities-content-box one w-inline-block"
 					><div class="w-layout-hflex rt-capabilities-content">
 						<div class="w-layout-hflex rt-capabilities-left-content">
@@ -60,7 +60,7 @@
 						</div></div></a
 				><a
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ceb8"
-					href="service-two.html"
+					href={getLink('service_two_link').href || 'service-two.html'}
 					class="rt-capabilities-content-box two active w-inline-block"
 					><div class="w-layout-hflex rt-capabilities-content">
 						<div class="w-layout-hflex rt-capabilities-left-content">
@@ -92,7 +92,7 @@
 						</div></div></a
 				><a
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cec3"
-					href="home-two.html#"
+					href={getLink('home_two_capabilities_link').href || 'home-two.html#'}
 					class="rt-capabilities-content-box three w-inline-block"
 					><div class="w-layout-hflex rt-capabilities-content">
 						<div class="w-layout-hflex rt-capabilities-left-content">
@@ -124,7 +124,7 @@
 						</div></div></a
 				><a
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cece"
-					href="service-one.html"
+					href={getLink('service_one_link').href || 'service-one.html'}
 					class="rt-capabilities-content-box four w-inline-block"
 					><div class="w-layout-hflex rt-capabilities-content">
 						<div class="w-layout-hflex rt-capabilities-left-content">

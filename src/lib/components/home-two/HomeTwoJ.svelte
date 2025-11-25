@@ -22,8 +22,7 @@
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cf11"
 					class="rt-service-paragraph rt-gap-off rt-h2-paragraph-gap"
 				>
-					Proin posuere lacus egestas ultricies lobortis. Lobortis nascetur ac pulvinar fermentum
-					augue id. Commodo odio augue.
+					{getText('proin_posuere_lacus', 'Proin posuere lacus egestas ultricies lobortis. Lobortis nascetur ac pulvinar fermentum augue id. Commodo odio augue.')}
 				</p>
 				<div data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cf13" class="w-layout-hflex">
 					<div
@@ -31,7 +30,7 @@
 						class="rt-form-button-box rt-position-relative"
 					>
 						<div class="rt-border-button-border">
-							<a href="pricing-one.html" class="rt-button w-inline-block"
+							<a href={getLink('pricing_one_link').href || 'pricing-one.html'} class="rt-button w-inline-block"
 								><div class="w-layout-hflex rt-button-text-image-wrapper">
 									<div class="w-layout-hflex rt-button-text-wrap">
 										<div class="rt-button-text rt-button-hover-in">{getText('join_us_today', 'Join Us Today')}</div>

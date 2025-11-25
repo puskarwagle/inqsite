@@ -131,7 +131,7 @@
 						<a
 							data-wf--rt-button-v1--variant="base"
 							data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-							href="about.html"
+							href={getLink('about_link').href || 'about.html'}
 							class="rt-button w-inline-block"
 							><div class="w-layout-hflex rt-button-text-image-wrapper">
 								<div class="w-layout-hflex rt-button-text-wrap">
@@ -184,14 +184,13 @@
 									data-w-id="bd3230e8-ec8c-1bea-09a2-0f683cf8d2e4"
 									class="rt-superior-services-paragraph rt-gap-off rt-h2-paragraph-gap"
 								>
-									Proin posuere lacus egestas ultricies lobortis. Lobortis nascetur ac pulvinar
-									fermentum augue id. Commodo odio augue.
+									{getText('proin_posuere_lacus', 'Proin posuere lacus egestas ultricies lobortis. Lobortis nascetur ac pulvinar fermentum augue id. Commodo odio augue.')}
 								</p>
 								<div data-w-id="bd3230e8-ec8c-1bea-09a2-0f683cf8d2e6">
 									<a
 										data-wf--rt-button-v1--variant="base"
 										data-w-id="aa6e688e-e49c-e80a-016f-32f06f481539"
-										href="pricing-one.html"
+										href={getLink('pricing_one_link').href || 'pricing-one.html'}
 										class="rt-button w-inline-block"
 										><div class="w-layout-hflex rt-button-text-image-wrapper">
 											<div class="w-layout-hflex rt-button-text-wrap">

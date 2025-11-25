@@ -1,0 +1,69 @@
+{
+  "componentName": "ServiceOneF",
+  "lastModified": "2025-11-25T07:44:04.431Z",
+  "texts": {
+    "section_heading": "Join our amazing team",
+    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "team_member_1_name": "Olivia Davis",
+    "team_member_1_position": "Data Analyst",
+    "dribble": "Dribble",
+    "instagram": "Instagram",
+    "pinterest": "Pinterest",
+    "team_member_2_name": "Louis Pickell",
+    "team_member_2_position": "Applications Analyst",
+    "team_member_3_name": "Ashley Roberts",
+    "team_member_3_position": "Creative Producer"
+  },
+  "images": {
+    "team_member_1_image": {
+      "url": "https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991a1528c3b1646bcfed3_Team%20Member%20(5).webp",
+      "alt": "Olivia Davis"
+    },
+    "team_member_2_image": {
+      "url": "https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e99274324c102df5dc36c0_Team%20Member%20(4).webp",
+      "alt": "Louis Pickell"
+    },
+    "team_member_3_image": {
+      "url": "https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991a764939dd7fe6abc08_Team%20Member%20(2).webp",
+      "alt": "Ashley Roberts"
+    }
+  },
+  "links": {
+    "team_member_1_link": {
+      "href": "team-details/olivia-davis.html"
+    },
+    "team_member_1_social_1": {
+      "href": "https://dribbble.com"
+    },
+    "team_member_1_social_2": {
+      "href": "https://www.instagram.com"
+    },
+    "team_member_1_social_3": {
+      "href": "https://in.pinterest.com"
+    },
+    "team_member_2_link": {
+      "href": "team-details/louis-pickell.html"
+    },
+    "team_member_2_social_1": {
+      "href": "https://dribbble.com"
+    },
+    "team_member_2_social_2": {
+      "href": "https://www.instagram.com"
+    },
+    "team_member_2_social_3": {
+      "href": "https://in.pinterest.com/login"
+    },
+    "team_member_3_link": {
+      "href": "team-details/ashley-roberts.html"
+    },
+    "team_member_3_social_1": {
+      "href": "https://dribbble.com"
+    },
+    "team_member_3_social_2": {
+      "href": "https://www.instagram.com"
+    },
+    "team_member_3_social_3": {
+      "href": "https://in.pinterest.com"
+    }
+  }
+}
