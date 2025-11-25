@@ -35,7 +35,7 @@
 							<img
 								width="276"
 								height="194"
-								alt={getText('operation', 'Operation 2')}
+								alt="AboutB"
 								src={getImage('image_1').url}
 								loading="lazy"
 								sizes="(max-width: 479px) 100vw, 276px"
@@ -54,7 +54,7 @@
 							<img
 								width="276"
 								height="194"
-								alt={getText('operation', 'Operation 2')}
+								alt="AboutB"
 								src={getImage('image_2').url}
 								loading="lazy"
 								sizes="(max-width: 479px) 100vw, 276px"
@@ -73,7 +73,7 @@
 							<img
 								width="276"
 								height="194"
-								alt={getText('operation', 'Operation 2')}
+								alt="AboutB"
 								src={getImage('image_3').url}
 								loading="lazy"
 								sizes="(max-width: 479px) 100vw, 276px"
@@ -92,7 +92,7 @@
 							<img
 								width="276"
 								height="194"
-								alt={getText('operation', 'Operation')}
+								alt="AboutB"
 								src={getImage('image_4').url}
 								loading="lazy"
 								sizes="(max-width: 479px) 100vw, 276px"

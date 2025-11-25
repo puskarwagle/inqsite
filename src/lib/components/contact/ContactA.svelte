@@ -144,7 +144,7 @@
 												<img
 													width="10"
 													height="9"
-													alt={getText('arrow', 'Arrow')}
+													alt="ContactA"
 													src={getImage('image_1').url}
 													loading="lazy"
 													class="rt-button-arrow-image"
@@ -179,7 +179,7 @@
 								<img
 									width="17"
 									height="23"
-									alt={getText('location', 'Location')}
+									alt="ContactA"
 									src={getImage('image_2').url}
 									loading="lazy"
 								/>
@@ -197,7 +197,7 @@
 								<img
 									width="20"
 									height="20"
-									alt={getText('call', 'Call')}
+									alt="ContactA"
 									src={getImage('image_3').url}
 									loading="lazy"
 								/>

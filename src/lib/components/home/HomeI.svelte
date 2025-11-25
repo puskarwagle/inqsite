@@ -98,7 +98,7 @@
 													<img
 														width="10"
 														height="9"
-														alt={getText('arrow', 'Arrow')}
+														alt="HomeI"
 														src={getImage('image_1').url}
 														loading="lazy"
 														class="rt-button-arrow-image"
@@ -113,14 +113,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -133,14 +133,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -153,14 +153,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -173,14 +173,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -193,14 +193,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -213,14 +213,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -233,14 +233,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -253,14 +253,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -295,7 +295,7 @@
 													<img
 														width="10"
 														height="9"
-														alt={getText('arrow', 'Arrow')}
+														alt="HomeI"
 														src={getImage('image_1').url}
 														loading="lazy"
 														class="rt-button-arrow-image"
@@ -310,14 +310,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -330,14 +330,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -350,14 +350,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -370,14 +370,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -390,14 +390,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -410,14 +410,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -430,14 +430,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -450,14 +450,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -492,7 +492,7 @@
 													<img
 														width="10"
 														height="9"
-														alt={getText('arrow', 'Arrow')}
+														alt="HomeI"
 														src={getImage('image_1').url}
 														loading="lazy"
 														class="rt-button-arrow-image"
@@ -507,14 +507,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -527,14 +527,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -547,14 +547,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -567,14 +567,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -587,14 +587,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -607,14 +607,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -627,14 +627,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -647,14 +647,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -695,7 +695,7 @@
 													<img
 														width="10"
 														height="9"
-														alt={getText('arrow', 'Arrow')}
+														alt="HomeI"
 														src={getImage('image_1').url}
 														loading="lazy"
 														class="rt-button-arrow-image"
@@ -710,14 +710,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -730,14 +730,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -750,14 +750,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -770,14 +770,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -790,14 +790,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -810,14 +810,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -830,14 +830,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -850,14 +850,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -888,7 +888,7 @@
 													<img
 														width="10"
 														height="9"
-														alt={getText('arrow', 'Arrow')}
+														alt="HomeI"
 														src={getImage('image_1').url}
 														loading="lazy"
 														class="rt-button-arrow-image"
@@ -903,14 +903,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -923,14 +923,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -943,14 +943,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -963,14 +963,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -983,14 +983,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -1003,14 +1003,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -1023,14 +1023,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -1043,14 +1043,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -1081,7 +1081,7 @@
 													<img
 														width="10"
 														height="9"
-														alt={getText('arrow', 'Arrow')}
+														alt="HomeI"
 														src={getImage('image_1').url}
 														loading="lazy"
 														class="rt-button-arrow-image"
@@ -1096,14 +1096,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1116,14 +1116,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1136,14 +1136,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1156,14 +1156,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1176,14 +1176,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1196,14 +1196,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1216,14 +1216,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1236,14 +1236,14 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('tick', 'TIck')}
+													alt="HomeI"
 													src={getImage('image_2').url}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt={getText('tick', 'Tick')}
+													alt="HomeI"
 													src={getImage('image_3').url}
 													loading="lazy"
 													class="rt-price-icon-two one"

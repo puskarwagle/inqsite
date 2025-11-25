@@ -47,7 +47,7 @@
 				<img
 					width="584"
 					height="574"
-					alt={getText('message_screen', 'Message screen')}
+					alt="TeamC"
 					src={getImage('image_1').url}
 					loading="lazy"
 					sizes="(max-width: 767px) 100vw, 584px"
@@ -57,7 +57,7 @@
 					<img
 						width="341"
 						height="76"
-						alt={getText('message', 'Message')}
+						alt="TeamC"
 						src={getImage('image_2').url}
 						loading="lazy"
 						sizes="(max-width: 479px) 100vw, 341px"
@@ -67,14 +67,14 @@
 						src={getImage('image_3').url}
 						width="477"
 						height="101"
-						alt={getText('message', 'Message')}
+						alt="TeamC"
 						sizes="(max-width: 479px) 100vw, 477px"
 						data-w-id="28385cd8-9007-ff34-ae51-eafc7837b481"
 						loading="lazy"
 					/><img
 						width="414"
 						height="88"
-						alt={getText('message', 'Message')}
+						alt="TeamC"
 						src={getImage('image_4').url}
 						loading="lazy"
 						sizes="(max-width: 479px) 100vw, 414px"
@@ -84,7 +84,7 @@
 						src={getImage('image_5').url}
 						width="477"
 						height="102"
-						alt={getText('message', 'Message')}
+						alt="TeamC"
 						sizes="(max-width: 479px) 100vw, 477px"
 						data-w-id="28385cd8-9007-ff34-ae51-eafc7837b483"
 						loading="lazy"

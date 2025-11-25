@@ -33,7 +33,7 @@
 								<img
 									loading="lazy"
 									src={getImage('image_1').url}
-									alt={getText('quote_icon', 'Quote icon')}
+									alt="AboutH"
 								/>
 								<p class="rt-testimonial-card-paragraph-v2">
 									“Aenean euismod cursus velit ut sollicitud. Maecna molestie nisl semper accumsanva
@@ -43,7 +43,7 @@
 									<img
 										width="60"
 										height="60"
-										alt={getText('reviewer', 'Reviewer')}
+										alt="AboutH"
 										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-testimonial-card-user-image rt-autofit"
@@ -60,7 +60,7 @@
 								<img
 									loading="lazy"
 									src={getImage('image_1').url}
-									alt={getText('quote_icon', 'Quote icon')}
+									alt="AboutH"
 								/>
 								<p class="rt-testimonial-card-paragraph-v2">
 									“Aenean euismod cursus velit ut sollicitud. Maecna molestie nisl semper accumsanva
@@ -70,7 +70,7 @@
 									<img
 										width="60"
 										height="60"
-										alt={getText('reviewer', 'Reviewer')}
+										alt="AboutH"
 										src={getImage('image_3').url}
 										loading="lazy"
 										class="rt-testimonial-card-user-image rt-autofit"
@@ -87,7 +87,7 @@
 								<img
 									loading="lazy"
 									src={getImage('image_1').url}
-									alt={getText('quote_icon', 'Quote icon')}
+									alt="AboutH"
 								/>
 								<p class="rt-testimonial-card-paragraph-v2">
 									“Aenean euismod cursus velit ut sollicitud. Maecna molestie nisl semper accumsanva
@@ -97,7 +97,7 @@
 									<img
 										width="60"
 										height="60"
-										alt={getText('reviewer', 'Reviewer')}
+										alt="AboutH"
 										src={getImage('image_4').url}
 										loading="lazy"
 										class="rt-testimonial-card-user-image rt-autofit"
@@ -116,7 +116,7 @@
 								<img
 									loading="lazy"
 									src={getImage('image_1').url}
-									alt={getText('quote_icon', 'Quote icon')}
+									alt="AboutH"
 								/>
 								<p class="rt-testimonial-card-paragraph-v2">
 									“Aenean euismod cursus velit ut sollicitud. Maecna molestie nisl semper accumsanva
@@ -126,7 +126,7 @@
 									<img
 										width="60"
 										height="60"
-										alt={getText('reviewer', 'Reviewer')}
+										alt="AboutH"
 										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-testimonial-card-user-image rt-autofit"
@@ -143,7 +143,7 @@
 								<img
 									loading="lazy"
 									src={getImage('image_1').url}
-									alt={getText('quote_icon', 'Quote icon')}
+									alt="AboutH"
 								/>
 								<p class="rt-testimonial-card-paragraph-v2">
 									“Aenean euismod cursus velit ut sollicitud. Maecna molestie nisl semper accumsanva
@@ -153,7 +153,7 @@
 									<img
 										width="60"
 										height="60"
-										alt={getText('reviewer', 'Reviewer')}
+										alt="AboutH"
 										src={getImage('image_3').url}
 										loading="lazy"
 										class="rt-testimonial-card-user-image rt-autofit"
@@ -170,7 +170,7 @@
 								<img
 									loading="lazy"
 									src={getImage('image_1').url}
-									alt={getText('quote_icon', 'Quote icon')}
+									alt="AboutH"
 								/>
 								<p class="rt-testimonial-card-paragraph-v2">
 									“Aenean euismod cursus velit ut sollicitud. Maecna molestie nisl semper accumsanva
@@ -180,7 +180,7 @@
 									<img
 										width="60"
 										height="60"
-										alt={getText('reviewer', 'Reviewer')}
+										alt="AboutH"
 										src={getImage('image_4').url}
 										loading="lazy"
 										class="rt-testimonial-card-user-image rt-autofit"

@@ -48,7 +48,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
+								alt="HomeOneA"
 								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -66,7 +66,7 @@
 								<img
 									width="15"
 									height="17"
-									alt={getText('play_button', 'Play button')}
+									alt="HomeOneA"
 									src={getImage('image_2').url}
 									loading="lazy"
 								/>
@@ -108,7 +108,7 @@
 						loading="lazy"
 						width="215"
 						height="377"
-						alt={getText('robot_small', 'Robot Small')}
+						alt="HomeOneA"
 						data-w-id="6f4d1dbe-8c0d-0825-8652-35273102a2f1"
 						class="rt-autofit"
 					/>
@@ -118,7 +118,7 @@
 					data-w-id="e0dd51ef-3eaa-89e8-36d6-9eb7f0b2ec3d"
 					width="1065"
 					height="758"
-					alt={getText('dashboard', 'Dashboard')}
+					alt="HomeOneA"
 					sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
 					class="rt-automate-solution-image-one rt-autofit rt-tab-full-image"
 				/><img
@@ -126,21 +126,21 @@
 					data-w-id="ec3d56e6-4bcb-691d-4e27-c505359b1963"
 					width="802"
 					height="578"
-					alt={getText('dashboard', 'Dashboard')}
+					alt="HomeOneA"
 					class="rt-automate-solution-image-two rt-autofit rt-tab-full-image"
 				/><img
 					src={getImage('image_6').url}
 					data-w-id="f0f6f0f0-7486-fe5c-8bc5-32435480fadb"
 					width="249"
 					height="198"
-					alt={getText('members_chat', 'Members Chat')}
+					alt="HomeOneA"
 					class="rt-automate-solution-image-three rt-autofit"
 				/><img
 					src={getImage('image_7').url}
 					data-w-id="8d597ad8-8a8a-e579-0303-5b70726259b1"
 					width="230"
 					height="102"
-					alt={getText('users', 'Users')}
+					alt="HomeOneA"
 					class="rt-automate-solution-image-four"
 				/>
 			</div>

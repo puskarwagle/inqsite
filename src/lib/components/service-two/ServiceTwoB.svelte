@@ -35,7 +35,7 @@
 								loading="lazy"
 								width="20"
 								height="27"
-								alt={getImage('icon_lock').alt || getText('lock', 'Lock')}
+								alt="ServiceTwoB"
 							/>
 						</div>
 						<div class="w-layout-vflex rt-erpertise-text-block">
@@ -53,7 +53,7 @@
 								loading="lazy"
 								width="24"
 								height="20"
-								alt={getImage('icon_stat').alt || getText('stat', 'Stat')}
+								alt="ServiceTwoB"
 							/>
 						</div>
 						<div class="w-layout-vflex rt-erpertise-text-block">
@@ -69,7 +69,7 @@
 					src={getImage('expertise_statistics_main').url}
 					width="497"
 					height="510"
-					alt={getImage('expertise_statistics_main').alt || getText('expertise_statistics', 'Expertise Statistics')}
+					alt="ServiceTwoB"
 					sizes="(max-width: 767px) 100vw, 497px"
 					data-w-id="7f0b0f18-9461-8f09-d0d1-ca36fdd66734"
 					loading="lazy"
@@ -83,7 +83,7 @@
 						loading="lazy"
 						width="298"
 						height="217"
-						alt={getImage('expertise_statistics_overlay').alt || getText('expertise_statistics', 'Expertise Statistics')}
+						alt="ServiceTwoB"
 						sizes="(max-width: 479px) 100vw, 298px"
 						class="rt-expertise-image-two rt-autofit"
 					/>

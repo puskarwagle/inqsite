@@ -25,28 +25,28 @@
 							<img
 								width="194"
 								height="172"
-								alt={getText('marquee_image', 'Marquee Image')}
+								alt="HomeTwoD"
 								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_2').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="169"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_4').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
@@ -56,28 +56,28 @@
 							<img
 								width="194"
 								height="172"
-								alt={getText('marquee_image', 'Marquee Image')}
+								alt="HomeTwoD"
 								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_2').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="169"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_4').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
@@ -87,28 +87,28 @@
 							<img
 								width="194"
 								height="172"
-								alt={getText('marquee_image', 'Marquee Image')}
+								alt="HomeTwoD"
 								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_2').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="169"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_4').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
@@ -132,28 +132,28 @@
 							<img
 								width="190"
 								height="146"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt={getText('perofrmance', 'Perofrmance')}
+								alt="HomeTwoD"
 								src={getImage('image_5').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="164"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_6').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="145"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_7').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
@@ -175,28 +175,28 @@
 							<img
 								width="190"
 								height="146"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt={getText('perofrmance', 'Perofrmance')}
+								alt="HomeTwoD"
 								src={getImage('image_5').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="164"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_6').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="145"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_7').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
@@ -218,28 +218,28 @@
 							<img
 								width="190"
 								height="146"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt={getText('perofrmance', 'Perofrmance')}
+								alt="HomeTwoD"
 								src={getImage('image_5').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="164"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_6').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="145"
-								alt={getText('performance', 'Performance')}
+								alt="HomeTwoD"
 								src={getImage('image_7').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
@@ -266,7 +266,7 @@
 									<img
 										width="15"
 										height="10"
-										alt={getText('arrow', 'Arrow')}
+										alt="HomeTwoD"
 										src={getImage('image_8').url}
 										loading="lazy"
 										style="
@@ -300,7 +300,7 @@
 									<img
 										width="15"
 										height="10"
-										alt={getText('arrow', 'Arrow')}
+										alt="HomeTwoD"
 										src={getImage('image_8').url}
 										loading="lazy"
 										style="
@@ -331,7 +331,7 @@
 									<img
 										width="15"
 										height="10"
-										alt={getText('arrow', 'Arrow')}
+										alt="HomeTwoD"
 										src={getImage('image_8').url}
 										loading="lazy"
 										style="

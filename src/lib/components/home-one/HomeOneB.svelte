@@ -110,7 +110,7 @@
 							loading="lazy"
 							width="454"
 							height="692"
-							alt={getText('robot_small', 'Robot Small')}
+							alt="HomeOneB"
 							class="rt-tab-full-image"
 						/>
 					</div>

@@ -39,7 +39,7 @@
 									loading="lazy"
 									width="316"
 									height="421"
-									alt=""
+									alt="TeamA"
 									sizes="(max-width: 479px) 100vw, 316px"
 									class="rt-circle-image rt-autofit"
 								/>
@@ -56,7 +56,7 @@
 									loading="lazy"
 									width="316"
 									height="421"
-									alt=""
+									alt="TeamA"
 									sizes="(max-width: 479px) 100vw, 316px"
 									class="rt-circle-image rt-autofit"
 								/>
@@ -73,7 +73,7 @@
 									loading="lazy"
 									width="316"
 									height="421"
-									alt=""
+									alt="TeamA"
 									sizes="(max-width: 479px) 100vw, 316px"
 									class="rt-circle-image rt-autofit"
 								/>
@@ -90,7 +90,7 @@
 									loading="lazy"
 									width="316"
 									height="421"
-									alt=""
+									alt="TeamA"
 									sizes="(max-width: 479px) 100vw, 316px"
 									class="rt-circle-image rt-autofit"
 								/>
@@ -107,7 +107,7 @@
 									loading="lazy"
 									width="316"
 									height="421"
-									alt=""
+									alt="TeamA"
 									sizes="(max-width: 479px) 100vw, 316px"
 									class="rt-circle-image rt-autofit"
 								/>
@@ -124,7 +124,7 @@
 									loading="lazy"
 									width="316"
 									height="421"
-									alt=""
+									alt="TeamA"
 									sizes="(max-width: 479px) 100vw, 316px"
 									class="rt-circle-image rt-autofit"
 								/>

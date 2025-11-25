@@ -34,7 +34,7 @@
 					><img
 						width="20"
 						height="21"
-						alt={getText('query', 'Query')}
+						alt="AboutG"
 						src={getImage('image_1').url}
 						loading="lazy"
 					/>
@@ -43,7 +43,7 @@
 					><img
 						width="20"
 						height="21"
-						alt={getText('query', 'Query')}
+						alt="AboutG"
 						src={getImage('image_2').url}
 						loading="lazy"
 					/>
@@ -52,7 +52,7 @@
 					><img
 						width="20"
 						height="21"
-						alt={getText('query', 'Query')}
+						alt="AboutG"
 						src={getImage('image_3').url}
 						loading="lazy"
 					/>

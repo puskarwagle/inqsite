@@ -59,7 +59,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -72,7 +72,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -85,7 +85,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -98,7 +98,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -111,7 +111,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -123,7 +123,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -133,7 +133,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -143,7 +143,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -172,7 +172,7 @@
 											<img
 												width="10"
 												height="9"
-												alt={getText('arrow', 'Arrow')}
+												alt="PricingA"
 												src={getImage('button_arrow').url}
 												loading="lazy"
 												class="rt-button-arrow-image rt-color-change"
@@ -187,7 +187,7 @@
 									<img
 										width="10"
 										height="10"
-										alt={getText('star', 'Star')}
+										alt="PricingA"
 										src={getImage('star_icon').url}
 										loading="lazy"
 									/>
@@ -209,7 +209,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -222,7 +222,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -235,7 +235,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -248,7 +248,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -261,7 +261,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -273,7 +273,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -283,7 +283,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -293,7 +293,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -314,7 +314,7 @@
 											<img
 												width="10"
 												height="9"
-												alt={getText('arrow', 'Arrow')}
+												alt="PricingA"
 												src={getImage('button_arrow').url}
 												loading="lazy"
 												class="rt-button-arrow-image"
@@ -341,7 +341,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -354,7 +354,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -367,7 +367,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -380,7 +380,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -393,7 +393,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -405,7 +405,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -415,7 +415,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -425,7 +425,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -454,7 +454,7 @@
 											<img
 												width="10"
 												height="9"
-												alt={getText('arrow', 'Arrow')}
+												alt="PricingA"
 												src={getImage('button_arrow').url}
 												loading="lazy"
 												class="rt-button-arrow-image rt-color-change"
@@ -485,7 +485,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -498,7 +498,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -511,7 +511,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -524,7 +524,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -537,7 +537,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -549,7 +549,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -559,7 +559,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -569,7 +569,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -598,7 +598,7 @@
 											<img
 												width="10"
 												height="9"
-												alt={getText('arrow', 'Arrow')}
+												alt="PricingA"
 												src={getImage('button_arrow').url}
 												loading="lazy"
 												class="rt-button-arrow-image rt-color-change"
@@ -613,7 +613,7 @@
 									<img
 										width="10"
 										height="10"
-										alt={getText('star', 'Star')}
+										alt="PricingA"
 										src={getImage('star_icon').url}
 										loading="lazy"
 									/>
@@ -635,7 +635,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -648,7 +648,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -661,7 +661,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -674,7 +674,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -687,7 +687,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -699,7 +699,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -709,7 +709,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -719,7 +719,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -740,7 +740,7 @@
 											<img
 												width="10"
 												height="9"
-												alt={getText('arrow', 'Arrow')}
+												alt="PricingA"
 												src={getImage('button_arrow').url}
 												loading="lazy"
 												class="rt-button-arrow-image"
@@ -767,7 +767,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -780,7 +780,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -793,7 +793,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -806,7 +806,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -819,7 +819,7 @@
 											<img
 												width="18"
 												height="18"
-												alt={getText('price_tick', 'Price Tick')}
+												alt="PricingA"
 												src={getImage('price_tick').url}
 												loading="lazy"
 												class="rt-price-icon"
@@ -831,7 +831,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -841,7 +841,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -851,7 +851,7 @@
 										<img
 											width="18"
 											height="18"
-											alt={getText('price_tick', 'Price Tick')}
+											alt="PricingA"
 											src={getImage('price_tick').url}
 											loading="lazy"
 										/>
@@ -880,7 +880,7 @@
 											<img
 												width="10"
 												height="9"
-												alt={getText('arrow', 'Arrow')}
+												alt="PricingA"
 												src={getImage('button_arrow').url}
 												loading="lazy"
 												class="rt-button-arrow-image rt-color-change"

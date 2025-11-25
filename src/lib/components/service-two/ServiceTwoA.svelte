@@ -39,7 +39,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getImage('button_arrow').alt || getText('arrow', 'Arrow')}
+								alt="ServiceTwoA"
 								src={getImage('button_arrow').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -57,7 +57,7 @@
 				data-w-id="fb42578d-8a72-9610-211f-08c7d6a63cd0"
 				width="907"
 				height="693"
-				alt={getImage('banner_main').alt || getText('banner', 'Banner')}
+				alt="ServiceTwoA"
 				sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 907px"
 				class="rt-efficiency-banner-image rt-autofit rt-tab-full-image"
 			/>
@@ -67,7 +67,7 @@
 					data-w-id="fec1f17d-0f6a-5390-180e-325ac6904c90"
 					width="200"
 					height="164"
-					alt={getImage('stat_image').alt || getText('statistics', 'Statistics')}
+					alt="ServiceTwoA"
 					class="rt-efficiency-image-two"
 				/>
 			</div>
@@ -77,7 +77,7 @@
 			>
 				<img
 					src={getImage('efficiency_statistics').url}
-					alt={getImage('efficiency_statistics').alt || getText('efficiency_statistics', 'Efficiency Statistics')}
+					alt="ServiceTwoA"
 					width="222"
 					height="221"
 					class="rt-efficiency-image-three"
@@ -88,7 +88,7 @@
 				loading="lazy"
 				width="113"
 				height="Auto"
-				alt={getImage('line_decoration_1').alt || getText('line', 'Line')}
+				alt="ServiceTwoA"
 				data-w-id="b0940305-fb32-499b-b3ac-c5ea46dff8ec"
 				class="rt-line"
 			/><img
@@ -96,7 +96,7 @@
 				loading="lazy"
 				width="230"
 				height="Auto"
-				alt={getImage('line_decoration_2').alt || getText('line', 'Line')}
+				alt="ServiceTwoA"
 				data-w-id="a0dbf9f9-7ef4-b564-df3c-7cbb14a7e923"
 				class="rt-line-two"
 			/>

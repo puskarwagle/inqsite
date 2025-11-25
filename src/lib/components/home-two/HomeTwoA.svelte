@@ -47,7 +47,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
+								alt="HomeTwoA"
 								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -65,7 +65,7 @@
 								<img
 									width="15"
 									height="17"
-									alt={getText('play_button', 'Play button')}
+									alt="HomeTwoA"
 									src={getImage('image_2').url}
 									loading="lazy"
 								/>
@@ -107,7 +107,7 @@
 			<div data-w-id="3e644226-a296-7e69-8492-6e223b2c1b5e" class="rt-solution-dashboard-image-one">
 				<img
 					src={getImage('image_3').url}
-					alt={getText('home_two_dashboard', 'Home Two Dashboard')}
+					alt="HomeTwoA"
 					width="1065"
 					height="630"
 					class="rt-autofit"
@@ -122,7 +122,7 @@
 					loading="lazy"
 					width="222"
 					height="221"
-					alt={getText('statistics', 'Statistics')}
+					alt="HomeTwoA"
 					class="rt-solution-image-two rt-autofit"
 				/>
 			</div>

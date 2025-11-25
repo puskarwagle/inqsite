@@ -114,7 +114,7 @@
 					src={getImage('image_1').url}
 					width="410"
 					height="650"
-					alt={getText('operations', 'AI Operations')}
+					alt="HomeF"
 					sizes="(max-width: 479px) 100vw, 410px"
 					data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1011"
 					loading="lazy"

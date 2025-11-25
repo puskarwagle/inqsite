@@ -21,7 +21,7 @@
 					<img
 						width="62"
 						height="54"
-						alt={getText('client', 'Client')}
+						alt="HomeTwoI"
 						src={getImage('image_1').url}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -31,7 +31,7 @@
 					<img
 						width="70"
 						height="70"
-						alt={getText('capabilities_icon', 'Capabilities Icon')}
+						alt="HomeTwoI"
 						src={getImage('image_2').url}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -41,7 +41,7 @@
 					<img
 						width="70"
 						height="70"
-						alt={getText('capabilities_icon', 'Capabilities icon')}
+						alt="HomeTwoI"
 						src={getImage('image_3').url}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -51,7 +51,7 @@
 					<img
 						width="61"
 						height="61"
-						alt={getText('client', 'Client')}
+						alt="HomeTwoI"
 						src={getImage('image_4').url}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -61,7 +61,7 @@
 					<img
 						width="56"
 						height="56"
-						alt={getText('client', 'Client')}
+						alt="HomeTwoI"
 						src={getImage('image_5').url}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -71,7 +71,7 @@
 					<img
 						width="50"
 						height="50"
-						alt={getText('client', 'Client')}
+						alt="HomeTwoI"
 						src={getImage('image_6').url}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -81,7 +81,7 @@
 					<img
 						width="54"
 						height="54"
-						alt={getText('client', 'Client')}
+						alt="HomeTwoI"
 						src={getImage('image_7').url}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -91,7 +91,7 @@
 					<img
 						width="51"
 						height="51"
-						alt={getText('capabilities_icon', 'Capabilities Icon')}
+						alt="HomeTwoI"
 						src={getImage('image_8').url}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -101,7 +101,7 @@
 					<img
 						width="63"
 						height="56"
-						alt={getText('capabilities_icon', 'Capabilities Icon')}
+						alt="HomeTwoI"
 						src={getImage('image_9').url}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -111,7 +111,7 @@
 					<img
 						width="60"
 						height="60"
-						alt={getText('capabilities_icon', 'Capabilities Icon')}
+						alt="HomeTwoI"
 						src={getImage('image_10').url}
 						loading="lazy"
 						class="rt-users-gallery-icon"

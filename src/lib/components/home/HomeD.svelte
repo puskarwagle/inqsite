@@ -36,7 +36,7 @@
 							src={getImage('image_1').url}
 							width="330"
 							height="330"
-							alt={getText('data', 'AI Data')}
+							alt="HomeD"
 							sizes="(max-width: 479px) 100vw, 330px"
 							data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f88"
 							loading="lazy"
@@ -56,14 +56,14 @@
 								<img
 									width="79"
 									height="69"
-									alt={getText('data', 'AI data')}
+									alt="HomeD"
 									src={getImage('image_2').url}
 									loading="lazy"
 									class="rt-ai-data-box-two-image one"
 								/><img
 									width="79"
 									height="69"
-									alt={getText('data', 'AI Data')}
+									alt="HomeD"
 									src={getImage('image_3').url}
 									loading="lazy"
 									class="rt-ai-data-box-two-image two"
@@ -73,14 +73,14 @@
 								<img
 									width="79"
 									height="69"
-									alt={getText('data', 'AI Data')}
+									alt="HomeD"
 									src={getImage('image_4').url}
 									loading="lazy"
 									class="rt-ai-data-box-two-image three"
 								/><img
 									width="79"
 									height="69"
-									alt={getText('data', 'AI Data')}
+									alt="HomeD"
 									src={getImage('image_5').url}
 									loading="lazy"
 									class="rt-ai-data-box-two-image four"
@@ -115,7 +115,7 @@
 										<img
 											width="10"
 											height="9"
-											alt={getText('arrow', 'Arrow')}
+											alt="HomeD"
 											src={getImage('image_6').url}
 											loading="lazy"
 											class="rt-button-arrow-image"
@@ -133,7 +133,7 @@
 									<img
 										width="14"
 										height="14"
-										alt={getText('client', 'Client')}
+										alt="HomeD"
 										src={getImage('image_7').url}
 										loading="lazy"
 									/>
@@ -142,7 +142,7 @@
 									<img
 										width="14"
 										height="14"
-										alt={getText('client', 'Client')}
+										alt="HomeD"
 										src={getImage('image_8').url}
 										loading="lazy"
 									/>
@@ -151,7 +151,7 @@
 									<img
 										width="23"
 										height="23"
-										alt={getText('client', 'Client')}
+										alt="HomeD"
 										src={getImage('image_9').url}
 										loading="lazy"
 									/>
@@ -160,7 +160,7 @@
 									<img
 										width="14"
 										height="14"
-										alt={getText('client', 'Client')}
+										alt="HomeD"
 										src={getImage('image_10').url}
 										loading="lazy"
 									/>
@@ -173,7 +173,7 @@
 										<img
 											width="14"
 											height="9"
-											alt={getText('client', 'Client')}
+											alt="HomeD"
 											src={getImage('image_11').url}
 											loading="lazy"
 										/>
@@ -182,7 +182,7 @@
 										<img
 											width="14"
 											height="9"
-											alt={getText('client', 'Client')}
+											alt="HomeD"
 											src={getImage('image_12').url}
 											loading="lazy"
 										/>
@@ -194,7 +194,7 @@
 										<img
 											width="52"
 											height="31"
-											alt={getText('data', 'Data')}
+											alt="HomeD"
 											src={getImage('image_13').url}
 											loading="lazy"
 										/>
@@ -212,7 +212,7 @@
 							<img
 								width="350"
 								height="174"
-								alt={getText('intelligence', 'Intelligence')}
+								alt="HomeD"
 								src={getImage('image_14').url}
 								loading="lazy"
 								sizes="(max-width: 479px) 100vw, 350px"
@@ -234,7 +234,7 @@
 							<img
 								width="350"
 								height="174"
-								alt={getText('data', 'AI Data')}
+								alt="HomeD"
 								src={getImage('image_15').url}
 								loading="lazy"
 								sizes="(max-width: 479px) 100vw, 350px"

@@ -39,7 +39,7 @@
 									<img
 										width="10"
 										height="9"
-										alt={getText('arrow', 'Arrow')}
+										alt="HomeTwoJ"
 										src={getImage('image_1').url}
 										loading="lazy"
 										class="rt-button-arrow-image"
@@ -56,7 +56,7 @@
 			<img
 				width="949.5"
 				height="494"
-				alt={getText('service', 'Service')}
+				alt="HomeTwoJ"
 				src={getImage('image_2').url}
 				loading="lazy"
 				sizes="(max-width: 991px) 100vw, 949.5px"

@@ -31,7 +31,7 @@
 						<img
 							width="18"
 							height="18"
-							alt={getImage('mail_icon').alt || 'Mail'}
+							alt="Footer"
 							src={getImage('mail_icon').url}
 							loading="lazy"
 							class="rt-mail-logo"
@@ -47,7 +47,7 @@
 						<img
 							width="18"
 							height="18"
-							alt={getImage('phone_icon').alt || 'Call'}
+							alt="Footer"
 							src={getImage('phone_icon').url}
 							loading="lazy"
 							class="rt-mail-logo"
@@ -91,7 +91,7 @@
 			<div class="w-layout-hflex rt-footer-social-link-block margin-off-39">
 				<div class="w-layout-vflex rt-nav-link-box-one">
 					<a href="/" class="w-inline-block"
-						><img width="192" height="36" alt={getText('logo_white', 'Logo White')} src="/mylogo.png" loading="lazy" /></a
+						><img width="192" height="36" alt="Footer" src="/mylogo.png" loading="lazy" /></a
 					>
 					<p class="rt-footer-para">
 						Morbi sed libero consequat id suspendisse congue in tristique tincidunt.
@@ -110,7 +110,7 @@
 									<img
 										width="10"
 										height="9"
-										alt={getText('arrow', 'Arrow')}
+										alt="Footer"
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
 										loading="lazy"
 										class="rt-button-arrow-image"
@@ -135,14 +135,14 @@
 					<img
 						width="47"
 						height="47"
-						alt={getText('big_arrow', 'Big Arrow')}
+						alt="Footer"
 						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e4_Arrow%202.svg"
 						loading="lazy"
 						class="rt-nav-social-arow one"
 					/><img
 						width="47"
 						height="47"
-						alt=""
+						alt="Footer"
 						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f8dc48f7fbdc29bb25183f_Vector.svg"
 						loading="lazy"
 						class="rt-nav-social-arow two"
@@ -160,7 +160,7 @@
 						><img
 							width="9"
 							height="14"
-							alt={getText('facebook', 'Facebook')}
+							alt="Footer"
 							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e5_Fb.svg"
 							loading="lazy"
 							class="rt-autofit rt-social-icon"
@@ -174,7 +174,7 @@
 						><img
 							width="15"
 							height="15"
-							alt={getText('twitter', 'Twitter')}
+							alt="Footer"
 							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e7_Twitter.svg"
 							loading="lazy"
 							class="rt-autofit rt-social-icon"
@@ -188,7 +188,7 @@
 						><img
 							width="15"
 							height="15"
-							alt={getText('linkedin', 'Linkedin')}
+							alt="Footer"
 							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e6_Linkedin.svg"
 							loading="lazy"
 							class="rt-autofit rt-social-icon"
@@ -202,7 +202,7 @@
 						><img
 							width="15"
 							height="15"
-							alt={getText('instagram', 'Instagram')}
+							alt="Footer"
 							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e8_Instagram.svg"
 							loading="lazy"
 							class="rt-autofit rt-social-icon"

@@ -37,7 +37,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
+								alt="HomeTwoG"
 								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -54,7 +54,7 @@
 					src={getImage('image_2').url}
 					width="399"
 					height="397"
-					alt={getText('growth', 'Growth')}
+					alt="HomeTwoG"
 					sizes="(max-width: 479px) 100vw, 399px"
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cea4"
 					loading="lazy"

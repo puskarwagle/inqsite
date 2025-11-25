@@ -45,7 +45,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getImage('button_arrow').alt || getText('arrow', 'Arrow')}
+								alt="AboutA"
 								src={getImage('button_arrow').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -64,7 +64,7 @@
 						<img
 							width="1011"
 							height="663"
-							alt={getImage('banner_main').alt || getText('banner', 'Banner ')}
+							alt="AboutA"
 							src={getImage('banner_main').url}
 							class="rt-dashboard-image rt-autofit"
 						/>

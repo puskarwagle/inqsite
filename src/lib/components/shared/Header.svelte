@@ -31,7 +31,7 @@
 						><img
 							width="191"
 							height="36"
-							alt={getText('logo_black', 'Logo Black')}
+							alt="Header"
 							src={getImage('image_1').url}
 							class="rt-site-logo"
 						/></a
@@ -124,7 +124,7 @@
 									<img
 										width="10"
 										height="6"
-										alt={getText('nav_arrow_down', 'Nav Arrow Down')}
+										alt="Header"
 										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-dropdown-black-icon rt-color"
@@ -132,7 +132,7 @@
 									/><img
 										width="10"
 										height="6"
-										alt={getText('nav_down_arrow', 'Nav down arrow')}
+										alt="Header"
 										src={getImage('image_3').url}
 										loading="lazy"
 										class="rt-dropdown-green-icon rt-color"
@@ -156,7 +156,7 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('icon', 'Icon')}
+													alt="Header"
 													src={getImage('image_4').url}
 													loading="lazy"
 												/>
@@ -167,7 +167,7 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('icon', 'Icon')}
+													alt="Header"
 													src={getImage('image_4').url}
 													loading="lazy"
 												/>
@@ -178,7 +178,7 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('icon', 'Icon')}
+													alt="Header"
 													src={getImage('image_4').url}
 													loading="lazy"
 												/>
@@ -189,7 +189,7 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('icon', 'Icon')}
+													alt="Header"
 													src={getImage('image_4').url}
 													loading="lazy"
 												/>
@@ -200,7 +200,7 @@
 												<img
 													width="18"
 													height="19"
-													alt={getText('icon', 'Icon')}
+													alt="Header"
 													src={getImage('image_4').url}
 													loading="lazy"
 												/>
@@ -211,7 +211,7 @@
 												<img
 													width="20"
 													height="20"
-													alt={getText('bank', 'Bank')}
+													alt="Header"
 													src={getImage('image_5').url}
 													loading="lazy"
 												/>
@@ -225,7 +225,7 @@
 												<img
 													width="28"
 													height="27"
-													alt={getText('team', 'Team')}
+													alt="Header"
 													src={getImage('image_6').url}
 													loading="lazy"
 													class="rt-mega-menu-icon"
@@ -242,7 +242,7 @@
 											<img
 												width="22"
 												height="26"
-												alt={getText('glitch', 'Glitch')}
+												alt="Header"
 												src={getImage('image_7').url}
 												loading="lazy"
 											/>
@@ -268,7 +268,7 @@
 											<img
 												width="10"
 												height="9"
-												alt={getText('arrow', 'Arrow')}
+												alt="Header"
 												src={getImage('image_8').url}
 												loading="lazy"
 												class="rt-button-arrow-image"
@@ -301,7 +301,7 @@
 								<img
 									width="10"
 									height="6"
-									alt={getText('nav_arrow_down', 'Nav Arrow Down')}
+									alt="Header"
 									src={getImage('image_2').url}
 									loading="lazy"
 									class="rt-dropdown-black-icon rt-color"
@@ -309,7 +309,7 @@
 								/><img
 									width="10"
 									height="6"
-									alt={getText('nav_down_arrow', 'Nav down arrow')}
+									alt="Header"
 									src={getImage('image_3').url}
 									loading="lazy"
 									class="rt-dropdown-green-icon"
@@ -372,7 +372,7 @@
 						><img
 							width="191"
 							height="36"
-							alt={getText('logo_black', 'Logo Black')}
+							alt="Header"
 							src={getImage('image_1').url}
 							class="rt-site-logo"
 						/></a
@@ -463,7 +463,7 @@
 									<img
 										width="10"
 										height="6"
-										alt={getText('nav_arrow_down', 'Nav Arrow Down')}
+										alt="Header"
 										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-dropdown-black-icon rt-color"
@@ -471,7 +471,7 @@
 									/><img
 										width="10"
 										height="6"
-										alt={getText('nav_down_arrow', 'Nav down arrow')}
+										alt="Header"
 										src={getImage('image_3').url}
 										loading="lazy"
 										class="rt-dropdown-green-icon rt-color"
@@ -495,7 +495,7 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('icon', 'Icon')}
+													alt="Header"
 													src={getImage('image_4').url}
 													loading="lazy"
 												/>
@@ -506,7 +506,7 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('icon', 'Icon')}
+													alt="Header"
 													src={getImage('image_4').url}
 													loading="lazy"
 												/>
@@ -517,7 +517,7 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('icon', 'Icon')}
+													alt="Header"
 													src={getImage('image_4').url}
 													loading="lazy"
 												/>
@@ -528,7 +528,7 @@
 												<img
 													width="18"
 													height="18"
-													alt={getText('icon', 'Icon')}
+													alt="Header"
 													src={getImage('image_4').url}
 													loading="lazy"
 												/>
@@ -539,7 +539,7 @@
 												<img
 													width="18"
 													height="19"
-													alt={getText('icon', 'Icon')}
+													alt="Header"
 													src={getImage('image_4').url}
 													loading="lazy"
 												/>
@@ -550,7 +550,7 @@
 												<img
 													width="20"
 													height="20"
-													alt={getText('bank', 'Bank')}
+													alt="Header"
 													src={getImage('image_5').url}
 													loading="lazy"
 												/>
@@ -564,7 +564,7 @@
 												<img
 													width="28"
 													height="27"
-													alt={getText('team', 'Team')}
+													alt="Header"
 													src={getImage('image_6').url}
 													loading="lazy"
 													class="rt-mega-menu-icon"
@@ -581,7 +581,7 @@
 											<img
 												width="22"
 												height="26"
-												alt={getText('glitch', 'Glitch')}
+												alt="Header"
 												src={getImage('image_7').url}
 												loading="lazy"
 											/>
@@ -607,7 +607,7 @@
 											<img
 												width="10"
 												height="9"
-												alt={getText('arrow', 'Arrow')}
+												alt="Header"
 												src={getImage('image_8').url}
 												loading="lazy"
 												class="rt-button-arrow-image"
@@ -643,7 +643,7 @@
 										<img
 											width="10"
 											height="9"
-											alt={getText('arrow', 'Arrow')}
+											alt="Header"
 											src={getImage('image_8').url}
 											loading="lazy"
 											class="rt-button-arrow-image"
@@ -671,7 +671,7 @@
 										<img
 											width="10"
 											height="9"
-											alt={getText('arrow', 'Arrow')}
+											alt="Header"
 											src={getImage('image_8').url}
 											loading="lazy"
 											class="rt-button-arrow-image"

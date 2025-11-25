@@ -35,7 +35,7 @@
 								<img
 									width="410"
 									height="283"
-									alt=""
+									alt="HomeL"
 									src={getImage('image_1').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
@@ -47,7 +47,7 @@
 									<img
 										width="18"
 										height="18"
-										alt={getText('calender', 'Calender')}
+										alt="HomeL"
 										src={getImage('image_2').url}
 										loading="lazy"
 									/>
@@ -57,7 +57,7 @@
 									<img
 										width="18"
 										height="18"
-										alt={getText('user', 'User')}
+										alt="HomeL"
 										src={getImage('image_3').url}
 										loading="lazy"
 									/>
@@ -78,7 +78,7 @@
 								<img
 									width="410"
 									height="283"
-									alt=""
+									alt="HomeL"
 									src={getImage('image_4').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
@@ -90,7 +90,7 @@
 									<img
 										width="18"
 										height="18"
-										alt={getText('calender', 'Calender')}
+										alt="HomeL"
 										src={getImage('image_2').url}
 										loading="lazy"
 									/>
@@ -100,7 +100,7 @@
 									<img
 										width="18"
 										height="18"
-										alt={getText('user', 'User')}
+										alt="HomeL"
 										src={getImage('image_3').url}
 										loading="lazy"
 									/>
@@ -121,7 +121,7 @@
 								<img
 									width="410"
 									height="283"
-									alt=""
+									alt="HomeL"
 									src={getImage('image_5').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
@@ -133,7 +133,7 @@
 									<img
 										width="18"
 										height="18"
-										alt={getText('calender', 'Calender')}
+										alt="HomeL"
 										src={getImage('image_2').url}
 										loading="lazy"
 									/>
@@ -143,7 +143,7 @@
 									<img
 										width="18"
 										height="18"
-										alt={getText('user', 'User')}
+										alt="HomeL"
 										src={getImage('image_3').url}
 										loading="lazy"
 									/>

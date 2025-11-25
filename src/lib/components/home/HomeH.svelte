@@ -37,7 +37,7 @@
 					<img
 						width="43"
 						height="58"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_1').url}
 						loading="lazy"
 						class="rt-integration-user-icon"
@@ -47,7 +47,7 @@
 					<img
 						width="62"
 						height="62"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_2').url}
 						loading="lazy"
 						class="rt-integration-user-icon"
@@ -57,7 +57,7 @@
 					<img
 						width="54"
 						height="54"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_3').url}
 						loading="lazy"
 						class="rt-integration-user-icon"
@@ -67,7 +67,7 @@
 					<img
 						width="50"
 						height="50"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_4').url}
 						loading="lazy"
 						class="rt-integration-user-icon"
@@ -77,7 +77,7 @@
 					<img
 						width="44"
 						height="43"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_5').url}
 						loading="lazy"
 						class="rt-integration-user-icon"
@@ -87,7 +87,7 @@
 					<img
 						width="49"
 						height="48"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_6').url}
 						loading="lazy"
 						class="rt-integration-user-icon"
@@ -103,7 +103,7 @@
 					<img
 						width="62"
 						height="54"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_7').url}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
@@ -113,7 +113,7 @@
 					<img
 						width="48"
 						height="65"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_1').url}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
@@ -123,7 +123,7 @@
 					<img
 						width="70"
 						height="70"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_2').url}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
@@ -133,7 +133,7 @@
 					<img
 						width="61"
 						height="61"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_3').url}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
@@ -143,7 +143,7 @@
 					<img
 						width="56"
 						height="56"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_4').url}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
@@ -153,7 +153,7 @@
 					<img
 						width="49"
 						height="48"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_5').url}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
@@ -163,7 +163,7 @@
 					<img
 						width="54"
 						height="54"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_6').url}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
@@ -173,7 +173,7 @@
 					<img
 						width="51"
 						height="51"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_8').url}
 						loading="lazy"
 						class="rt-integration-user-icon-two"
@@ -189,7 +189,7 @@
 					<img
 						width="62"
 						height="54"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_7').url}
 						loading="lazy"
 					/>
@@ -198,7 +198,7 @@
 					<img
 						width="43"
 						height="58"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_1').url}
 						loading="lazy"
 					/>
@@ -207,7 +207,7 @@
 					<img
 						width="62"
 						height="62"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_2').url}
 						loading="lazy"
 					/>
@@ -216,7 +216,7 @@
 					<img
 						width="54"
 						height="54"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_3').url}
 						loading="lazy"
 					/>
@@ -225,7 +225,7 @@
 					<img
 						width="50"
 						height="50"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_4').url}
 						loading="lazy"
 					/>
@@ -234,7 +234,7 @@
 					<img
 						width="44"
 						height="43"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_5').url}
 						loading="lazy"
 					/>
@@ -243,7 +243,7 @@
 					<img
 						width="49"
 						height="48"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_6').url}
 						loading="lazy"
 					/>
@@ -252,7 +252,7 @@
 					<img
 						width="51"
 						height="51"
-						alt={getText('client', 'Client')}
+						alt="HomeH"
 						src={getImage('image_8').url}
 						loading="lazy"
 					/>

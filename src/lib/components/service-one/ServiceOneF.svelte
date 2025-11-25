@@ -30,7 +30,7 @@
 								><img
 									width="410"
 									height="460"
-									alt={getImage('team_member_1_image').alt || 'Olivia Davis'}
+									alt="ServiceOneF"
 									src={getImage('team_member_1_image').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
@@ -52,7 +52,7 @@
 									><img
 										width="15"
 										height="15"
-										alt={getText('dribble', 'Dribble')}
+										alt="ServiceOneF"
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8181_Dribble.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -64,7 +64,7 @@
 									><img
 										width="16"
 										height="16"
-										alt={getText('instagram', 'Instagram')}
+										alt="ServiceOneF"
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a817f_Instagram.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -76,7 +76,7 @@
 									><img
 										width="16"
 										height="16"
-										alt={getText('pinterest', 'Pinterest')}
+										alt="ServiceOneF"
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8180_Pinterest.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -97,7 +97,7 @@
 								><img
 									width="410"
 									height="460"
-									alt={getImage('team_member_2_image').alt || 'Louis Pickell'}
+									alt="ServiceOneF"
 									src={getImage('team_member_2_image').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
@@ -119,7 +119,7 @@
 									><img
 										width="15"
 										height="15"
-										alt={getText('dribble', 'Dribble')}
+										alt="ServiceOneF"
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8181_Dribble.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -131,7 +131,7 @@
 									><img
 										width="16"
 										height="16"
-										alt={getText('instagram', 'Instagram')}
+										alt="ServiceOneF"
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a817f_Instagram.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -143,7 +143,7 @@
 									><img
 										width="16"
 										height="16"
-										alt={getText('pinterest', 'Pinterest')}
+										alt="ServiceOneF"
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8180_Pinterest.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -164,7 +164,7 @@
 								><img
 									width="410"
 									height="460"
-									alt={getImage('team_member_3_image').alt || 'Ashley Roberts'}
+									alt="ServiceOneF"
 									src={getImage('team_member_3_image').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
@@ -186,7 +186,7 @@
 									><img
 										width="15"
 										height="15"
-										alt={getText('dribble', 'Dribble')}
+										alt="ServiceOneF"
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8181_Dribble.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -198,7 +198,7 @@
 									><img
 										width="16"
 										height="16"
-										alt={getText('instagram', 'Instagram')}
+										alt="ServiceOneF"
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a817f_Instagram.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -210,7 +210,7 @@
 									><img
 										width="16"
 										height="16"
-										alt={getText('pinterest', 'Pinterest')}
+										alt="ServiceOneF"
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8180_Pinterest.svg"
 										loading="lazy"
 										class="rt-autofit"

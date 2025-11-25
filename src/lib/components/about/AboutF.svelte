@@ -21,7 +21,7 @@
 					src={getImage('image_1').url}
 					width="724"
 					height="515"
-					alt={getText('decision', 'Decision')}
+					alt="AboutF"
 					sizes="(max-width: 767px) 100vw, 724px"
 					data-w-id="d8cc0c89-5611-467c-7b0c-409b05d85abf"
 					loading="lazy"
@@ -49,7 +49,7 @@
 							<img
 								width="21"
 								height="21"
-								alt={getText('intelligence_icon', 'Intelligence Icon')}
+								alt="AboutF"
 								src={getImage('image_2').url}
 								loading="lazy"
 								class="rt-autofit"
@@ -65,7 +65,7 @@
 							<img
 								width="23"
 								height="23"
-								alt={getText('intelligence_icon', 'Intelligence Icon')}
+								alt="AboutF"
 								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-autofit"
@@ -88,7 +88,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
+								alt="AboutF"
 								src={getImage('image_4').url}
 								loading="lazy"
 								class="rt-button-arrow-image"

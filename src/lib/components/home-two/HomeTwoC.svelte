@@ -31,7 +31,7 @@
 						<img
 							width="25"
 							height="25"
-							alt={getText('brand', 'Brand')}
+							alt="HomeTwoC"
 							src={getImage('image_1').url}
 							loading="lazy"
 						/>
@@ -49,7 +49,7 @@
 						<img
 							width="25"
 							height="25"
-							alt={getText('brand', 'Brand')}
+							alt="HomeTwoC"
 							src={getImage('image_2').url}
 							loading="lazy"
 						/>
@@ -69,7 +69,7 @@
 						<img
 							width="33"
 							height="28"
-							alt={getText('brand', 'Brand')}
+							alt="HomeTwoC"
 							src={getImage('image_3').url}
 							loading="lazy"
 						/>
@@ -87,7 +87,7 @@
 						<img
 							width="31"
 							height="31"
-							alt={getText('brand', 'Brand')}
+							alt="HomeTwoC"
 							src={getImage('image_4').url}
 							loading="lazy"
 						/>
@@ -105,7 +105,7 @@
 						<img
 							width="29"
 							height="29"
-							alt={getText('brand', 'Brand')}
+							alt="HomeTwoC"
 							src={getImage('image_5').url}
 							loading="lazy"
 						/>

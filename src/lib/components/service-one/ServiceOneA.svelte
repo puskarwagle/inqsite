@@ -39,7 +39,7 @@
 								<img
 									width="10"
 									height="9"
-									alt={getText('arrow', 'Arrow')}
+									alt="ServiceOneA"
 									src={getImage('button_arrow').url}
 									loading="lazy"
 									class="rt-button-arrow-image"
@@ -55,14 +55,14 @@
 					data-w-id="78907169-fcd1-afed-0c8f-99c8abc938ab"
 					width="908"
 					height="646"
-					alt={getImage('dashboard_main').alt || getText('service_two_dashboard_image', 'Service Two Dashboard Image')}
+					alt="ServiceOneA"
 					class="rt-produvtivity-image rt-autofit rt-tab-full-image"
 				/><img
 					src={getImage('line_decoration').url}
 					loading="lazy"
 					width="137"
 					height="117"
-					alt={getImage('line_decoration').alt || getText('line', 'Line')}
+					alt="ServiceOneA"
 					data-w-id="21d71efc-19e9-66f9-877c-13339e404bbe"
 					class="rt-produvtivity-line-float"
 				/>
@@ -72,7 +72,7 @@
 						loading="lazy"
 						width="409"
 						height="176"
-						alt={getImage('robot_float').alt || getText('spline_image_one', 'Spline Image one')}
+						alt="ServiceOneA"
 						class="rt-autofit rt-robot-image"
 					/>
 				</div>

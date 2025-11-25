@@ -34,7 +34,7 @@
 							<img
 								width="27"
 								height="30"
-								alt={getText('brand', 'Brand')}
+								alt="HomeC"
 								src={getImage('image_1').url}
 								loading="lazy"
 							/>
@@ -61,7 +61,7 @@
 							<img
 								width="25"
 								height="25"
-								alt={getText('brand', 'Brand')}
+								alt="HomeC"
 								src={getImage('image_2').url}
 								loading="lazy"
 							/>
@@ -93,7 +93,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
+								alt="HomeC"
 								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -113,7 +113,7 @@
 						src={getImage('image_4').url}
 						width="527"
 						height="554"
-						alt={getText('revolution', 'Revolution')}
+						alt="HomeC"
 						sizes="(max-width: 767px) 100vw, 527px"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f79"
 						loading="lazy"
@@ -121,7 +121,7 @@
 					/><img
 						width="184"
 						height="183"
-						alt={getText('statistics', 'Statistics')}
+						alt="HomeC"
 						src={getImage('image_5').url}
 						loading="lazy"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f7a"

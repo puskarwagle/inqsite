@@ -22,7 +22,7 @@
 				<img
 					width="397"
 					height="342"
-					alt={getText('digital', 'Digital')}
+					alt="HomeOneH"
 					src={getImage('image_1').url}
 					loading="lazy"
 					sizes="(max-width: 479px) 100vw, 397px"
@@ -30,7 +30,7 @@
 				/><img
 					width="397"
 					height="342"
-					alt={getText('digital', 'Digital')}
+					alt="HomeOneH"
 					src={getImage('image_2').url}
 					loading="lazy"
 					sizes="(max-width: 479px) 100vw, 397px"

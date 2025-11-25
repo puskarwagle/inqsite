@@ -48,7 +48,7 @@
 									<img
 										width="10"
 										height="9"
-										alt={getText('arrow', 'Arrow')}
+										alt="PricingB"
 										src={getImage('button_arrow').url}
 										loading="lazy"
 										class="rt-button-arrow-image"
@@ -86,7 +86,7 @@
 											<img
 												width="10"
 												height="9"
-												alt={getText('arrow', 'Arrow')}
+												alt="PricingB"
 												src={getImage('button_arrow').url}
 												loading="lazy"
 												class="rt-button-arrow-image"
@@ -122,7 +122,7 @@
 									<img
 										width="10"
 										height="9"
-										alt={getText('arrow', 'Arrow')}
+										alt="PricingB"
 										src={getImage('button_arrow').url}
 										loading="lazy"
 										class="rt-button-arrow-image"
@@ -145,7 +145,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -157,7 +157,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -169,7 +169,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -188,7 +188,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -200,7 +200,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -212,7 +212,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -231,7 +231,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_cross_tick', 'Price Cross Tick')}
+							alt="PricingB"
 							src={getImage('price_cross').url}
 							loading="lazy"
 						/>
@@ -243,7 +243,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -255,7 +255,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -274,7 +274,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_cross_tick', 'Price Cross Tick')}
+							alt="PricingB"
 							src={getImage('price_cross').url}
 							loading="lazy"
 						/>
@@ -286,7 +286,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -298,7 +298,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -342,7 +342,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_cross_tick', 'Price Cross Tick')}
+							alt="PricingB"
 							src={getImage('price_cross').url}
 							loading="lazy"
 						/>
@@ -354,7 +354,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_cross_tick', 'Price Cross Tick')}
+							alt="PricingB"
 							src={getImage('price_cross').url}
 							loading="lazy"
 						/>
@@ -366,7 +366,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -408,7 +408,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -420,7 +420,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
@@ -432,7 +432,7 @@
 						<img
 							width="20"
 							height="20"
-							alt={getText('price_tick', 'Price Tick')}
+							alt="PricingB"
 							src={getImage('price_tick').url}
 							loading="lazy"
 						/>

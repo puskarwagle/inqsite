@@ -34,7 +34,7 @@
 						<img
 							width="12"
 							height="11"
-							alt={getText('arrow', 'Arrow')}
+							alt="HomeG"
 							src={getImage('image_1').url}
 							loading="lazy"
 						/>
@@ -47,7 +47,7 @@
 						src={getImage('image_2').url}
 						width="455"
 						height="317"
-						alt={getText('insight_chart', 'Insight Chart')}
+						alt="HomeG"
 						sizes="(max-width: 479px) 100vw, 455px"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1024"
 						loading="lazy"
@@ -65,7 +65,7 @@
 						<img
 							width="12"
 							height="11"
-							alt={getText('arrow', 'Arrow')}
+							alt="HomeG"
 							src={getImage('image_1').url}
 							loading="lazy"
 						/>
@@ -78,7 +78,7 @@
 						src={getImage('image_3').url}
 						width="455"
 						height="317"
-						alt={getText('insight', 'Insight 2')}
+						alt="HomeG"
 						sizes="(max-width: 479px) 100vw, 455px"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b102e"
 						loading="lazy"

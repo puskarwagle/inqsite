@@ -27,7 +27,7 @@
 					<img
 						width="33"
 						height="33"
-						alt={getText('client', 'Client')}
+						alt="HomeOneG"
 						src={getImage('image_1').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
@@ -37,7 +37,7 @@
 					<img
 						width="33"
 						height="33"
-						alt={getText('client', 'Client')}
+						alt="HomeOneG"
 						src={getImage('image_2').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
@@ -47,7 +47,7 @@
 					<img
 						width="33"
 						height="33"
-						alt={getText('client', 'Client')}
+						alt="HomeOneG"
 						src={getImage('image_3').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
@@ -57,7 +57,7 @@
 					<img
 						width="20"
 						height="20"
-						alt={getText('client', 'Client')}
+						alt="HomeOneG"
 						src={getImage('image_4').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
@@ -71,7 +71,7 @@
 						<img
 							width="33"
 							height="33"
-							alt={getText('client', 'Client')}
+							alt="HomeOneG"
 							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-encryption-small-icon-v2"
@@ -81,7 +81,7 @@
 						<img
 							width="33"
 							height="33"
-							alt={getText('capabilities_icon', 'Capabilities Icon')}
+							alt="HomeOneG"
 							src={getImage('image_6').url}
 							loading="lazy"
 						/>
@@ -90,7 +90,7 @@
 						<img
 							width="45"
 							height="60"
-							alt={getText('client', 'Client')}
+							alt="HomeOneG"
 							src={getImage('image_7').url}
 							loading="lazy"
 							class="rt-encryption-small-icon-v2"
@@ -100,7 +100,7 @@
 						<img
 							width="50"
 							height="50"
-							alt={getText('capabilities_icon', 'Capabilities Icon')}
+							alt="HomeOneG"
 							src={getImage('image_8').url}
 							loading="lazy"
 							class="rt-encryption-small-icon-v2"
@@ -118,7 +118,7 @@
 					<img
 						width="33"
 						height="33"
-						alt={getText('client', 'Client')}
+						alt="HomeOneG"
 						src={getImage('image_1').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
@@ -128,7 +128,7 @@
 					<img
 						width="33"
 						height="33"
-						alt={getText('client', 'Client')}
+						alt="HomeOneG"
 						src={getImage('image_3').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
@@ -138,7 +138,7 @@
 					<img
 						width="33"
 						height="33"
-						alt={getText('capabilities_icon', 'Capabilities Icon')}
+						alt="HomeOneG"
 						src={getImage('image_9').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
@@ -148,7 +148,7 @@
 					<img
 						width="33"
 						height="33"
-						alt={getText('client', 'Client')}
+						alt="HomeOneG"
 						src={getImage('image_4').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
@@ -162,7 +162,7 @@
 						<img
 							width="33"
 							height="33"
-							alt={getText('capabilities_icon', 'Capabilities Icon')}
+							alt="HomeOneG"
 							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-encryption-small-icon-v2"
@@ -172,7 +172,7 @@
 						<img
 							width="33"
 							height="33"
-							alt={getText('client', 'Client')}
+							alt="HomeOneG"
 							src={getImage('image_7').url}
 							loading="lazy"
 						/>
@@ -181,7 +181,7 @@
 						<img
 							width="50"
 							height="50"
-							alt={getText('capabilities_icon', 'Capabilities Icon')}
+							alt="HomeOneG"
 							src={getImage('image_8').url}
 							loading="lazy"
 							class="rt-encryption-small-icon-v2"
@@ -208,7 +208,7 @@
 					<img
 						width="10"
 						height="9"
-						alt={getText('arrow', 'Arrow')}
+						alt="HomeOneG"
 						src={getImage('image_10').url}
 						loading="lazy"
 						class="rt-button-arrow-image"

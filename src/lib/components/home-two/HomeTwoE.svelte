@@ -42,7 +42,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
+								alt="HomeTwoE"
 								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -52,7 +52,7 @@
 				<img
 					width="95"
 					height="114"
-					alt={getText('rocket', 'Rocket')}
+					alt="HomeTwoE"
 					src={getImage('image_2').url}
 					loading="lazy"
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce61"
@@ -86,7 +86,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
+								alt="HomeTwoE"
 								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-button-arrow-image rt-color-change"
@@ -100,7 +100,7 @@
 					<img
 						width="270"
 						height="246"
-						alt={getText('growth', 'Growth')}
+						alt="HomeTwoE"
 						src={getImage('image_3').url}
 						loading="lazy"
 						sizes="(max-width: 479px) 100vw, 270px"

@@ -23,7 +23,7 @@
 							<img
 								width="430"
 								height="185"
-								alt={getText('innovation_statistics', 'Innovation Statistics')}
+								alt="HomeOneE"
 								src={getImage('image_1').url}
 								loading="lazy"
 								data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a7557a"
@@ -36,7 +36,7 @@
 								src={getImage('image_2').url}
 								width="430"
 								height="185"
-								alt={getText('strategy', 'Strategy')}
+								alt="HomeOneE"
 								sizes="(max-width: 479px) 100vw, 430px"
 								data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a7557b"
 								loading="lazy"
@@ -64,7 +64,7 @@
 								<img
 									width="28"
 									height="28"
-									alt={getText('settings', 'Settings')}
+									alt="HomeOneE"
 									src={getImage('image_3').url}
 									loading="lazy"
 								/>
@@ -82,7 +82,7 @@
 								<img
 									width="24"
 									height="24"
-									alt={getText('code', 'Code')}
+									alt="HomeOneE"
 									src={getImage('image_4').url}
 									loading="lazy"
 								/>
@@ -103,7 +103,7 @@
 					<img
 						width="489"
 						height="478"
-						alt={getText('workflow', 'Workflow')}
+						alt="HomeOneE"
 						src={getImage('image_5').url}
 						loading="lazy"
 						sizes="(max-width: 767px) 100vw, 489px"
@@ -132,7 +132,7 @@
 								<img
 									width="10"
 									height="9"
-									alt={getText('arrow', 'Arrow')}
+									alt="HomeOneE"
 									src={getImage('image_6').url}
 									loading="lazy"
 									class="rt-button-arrow-image"
@@ -156,7 +156,7 @@
 								<img
 									width="630"
 									height="351"
-									alt="CTA"
+									alt="HomeOneE"
 									src={getImage('image_7').url}
 									loading="lazy"
 									sizes="(max-width: 767px) 100vw, 630px"
@@ -185,7 +185,7 @@
 											<img
 												width="10"
 												height="9"
-												alt={getText('arrow', 'Arrow')}
+												alt="HomeOneE"
 												src={getImage('image_6').url}
 												loading="lazy"
 												class="rt-button-arrow-image"

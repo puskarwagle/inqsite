@@ -31,7 +31,7 @@
 								<img
 									width="36"
 									height="24"
-									alt={getImage('icon_expert_1').alt || getText('expert', 'Expert')}
+									alt="ServiceOneD"
 									src={getImage('icon_expert_1').url}
 									loading="lazy"
 								/>
@@ -46,7 +46,7 @@
 								<img
 									width="27"
 									height="30"
-									alt={getImage('icon_expert_2').alt || getText('expert', 'Expert')}
+									alt="ServiceOneD"
 									src={getImage('icon_expert_2').url}
 									loading="lazy"
 								/>
@@ -61,7 +61,7 @@
 								<img
 									width="19"
 									height="28"
-									alt={getImage('icon_expert_3').alt || getText('expert', 'Expert')}
+									alt="ServiceOneD"
 									src={getImage('icon_expert_3').url}
 									loading="lazy"
 								/>
@@ -78,7 +78,7 @@
 						<img
 							width="654"
 							height="460"
-							alt={getImage('possibilities_dashboard').alt || getText('possibilities_dashboard', 'Possibilities Dashboard')}
+							alt="ServiceOneD"
 							src={getImage('possibilities_dashboard').url}
 							loading="lazy"
 							sizes="(max-width: 767px) 100vw, 654px"
@@ -86,7 +86,7 @@
 						/><img
 							width="654"
 							height="460"
-							alt={getImage('order_dashboard').alt || getText('order', 'Order')}
+							alt="ServiceOneD"
 							src={getImage('order_dashboard').url}
 							loading="lazy"
 							sizes="(max-width: 767px) 100vw, 654px"
@@ -94,7 +94,7 @@
 						/><img
 							width="654"
 							height="460"
-							alt={getImage('artificial_dashboard').alt || getText('artificial', 'Artificial')}
+							alt="ServiceOneD"
 							src={getImage('artificial_dashboard').url}
 							loading="lazy"
 							sizes="(max-width: 767px) 100vw, 654px"

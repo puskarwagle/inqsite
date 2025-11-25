@@ -28,7 +28,7 @@
 					<img
 						width="315"
 						height="147"
-						alt={getImage('business_card_1_image').alt || getText('business', 'Business')}
+						alt="ServiceOneB"
 						src={getImage('business_card_1_image').url}
 						loading="lazy"
 						sizes="(max-width: 479px) 100vw, 315px"
@@ -36,7 +36,7 @@
 					/><img
 						width="297"
 						height="147"
-						alt={getImage('business_card_2_image').alt || getText('business', 'Business')}
+						alt="ServiceOneB"
 						src={getImage('business_card_2_image').url}
 						loading="lazy"
 						sizes="(max-width: 479px) 100vw, 297px"
@@ -59,14 +59,14 @@
 							<img
 								width="10"
 								height="10"
-								alt={getImage('button_arrow').alt || getText('arrow', 'Arrow')}
+								alt="ServiceOneB"
 								src={getImage('button_arrow').url}
 								loading="lazy"
 								class="rt-autofit"
 							/><img
 								width="10"
 								height="10"
-								alt={getImage('button_arrow').alt || getText('arrow', 'Arrow')}
+								alt="ServiceOneB"
 								src={getImage('button_arrow').url}
 								loading="lazy"
 								class="rt-autofit"
@@ -84,7 +84,7 @@
 					<img
 						width="345"
 						height="202"
-						alt={getImage('business_card_3_image').alt || getText('business', 'Business')}
+						alt="ServiceOneB"
 						src={getImage('business_card_3_image').url}
 						loading="lazy"
 						sizes="(max-width: 479px) 100vw, 345px"
@@ -106,14 +106,14 @@
 							<img
 								width="10"
 								height="10"
-								alt={getImage('button_arrow').alt || getText('arrow', 'Arrow')}
+								alt="ServiceOneB"
 								src={getImage('button_arrow').url}
 								loading="lazy"
 								class="rt-autofit"
 							/><img
 								width="10"
 								height="10"
-								alt={getImage('button_arrow').alt || getText('arrow', 'Arrow')}
+								alt="ServiceOneB"
 								src={getImage('button_arrow').url}
 								loading="lazy"
 								class="rt-autofit"
@@ -131,7 +131,7 @@
 					<img
 						width="345"
 						height="202"
-						alt={getImage('business_card_4_image').alt || getText('business', 'Business')}
+						alt="ServiceOneB"
 						src={getImage('business_card_4_image').url}
 						loading="lazy"
 						sizes="(max-width: 479px) 100vw, 345px"
@@ -154,14 +154,14 @@
 							<img
 								width="10"
 								height="10"
-								alt={getImage('button_arrow').alt || getText('arrow', 'Arrow')}
+								alt="ServiceOneB"
 								src={getImage('button_arrow').url}
 								loading="lazy"
 								class="rt-autofit"
 							/><img
 								width="10"
 								height="10"
-								alt={getImage('button_arrow').alt || getText('arrow', 'Arrow')}
+								alt="ServiceOneB"
 								src={getImage('button_arrow').url}
 								loading="lazy"
 								class="rt-autofit"

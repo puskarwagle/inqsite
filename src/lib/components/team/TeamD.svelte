@@ -33,7 +33,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_1').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -50,7 +50,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_2').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -67,7 +67,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_3').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -84,7 +84,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_4').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -101,7 +101,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -118,7 +118,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -137,7 +137,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_1').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -154,7 +154,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_2').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -171,7 +171,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_3').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -188,7 +188,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_4').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -205,7 +205,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -222,7 +222,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -241,7 +241,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_1').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -258,7 +258,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_2').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -275,7 +275,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_3').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -292,7 +292,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_4').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -309,7 +309,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -326,7 +326,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -347,7 +347,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_1').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -364,7 +364,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_2').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -381,7 +381,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_3').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -398,7 +398,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_4').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -415,7 +415,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -432,7 +432,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -451,7 +451,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_1').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -468,7 +468,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_2').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -485,7 +485,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_3').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -502,7 +502,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_4').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -519,7 +519,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -536,7 +536,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -555,7 +555,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_1').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -572,7 +572,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_2').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -589,7 +589,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_3').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -606,7 +606,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_4').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -623,7 +623,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-reviewer-image"
@@ -640,7 +640,7 @@
 						<img
 							width="72"
 							height="72"
-							alt={getText('user', 'User 2')}
+							alt="TeamD"
 							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-reviewer-image"

@@ -24,7 +24,7 @@
 						loading="lazy"
 						width="397"
 						height="332"
-						alt={getImage('technology_card_1').alt || getText('technology', 'Technology')}
+						alt="ServiceTwoC"
 						sizes="(max-width: 479px) 100vw, 397px"
 						class="rt-technology-card-image rt-autofit rt-tab-full-image"
 					/>
@@ -45,7 +45,7 @@
 						loading="lazy"
 						width="397"
 						height="332"
-						alt={getImage('technology_card_2').alt || getText('technology_card', 'Technology Card')}
+						alt="ServiceTwoC"
 						sizes="(max-width: 479px) 100vw, 397px"
 						class="rt-technology-card-image rt-autofit rt-tab-full-image"
 					/>
@@ -69,7 +69,7 @@
 						loading="lazy"
 						width="397"
 						height="332"
-						alt={getImage('technology_card_3').alt || getText('technology_card', 'Technology Card')}
+						alt="ServiceTwoC"
 						sizes="(max-width: 479px) 100vw, 397px"
 						class="rt-technology-card-image rt-autofit rt-tab-full-image"
 					/>

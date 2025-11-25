@@ -24,7 +24,7 @@
 					<img
 						width="172"
 						height="181"
-						alt={getText('performance_statistics', 'Performance Statistics')}
+						alt="HomeE"
 						src={getImage('image_1').url}
 						loading="lazy"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0fc5"
@@ -41,7 +41,7 @@
 						src={getImage('image_2').url}
 						width="630"
 						height="444"
-						alt={getText('complex', 'Complex')}
+						alt="HomeE"
 						sizes="(max-width: 767px) 100vw, 630px"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0fc4"
 						loading="lazy"
@@ -68,7 +68,7 @@
 								<img
 									width="33"
 									height="33"
-									alt={getText('tech', 'Tech')}
+									alt="HomeE"
 									src={getImage('image_3').url}
 									loading="lazy"
 								/>
@@ -87,7 +87,7 @@
 								<img
 									width="33"
 									height="33"
-									alt={getText('tech', 'Tech')}
+									alt="HomeE"
 									src={getImage('image_4').url}
 									loading="lazy"
 								/>
@@ -115,7 +115,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
+								alt="HomeE"
 								src={getImage('image_5').url}
 								loading="lazy"
 								class="rt-button-arrow-image"

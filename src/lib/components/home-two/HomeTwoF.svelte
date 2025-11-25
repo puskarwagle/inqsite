@@ -27,7 +27,7 @@
 								loading="lazy"
 								width="310"
 								height="630"
-								alt={getText('innovation', 'Innovation')}
+								alt="HomeTwoF"
 								sizes="(max-width: 479px) 100vw, 310px"
 								class="rt-ai-innovation-mobile-one-image rt-autofit"
 							/>
@@ -38,7 +38,7 @@
 								loading="lazy"
 								width="310"
 								height="630"
-								alt={getText('innovation', 'Innovation')}
+								alt="HomeTwoF"
 								sizes="(max-width: 479px) 100vw, 310px"
 								class="rt-ai-innovation-mobile-two-image rt-autofit"
 							/>
@@ -61,7 +61,7 @@
 									<img
 										width="24"
 										height="24"
-										alt={getText('settings', 'Settings')}
+										alt="HomeTwoF"
 										src={getImage('image_3').url}
 										loading="lazy"
 									/>
@@ -79,7 +79,7 @@
 									<img
 										width="20"
 										height="20"
-										alt={getText('configuration', 'Configuration')}
+										alt="HomeTwoF"
 										src={getImage('image_4').url}
 										loading="lazy"
 									/>
@@ -107,7 +107,7 @@
 									<img
 										width="10"
 										height="9"
-										alt={getText('arrow', 'Arrow')}
+										alt="HomeTwoF"
 										src={getImage('image_5').url}
 										loading="lazy"
 										class="rt-button-arrow-image"

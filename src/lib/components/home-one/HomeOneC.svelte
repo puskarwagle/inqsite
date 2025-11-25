@@ -37,7 +37,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
+								alt="HomeOneC"
 								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -54,7 +54,7 @@
 						<img
 							width="29"
 							height="29"
-							alt={getText('brand', 'Brand')}
+							alt="HomeOneC"
 							src={getImage('image_2').url}
 							loading="lazy"
 						/>
@@ -72,7 +72,7 @@
 						<img
 							width="25"
 							height="25"
-							alt={getText('brand', 'Brand')}
+							alt="HomeOneC"
 							src={getImage('image_3').url}
 							loading="lazy"
 						/>
@@ -90,7 +90,7 @@
 						<img
 							width="33"
 							height="27"
-							alt={getText('brand', 'Brand')}
+							alt="HomeOneC"
 							src={getImage('image_4').url}
 							loading="lazy"
 						/>

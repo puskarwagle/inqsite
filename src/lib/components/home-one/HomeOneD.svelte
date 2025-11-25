@@ -27,7 +27,7 @@
 					<img
 						width="488"
 						height="350"
-						alt={getText('intelligence', 'Intelligence')}
+						alt="HomeOneD"
 						src={getImage('image_1').url}
 						loading="lazy"
 						sizes="(max-width: 767px) 100vw, 488px"
@@ -50,7 +50,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
+								alt="HomeOneD"
 								src={getImage('image_2').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -66,7 +66,7 @@
 					<img
 						width="488"
 						height="350"
-						alt={getText('dashboard', 'Dashboard')}
+						alt="HomeOneD"
 						src={getImage('image_3').url}
 						loading="lazy"
 						sizes="(max-width: 767px) 100vw, 488px"
@@ -89,7 +89,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
+								alt="HomeOneD"
 								src={getImage('image_2').url}
 								loading="lazy"
 								class="rt-button-arrow-image"

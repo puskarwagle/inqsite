@@ -29,7 +29,7 @@
 							src={getImage('image_1').url}
 							width="264"
 							height="240"
-							alt={getText('solution', 'Solution')}
+							alt="AboutD"
 							sizes="(max-width: 479px) 100vw, 264px"
 							data-w-id="f91ff35d-189d-d17a-6525-5715d98f6478"
 							loading="lazy"
@@ -47,7 +47,7 @@
 							src={getImage('image_2').url}
 							width="264"
 							height="240"
-							alt={getText('solution', 'Solution')}
+							alt="AboutD"
 							sizes="(max-width: 479px) 100vw, 264px"
 							data-w-id="f91ff35d-189d-d17a-6525-5715d98f6480"
 							loading="lazy"
@@ -65,7 +65,7 @@
 							src={getImage('image_3').url}
 							width="264"
 							height="240"
-							alt={getText('solution', 'Solution')}
+							alt="AboutD"
 							sizes="(max-width: 479px) 100vw, 264px"
 							data-w-id="f91ff35d-189d-d17a-6525-5715d98f6488"
 							loading="lazy"
@@ -83,7 +83,7 @@
 							src={getImage('image_4').url}
 							width="264"
 							height="240"
-							alt={getText('intelligence', 'Intelligence')}
+							alt="AboutD"
 							sizes="(max-width: 479px) 100vw, 264px"
 							data-w-id="f91ff35d-189d-d17a-6525-5715d98f6490"
 							loading="lazy"

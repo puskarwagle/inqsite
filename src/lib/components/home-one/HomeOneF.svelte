@@ -70,7 +70,7 @@
 					<img
 						width="550"
 						height="610"
-						alt={getText('dashboard_image', 'Dashboard Image')}
+						alt="HomeOneF"
 						src={getImage('image_1').url}
 						loading="lazy"
 						sizes="(max-width: 767px) 100vw, 550px"
@@ -84,7 +84,7 @@
 								<img
 									width="28"
 									height="28"
-									alt={getText('settings', 'Settings')}
+									alt="HomeOneF"
 									src={getImage('image_2').url}
 									loading="lazy"
 								/>
@@ -102,7 +102,7 @@
 								<img
 									width="28"
 									height="28"
-									alt={getText('settings', 'Settings')}
+									alt="HomeOneF"
 									src={getImage('image_2').url}
 									loading="lazy"
 								/>
@@ -120,7 +120,7 @@
 								<img
 									width="28"
 									height="28"
-									alt={getText('settings', 'Settings')}
+									alt="HomeOneF"
 									src={getImage('image_2').url}
 									loading="lazy"
 								/>

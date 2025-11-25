@@ -30,7 +30,7 @@
 									><img
 										width="410"
 										height="460"
-										alt=""
+										alt="TeamB"
 										src={getImage('image_1').url}
 										loading="lazy"
 										sizes="(max-width: 479px) 100vw, 410px"
@@ -52,7 +52,7 @@
 										><img
 											width="15"
 											height="15"
-											alt={getText('dribble', 'Dribble')}
+											alt="TeamB"
 											src={getImage('image_2').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -64,7 +64,7 @@
 										><img
 											width="16"
 											height="16"
-											alt={getText('instagram', 'Instagram')}
+											alt="TeamB"
 											src={getImage('image_3').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -76,7 +76,7 @@
 										><img
 											width="16"
 											height="16"
-											alt={getText('pinterest', 'Pinterest')}
+											alt="TeamB"
 											src={getImage('image_4').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -97,7 +97,7 @@
 									><img
 										width="410"
 										height="460"
-										alt=""
+										alt="TeamB"
 										src={getImage('image_5').url}
 										loading="lazy"
 										sizes="(max-width: 479px) 100vw, 410px"
@@ -119,7 +119,7 @@
 										><img
 											width="15"
 											height="15"
-											alt={getText('dribble', 'Dribble')}
+											alt="TeamB"
 											src={getImage('image_2').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -131,7 +131,7 @@
 										><img
 											width="16"
 											height="16"
-											alt={getText('instagram', 'Instagram')}
+											alt="TeamB"
 											src={getImage('image_3').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -143,7 +143,7 @@
 										><img
 											width="16"
 											height="16"
-											alt={getText('pinterest', 'Pinterest')}
+											alt="TeamB"
 											src={getImage('image_4').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -166,7 +166,7 @@
 									><img
 										width="410"
 										height="460"
-										alt=""
+										alt="TeamB"
 										src={getImage('image_6').url}
 										loading="lazy"
 										sizes="(max-width: 479px) 100vw, 410px"
@@ -188,7 +188,7 @@
 										><img
 											width="15"
 											height="15"
-											alt={getText('dribble', 'Dribble')}
+											alt="TeamB"
 											src={getImage('image_2').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -200,7 +200,7 @@
 										><img
 											width="16"
 											height="16"
-											alt={getText('instagram', 'Instagram')}
+											alt="TeamB"
 											src={getImage('image_3').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -212,7 +212,7 @@
 										><img
 											width="16"
 											height="16"
-											alt={getText('pinterest', 'Pinterest')}
+											alt="TeamB"
 											src={getImage('image_4').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -233,7 +233,7 @@
 									><img
 										width="410"
 										height="460"
-										alt=""
+										alt="TeamB"
 										src={getImage('image_7').url}
 										loading="lazy"
 										sizes="(max-width: 479px) 100vw, 410px"
@@ -255,7 +255,7 @@
 										><img
 											width="15"
 											height="15"
-											alt={getText('dribble', 'Dribble')}
+											alt="TeamB"
 											src={getImage('image_2').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -267,7 +267,7 @@
 										><img
 											width="16"
 											height="16"
-											alt={getText('instagram', 'Instagram')}
+											alt="TeamB"
 											src={getImage('image_3').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -279,7 +279,7 @@
 										><img
 											width="16"
 											height="16"
-											alt={getText('pinterest', 'Pinterest')}
+											alt="TeamB"
 											src={getImage('image_4').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -302,7 +302,7 @@
 									><img
 										width="410"
 										height="460"
-										alt=""
+										alt="TeamB"
 										src={getImage('image_8').url}
 										loading="lazy"
 										sizes="(max-width: 479px) 100vw, 410px"
@@ -324,7 +324,7 @@
 										><img
 											width="15"
 											height="15"
-											alt={getText('dribble', 'Dribble')}
+											alt="TeamB"
 											src={getImage('image_2').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -336,7 +336,7 @@
 										><img
 											width="16"
 											height="16"
-											alt={getText('instagram', 'Instagram')}
+											alt="TeamB"
 											src={getImage('image_3').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -348,7 +348,7 @@
 										><img
 											width="16"
 											height="16"
-											alt={getText('pinterest', 'Pinterest')}
+											alt="TeamB"
 											src={getImage('image_4').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -369,7 +369,7 @@
 									><img
 										width="410"
 										height="460"
-										alt=""
+										alt="TeamB"
 										src={getImage('image_9').url}
 										loading="lazy"
 										sizes="(max-width: 479px) 100vw, 410px"
@@ -391,7 +391,7 @@
 										><img
 											width="15"
 											height="15"
-											alt={getText('dribble', 'Dribble')}
+											alt="TeamB"
 											src={getImage('image_2').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -403,7 +403,7 @@
 										><img
 											width="16"
 											height="16"
-											alt={getText('instagram', 'Instagram')}
+											alt="TeamB"
 											src={getImage('image_3').url}
 											loading="lazy"
 											class="rt-autofit"
@@ -415,7 +415,7 @@
 										><img
 											width="16"
 											height="16"
-											alt={getText('pinterest', 'Pinterest')}
+											alt="TeamB"
 											src={getImage('image_4').url}
 											loading="lazy"
 											class="rt-autofit"

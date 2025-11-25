@@ -26,42 +26,42 @@
 				<img
 					width="178"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_1').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="149"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_2').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="141"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_3').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="144"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_4').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="183"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_5').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="216"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_6').url}
 					loading="lazy"
 					class="company-logo"
@@ -71,42 +71,42 @@
 				<img
 					width="178"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_1').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="149"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_2').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="141"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_3').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="144"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_4').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="183"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_5').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="216"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_6').url}
 					loading="lazy"
 					class="company-logo"
@@ -116,42 +116,42 @@
 				<img
 					width="178"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_1').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="149"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_2').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="141"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_3').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="144"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_4').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="183"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_5').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="216"
 					height="35"
-					alt={getText('client', 'Client')}
+					alt="HomeTwoB"
 					src={getImage('image_6').url}
 					loading="lazy"
 					class="company-logo"

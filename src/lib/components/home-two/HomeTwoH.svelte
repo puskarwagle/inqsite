@@ -35,7 +35,7 @@
 							<img
 								width="40"
 								height="40"
-								alt={getText('code', 'Code')}
+								alt="HomeTwoH"
 								src={getImage('image_1').url}
 								loading="lazy"
 							/>
@@ -50,7 +50,7 @@
 								<img
 									width="12"
 									height="10"
-									alt={getText('arrow', 'Arrow')}
+									alt="HomeTwoH"
 									src={getImage('image_2').url}
 									loading="lazy"
 									data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ceb7"
@@ -67,7 +67,7 @@
 							<img
 								width="40"
 								height="40"
-								alt={getText('brand', 'Brand')}
+								alt="HomeTwoH"
 								src={getImage('image_3').url}
 								loading="lazy"
 							/>
@@ -82,7 +82,7 @@
 								<img
 									width="12"
 									height="10"
-									alt={getText('arrow', 'Arrow')}
+									alt="HomeTwoH"
 									src={getImage('image_2').url}
 									loading="lazy"
 									data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cec2"
@@ -99,7 +99,7 @@
 							<img
 								width="40"
 								height="40"
-								alt={getText('brand', 'Brand')}
+								alt="HomeTwoH"
 								src={getImage('image_4').url}
 								loading="lazy"
 							/>
@@ -114,7 +114,7 @@
 								<img
 									width="12"
 									height="10"
-									alt={getText('arrow', 'Arrow')}
+									alt="HomeTwoH"
 									src={getImage('image_2').url}
 									loading="lazy"
 									data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cecd"
@@ -131,7 +131,7 @@
 							<img
 								width="40"
 								height="40"
-								alt={getText('brand', 'Brand')}
+								alt="HomeTwoH"
 								src={getImage('image_5').url}
 								loading="lazy"
 							/>
@@ -146,7 +146,7 @@
 								<img
 									width="12"
 									height="10"
-									alt={getText('arrow', 'Arrow')}
+									alt="HomeTwoH"
 									src={getImage('image_2').url}
 									loading="lazy"
 									data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ced8"

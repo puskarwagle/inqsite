@@ -24,7 +24,7 @@
 					<img
 						width="560"
 						height="698"
-						alt={getText('performance_dashboard', 'Performance Dashboard')}
+						alt="AboutC"
 						src={getImage('image_1').url}
 						loading="lazy"
 						sizes="(max-width: 767px) 100vw, 560px"
@@ -34,7 +34,7 @@
 				<img
 					width="560"
 					height="698"
-					alt={getText('performance_dashboard', 'Performance Dashboard')}
+					alt="AboutC"
 					src={getImage('image_1').url}
 					loading="lazy"
 					sizes="(max-width: 767px) 100vw, 560px"

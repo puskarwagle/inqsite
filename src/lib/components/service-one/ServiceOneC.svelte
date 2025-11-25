@@ -21,7 +21,7 @@
 						src={getImage('industries_dashboard').url}
 						width="590"
 						height="420"
-						alt={getImage('industries_dashboard').alt || getText('industries_dashboard', 'Industries Dashboard')}
+						alt="ServiceOneC"
 						sizes="(max-width: 767px) 100vw, 590px"
 						data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b581"
 						loading="lazy"
@@ -33,7 +33,7 @@
 						src={getImage('revolution_image').url}
 						width="287"
 						height="162"
-						alt={getImage('revolution_image').alt || getText('revolution', 'Revolution')}
+						alt="ServiceOneC"
 						sizes="(max-width: 479px) 100vw, 287px"
 						data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b582"
 						loading="lazy"
@@ -55,7 +55,7 @@
 						<img
 							width="24"
 							height="24"
-							alt={getImage('tick_icon').alt || getText('tick', 'Tick')}
+							alt="ServiceOneC"
 							src={getImage('tick_icon').url}
 							loading="lazy"
 							class="rt-revolution-box-icon-v3"
@@ -74,7 +74,7 @@
 						<img
 							width="24"
 							height="24"
-							alt={getImage('tick_icon').alt || getText('tick', 'Tick')}
+							alt="ServiceOneC"
 							src={getImage('tick_icon').url}
 							loading="lazy"
 							class="rt-revolution-box-icon-v3"

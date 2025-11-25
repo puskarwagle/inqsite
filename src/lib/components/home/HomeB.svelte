@@ -34,7 +34,7 @@
 							src={getImage('image_1').url}
 							width="280"
 							height="230"
-							alt={getText('operation', 'Operation')}
+							alt="HomeB"
 							sizes="(max-width: 479px) 100vw, 280px"
 							data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f38"
 							loading="lazy"
@@ -57,14 +57,14 @@
 									<img
 										width="10"
 										height="10"
-										alt={getText('arrow', 'Arrow')}
+										alt="HomeB"
 										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-autofit"
 									/><img
 										width="10"
 										height="10"
-										alt={getText('arrow', 'Arrow')}
+										alt="HomeB"
 										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-autofit"
@@ -86,7 +86,7 @@
 							src={getImage('image_3').url}
 							width="280"
 							height="230"
-							alt={getText('operation', 'Operation')}
+							alt="HomeB"
 							sizes="(max-width: 479px) 100vw, 280px"
 							data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f43"
 							loading="lazy"
@@ -109,14 +109,14 @@
 									<img
 										width="10"
 										height="10"
-										alt={getText('arrow', 'Arrow')}
+										alt="HomeB"
 										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-autofit"
 									/><img
 										width="10"
 										height="10"
-										alt={getText('arrow', 'Arrow')}
+										alt="HomeB"
 										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-autofit"
@@ -138,7 +138,7 @@
 							src={getImage('image_4').url}
 							width="280"
 							height="230"
-							alt={getText('operation', 'Operation')}
+							alt="HomeB"
 							sizes="(max-width: 479px) 100vw, 280px"
 							data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f4e"
 							loading="lazy"
@@ -161,14 +161,14 @@
 									<img
 										width="10"
 										height="10"
-										alt={getText('arrow', 'Arrow')}
+										alt="HomeB"
 										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-autofit"
 									/><img
 										width="10"
 										height="10"
-										alt={getText('arrow', 'Arrow')}
+										alt="HomeB"
 										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-autofit"

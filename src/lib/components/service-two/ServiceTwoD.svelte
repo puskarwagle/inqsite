@@ -23,7 +23,7 @@
 					loading="lazy"
 					width="711"
 					height="430"
-					alt={getImage('leverage_dashboard').alt || getText('leverage', 'Leverage')}
+					alt="ServiceTwoD"
 					sizes="(max-width: 767px) 100vw, 711px"
 					class="rt-data-driven-image"
 				/>
@@ -52,7 +52,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getImage('button_arrow').alt || getText('arrow', 'Arrow')}
+								alt="ServiceTwoD"
 								src={getImage('button_arrow').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -82,7 +82,7 @@
 								loading="lazy"
 								width="24"
 								height="24"
-								alt={getImage('tick_icon').alt || getText('tick', 'Tick')}
+								alt="ServiceTwoD"
 							/>
 							<div class="rt-text-style-h6">{getText('feature_1_heading', 'AI Elevated Performance')}</div>
 						</div>
@@ -95,7 +95,7 @@
 								loading="lazy"
 								width="24"
 								height="24"
-								alt={getImage('tick_icon').alt || getText('tick', 'Tick')}
+								alt="ServiceTwoD"
 							/>
 							<div class="rt-text-style-h6">{getText('feature_2_heading', 'Redefining Intelligence with AI')}</div>
 						</div>
@@ -108,7 +108,7 @@
 								loading="lazy"
 								width="24"
 								height="24"
-								alt={getImage('tick_icon').alt || getText('tick', 'Tick')}
+								alt="ServiceTwoD"
 							/>
 							<div class="rt-text-style-h6">{getText('feature_3_heading', 'Intelligent Automation, Powered by AI')}</div>
 						</div>
@@ -124,7 +124,7 @@
 					loading="lazy"
 					width="636"
 					height="500"
-					alt={getImage('campaign_dashboard').alt || getText('campaign', 'Campaign')}
+					alt="ServiceTwoD"
 					sizes="(max-width: 767px) 100vw, 636px"
 					class="rt-data-driven-image-v2"
 				/>

@@ -31,7 +31,7 @@
 								loading="lazy"
 								width="27"
 								height="27"
-								alt={getText('intelligence_icon', 'Intelligence Icon')}
+								alt="AboutE"
 							/>
 						</div>
 						<div class="w-layout-vflex rt-industries-text-block">
@@ -49,7 +49,7 @@
 								loading="lazy"
 								width="24"
 								height="22"
-								alt={getText('intelligence_icon', 'Intelligence Icon')}
+								alt="AboutE"
 							/>
 						</div>
 						<div class="w-layout-vflex rt-industries-text-block">
@@ -67,7 +67,7 @@
 								loading="lazy"
 								width="26"
 								height="26"
-								alt={getText('intelligence_icon', 'Intelligence Icon')}
+								alt="AboutE"
 							/>
 						</div>
 						<div class="w-layout-vflex rt-industries-text-block">
@@ -86,7 +86,7 @@
 					loading="lazy"
 					width="716"
 					height="525"
-					alt={getText('chat', 'Chat')}
+					alt="AboutE"
 					sizes="(max-width: 767px) 100vw, 716px"
 					class="rt-industries-image rt-tab-full-image"
 				/><img
@@ -94,7 +94,7 @@
 					src={getImage('image_5').url}
 					width="716"
 					height="525"
-					alt={getText('chat', 'Chat')}
+					alt="AboutE"
 					sizes="(max-width: 767px) 100vw, 716px"
 					data-w-id="7cd4024f-9652-dbc0-c413-9f9eab23de74"
 					loading="lazy"
@@ -103,7 +103,7 @@
 					src={getImage('image_6').url}
 					width="716"
 					height="525"
-					alt={getText('chat', 'Chat')}
+					alt="AboutE"
 					sizes="(max-width: 767px) 100vw, 716px"
 					data-w-id="0cca7acf-7d4c-5a55-0474-09de0342f994"
 					loading="lazy"

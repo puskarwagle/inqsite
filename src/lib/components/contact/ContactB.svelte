@@ -26,7 +26,7 @@
 							src={getImage('image_1').url}
 							width="300"
 							height="310"
-							alt={getText('office', 'Office')}
+							alt="ContactB"
 							sizes="(max-width: 479px) 100vw, 300px"
 							data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206dfa"
 							loading="lazy"
@@ -46,7 +46,7 @@
 							src={getImage('image_2').url}
 							width="300"
 							height="310"
-							alt={getText('office', 'Office')}
+							alt="ContactB"
 							sizes="(max-width: 479px) 100vw, 300px"
 							data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206e01"
 							loading="lazy"
@@ -64,7 +64,7 @@
 							src={getImage('image_3').url}
 							width="300"
 							height="310"
-							alt={getText('office', 'Office')}
+							alt="ContactB"
 							sizes="(max-width: 479px) 100vw, 300px"
 							data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206e08"
 							loading="lazy"
@@ -82,7 +82,7 @@
 							src={getImage('image_4').url}
 							width="300"
 							height="310"
-							alt={getText('office', 'Office')}
+							alt="ContactB"
 							sizes="(max-width: 479px) 100vw, 300px"
 							data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206e0f"
 							loading="lazy"

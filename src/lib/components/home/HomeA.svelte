@@ -26,7 +26,7 @@
 					<img
 						width="350"
 						height="Auto"
-						alt={getImage('robot_main').alt || 'Spline Image one'}
+						alt="HomeA"
 						src={getImage('robot_main').url}
 						loading="eager"
 						data-w-id="266b3c56-04d4-1030-dfa1-6834dafddf42"
@@ -36,7 +36,7 @@
 					<img
 						width="192"
 						height="21"
-						alt={getText('shape', 'Shape')}
+						alt="HomeA"
 						src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d790_Robot%20shadow.svg"
 						loading="lazy"
 						class="rt-robot-shadow"
@@ -46,7 +46,7 @@
 				<img
 					width="403"
 					height="260"
-					alt={getText('dashboard_image', 'Dashboard Image')}
+					alt="HomeA"
 					src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a35d8c8a43a90efd9fc6e_Frame.webp"
 					data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e30"
 					sizes="(max-width: 479px) 100vw, 403px"
@@ -55,7 +55,7 @@
 				/><img
 					width="100"
 					height="55"
-					alt={getText('cloud', 'Cloud')}
+					alt="HomeA"
 					src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf926202a4f1f698410e7_Cloud.webp"
 					loading="eager"
 					data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e31"
@@ -64,7 +64,7 @@
 				/><img
 					width="303"
 					height="174"
-					alt={getText('dashboard_image', 'Dashboard Image')}
+					alt="HomeA"
 					src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a36cc948881b7259c43c9_Dashboard-9-2.webp"
 					loading="eager"
 					data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e32"
@@ -73,7 +73,7 @@
 				/><img
 					width="233.5"
 					height="93"
-					alt={getText('dashboard_image', 'Dashboard Image')}
+					alt="HomeA"
 					src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a360db03aeb95e0fce0e7_Group.webp"
 					data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e33"
 					class="rt-stat-line-image-two"
@@ -81,7 +81,7 @@
 				/><img
 					width="46"
 					height="54"
-					alt={getText('rocket', 'Rocket')}
+					alt="HomeA"
 					src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf9266a29175f2e719597_rocket.webp"
 					loading="lazy"
 					data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e34"
@@ -90,7 +90,7 @@
 				/><img
 					width="123"
 					height="61"
-					alt={getText('user', 'User')}
+					alt="HomeA"
 					src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf927630cb9fa0101283a_User.webp"
 					loading="eager"
 					data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e35"
@@ -143,7 +143,7 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
+								alt="HomeA"
 								src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -165,7 +165,7 @@
 								<img
 									width="15"
 									height="17"
-									alt={getText('play_button', 'Play button')}
+									alt="HomeA"
 									src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931bfc626df83f9d83c_Play%20button.svg"
 									loading="lazy"
 								/>
@@ -214,21 +214,21 @@
 						<img
 							width="58"
 							height="58"
-							alt={getText('user', 'User')}
+							alt="HomeA"
 							src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf9270ce1a503421d3681_Users.webp"
 							loading="eager"
 							class="rt-user-image"
 						/><img
 							width="58"
 							height="58"
-							alt={getText('users', 'Users')}
+							alt="HomeA"
 							src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d78e_Users%202.webp"
 							loading="eager"
 							class="rt-user-image rt-left-slide"
 						/><img
 							width="58"
 							height="58"
-							alt={getText('users', 'Users')}
+							alt="HomeA"
 							src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d78f_Users%203.webp"
 							loading="eager"
 							class="rt-user-image rt-left-slide"
@@ -239,7 +239,7 @@
 							<img
 								width="92"
 								height="14"
-								alt={getText('star', 'Star')}
+								alt="HomeA"
 								src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d793_Star.svg"
 								loading="lazy"
 							/>
