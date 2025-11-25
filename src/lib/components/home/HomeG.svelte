@@ -35,7 +35,7 @@
 							width="12"
 							height="11"
 							alt={getText('arrow', 'Arrow')}
-							src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+							src={getImage('image_1').url}
 							loading="lazy"
 						/>
 					</div>
@@ -44,7 +44,7 @@
 				<div class="w-layout-hflex rt-ai-insights-card-image-box rt-overflow-hidden">
 					<img
 						class="rt-autofit rt-drop-shadow rt-insight-image"
-						src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf925b82e7d923152249a_Insight-chart.webp'}
+						src={getImage('image_2').url}
 						width="455"
 						height="317"
 						alt={getText('insight_chart', 'Insight Chart')}
@@ -71,7 +71,7 @@
 							width="12"
 							height="11"
 							alt={getText('arrow', 'Arrow')}
-							src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+							src={getImage('image_1').url}
 							loading="lazy"
 						/>
 					</div>
@@ -80,7 +80,7 @@
 				<div class="w-layout-hflex rt-ai-insights-card-image-box-two rt-overflow-hidden">
 					<img
 						class="rt-autofit rt-drop-shadow rt-insight-image-two"
-						src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c0_Insight-chart-two.webp'}
+						src={getImage('image_3').url}
 						width="455"
 						height="317"
 						alt={getText('insight', 'Insight 2')}

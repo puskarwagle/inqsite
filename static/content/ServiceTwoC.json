@@ -9,6 +9,19 @@
     "feature_2_heading": "Advanced AI Technology",
     "feature_3_heading": "AI Mastery Hub"
   },
-  "images": {},
+  "images": {
+    "technology_card_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbe41fd8e0afb35041215_Technology.webp",
+      "alt": "Revolutionizing AI systems visualization"
+    },
+    "technology_card_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc12e4acde8f5d907798_Technology%20card.webp",
+      "alt": "Advanced AI technology interface"
+    },
+    "technology_card_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc124780cd9faf40c438_Technology%20card%202.webp",
+      "alt": "AI mastery hub dashboard"
+    }
+  },
   "links": {}
 }

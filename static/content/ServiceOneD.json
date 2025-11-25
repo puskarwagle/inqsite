@@ -19,6 +19,31 @@
     "happy_clients_label": "Happy Clients",
     "positive_rate_label": "Positive rate"
   },
-  "images": {},
+  "images": {
+    "icon_expert_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3a94c9eef54d4a99699_Vector%2032.svg",
+      "alt": "AI transforming future icon"
+    },
+    "icon_expert_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3a97b5199127f892234_Group%202584.svg",
+      "alt": "Smart technologies icon"
+    },
+    "icon_expert_3": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3a99e416066866f2423_Group%202585.svg",
+      "alt": "Redefining intelligence icon"
+    },
+    "possibilities_dashboard": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%20dashboard.webp",
+      "alt": "Possibilities dashboard showcasing AI features"
+    },
+    "order_dashboard": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order.webp",
+      "alt": "Order management dashboard"
+    },
+    "artificial_dashboard": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial.webp",
+      "alt": "Artificial intelligence interface"
+    }
+  },
   "links": {}
 }

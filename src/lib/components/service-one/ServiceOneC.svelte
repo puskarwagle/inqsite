@@ -18,10 +18,10 @@
 				<div class="rt-revolution-image-one-block-v3 rt-overflow-hidden">
 					<img
 						class="rt-revolution-image-one-v3"
-						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d302f3bd2444df9a4936_Industries%20dashboard.webp"
+						src={getImage('industries_dashboard').url}
 						width="590"
 						height="420"
-						alt={getText('industries_dashboard', 'Industries Dashboard')}
+						alt={getImage('industries_dashboard').alt || getText('industries_dashboard', 'Industries Dashboard')}
 						sizes="(max-width: 767px) 100vw, 590px"
 						data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b581"
 						loading="lazy"
@@ -31,10 +31,10 @@
 				<div class="rt-revolution-image-two-v3">
 					<img
 						class="rt-autofit"
-						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a816d_Revolution%203.webp"
+						src={getImage('revolution_image').url}
 						width="287"
 						height="162"
-						alt={getText('revolution', 'Revolution')}
+						alt={getImage('revolution_image').alt || getText('revolution', 'Revolution')}
 						sizes="(max-width: 479px) 100vw, 287px"
 						data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b582"
 						loading="lazy"
@@ -57,8 +57,8 @@
 						<img
 							width="24"
 							height="24"
-							alt={getText('tick', 'Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
+							alt={getImage('tick_icon').alt || getText('tick', 'Tick')}
+							src={getImage('tick_icon').url}
 							loading="lazy"
 							class="rt-revolution-box-icon-v3"
 						/>
@@ -76,8 +76,8 @@
 						<img
 							width="24"
 							height="24"
-							alt={getText('tick', 'Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
+							alt={getImage('tick_icon').alt || getText('tick', 'Tick')}
+							src={getImage('tick_icon').url}
 							loading="lazy"
 							class="rt-revolution-box-icon-v3"
 						/>

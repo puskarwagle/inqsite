@@ -49,7 +49,7 @@
 										width="10"
 										height="9"
 										alt={getText('arrow', 'Arrow')}
-										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+										src={getImage('button_arrow').url}
 										loading="lazy"
 										class="rt-button-arrow-image"
 									/>
@@ -87,7 +87,7 @@
 												width="10"
 												height="9"
 												alt={getText('arrow', 'Arrow')}
-												src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+												src={getImage('button_arrow').url}
 												loading="lazy"
 												class="rt-button-arrow-image"
 											/>
@@ -123,7 +123,7 @@
 										width="10"
 										height="9"
 										alt={getText('arrow', 'Arrow')}
-										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+										src={getImage('button_arrow').url}
 										loading="lazy"
 										class="rt-button-arrow-image"
 									/>
@@ -146,7 +146,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -158,7 +158,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -170,7 +170,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -189,7 +189,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -201,7 +201,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -213,7 +213,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -232,7 +232,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_cross_tick', 'Price Cross Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f560_PRice-cross.svg"
+							src={getImage('price_cross').url}
 							loading="lazy"
 						/>
 					</div>
@@ -244,7 +244,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -256,7 +256,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -275,7 +275,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_cross_tick', 'Price Cross Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f560_PRice-cross.svg"
+							src={getImage('price_cross').url}
 							loading="lazy"
 						/>
 					</div>
@@ -287,7 +287,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -299,7 +299,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -343,7 +343,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_cross_tick', 'Price Cross Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f560_PRice-cross.svg"
+							src={getImage('price_cross').url}
 							loading="lazy"
 						/>
 					</div>
@@ -355,7 +355,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_cross_tick', 'Price Cross Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f560_PRice-cross.svg"
+							src={getImage('price_cross').url}
 							loading="lazy"
 						/>
 					</div>
@@ -367,7 +367,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -409,7 +409,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -421,7 +421,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>
@@ -433,7 +433,7 @@
 							width="20"
 							height="20"
 							alt={getText('price_tick', 'Price Tick')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg"
+							src={getImage('price_tick').url}
 							loading="lazy"
 						/>
 					</div>

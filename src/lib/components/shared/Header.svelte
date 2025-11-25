@@ -32,7 +32,7 @@
 							width="191"
 							height="36"
 							alt={getText('logo_black', 'Logo Black')}
-							src={getImage('image_1').url || '/mylogo.png'}
+							src={getImage('image_1').url}
 							class="rt-site-logo"
 						/></a
 					>
@@ -125,7 +125,7 @@
 										width="10"
 										height="6"
 										alt={getText('nav_arrow_down', 'Nav Arrow Down')}
-										src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e0fe5a880ca04c7c46d1f4_Nav%20arrow%20down.svg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-dropdown-black-icon rt-color"
 										style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
@@ -133,7 +133,7 @@
 										width="10"
 										height="6"
 										alt={getText('nav_down_arrow', 'Nav down arrow')}
-										src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e8f523834181edf4189328_Nav%20down%20arrow.svg'}
+										src={getImage('image_3').url}
 										loading="lazy"
 										class="rt-dropdown-green-icon rt-color"
 									/>
@@ -157,7 +157,7 @@
 													width="18"
 													height="18"
 													alt={getText('icon', 'Icon')}
-													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
+													src={getImage('image_4').url}
 													loading="lazy"
 												/>
 											</div>
@@ -168,7 +168,7 @@
 													width="18"
 													height="18"
 													alt={getText('icon', 'Icon')}
-													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
+													src={getImage('image_4').url}
 													loading="lazy"
 												/>
 											</div>
@@ -179,7 +179,7 @@
 													width="18"
 													height="18"
 													alt={getText('icon', 'Icon')}
-													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
+													src={getImage('image_4').url}
 													loading="lazy"
 												/>
 											</div>
@@ -190,7 +190,7 @@
 													width="18"
 													height="18"
 													alt={getText('icon', 'Icon')}
-													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
+													src={getImage('image_4').url}
 													loading="lazy"
 												/>
 											</div>
@@ -201,7 +201,7 @@
 													width="18"
 													height="19"
 													alt={getText('icon', 'Icon')}
-													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
+													src={getImage('image_4').url}
 													loading="lazy"
 												/>
 											</div>
@@ -212,7 +212,7 @@
 													width="20"
 													height="20"
 													alt={getText('bank', 'Bank')}
-													src={getImage('image_5').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg'}
+													src={getImage('image_5').url}
 													loading="lazy"
 												/>
 											</div>
@@ -226,7 +226,7 @@
 													width="28"
 													height="27"
 													alt={getText('team', 'Team')}
-													src={getImage('image_6').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475197b4bbd56cd095f_Group%20(1).svg'}
+													src={getImage('image_6').url}
 													loading="lazy"
 													class="rt-mega-menu-icon"
 												/>
@@ -243,7 +243,7 @@
 												width="22"
 												height="26"
 												alt={getText('glitch', 'Glitch')}
-												src={getImage('image_7').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b4754b0d64f857280970_Group%20(2).svg'}
+												src={getImage('image_7').url}
 												loading="lazy"
 											/>
 										</div>
@@ -269,7 +269,7 @@
 												width="10"
 												height="9"
 												alt={getText('arrow', 'Arrow')}
-												src={getImage('image_8').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+												src={getImage('image_8').url}
 												loading="lazy"
 												class="rt-button-arrow-image"
 											/>
@@ -302,7 +302,7 @@
 									width="10"
 									height="6"
 									alt={getText('nav_arrow_down', 'Nav Arrow Down')}
-									src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e0fe5a880ca04c7c46d1f4_Nav%20arrow%20down.svg'}
+									src={getImage('image_2').url}
 									loading="lazy"
 									class="rt-dropdown-black-icon rt-color"
 									style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
@@ -310,7 +310,7 @@
 									width="10"
 									height="6"
 									alt={getText('nav_down_arrow', 'Nav down arrow')}
-									src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e8f523834181edf4189328_Nav%20down%20arrow.svg'}
+									src={getImage('image_3').url}
 									loading="lazy"
 									class="rt-dropdown-green-icon"
 								/>
@@ -373,7 +373,7 @@
 							width="191"
 							height="36"
 							alt={getText('logo_black', 'Logo Black')}
-							src={getImage('image_1').url || '/mylogo.png'}
+							src={getImage('image_1').url}
 							class="rt-site-logo"
 						/></a
 					>
@@ -464,7 +464,7 @@
 										width="10"
 										height="6"
 										alt={getText('nav_arrow_down', 'Nav Arrow Down')}
-										src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e0fe5a880ca04c7c46d1f4_Nav%20arrow%20down.svg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-dropdown-black-icon rt-color"
 										style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
@@ -472,7 +472,7 @@
 										width="10"
 										height="6"
 										alt={getText('nav_down_arrow', 'Nav down arrow')}
-										src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67e8f523834181edf4189328_Nav%20down%20arrow.svg'}
+										src={getImage('image_3').url}
 										loading="lazy"
 										class="rt-dropdown-green-icon rt-color"
 									/>
@@ -496,7 +496,7 @@
 													width="18"
 													height="18"
 													alt={getText('icon', 'Icon')}
-													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
+													src={getImage('image_4').url}
 													loading="lazy"
 												/>
 											</div>
@@ -507,7 +507,7 @@
 													width="18"
 													height="18"
 													alt={getText('icon', 'Icon')}
-													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
+													src={getImage('image_4').url}
 													loading="lazy"
 												/>
 											</div>
@@ -518,7 +518,7 @@
 													width="18"
 													height="18"
 													alt={getText('icon', 'Icon')}
-													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
+													src={getImage('image_4').url}
 													loading="lazy"
 												/>
 											</div>
@@ -529,7 +529,7 @@
 													width="18"
 													height="18"
 													alt={getText('icon', 'Icon')}
-													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
+													src={getImage('image_4').url}
 													loading="lazy"
 												/>
 											</div>
@@ -540,7 +540,7 @@
 													width="18"
 													height="19"
 													alt={getText('icon', 'Icon')}
-													src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475ab64c6187e8d6d9c_Vector.svg'}
+													src={getImage('image_4').url}
 													loading="lazy"
 												/>
 											</div>
@@ -551,7 +551,7 @@
 													width="20"
 													height="20"
 													alt={getText('bank', 'Bank')}
-													src={getImage('image_5').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475d2b58969f434a153_Vector%20(1).svg'}
+													src={getImage('image_5').url}
 													loading="lazy"
 												/>
 											</div>
@@ -565,7 +565,7 @@
 													width="28"
 													height="27"
 													alt={getText('team', 'Team')}
-													src={getImage('image_6').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b475197b4bbd56cd095f_Group%20(1).svg'}
+													src={getImage('image_6').url}
 													loading="lazy"
 													class="rt-mega-menu-icon"
 												/>
@@ -582,7 +582,7 @@
 												width="22"
 												height="26"
 												alt={getText('glitch', 'Glitch')}
-												src={getImage('image_7').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67f7b4754b0d64f857280970_Group%20(2).svg'}
+												src={getImage('image_7').url}
 												loading="lazy"
 											/>
 										</div>
@@ -608,7 +608,7 @@
 												width="10"
 												height="9"
 												alt={getText('arrow', 'Arrow')}
-												src={getImage('image_8').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+												src={getImage('image_8').url}
 												loading="lazy"
 												class="rt-button-arrow-image"
 											/>
@@ -644,7 +644,7 @@
 											width="10"
 											height="9"
 											alt={getText('arrow', 'Arrow')}
-											src={getImage('image_8').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+											src={getImage('image_8').url}
 											loading="lazy"
 											class="rt-button-arrow-image"
 										/>
@@ -672,7 +672,7 @@
 											width="10"
 											height="9"
 											alt={getText('arrow', 'Arrow')}
-											src={getImage('image_8').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+											src={getImage('image_8').url}
 											loading="lazy"
 											class="rt-button-arrow-image"
 										/>

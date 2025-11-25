@@ -1,13 +1,22 @@
 {
   "componentName": "AboutA",
-  "lastModified": "2025-11-25T06:29:36.174Z",
+  "lastModified": "2025-11-25T16:44:49.667Z",
   "texts": {
-    "hero_heading": "Maximizing Productivity with AI-Powered Tracking",
+    "hero_heading": "Maximizing Productivity with AI-Powered Tracking ehhhhhhh",
     "eu_eget_accumsan": "Eu eget accumsan risus montes nibh hac. Ut condimentum nunc accumsan mollis dis. Lacus non ante Netus ultricies.",
     "our_services": "Our Services",
     "arrow": "Arrow",
     "banner": "Banner "
   },
-  "images": {},
+  "images": {
+    "button_arrow": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": "Arrow"
+    },
+    "banner_main": {
+      "url": "/uploads/1764081917719_back-off-jhole.jpg",
+      "alt": "Banner main image"
+    }
+  },
   "links": {}
 }

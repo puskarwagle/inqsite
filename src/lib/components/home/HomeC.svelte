@@ -35,7 +35,7 @@
 								width="27"
 								height="30"
 								alt={getText('brand', 'Brand')}
-								src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805e0a147f9db32c77edf60_Group%201321315615%20(1).svg'}
+								src={getImage('image_1').url}
 								loading="lazy"
 							/>
 						</div>
@@ -62,7 +62,7 @@
 								width="25"
 								height="25"
 								alt={getText('brand', 'Brand')}
-								src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805e0a14c9eef54d4a7996d_Group%201321315616.svg'}
+								src={getImage('image_2').url}
 								loading="lazy"
 							/>
 						</div>
@@ -94,7 +94,7 @@
 								width="10"
 								height="9"
 								alt={getText('arrow', 'Arrow')}
-								src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/>
@@ -110,7 +110,7 @@
 				>
 					<img
 						class="rt-solution-card-image rt-shadow rt-autofit"
-						src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7a0_Revolution.webp'}
+						src={getImage('image_4').url}
 						width="527"
 						height="554"
 						alt={getText('revolution', 'Revolution')}
@@ -127,7 +127,7 @@
 						width="184"
 						height="183"
 						alt={getText('statistics', 'Statistics')}
-						src={getImage('image_5').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf92507c68ccfe6dff032_Line%20Styling.webp'}
+						src={getImage('image_5').url}
 						loading="lazy"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f7a"
 						class="rt-solution-card-small-image rt-drop-shadow"

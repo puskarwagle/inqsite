@@ -48,7 +48,7 @@
 					width="584"
 					height="574"
 					alt={getText('message_screen', 'Message screen')}
-					src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbe0_Message%20screen.webp'}
+					src={getImage('image_1').url}
 					loading="lazy"
 					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbe0_Message%2520screen-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbe0_Message%2520screen-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbe0_Message%2520screen-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbe0_Message%20screen.webp 1168w"
 					sizes="(max-width: 767px) 100vw, 584px"
@@ -59,14 +59,14 @@
 						width="341"
 						height="76"
 						alt={getText('message', 'Message')}
-						src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc5_Message.webp'}
+						src={getImage('image_2').url}
 						loading="lazy"
 						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc5_Message-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc5_Message.webp 682w"
 						sizes="(max-width: 479px) 100vw, 341px"
 						class="rt-revolution-message rt-autofit"
 					/><img
 						class="rt-revolution-message-two rt-autofit"
-						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbda_Message%203.webp'}
+						src={getImage('image_3').url}
 						width="477"
 						height="101"
 						alt={getText('message', 'Message')}
@@ -78,14 +78,14 @@
 						width="414"
 						height="88"
 						alt={getText('message', 'Message')}
-						src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc9_Message%202.webp'}
+						src={getImage('image_4').url}
 						loading="lazy"
 						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc9_Message%25202-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc9_Message%25202-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc9_Message%202.webp 828w"
 						sizes="(max-width: 479px) 100vw, 414px"
 						class="rt-revolution-message rt-autofit"
 					/><img
 						class="rt-revolution-message-two rt-autofit"
-						src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbd5_Message%204.webp'}
+						src={getImage('image_5').url}
 						width="477"
 						height="102"
 						alt={getText('message', 'Message')}

@@ -145,7 +145,7 @@
 													width="10"
 													height="9"
 													alt={getText('arrow', 'Arrow')}
-													src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+													src={getImage('image_1').url}
 													loading="lazy"
 													class="rt-button-arrow-image"
 												/>
@@ -180,7 +180,7 @@
 									width="17"
 									height="23"
 									alt={getText('location', 'Location')}
-									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e6c9903345d767d80297_Group%201000001678%20(1).svg'}
+									src={getImage('image_2').url}
 									loading="lazy"
 								/>
 							</div>
@@ -198,7 +198,7 @@
 									width="20"
 									height="20"
 									alt={getText('call', 'Call')}
-									src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e78b1bcb2dff07421493_Vector%20(7).svg'}
+									src={getImage('image_3').url}
 									loading="lazy"
 								/>
 							</div>

@@ -29,7 +29,20 @@
     "100gb": "100GB",
     "dedicated_account_manager": "Dedicated account manager"
   },
-  "images": {},
+  "images": {
+    "price_tick": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg",
+      "alt": "Price Tick"
+    },
+    "price_cross": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f560_PRice-cross.svg",
+      "alt": "Price Cross"
+    },
+    "button_arrow": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": "Arrow"
+    }
+  },
   "links": {
     "basic_plan_link": {
       "href": "https://aiorbit.webflow.io/product/basic-plan"

@@ -33,7 +33,7 @@
 						<p class="rt-data-card-one-paragraph">{getText('in_dui_cras', 'In dui cras odio sodales morbi ac egestas. Ipsum integer ultricies vitae purus amet.')}</p>
 						<img
 							class="rt-data-card-image"
-							src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7a7_AI%20data.webp'}
+							src={getImage('image_1').url}
 							width="330"
 							height="330"
 							alt={getText('data', 'AI Data')}
@@ -61,14 +61,14 @@
 									width="79"
 									height="69"
 									alt={getText('data', 'AI data')}
-									src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b1_Ai%20data.webp'}
+									src={getImage('image_2').url}
 									loading="lazy"
 									class="rt-ai-data-box-two-image one"
 								/><img
 									width="79"
 									height="69"
 									alt={getText('data', 'AI Data')}
-									src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7a5_AI%20data%203.webp'}
+									src={getImage('image_3').url}
 									loading="lazy"
 									class="rt-ai-data-box-two-image two"
 								/>
@@ -78,14 +78,14 @@
 									width="79"
 									height="69"
 									alt={getText('data', 'AI Data')}
-									src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b0_AI%20data%202.webp'}
+									src={getImage('image_4').url}
 									loading="lazy"
 									class="rt-ai-data-box-two-image three"
 								/><img
 									width="79"
 									height="69"
 									alt={getText('data', 'AI Data')}
-									src={getImage('image_5').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ac_Ai%20data%204.webp'}
+									src={getImage('image_5').url}
 									loading="lazy"
 									class="rt-ai-data-box-two-image four"
 								/>
@@ -120,7 +120,7 @@
 											width="10"
 											height="9"
 											alt={getText('arrow', 'Arrow')}
-											src={getImage('image_6').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+											src={getImage('image_6').url}
 											loading="lazy"
 											class="rt-button-arrow-image"
 										/>
@@ -138,7 +138,7 @@
 										width="14"
 										height="14"
 										alt={getText('client', 'Client')}
-										src={getImage('image_7').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf9253fe9e5ac9a033b9a_Data%20logo%203.svg'}
+										src={getImage('image_7').url}
 										loading="lazy"
 									/>
 								</div>
@@ -147,7 +147,7 @@
 										width="14"
 										height="14"
 										alt={getText('client', 'Client')}
-										src={getImage('image_8').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b5_Data%20logo.svg'}
+										src={getImage('image_8').url}
 										loading="lazy"
 									/>
 								</div>
@@ -156,7 +156,7 @@
 										width="23"
 										height="23"
 										alt={getText('client', 'Client')}
-										src={getImage('image_9').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b2_Data%20logo%204.svg'}
+										src={getImage('image_9').url}
 										loading="lazy"
 									/>
 								</div>
@@ -165,7 +165,7 @@
 										width="14"
 										height="14"
 										alt={getText('client', 'Client')}
-										src={getImage('image_10').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b4_Data%20logo%202.svg'}
+										src={getImage('image_10').url}
 										loading="lazy"
 									/>
 								</div>
@@ -178,7 +178,7 @@
 											width="14"
 											height="9"
 											alt={getText('client', 'Client')}
-											src={getImage('image_11').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf925b82e7d923152247a_Data%20logo%205.svg'}
+											src={getImage('image_11').url}
 											loading="lazy"
 										/>
 									</div>
@@ -187,7 +187,7 @@
 											width="14"
 											height="9"
 											alt={getText('client', 'Client')}
-											src={getImage('image_12').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b6_Data%20logo%206.svg'}
+											src={getImage('image_12').url}
 											loading="lazy"
 										/>
 									</div>
@@ -199,7 +199,7 @@
 											width="52"
 											height="31"
 											alt={getText('data', 'Data')}
-											src={getImage('image_13').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf925fa6f57de3c7631c0_Data%20logo%20main.svg'}
+											src={getImage('image_13').url}
 											loading="lazy"
 										/>
 									</div>
@@ -217,7 +217,7 @@
 								width="350"
 								height="174"
 								alt={getText('intelligence', 'Intelligence')}
-								src={getImage('image_14').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805cd53d5c6efbff6fdc703_Intelligence.webp'}
+								src={getImage('image_14').url}
 								loading="lazy"
 								srcset="
                       https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805cd53d5c6efbff6fdc703_Intelligence-p-500.webp 500w,
@@ -243,7 +243,7 @@
 								width="350"
 								height="174"
 								alt={getText('data', 'AI Data')}
-								src={getImage('image_15').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ae_Ai%20bar.webp'}
+								src={getImage('image_15').url}
 								loading="lazy"
 								srcset="
                       https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ae_Ai%2520bar-p-500.webp 500w,

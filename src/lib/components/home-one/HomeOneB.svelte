@@ -106,7 +106,7 @@
 					</div>
 					<div class="w-layout-hflex rt-revolution-image-wrapper">
 						<img
-							src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b6ab735df412ded9b7a84_Robot%20Big.avif'}
+							src={getImage('image_1').url}
 							loading="lazy"
 							width="454"
 							height="692"

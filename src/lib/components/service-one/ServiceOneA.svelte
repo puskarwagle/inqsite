@@ -40,7 +40,7 @@
 									width="10"
 									height="9"
 									alt={getText('arrow', 'Arrow')}
-									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+									src={getImage('button_arrow').url}
 									loading="lazy"
 									class="rt-button-arrow-image"
 								/>
@@ -51,28 +51,28 @@
 			</div>
 			<div class="w-layout-hflex rt-productivity-image-wrapper">
 				<img
-					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b3a51b77eb7c331cd0391_Service%20Two%20Dashboard.avif"
+					src={getImage('dashboard_main').url}
 					data-w-id="78907169-fcd1-afed-0c8f-99c8abc938ab"
 					width="908"
 					height="646"
-					alt={getText('service_two_dashboard_image', 'Service Two Dashboard Image')}
+					alt={getImage('dashboard_main').alt || getText('service_two_dashboard_image', 'Service Two Dashboard Image')}
 					class="rt-produvtivity-image rt-autofit rt-tab-full-image"
 				/><img
-					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ed10bdd83c178bfc2a5fd1_about%20line.png"
+					src={getImage('line_decoration').url}
 					loading="lazy"
 					width="137"
 					height="117"
-					alt={getText('line', 'Line')}
+					alt={getImage('line_decoration').alt || getText('line', 'Line')}
 					data-w-id="21d71efc-19e9-66f9-877c-13339e404bbe"
 					class="rt-produvtivity-line-float"
 				/>
 				<div data-w-id="d2823ce3-e785-ee61-02e2-3ff49e42e79c" class="rt-produvtivity-image-float">
 					<img
-						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b67b06b8afe11f9ed03fe_Spline%20Image%20one.avif"
+						src={getImage('robot_float').url}
 						loading="lazy"
 						width="409"
 						height="176"
-						alt={getText('spline_image_one', 'Spline Image one')}
+						alt={getImage('robot_float').alt || getText('spline_image_one', 'Spline Image one')}
 						class="rt-autofit rt-robot-image"
 					/>
 				</div>

@@ -40,7 +40,20 @@
     "standard_plan_price_yearly": "$249",
     "premium_plan_price_yearly": "$349"
   },
-  "images": {},
+  "images": {
+    "price_tick": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f561_Price%20Tick.svg",
+      "alt": "Price Tick"
+    },
+    "star_icon": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e4d9c8e5b3f467ff22f562_Star%2068.svg",
+      "alt": "Star"
+    },
+    "button_arrow": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": "Arrow"
+    }
+  },
   "links": {
     "basic_plan_link": {
       "href": "https://aiorbit.webflow.io/product/basic-plan"

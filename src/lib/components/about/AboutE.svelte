@@ -27,7 +27,7 @@
 					>
 						<div class="w-layout-hflex rt-icon-block-v2 active rt-margin">
 							<img
-								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e329842d2aaa810039b9_Group%201321315407.svg'}
+								src={getImage('image_1').url}
 								loading="lazy"
 								width="27"
 								height="27"
@@ -45,7 +45,7 @@
 					>
 						<div class="w-layout-hflex rt-icon-block-v2 rt-margin">
 							<img
-								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e328940cc8c6e304689d_Group%201321315408.svg'}
+								src={getImage('image_2').url}
 								loading="lazy"
 								width="24"
 								height="22"
@@ -63,7 +63,7 @@
 					>
 						<div class="w-layout-hflex rt-icon-block-v2 rt-margin">
 							<img
-								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e328704c4d4313d87c52_Group%201321315409.svg'}
+								src={getImage('image_3').url}
 								loading="lazy"
 								width="26"
 								height="26"
@@ -82,7 +82,7 @@
 				class="w-layout-hflex rt-industries-image-box-wrap rt-position-relative"
 			>
 				<img
-					src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0f7bc963f0394fa8e_1.webp'}
+					src={getImage('image_4').url}
 					loading="lazy"
 					width="716"
 					height="525"
@@ -92,7 +92,7 @@
 					class="rt-industries-image rt-tab-full-image"
 				/><img
 					class="rt-industries-image rt-tab-full-image two"
-					src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0b65a027dddf454e3_2.webp'}
+					src={getImage('image_5').url}
 					width="716"
 					height="525"
 					alt={getText('chat', 'Chat')}
@@ -102,7 +102,7 @@
 					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0b65a027dddf454e3_2-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0b65a027dddf454e3_2-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0b65a027dddf454e3_2-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0b65a027dddf454e3_2.webp 1454w"
 				/><img
 					class="rt-industries-image rt-tab-full-image three"
-					src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0ac7691cd07eded11_3.webp'}
+					src={getImage('image_6').url}
 					width="716"
 					height="525"
 					alt={getText('chat', 'Chat')}

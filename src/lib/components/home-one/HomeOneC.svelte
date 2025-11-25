@@ -38,7 +38,7 @@
 								width="10"
 								height="9"
 								alt={getText('arrow', 'Arrow')}
-								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/></div
@@ -55,7 +55,7 @@
 							width="29"
 							height="29"
 							alt={getText('brand', 'Brand')}
-							src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e0a147f9db32c77edf60_Group%201321315615%20(1).svg'}
+							src={getImage('image_2').url}
 							loading="lazy"
 						/>
 					</div>
@@ -73,7 +73,7 @@
 							width="25"
 							height="25"
 							alt={getText('brand', 'Brand')}
-							src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e0a14c9eef54d4a7996d_Group%201321315616.svg'}
+							src={getImage('image_3').url}
 							loading="lazy"
 						/>
 					</div>
@@ -91,7 +91,7 @@
 							width="33"
 							height="27"
 							alt={getText('brand', 'Brand')}
-							src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e134401c74ef906779d2_Group%201321315624.svg'}
+							src={getImage('image_4').url}
 							loading="lazy"
 						/>
 					</div>

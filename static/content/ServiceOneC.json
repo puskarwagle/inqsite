@@ -12,6 +12,19 @@
     "ai_powered_innovation_heading": "AI-Powered Innovation",
     "ai_powered_innovation_description": "Proin consectetur risus quis euismod ultricies. Maecenas a auctor magna eu efficitur leo risus dapibus facilisis."
   },
-  "images": {},
+  "images": {
+    "industries_dashboard": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d302f3bd2444df9a4936_Industries%20dashboard.webp",
+      "alt": "Industries dashboard showcasing AI analytics"
+    },
+    "revolution_image": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a816d_Revolution%203.webp",
+      "alt": "AI revolution visualization"
+    },
+    "tick_icon": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg",
+      "alt": "Tick"
+    }
+  },
   "links": {}
 }

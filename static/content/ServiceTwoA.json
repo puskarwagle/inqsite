@@ -11,7 +11,32 @@
     "efficiency_statistics": "Efficiency Statistics",
     "line": "Line"
   },
-  "images": {},
+  "images": {
+    "banner_main": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main.webp",
+      "alt": "AI solutions banner showcasing cutting-edge technology"
+    },
+    "stat_image": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dce40dfb6d33ad47f20_Stat.webp",
+      "alt": "Performance statistics"
+    },
+    "efficiency_statistics": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dce59baabea457ef40b_Efficiency%20statistics.webp",
+      "alt": "Efficiency statistics visualization"
+    },
+    "line_decoration_1": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ece08258f4ff93b1e82522_Banner%20line.svg",
+      "alt": "Line"
+    },
+    "line_decoration_2": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ef622cb34501db6ef8e8f6_Line%202.svg",
+      "alt": "Line"
+    },
+    "button_arrow": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": "Arrow"
+    }
+  },
   "links": {
     "about_link": {
       "href": "about.html"

@@ -26,7 +26,7 @@
 					<div class="rt-solution-image-block-v2 rt-radious-fifteen rt-color-cream">
 						<img
 							class="rt-solution-image-v2 rt-autofit rt-tab-full-image"
-							src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712d61624088e1cb5162_Solution%20block.webp'}
+							src={getImage('image_1').url}
 							width="264"
 							height="240"
 							alt={getText('solution', 'Solution')}
@@ -45,7 +45,7 @@
 					<div class="rt-solution-image-block-v2 rt-radious-fifteen rt-change-two">
 						<img
 							class="rt-solution-image-v2 rt-autofit rt-tab-full-image"
-							src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712db518cdbd3fd581fe_Solution%202.webp'}
+							src={getImage('image_2').url}
 							width="264"
 							height="240"
 							alt={getText('solution', 'Solution')}
@@ -64,7 +64,7 @@
 					<div class="rt-solution-image-block-v2 rt-radious-fifteen rt-color-light-pink rt-change">
 						<img
 							class="rt-solution-image-v2 rt-autofit rt-tab-full-image"
-							src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712ea47c152f5bd98da8_Solution%203.webp'}
+							src={getImage('image_3').url}
 							width="264"
 							height="240"
 							alt={getText('solution', 'Solution')}
@@ -83,7 +83,7 @@
 					<div class="rt-solution-image-block-v2 rt-radious-fifteen rt-color-light-blue">
 						<img
 							class="rt-solution-image-v2 rt-autofit rt-tab-full-image"
-							src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67fe36c35f933a91e1427bf8_Intellegence%20image.webp'}
+							src={getImage('image_4').url}
 							width="264"
 							height="240"
 							alt={getText('intelligence', 'Intelligence')}

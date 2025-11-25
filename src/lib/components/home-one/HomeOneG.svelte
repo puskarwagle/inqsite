@@ -28,7 +28,7 @@
 						width="33"
 						height="33"
 						alt={getText('client', 'Client')}
-						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c8_User%204.svg'}
+						src={getImage('image_1').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
 					/>
@@ -38,7 +38,7 @@
 						width="33"
 						height="33"
 						alt={getText('client', 'Client')}
-						src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c4_User%202.svg'}
+						src={getImage('image_2').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
 					/>
@@ -48,7 +48,7 @@
 						width="33"
 						height="33"
 						alt={getText('client', 'Client')}
-						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c3_User%206.svg'}
+						src={getImage('image_3').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
 					/>
@@ -58,7 +58,7 @@
 						width="20"
 						height="20"
 						alt={getText('client', 'Client')}
-						src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ca_User%203.svg'}
+						src={getImage('image_4').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
 					/>
@@ -72,7 +72,7 @@
 							width="33"
 							height="33"
 							alt={getText('client', 'Client')}
-							src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c5_User%205.svg'}
+							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-encryption-small-icon-v2"
 						/>
@@ -82,7 +82,7 @@
 							width="33"
 							height="33"
 							alt={getText('capabilities_icon', 'Capabilities Icon')}
-							src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febec_Capabilities%20icon%205.svg'}
+							src={getImage('image_6').url}
 							loading="lazy"
 						/>
 					</div>
@@ -91,7 +91,7 @@
 							width="45"
 							height="60"
 							alt={getText('client', 'Client')}
-							src={getImage('image_7').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b6_Data%20logo%206.svg'}
+							src={getImage('image_7').url}
 							loading="lazy"
 							class="rt-encryption-small-icon-v2"
 						/>
@@ -101,7 +101,7 @@
 							width="50"
 							height="50"
 							alt={getText('capabilities_icon', 'Capabilities Icon')}
-							src={getImage('image_8').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febef_Capabilities%20icon%203.svg'}
+							src={getImage('image_8').url}
 							loading="lazy"
 							class="rt-encryption-small-icon-v2"
 						/>
@@ -119,7 +119,7 @@
 						width="33"
 						height="33"
 						alt={getText('client', 'Client')}
-						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c8_User%204.svg'}
+						src={getImage('image_1').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
 					/>
@@ -129,7 +129,7 @@
 						width="33"
 						height="33"
 						alt={getText('client', 'Client')}
-						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c3_User%206.svg'}
+						src={getImage('image_3').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
 					/>
@@ -139,7 +139,7 @@
 						width="33"
 						height="33"
 						alt={getText('capabilities_icon', 'Capabilities Icon')}
-						src={getImage('image_9').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febed_Capabilities%20icon%204.svg'}
+						src={getImage('image_9').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
 					/>
@@ -149,7 +149,7 @@
 						width="33"
 						height="33"
 						alt={getText('client', 'Client')}
-						src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ca_User%203.svg'}
+						src={getImage('image_4').url}
 						loading="lazy"
 						class="rt-encryption-small-icon-v2"
 					/>
@@ -163,7 +163,7 @@
 							width="33"
 							height="33"
 							alt={getText('capabilities_icon', 'Capabilities Icon')}
-							src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febec_Capabilities%20icon%205.svg'}
+							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-encryption-small-icon-v2"
 						/>
@@ -173,7 +173,7 @@
 							width="33"
 							height="33"
 							alt={getText('client', 'Client')}
-							src={getImage('image_7').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7b6_Data%20logo%206.svg'}
+							src={getImage('image_7').url}
 							loading="lazy"
 						/>
 					</div>
@@ -182,7 +182,7 @@
 							width="50"
 							height="50"
 							alt={getText('capabilities_icon', 'Capabilities Icon')}
-							src={getImage('image_8').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febef_Capabilities%20icon%203.svg'}
+							src={getImage('image_8').url}
 							loading="lazy"
 							class="rt-encryption-small-icon-v2"
 						/>
@@ -209,7 +209,7 @@
 						width="10"
 						height="9"
 						alt={getText('arrow', 'Arrow')}
-						src={getImage('image_10').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+						src={getImage('image_10').url}
 						loading="lazy"
 						class="rt-button-arrow-image"
 					/></div

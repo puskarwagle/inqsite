@@ -32,7 +32,7 @@
 							<div class="w-layout-vflex rt-testimonial-card-v2 rt-color-cream">
 								<img
 									loading="lazy"
-									src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd503cbd7e331b5952c1be_icon%20section.svg'}
+									src={getImage('image_1').url}
 									alt={getText('quote_icon', 'Quote icon')}
 								/>
 								<p class="rt-testimonial-card-paragraph-v2">
@@ -44,7 +44,7 @@
 										width="60"
 										height="60"
 										alt={getText('reviewer', 'Reviewer')}
-										src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e017_User%201.jpg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-testimonial-card-user-image rt-autofit"
 									/>
@@ -59,7 +59,7 @@
 							<div class="w-layout-vflex rt-testimonial-card-v2 rt-color-light-blue">
 								<img
 									loading="lazy"
-									src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd503cbd7e331b5952c1be_icon%20section.svg'}
+									src={getImage('image_1').url}
 									alt={getText('quote_icon', 'Quote icon')}
 								/>
 								<p class="rt-testimonial-card-paragraph-v2">
@@ -71,7 +71,7 @@
 										width="60"
 										height="60"
 										alt={getText('reviewer', 'Reviewer')}
-										src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e039_User%202.webp'}
+										src={getImage('image_3').url}
 										loading="lazy"
 										class="rt-testimonial-card-user-image rt-autofit"
 									/>
@@ -86,7 +86,7 @@
 							<div class="w-layout-vflex rt-testimonial-card-v2 rt-color-light-pink">
 								<img
 									loading="lazy"
-									src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd503cbd7e331b5952c1be_icon%20section.svg'}
+									src={getImage('image_1').url}
 									alt={getText('quote_icon', 'Quote icon')}
 								/>
 								<p class="rt-testimonial-card-paragraph-v2">
@@ -98,7 +98,7 @@
 										width="60"
 										height="60"
 										alt={getText('reviewer', 'Reviewer')}
-										src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e038_User%203.webp'}
+										src={getImage('image_4').url}
 										loading="lazy"
 										class="rt-testimonial-card-user-image rt-autofit"
 									/>
@@ -115,7 +115,7 @@
 							<div class="w-layout-vflex rt-testimonial-card-v2 rt-color-cream">
 								<img
 									loading="lazy"
-									src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd503cbd7e331b5952c1be_icon%20section.svg'}
+									src={getImage('image_1').url}
 									alt={getText('quote_icon', 'Quote icon')}
 								/>
 								<p class="rt-testimonial-card-paragraph-v2">
@@ -127,7 +127,7 @@
 										width="60"
 										height="60"
 										alt={getText('reviewer', 'Reviewer')}
-										src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e017_User%201.jpg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-testimonial-card-user-image rt-autofit"
 									/>
@@ -142,7 +142,7 @@
 							<div class="w-layout-vflex rt-testimonial-card-v2 rt-color-light-blue">
 								<img
 									loading="lazy"
-									src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd503cbd7e331b5952c1be_icon%20section.svg'}
+									src={getImage('image_1').url}
 									alt={getText('quote_icon', 'Quote icon')}
 								/>
 								<p class="rt-testimonial-card-paragraph-v2">
@@ -154,7 +154,7 @@
 										width="60"
 										height="60"
 										alt={getText('reviewer', 'Reviewer')}
-										src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e039_User%202.webp'}
+										src={getImage('image_3').url}
 										loading="lazy"
 										class="rt-testimonial-card-user-image rt-autofit"
 									/>
@@ -169,7 +169,7 @@
 							<div class="w-layout-vflex rt-testimonial-card-v2 rt-color-light-pink">
 								<img
 									loading="lazy"
-									src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd503cbd7e331b5952c1be_icon%20section.svg'}
+									src={getImage('image_1').url}
 									alt={getText('quote_icon', 'Quote icon')}
 								/>
 								<p class="rt-testimonial-card-paragraph-v2">
@@ -181,7 +181,7 @@
 										width="60"
 										height="60"
 										alt={getText('reviewer', 'Reviewer')}
-										src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e038_User%203.webp'}
+										src={getImage('image_4').url}
 										loading="lazy"
 										class="rt-testimonial-card-user-image rt-autofit"
 									/>

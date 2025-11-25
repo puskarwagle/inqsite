@@ -34,7 +34,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe8_User.webp'}
+							src={getImage('image_1').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -51,7 +51,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febea_User%2012.webp'}
+							src={getImage('image_2').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -68,7 +68,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febda_User%207.webp'}
+							src={getImage('image_3').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -85,7 +85,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febeb_User%2010.webp'}
+							src={getImage('image_4').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -102,7 +102,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febd1_User%208.webp'}
+							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -119,7 +119,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe9_User%209.webp'}
+							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -138,7 +138,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe8_User.webp'}
+							src={getImage('image_1').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -155,7 +155,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febea_User%2012.webp'}
+							src={getImage('image_2').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -172,7 +172,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febda_User%207.webp'}
+							src={getImage('image_3').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -189,7 +189,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febeb_User%2010.webp'}
+							src={getImage('image_4').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -206,7 +206,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febd1_User%208.webp'}
+							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -223,7 +223,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe9_User%209.webp'}
+							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -242,7 +242,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe8_User.webp'}
+							src={getImage('image_1').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -259,7 +259,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febea_User%2012.webp'}
+							src={getImage('image_2').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -276,7 +276,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febda_User%207.webp'}
+							src={getImage('image_3').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -293,7 +293,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febeb_User%2010.webp'}
+							src={getImage('image_4').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -310,7 +310,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febd1_User%208.webp'}
+							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -327,7 +327,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe9_User%209.webp'}
+							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -348,7 +348,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe8_User.webp'}
+							src={getImage('image_1').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -365,7 +365,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febea_User%2012.webp'}
+							src={getImage('image_2').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -382,7 +382,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febda_User%207.webp'}
+							src={getImage('image_3').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -399,7 +399,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febeb_User%2010.webp'}
+							src={getImage('image_4').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -416,7 +416,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febd1_User%208.webp'}
+							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -433,7 +433,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe9_User%209.webp'}
+							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -452,7 +452,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe8_User.webp'}
+							src={getImage('image_1').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -469,7 +469,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febea_User%2012.webp'}
+							src={getImage('image_2').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -486,7 +486,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febda_User%207.webp'}
+							src={getImage('image_3').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -503,7 +503,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febeb_User%2010.webp'}
+							src={getImage('image_4').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -520,7 +520,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febd1_User%208.webp'}
+							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -537,7 +537,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe9_User%209.webp'}
+							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -556,7 +556,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe8_User.webp'}
+							src={getImage('image_1').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -573,7 +573,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febea_User%2012.webp'}
+							src={getImage('image_2').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -590,7 +590,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febda_User%207.webp'}
+							src={getImage('image_3').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -607,7 +607,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febeb_User%2010.webp'}
+							src={getImage('image_4').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -624,7 +624,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febd1_User%208.webp'}
+							src={getImage('image_5').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>
@@ -641,7 +641,7 @@
 							width="72"
 							height="72"
 							alt={getText('user', 'User 2')}
-							src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe9_User%209.webp'}
+							src={getImage('image_6').url}
 							loading="lazy"
 							class="rt-reviewer-image"
 						/>

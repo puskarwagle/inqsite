@@ -24,7 +24,7 @@
 								width="430"
 								height="185"
 								alt={getText('innovation_statistics', 'Innovation Statistics')}
-								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800f2027a148c256e8b1340_Mask%20group%20(22).webp'}
+								src={getImage('image_1').url}
 								loading="lazy"
 								data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a7557a"
 								class="rt-autofit rt-tab-full-image rt-image-position-start"
@@ -33,7 +33,7 @@
 						<div class="w-layout-hflex rt-company-strategie-image">
 							<img
 								class="rt-autofit rt-tab-full-image rt-image-position-start"
-								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f2649775f90f30811f_Strategie%202.webp'}
+								src={getImage('image_2').url}
 								width="430"
 								height="185"
 								alt={getText('strategy', 'Strategy')}
@@ -70,7 +70,7 @@
 									width="28"
 									height="28"
 									alt={getText('settings', 'Settings')}
-									src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg'}
+									src={getImage('image_3').url}
 									loading="lazy"
 								/>
 							</div>
@@ -88,7 +88,7 @@
 									width="24"
 									height="24"
 									alt={getText('code', 'Code')}
-									src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1352316d137911a14a8_Group%201321315626.svg'}
+									src={getImage('image_4').url}
 									loading="lazy"
 								/>
 							</div>
@@ -109,7 +109,7 @@
 						width="489"
 						height="478"
 						alt={getText('workflow', 'Workflow')}
-						src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e02d_Workflow.webp'}
+						src={getImage('image_5').url}
 						loading="lazy"
 						srcset="
 							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e02d_Workflow-p-500.webp 500w,
@@ -142,7 +142,7 @@
 									width="10"
 									height="9"
 									alt={getText('arrow', 'Arrow')}
-									src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+									src={getImage('image_6').url}
 									loading="lazy"
 									class="rt-button-arrow-image"
 								/></div
@@ -166,7 +166,7 @@
 									width="630"
 									height="351"
 									alt="CTA"
-									src={getImage('image_7').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800e5cea79ab1712ce75ed1_Cta.webp'}
+									src={getImage('image_7').url}
 									loading="lazy"
 									srcset="
 										https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800e5cea79ab1712ce75ed1_Cta-p-500.webp   500w,
@@ -201,7 +201,7 @@
 												width="10"
 												height="9"
 												alt={getText('arrow', 'Arrow')}
-												src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+												src={getImage('image_6').url}
 												loading="lazy"
 												class="rt-button-arrow-image"
 											/></div

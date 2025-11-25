@@ -49,7 +49,7 @@
 								width="10"
 								height="9"
 								alt={getText('arrow', 'Arrow')}
-								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/></div
@@ -67,7 +67,7 @@
 									width="15"
 									height="17"
 									alt={getText('play_button', 'Play button')}
-									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931bfc626df83f9d83c_Play%20button.svg'}
+									src={getImage('image_2').url}
 									loading="lazy"
 								/>
 							</div>
@@ -104,7 +104,7 @@
 			<div class="w-layout-hflex rt-automate-solution-hero-image-wrapper rt-position-relative">
 				<div class="rt-robot-image-home-v3">
 					<img
-						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b6ab530f82a1616800b12_Robot%20Small.avif'}
+						src={getImage('image_3').url}
 						loading="lazy"
 						width="215"
 						height="377"
@@ -114,7 +114,7 @@
 					/>
 				</div>
 				<img
-					src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff5700d905dc1e4c0e4aed_Home%20three%20banner.webp'}
+					src={getImage('image_4').url}
 					data-w-id="e0dd51ef-3eaa-89e8-36d6-9eb7f0b2ec3d"
 					width="1065"
 					height="758"
@@ -130,21 +130,21 @@
 					sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
 					class="rt-automate-solution-image-one rt-autofit rt-tab-full-image"
 				/><img
-					src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b35614a605efb904edd3f_Clip%20path%20group-2.avif'}
+					src={getImage('image_5').url}
 					data-w-id="ec3d56e6-4bcb-691d-4e27-c505359b1963"
 					width="802"
 					height="578"
 					alt={getText('dashboard', 'Dashboard')}
 					class="rt-automate-solution-image-two rt-autofit rt-tab-full-image"
 				/><img
-					src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea8a4e7d7db185a493ad83_Statistics.webp'}
+					src={getImage('image_6').url}
 					data-w-id="f0f6f0f0-7486-fe5c-8bc5-32435480fadb"
 					width="249"
 					height="198"
 					alt={getText('members_chat', 'Members Chat')}
 					class="rt-automate-solution-image-three rt-autofit"
 				/><img
-					src={getImage('image_7').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea780c8f6403356889cafc_Users.webp'}
+					src={getImage('image_7').url}
 					data-w-id="8d597ad8-8a8a-e579-0303-5b70726259b1"
 					width="230"
 					height="102"

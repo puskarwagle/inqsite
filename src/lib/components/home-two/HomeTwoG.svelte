@@ -38,7 +38,7 @@
 								width="10"
 								height="9"
 								alt={getText('arrow', 'Arrow')}
-								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/></div
@@ -51,7 +51,7 @@
 			>
 				<img
 					class="rt-radious-fifteen rt-autofit rt-tab-full-image"
-					src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec06_Growth.webp'}
+					src={getImage('image_2').url}
 					width="399"
 					height="397"
 					alt={getText('growth', 'Growth')}

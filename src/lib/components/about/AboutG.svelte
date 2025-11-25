@@ -35,7 +35,7 @@
 						width="20"
 						height="21"
 						alt={getText('query', 'Query')}
-						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec8142dbc93f64df00b_home-minus.svg'}
+						src={getImage('image_1').url}
 						loading="lazy"
 					/>
 					<div>General</div></a
@@ -44,7 +44,7 @@
 						width="20"
 						height="21"
 						alt={getText('query', 'Query')}
-						src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec8664314ab928bf3b3_question-square.svg'}
+						src={getImage('image_2').url}
 						loading="lazy"
 					/>
 					<div>Support</div></a
@@ -53,7 +53,7 @@
 						width="20"
 						height="21"
 						alt={getText('query', 'Query')}
-						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec86f7296d59b02abc9_rows.svg'}
+						src={getImage('image_3').url}
 						loading="lazy"
 					/>
 					<div>Others</div></a

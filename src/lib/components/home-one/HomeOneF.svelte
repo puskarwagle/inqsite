@@ -71,7 +71,7 @@
 						width="550"
 						height="610"
 						alt={getText('dashboard_image', 'Dashboard Image')}
-						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b527854b22f07cfcb1939_Frame-2.webp'}
+						src={getImage('image_1').url}
 						loading="lazy"
 						srcset="
 							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b527854b22f07cfcb1939_Frame-2-p-500.webp  500w,
@@ -90,7 +90,7 @@
 									width="28"
 									height="28"
 									alt={getText('settings', 'Settings')}
-									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg'}
+									src={getImage('image_2').url}
 									loading="lazy"
 								/>
 							</div>
@@ -108,7 +108,7 @@
 									width="28"
 									height="28"
 									alt={getText('settings', 'Settings')}
-									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg'}
+									src={getImage('image_2').url}
 									loading="lazy"
 								/>
 							</div>
@@ -126,7 +126,7 @@
 									width="28"
 									height="28"
 									alt={getText('settings', 'Settings')}
-									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg'}
+									src={getImage('image_2').url}
 									loading="lazy"
 								/>
 							</div>

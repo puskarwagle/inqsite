@@ -23,7 +23,7 @@
 					width="397"
 					height="342"
 					alt={getText('digital', 'Digital')}
-					src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff326bbf4bb92961422ef9_Digital%20image.webp'}
+					src={getImage('image_1').url}
 					loading="lazy"
 					srcset="
 						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff326bbf4bb92961422ef9_Digital%20image-p-500.webp 500w,
@@ -35,7 +35,7 @@
 					width="397"
 					height="342"
 					alt={getText('digital', 'Digital')}
-					src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff326b808437661828b4b2_Digital%20image%20two.webp'}
+					src={getImage('image_2').url}
 					loading="lazy"
 					srcset="
 						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff326b808437661828b4b2_Digital%20image%20two-p-500.webp 500w,

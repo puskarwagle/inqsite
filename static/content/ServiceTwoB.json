@@ -10,6 +10,23 @@
     "feature_2_heading": "Enhance algorithm capabilities",
     "expertise_statistics": "Expertise Statistics"
   },
-  "images": {},
+  "images": {
+    "icon_lock": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e4c127e3fc3fead66e13_Group%201321315640.svg",
+      "alt": "Security lock icon"
+    },
+    "icon_stat": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e4c188f0cd5759dbf511_icon%20(2).svg",
+      "alt": "Statistics icon"
+    },
+    "expertise_statistics_main": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efb7f1da377adba5726f2c_EXpertise%20Statistics.webp",
+      "alt": "Expertise statistics dashboard"
+    },
+    "expertise_statistics_overlay": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efaf2759b46941e44b6985_EXpertise%202.webp",
+      "alt": "Expertise statistics overlay"
+    }
+  },
   "links": {}
 }

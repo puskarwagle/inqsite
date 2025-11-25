@@ -18,7 +18,7 @@
 			<div class="w-layout-hflex rt-imapact-image-wrapper-v2">
 				<img
 					class="rt-imapact-image-v2 rt-autofit rt-tab-full-image"
-					src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800fb2113073c7667a03435_Group%201009004142.webp'}
+					src={getImage('image_1').url}
 					width="724"
 					height="515"
 					alt={getText('decision', 'Decision')}
@@ -51,7 +51,7 @@
 								width="21"
 								height="21"
 								alt={getText('intelligence_icon', 'Intelligence Icon')}
-								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e328ac7691cd07fe8503_Vector%20(3).svg'}
+								src={getImage('image_2').url}
 								loading="lazy"
 								class="rt-autofit"
 							/>
@@ -67,7 +67,7 @@
 								width="23"
 								height="23"
 								alt={getText('intelligence_icon', 'Intelligence Icon')}
-								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3286ff8c966566c97e0_atom.svg'}
+								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-autofit"
 							/>
@@ -90,7 +90,7 @@
 								width="10"
 								height="9"
 								alt={getText('arrow', 'Arrow')}
-								src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+								src={getImage('image_4').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/>

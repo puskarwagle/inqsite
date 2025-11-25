@@ -36,7 +36,7 @@
 									width="410"
 									height="283"
 									alt=""
-									src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/68060095b0772f5c96e3de97_Small%20Image%20(7).webp'}
+									src={getImage('image_1').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
 									srcset="https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/68060095b0772f5c96e3de97_Small%20Image%20(7)-p-500.webp 500w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/68060095b0772f5c96e3de97_Small%20Image%20(7)-p-800.webp 800w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/68060095b0772f5c96e3de97_Small%20Image%20(7)-p-1080.webp 1080w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/68060095b0772f5c96e3de97_Small%20Image%20(7).webp 1260w"
@@ -49,7 +49,7 @@
 										width="18"
 										height="18"
 										alt={getText('calender', 'Calender')}
-										src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf925e3ae73778f61ace6_Calender.svg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 									/>
 									<div>April 21, 2025</div>
@@ -59,7 +59,7 @@
 										width="18"
 										height="18"
 										alt={getText('user', 'User')}
-										src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7df_User.svg'}
+										src={getImage('image_3').url}
 										loading="lazy"
 									/>
 									<div>Lisa Belcher</div>
@@ -80,7 +80,7 @@
 									width="410"
 									height="283"
 									alt=""
-									src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/6805f384894ded930d20c714_Small%20Image(8).webp'}
+									src={getImage('image_4').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
 									srcset="https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/6805f384894ded930d20c714_Small%20Image(8)-p-500.webp 500w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/6805f384894ded930d20c714_Small%20Image(8)-p-800.webp 800w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/6805f384894ded930d20c714_Small%20Image(8)-p-1080.webp 1080w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/6805f384894ded930d20c714_Small%20Image(8).webp 1260w"
@@ -93,7 +93,7 @@
 										width="18"
 										height="18"
 										alt={getText('calender', 'Calender')}
-										src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf925e3ae73778f61ace6_Calender.svg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 									/>
 									<div>April 21, 2025</div>
@@ -103,7 +103,7 @@
 										width="18"
 										height="18"
 										alt={getText('user', 'User')}
-										src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7df_User.svg'}
+										src={getImage('image_3').url}
 										loading="lazy"
 									/>
 									<div>Harriet Block</div>
@@ -124,7 +124,7 @@
 									width="410"
 									height="283"
 									alt=""
-									src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67ea227fe2ee3679eab02ea3_Post%20image%20(7).webp'}
+									src={getImage('image_5').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
 									srcset="https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67ea227fe2ee3679eab02ea3_Post%20image%20(7)-p-500.webp 500w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67ea227fe2ee3679eab02ea3_Post%20image%20(7)-p-800.webp 800w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67ea227fe2ee3679eab02ea3_Post%20image%20(7)-p-1080.webp 1080w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67ea227fe2ee3679eab02ea3_Post%20image%20(7).webp 1260w"
@@ -137,7 +137,7 @@
 										width="18"
 										height="18"
 										alt={getText('calender', 'Calender')}
-										src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf925e3ae73778f61ace6_Calender.svg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 									/>
 									<div>April 21, 2025</div>
@@ -147,7 +147,7 @@
 										width="18"
 										height="18"
 										alt={getText('user', 'User')}
-										src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7df_User.svg'}
+										src={getImage('image_3').url}
 										loading="lazy"
 									/>
 									<div>Phillip Nitzsche</div>

@@ -31,7 +31,7 @@
 					<div class="rt-operations-image-block rt-overflow-hidden">
 						<img
 							class="rt-operation-image rt-autofit rt-tab-full-image"
-							src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d798_Operation.webp'}
+							src={getImage('image_1').url}
 							width="280"
 							height="230"
 							alt={getText('operation', 'Operation')}
@@ -62,14 +62,14 @@
 										width="10"
 										height="10"
 										alt={getText('arrow', 'Arrow')}
-										src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-autofit"
 									/><img
 										width="10"
 										height="10"
 										alt={getText('arrow', 'Arrow')}
-										src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-autofit"
 									/>
@@ -87,7 +87,7 @@
 					<div class="rt-operations-image-block rt-color-light-blue rt-overflow-hidden">
 						<img
 							class="rt-operation-image rt-autofit rt-tab-full-image"
-							src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d795_Operations%202.webp'}
+							src={getImage('image_3').url}
 							width="280"
 							height="230"
 							alt={getText('operation', 'Operation')}
@@ -118,14 +118,14 @@
 										width="10"
 										height="10"
 										alt={getText('arrow', 'Arrow')}
-										src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-autofit"
 									/><img
 										width="10"
 										height="10"
 										alt={getText('arrow', 'Arrow')}
-										src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-autofit"
 									/>
@@ -143,7 +143,7 @@
 					<div class="rt-operations-image-block rt-color-light-pink rt-overflow-hidden">
 						<img
 							class="rt-operation-image rt-autofit rt-tab-full-image"
-							src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d79b_Operation%203.webp'}
+							src={getImage('image_4').url}
 							width="280"
 							height="230"
 							alt={getText('operation', 'Operation')}
@@ -174,14 +174,14 @@
 										width="10"
 										height="10"
 										alt={getText('arrow', 'Arrow')}
-										src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-autofit"
 									/><img
 										width="10"
 										height="10"
 										alt={getText('arrow', 'Arrow')}
-										src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+										src={getImage('image_2').url}
 										loading="lazy"
 										class="rt-autofit"
 									/>

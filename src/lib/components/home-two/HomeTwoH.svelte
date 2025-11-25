@@ -36,7 +36,7 @@
 								width="40"
 								height="40"
 								alt={getText('code', 'Code')}
-								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1352316d137911a14a8_Group%201321315626.svg'}
+								src={getImage('image_1').url}
 								loading="lazy"
 							/>
 							<div class="rt-text-style-h5">{getText('aidriven_efficiency_for', 'AI-Driven Efficiency for Every Industry')}</div>
@@ -51,7 +51,7 @@
 									width="12"
 									height="10"
 									alt={getText('arrow', 'Arrow')}
-									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec08_Small%20arrow.svg'}
+									src={getImage('image_2').url}
 									loading="lazy"
 									data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ceb7"
 									class="rt-capabilities-icon"
@@ -68,7 +68,7 @@
 								width="40"
 								height="40"
 								alt={getText('brand', 'Brand')}
-								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1352316d137911a14bf_brand-slack.svg'}
+								src={getImage('image_3').url}
 								loading="lazy"
 							/>
 							<div class="rt-text-style-h5">{getText('leading_ai_for', 'Leading AI for a Smarter Future')}</div>
@@ -83,7 +83,7 @@
 									width="12"
 									height="10"
 									alt={getText('arrow', 'Arrow')}
-									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec08_Small%20arrow.svg'}
+									src={getImage('image_2').url}
 									loading="lazy"
 									data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cec2"
 									class="rt-capabilities-icon active"
@@ -100,7 +100,7 @@
 								width="40"
 								height="40"
 								alt={getText('brand', 'Brand')}
-								src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e13593e1bc968b98ab6b_components.svg'}
+								src={getImage('image_4').url}
 								loading="lazy"
 							/>
 							<div class="rt-text-style-h5">{getText('automation_with_ai', 'Automation with AI Intelligence')}</div>
@@ -115,7 +115,7 @@
 									width="12"
 									height="10"
 									alt={getText('arrow', 'Arrow')}
-									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec08_Small%20arrow.svg'}
+									src={getImage('image_2').url}
 									loading="lazy"
 									data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cecd"
 									class="rt-capabilities-icon"
@@ -132,7 +132,7 @@
 								width="40"
 								height="40"
 								alt={getText('brand', 'Brand')}
-								src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e13483e9d2ad29725075_Vector%20(2).svg'}
+								src={getImage('image_5').url}
 								loading="lazy"
 							/>
 							<div class="rt-text-style-h5">{getText('aipowered_chatbots_amp', 'AI-Powered Chatbots &amp; Assistants')}</div>
@@ -147,7 +147,7 @@
 									width="12"
 									height="10"
 									alt={getText('arrow', 'Arrow')}
-									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec08_Small%20arrow.svg'}
+									src={getImage('image_2').url}
 									loading="lazy"
 									data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ced8"
 									class="rt-capabilities-icon"

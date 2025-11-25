@@ -39,7 +39,20 @@
     "yearly_premium_plan_price": "$349",
     "yearly_premium_plan_per": "Per month"
   },
-  "images": {},
+  "images": {
+    "tick_icon_skin": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg",
+      "alt": "Tick"
+    },
+    "tick_icon_black": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg",
+      "alt": "Tick"
+    },
+    "button_arrow": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": "Arrow"
+    }
+  },
   "links": {
     "monthly_basic_plan_link": {
       "href": "https://aiorbit.webflow.io/product/basic-plan"

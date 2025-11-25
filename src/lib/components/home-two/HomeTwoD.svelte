@@ -26,28 +26,28 @@
 								width="194"
 								height="172"
 								alt={getText('marquee_image', 'Marquee Image')}
-								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec04_Marquee%20image.webp'}
+								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febff_Marquee%20image%202.webp'}
+								src={getImage('image_2').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfd_Marquee%20image%203.webp'}
+								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="169"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec00_MArquee%20image%204.webp'}
+								src={getImage('image_4').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/>
@@ -57,28 +57,28 @@
 								width="194"
 								height="172"
 								alt={getText('marquee_image', 'Marquee Image')}
-								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec04_Marquee%20image.webp'}
+								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febff_Marquee%20image%202.webp'}
+								src={getImage('image_2').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfd_Marquee%20image%203.webp'}
+								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="169"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec00_MArquee%20image%204.webp'}
+								src={getImage('image_4').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/>
@@ -88,28 +88,28 @@
 								width="194"
 								height="172"
 								alt={getText('marquee_image', 'Marquee Image')}
-								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec04_Marquee%20image.webp'}
+								src={getImage('image_1').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febff_Marquee%20image%202.webp'}
+								src={getImage('image_2').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfd_Marquee%20image%203.webp'}
+								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="169"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec00_MArquee%20image%204.webp'}
+								src={getImage('image_4').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/>
@@ -133,28 +133,28 @@
 								width="190"
 								height="146"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfd_Marquee%20image%203.webp'}
+								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
 								alt={getText('perofrmance', 'Perofrmance')}
-								src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec03_Marquee%20image%205.webp'}
+								src={getImage('image_5').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="164"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec02_Marquee%20image%206.webp'}
+								src={getImage('image_6').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="145"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_7').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec01_Marquee%20image%207.webp'}
+								src={getImage('image_7').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/>
@@ -176,28 +176,28 @@
 								width="190"
 								height="146"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfd_Marquee%20image%203.webp'}
+								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
 								alt={getText('perofrmance', 'Perofrmance')}
-								src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec03_Marquee%20image%205.webp'}
+								src={getImage('image_5').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="164"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec02_Marquee%20image%206.webp'}
+								src={getImage('image_6').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="145"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_7').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec01_Marquee%20image%207.webp'}
+								src={getImage('image_7').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/>
@@ -219,28 +219,28 @@
 								width="190"
 								height="146"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfd_Marquee%20image%203.webp'}
+								src={getImage('image_3').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
 								alt={getText('perofrmance', 'Perofrmance')}
-								src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec03_Marquee%20image%205.webp'}
+								src={getImage('image_5').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="164"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec02_Marquee%20image%206.webp'}
+								src={getImage('image_6').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="145"
 								alt={getText('performance', 'Performance')}
-								src={getImage('image_7').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec01_Marquee%20image%207.webp'}
+								src={getImage('image_7').url}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/>
@@ -267,7 +267,7 @@
 										width="15"
 										height="10"
 										alt={getText('arrow', 'Arrow')}
-										src={getImage('image_8').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfc_Down%20arrow.svg'}
+										src={getImage('image_8').url}
 										loading="lazy"
 										style="
 											-webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
@@ -301,7 +301,7 @@
 										width="15"
 										height="10"
 										alt={getText('arrow', 'Arrow')}
-										src={getImage('image_8').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfc_Down%20arrow.svg'}
+										src={getImage('image_8').url}
 										loading="lazy"
 										style="
 											-webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)
@@ -332,7 +332,7 @@
 										width="15"
 										height="10"
 										alt={getText('arrow', 'Arrow')}
-										src={getImage('image_8').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfc_Down%20arrow.svg'}
+										src={getImage('image_8').url}
 										loading="lazy"
 										style="
 											-webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0)

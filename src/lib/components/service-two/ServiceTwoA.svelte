@@ -39,8 +39,8 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+								alt={getImage('button_arrow').alt || getText('arrow', 'Arrow')}
+								src={getImage('button_arrow').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/>
@@ -53,22 +53,22 @@
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-vflex rt-efficiency-banner-image-wrapper rt-position-relative">
 			<img
-				src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main.webp"
+				src={getImage('banner_main').url}
 				data-w-id="fb42578d-8a72-9610-211f-08c7d6a63cd0"
 				width="907"
 				height="693"
-				alt={getText('banner', 'Banner')}
+				alt={getImage('banner_main').alt || getText('banner', 'Banner')}
 				srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main-p-1600.webp 1600w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main.webp 1816w"
 				sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 907px"
 				class="rt-efficiency-banner-image rt-autofit rt-tab-full-image"
 			/>
 			<div data-w-id="e9b3ee86-f3c5-c613-2419-24f767a9eaf3" class="rt-efficiency-image-two-wrapper">
 				<img
-					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dce40dfb6d33ad47f20_Stat.webp"
+					src={getImage('stat_image').url}
 					data-w-id="fec1f17d-0f6a-5390-180e-325ac6904c90"
 					width="200"
 					height="164"
-					alt={getText('statistics', 'Statistics')}
+					alt={getImage('stat_image').alt || getText('statistics', 'Statistics')}
 					class="rt-efficiency-image-two"
 				/>
 			</div>
@@ -77,27 +77,27 @@
 				class="rt-efficiency-image-three-wrapper"
 			>
 				<img
-					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dce59baabea457ef40b_Efficiency%20statistics.webp"
-					alt={getText('efficiency_statistics', 'Efficiency Statistics')}
+					src={getImage('efficiency_statistics').url}
+					alt={getImage('efficiency_statistics').alt || getText('efficiency_statistics', 'Efficiency Statistics')}
 					width="222"
 					height="221"
 					class="rt-efficiency-image-three"
 				/>
 			</div>
 			<img
-				src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ece08258f4ff93b1e82522_Banner%20line.svg"
+				src={getImage('line_decoration_1').url}
 				loading="lazy"
 				width="113"
 				height="Auto"
-				alt={getText('line', 'Line')}
+				alt={getImage('line_decoration_1').alt || getText('line', 'Line')}
 				data-w-id="b0940305-fb32-499b-b3ac-c5ea46dff8ec"
 				class="rt-line"
 			/><img
-				src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ef622cb34501db6ef8e8f6_Line%202.svg"
+				src={getImage('line_decoration_2').url}
 				loading="lazy"
 				width="230"
 				height="Auto"
-				alt={getText('line', 'Line')}
+				alt={getImage('line_decoration_2').alt || getText('line', 'Line')}
 				data-w-id="a0dbf9f9-7ef4-b564-df3c-7cbb14a7e923"
 				class="rt-line-two"
 			/>

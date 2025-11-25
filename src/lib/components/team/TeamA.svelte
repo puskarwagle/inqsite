@@ -35,7 +35,7 @@
 						<div role="listitem" class="w-dyn-item">
 							<div class="w-layout-hflex rt-circle-image-wrapper">
 								<img
-									src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e992e78336152373d237ba_Team%20Member%20Portrait%20(4).webp'}
+									src={getImage('image_1').url}
 									loading="lazy"
 									width="316"
 									height="421"
@@ -53,7 +53,7 @@
 						<div role="listitem" class="w-dyn-item">
 							<div class="w-layout-hflex rt-circle-image-wrapper">
 								<img
-									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e99295a1a0012219fe2599_Team%20Member%20Portrait%20(5).webp'}
+									src={getImage('image_2').url}
 									loading="lazy"
 									width="316"
 									height="421"
@@ -71,7 +71,7 @@
 						<div role="listitem" class="w-dyn-item">
 							<div class="w-layout-hflex rt-circle-image-wrapper">
 								<img
-									src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e9923d2e113f5398c10566_Team%20Member%20Portrait.webp'}
+									src={getImage('image_3').url}
 									loading="lazy"
 									width="316"
 									height="421"
@@ -89,7 +89,7 @@
 						<div role="listitem" class="w-dyn-item">
 							<div class="w-layout-hflex rt-circle-image-wrapper">
 								<img
-									src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991e830d76b050553541d_Team%20Member%20Portrait%20(3).webp'}
+									src={getImage('image_4').url}
 									loading="lazy"
 									width="316"
 									height="421"
@@ -107,7 +107,7 @@
 						<div role="listitem" class="w-dyn-item">
 							<div class="w-layout-hflex rt-circle-image-wrapper">
 								<img
-									src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991afcf0f44a24216fcc5_Team%20Member%20Portrait%20(2).webp'}
+									src={getImage('image_5').url}
 									loading="lazy"
 									width="316"
 									height="421"
@@ -125,7 +125,7 @@
 						<div role="listitem" class="w-dyn-item">
 							<div class="w-layout-hflex rt-circle-image-wrapper">
 								<img
-									src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991301ffdef79166f533e_Team%20Member%20Portrait%20(1).webp'}
+									src={getImage('image_6').url}
 									loading="lazy"
 									width="316"
 									height="421"

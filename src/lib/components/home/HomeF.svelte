@@ -111,7 +111,7 @@
 			>
 				<img
 					class="rt-autofit rt-operation-image rt-tab-full-image"
-					src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7bb_AI%20Operations.webp'}
+					src={getImage('image_1').url}
 					width="410"
 					height="650"
 					alt={getText('operations', 'AI Operations')}

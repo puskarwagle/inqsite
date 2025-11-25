@@ -27,42 +27,42 @@
 					width="178"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf6_User.svg'}
+					src={getImage('image_1').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="149"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf7_User%202.svg'}
+					src={getImage('image_2').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="141"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf9_User%203.svg'}
+					src={getImage('image_3').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="144"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf4_User%204.svg'}
+					src={getImage('image_4').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="183"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf5_User%205.svg'}
+					src={getImage('image_5').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="216"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfa_User%206.svg'}
+					src={getImage('image_6').url}
 					loading="lazy"
 					class="company-logo"
 				/>
@@ -72,42 +72,42 @@
 					width="178"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf6_User.svg'}
+					src={getImage('image_1').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="149"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf7_User%202.svg'}
+					src={getImage('image_2').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="141"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf9_User%203.svg'}
+					src={getImage('image_3').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="144"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf4_User%204.svg'}
+					src={getImage('image_4').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="183"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf5_User%205.svg'}
+					src={getImage('image_5').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="216"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfa_User%206.svg'}
+					src={getImage('image_6').url}
 					loading="lazy"
 					class="company-logo"
 				/>
@@ -117,42 +117,42 @@
 					width="178"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf6_User.svg'}
+					src={getImage('image_1').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="149"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf7_User%202.svg'}
+					src={getImage('image_2').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="141"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf9_User%203.svg'}
+					src={getImage('image_3').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="144"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf4_User%204.svg'}
+					src={getImage('image_4').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="183"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf5_User%205.svg'}
+					src={getImage('image_5').url}
 					loading="lazy"
 					class="company-logo"
 				/><img
 					width="216"
 					height="35"
 					alt={getText('client', 'Client')}
-					src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfa_User%206.svg'}
+					src={getImage('image_6').url}
 					loading="lazy"
 					class="company-logo"
 				/>

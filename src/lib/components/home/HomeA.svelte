@@ -27,7 +27,7 @@
 						width="350"
 						height="Auto"
 						alt={getImage('robot_main').alt || 'Spline Image one'}
-						src={getImage('robot_main').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680b67b06b8afe11f9ed03fe_Spline%20Image%20one.avif'}
+						src={getImage('robot_main').url}
 						loading="eager"
 						data-w-id="266b3c56-04d4-1030-dfa1-6834dafddf42"
 						class="rt-robot-image rt-autofit"

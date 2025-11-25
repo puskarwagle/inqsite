@@ -31,11 +31,11 @@
 					>
 						<div class="w-layout-hflex rt-expertise-icon-block">
 							<img
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e4c127e3fc3fead66e13_Group%201321315640.svg"
+								src={getImage('icon_lock').url}
 								loading="lazy"
 								width="20"
 								height="27"
-								alt={getText('lock', 'Lock')}
+								alt={getImage('icon_lock').alt || getText('lock', 'Lock')}
 							/>
 						</div>
 						<div class="w-layout-vflex rt-erpertise-text-block">
@@ -49,11 +49,11 @@
 					>
 						<div class="w-layout-hflex rt-expertise-icon-block">
 							<img
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e4c188f0cd5759dbf511_icon%20(2).svg"
+								src={getImage('icon_stat').url}
 								loading="lazy"
 								width="24"
 								height="20"
-								alt={getText('stat', 'Stat')}
+								alt={getImage('icon_stat').alt || getText('stat', 'Stat')}
 							/>
 						</div>
 						<div class="w-layout-vflex rt-erpertise-text-block">
@@ -66,10 +66,10 @@
 			<div class="w-layout-vflex rt-expertise-image-box-wrapper">
 				<img
 					class="rt-expertise-image-one"
-					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efb7f1da377adba5726f2c_EXpertise%20Statistics.webp"
+					src={getImage('expertise_statistics_main').url}
 					width="497"
 					height="510"
-					alt={getText('expertise_statistics', 'Expertise Statistics')}
+					alt={getImage('expertise_statistics_main').alt || getText('expertise_statistics', 'Expertise Statistics')}
 					sizes="(max-width: 767px) 100vw, 497px"
 					data-w-id="7f0b0f18-9461-8f09-d0d1-ca36fdd66734"
 					loading="lazy"
@@ -80,11 +80,11 @@
 					class="rt-expertise-image-two-wrapper"
 				>
 					<img
-						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efaf2759b46941e44b6985_EXpertise%202.webp"
+						src={getImage('expertise_statistics_overlay').url}
 						loading="lazy"
 						width="298"
 						height="217"
-						alt={getText('expertise_statistics', 'Expertise Statistics')}
+						alt={getImage('expertise_statistics_overlay').alt || getText('expertise_statistics', 'Expertise Statistics')}
 						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efaf2759b46941e44b6985_EXpertise%202-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efaf2759b46941e44b6985_EXpertise%202.webp 596w"
 						sizes="(max-width: 479px) 100vw, 298px"
 						class="rt-expertise-image-two rt-autofit"

@@ -31,7 +31,7 @@
 									width="410"
 									height="460"
 									alt={getImage('team_member_1_image').alt || 'Olivia Davis'}
-									src={getImage('team_member_1_image').url || 'https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991a1528c3b1646bcfed3_Team%20Member%20(5).webp'}
+									src={getImage('team_member_1_image').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
 									srcset="https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991a1528c3b1646bcfed3_Team%20Member%20(5)-p-500.webp 500w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991a1528c3b1646bcfed3_Team%20Member%20(5)-p-800.webp 800w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991a1528c3b1646bcfed3_Team%20Member%20(5).webp 1070w"
@@ -99,7 +99,7 @@
 									width="410"
 									height="460"
 									alt={getImage('team_member_2_image').alt || 'Louis Pickell'}
-									src={getImage('team_member_2_image').url || 'https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e99274324c102df5dc36c0_Team%20Member%20(4).webp'}
+									src={getImage('team_member_2_image').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
 									srcset="https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e99274324c102df5dc36c0_Team%20Member%20(4)-p-500.webp 500w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e99274324c102df5dc36c0_Team%20Member%20(4)-p-800.webp 800w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e99274324c102df5dc36c0_Team%20Member%20(4).webp 1070w"
@@ -167,7 +167,7 @@
 									width="410"
 									height="460"
 									alt={getImage('team_member_3_image').alt || 'Ashley Roberts'}
-									src={getImage('team_member_3_image').url || 'https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991a764939dd7fe6abc08_Team%20Member%20(2).webp'}
+									src={getImage('team_member_3_image').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
 									srcset="https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991a764939dd7fe6abc08_Team%20Member%20(2)-p-500.webp 500w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991a764939dd7fe6abc08_Team%20Member%20(2)-p-800.webp 800w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67e991a764939dd7fe6abc08_Team%20Member%20(2).webp 1070w"

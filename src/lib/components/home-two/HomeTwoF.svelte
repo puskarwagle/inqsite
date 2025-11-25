@@ -23,7 +23,7 @@
 					>
 						<div class="rt-ai-innovation-mobile-one">
 							<img
-								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217043835aecce9891_Screen%20one.webp'}
+								src={getImage('image_1').url}
 								loading="lazy"
 								width="310"
 								height="630"
@@ -38,7 +38,7 @@
 						</div>
 						<div class="rt-ai-innovation-mobile-two">
 							<img
-								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217c70ff8ed3782287_Scree%20two.webp'}
+								src={getImage('image_2').url}
 								loading="lazy"
 								width="310"
 								height="630"
@@ -70,7 +70,7 @@
 										width="24"
 										height="24"
 										alt={getText('settings', 'Settings')}
-										src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg'}
+										src={getImage('image_3').url}
 										loading="lazy"
 									/>
 								</div>
@@ -88,7 +88,7 @@
 										width="20"
 										height="20"
 										alt={getText('configuration', 'Configuration')}
-										src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1369e416066866d72b3_config-vertical.svg'}
+										src={getImage('image_4').url}
 										loading="lazy"
 									/>
 								</div>
@@ -116,7 +116,7 @@
 										width="10"
 										height="9"
 										alt={getText('arrow', 'Arrow')}
-										src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+										src={getImage('image_5').url}
 										loading="lazy"
 										class="rt-button-arrow-image"
 									/></div

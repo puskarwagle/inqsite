@@ -25,7 +25,7 @@
 						width="172"
 						height="181"
 						alt={getText('performance_statistics', 'Performance Statistics')}
-						src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf92607c68ccfe6dff095_Performance-stat.webp'}
+						src={getImage('image_1').url}
 						loading="lazy"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0fc5"
 						class="rt-autofit rt-image-full-width"
@@ -38,7 +38,7 @@
 				>
 					<img
 						class="rt-autofit rt-radious-fifteen rt-tab-full-image"
-						src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6800841c90fb84230c9c4728_Complex.webp'}
+						src={getImage('image_2').url}
 						width="630"
 						height="444"
 						alt={getText('complex', 'Complex')}
@@ -75,7 +75,7 @@
 									width="33"
 									height="33"
 									alt={getText('tech', 'Tech')}
-									src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805e0a15665bac885966e7d_chat-messages.svg'}
+									src={getImage('image_3').url}
 									loading="lazy"
 								/>
 							</div>
@@ -94,7 +94,7 @@
 									width="33"
 									height="33"
 									alt={getText('tech', 'Tech')}
-									src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805e0a1d0576dff0ddb1030_Group%201321315622.svg'}
+									src={getImage('image_4').url}
 									loading="lazy"
 								/>
 							</div>
@@ -122,7 +122,7 @@
 								width="10"
 								height="9"
 								alt={getText('arrow', 'Arrow')}
-								src={getImage('image_5').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+								src={getImage('image_5').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/>

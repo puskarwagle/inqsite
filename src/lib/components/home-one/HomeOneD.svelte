@@ -28,7 +28,7 @@
 						width="488"
 						height="350"
 						alt={getText('intelligence', 'Intelligence')}
-						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e023_Intelligence%202.webp'}
+						src={getImage('image_1').url}
 						loading="lazy"
 						srcset="
 							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e023_Intelligence%25202-p-500.webp 500w,
@@ -56,7 +56,7 @@
 								width="10"
 								height="9"
 								alt={getText('arrow', 'Arrow')}
-								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+								src={getImage('image_2').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/></div
@@ -72,7 +72,7 @@
 						width="488"
 						height="350"
 						alt={getText('dashboard', 'Dashboard')}
-						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f295e8dcb7a13ad9ad_Dashboard.webp'}
+						src={getImage('image_3').url}
 						loading="lazy"
 						srcset="
 							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f295e8dcb7a13ad9ad_Dashboard-p-500.webp 500w,
@@ -100,7 +100,7 @@
 								width="10"
 								height="9"
 								alt={getText('arrow', 'Arrow')}
-								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
+								src={getImage('image_2').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/></div

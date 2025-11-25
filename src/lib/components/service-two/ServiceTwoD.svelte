@@ -19,11 +19,11 @@
 				class="w-layout-hflex rt-data-driven-image-wrapper rt-shadow rt-overflow-hidden"
 			>
 				<img
-					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805dc25c341e38cf4d0c17b_Lverage.webp"
+					src={getImage('leverage_dashboard').url}
 					loading="lazy"
 					width="711"
 					height="430"
-					alt={getText('leverage', 'Leverage')}
+					alt={getImage('leverage_dashboard').alt || getText('leverage', 'Leverage')}
 					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805dc25c341e38cf4d0c17b_Lverage-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805dc25c341e38cf4d0c17b_Lverage-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805dc25c341e38cf4d0c17b_Lverage-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805dc25c341e38cf4d0c17b_Lverage.webp 1422w"
 					sizes="(max-width: 767px) 100vw, 711px"
 					class="rt-data-driven-image"
@@ -53,8 +53,8 @@
 							<img
 								width="10"
 								height="9"
-								alt={getText('arrow', 'Arrow')}
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
+								alt={getImage('button_arrow').alt || getText('arrow', 'Arrow')}
+								src={getImage('button_arrow').url}
 								loading="lazy"
 								class="rt-button-arrow-image"
 							/>
@@ -79,11 +79,11 @@
 							class="w-layout-hflex rt-optimize-points-box"
 						>
 							<img
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
+								src={getImage('tick_icon').url}
 								loading="lazy"
 								width="24"
 								height="24"
-								alt={getText('tick', 'Tick')}
+								alt={getImage('tick_icon').alt || getText('tick', 'Tick')}
 							/>
 							<div class="rt-text-style-h6">{getText('feature_1_heading', 'AI Elevated Performance')}</div>
 						</div>
@@ -92,11 +92,11 @@
 							class="w-layout-hflex rt-optimize-points-box"
 						>
 							<img
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
+								src={getImage('tick_icon').url}
 								loading="lazy"
 								width="24"
 								height="24"
-								alt={getText('tick', 'Tick')}
+								alt={getImage('tick_icon').alt || getText('tick', 'Tick')}
 							/>
 							<div class="rt-text-style-h6">{getText('feature_2_heading', 'Redefining Intelligence with AI')}</div>
 						</div>
@@ -105,11 +105,11 @@
 							class="w-layout-hflex rt-optimize-points-box"
 						>
 							<img
-								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
+								src={getImage('tick_icon').url}
 								loading="lazy"
 								width="24"
 								height="24"
-								alt={getText('tick', 'Tick')}
+								alt={getImage('tick_icon').alt || getText('tick', 'Tick')}
 							/>
 							<div class="rt-text-style-h6">{getText('feature_3_heading', 'Intelligent Automation, Powered by AI')}</div>
 						</div>
@@ -121,11 +121,11 @@
 				class="w-layout-hflex rt-data-driven-image-wrapper rt-shadow rt-overflow-hidden"
 			>
 				<img
-					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3543431d7970a8a0b5f4e_Campaign.webp"
+					src={getImage('campaign_dashboard').url}
 					loading="lazy"
 					width="636"
 					height="500"
-					alt={getText('campaign', 'Campaign')}
+					alt={getImage('campaign_dashboard').alt || getText('campaign', 'Campaign')}
 					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3543431d7970a8a0b5f4e_Campaign-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3543431d7970a8a0b5f4e_Campaign-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3543431d7970a8a0b5f4e_Campaign-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3543431d7970a8a0b5f4e_Campaign.webp 1273w"
 					sizes="(max-width: 767px) 100vw, 636px"
 					class="rt-data-driven-image-v2"

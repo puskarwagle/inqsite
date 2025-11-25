@@ -32,7 +32,7 @@
 							width="18"
 							height="18"
 							alt={getImage('mail_icon').alt || 'Mail'}
-							src={getImage('mail_icon').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7e1_mail.svg'}
+							src={getImage('mail_icon').url}
 							loading="lazy"
 							class="rt-mail-logo"
 						/>
@@ -48,7 +48,7 @@
 							width="18"
 							height="18"
 							alt={getImage('phone_icon').alt || 'Call'}
-							src={getImage('phone_icon').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7e0_Call.svg'}
+							src={getImage('phone_icon').url}
 							loading="lazy"
 							class="rt-mail-logo"
 						/>

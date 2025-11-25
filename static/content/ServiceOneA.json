@@ -10,7 +10,24 @@
     "line": "Line",
     "spline_image_one": "Spline Image one"
   },
-  "images": {},
+  "images": {
+    "button_arrow": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": "Arrow"
+    },
+    "dashboard_main": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b3a51b77eb7c331cd0391_Service%20Two%20Dashboard.avif",
+      "alt": "Service Dashboard"
+    },
+    "line_decoration": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ed10bdd83c178bfc2a5fd1_about%20line.png",
+      "alt": "Line decoration"
+    },
+    "robot_float": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b67b06b8afe11f9ed03fe_Spline%20Image%20one.avif",
+      "alt": "Spline Image one"
+    }
+  },
   "links": {
     "about_link": {
       "href": "about.html"

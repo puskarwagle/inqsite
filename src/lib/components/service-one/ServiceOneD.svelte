@@ -31,8 +31,8 @@
 								<img
 									width="36"
 									height="24"
-									alt={getText('expert', 'Expert')}
-									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3a94c9eef54d4a99699_Vector%2032.svg"
+									alt={getImage('icon_expert_1').alt || getText('expert', 'Expert')}
+									src={getImage('icon_expert_1').url}
 									loading="lazy"
 								/>
 							</div>
@@ -46,8 +46,8 @@
 								<img
 									width="27"
 									height="30"
-									alt={getText('expert', 'Expert')}
-									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3a97b5199127f892234_Group%202584.svg"
+									alt={getImage('icon_expert_2').alt || getText('expert', 'Expert')}
+									src={getImage('icon_expert_2').url}
 									loading="lazy"
 								/>
 							</div>
@@ -61,8 +61,8 @@
 								<img
 									width="19"
 									height="28"
-									alt={getText('expert', 'Expert')}
-									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3a99e416066866f2423_Group%202585.svg"
+									alt={getImage('icon_expert_3').alt || getText('expert', 'Expert')}
+									src={getImage('icon_expert_3').url}
 									loading="lazy"
 								/>
 							</div>
@@ -78,8 +78,8 @@
 						<img
 							width="654"
 							height="460"
-							alt={getText('possibilities_dashboard', 'Possibilities Dashboard')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%20dashboard.webp"
+							alt={getImage('possibilities_dashboard').alt || getText('possibilities_dashboard', 'Possibilities Dashboard')}
+							src={getImage('possibilities_dashboard').url}
 							loading="lazy"
 							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%2520dashboard-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%2520dashboard-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%2520dashboard-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%20dashboard.webp 1308w"
 							sizes="(max-width: 767px) 100vw, 654px"
@@ -87,8 +87,8 @@
 						/><img
 							width="654"
 							height="460"
-							alt={getText('order', 'Order')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order.webp"
+							alt={getImage('order_dashboard').alt || getText('order', 'Order')}
+							src={getImage('order_dashboard').url}
 							loading="lazy"
 							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order.webp 1324w"
 							sizes="(max-width: 767px) 100vw, 654px"
@@ -96,8 +96,8 @@
 						/><img
 							width="654"
 							height="460"
-							alt={getText('artificial', 'Artificial')}
-							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial.webp"
+							alt={getImage('artificial_dashboard').alt || getText('artificial', 'Artificial')}
+							src={getImage('artificial_dashboard').url}
 							loading="lazy"
 							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial.webp 1328w"
 							sizes="(max-width: 767px) 100vw, 654px"

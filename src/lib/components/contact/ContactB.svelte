@@ -23,7 +23,7 @@
 					<div class="rt-overflow-hidden rt-image-radious">
 						<img
 							class="rt-branch-image rt-autofit rt-tab-full-image"
-							src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfa9_Singapore.webp'}
+							src={getImage('image_1').url}
 							width="300"
 							height="310"
 							alt={getText('office', 'Office')}
@@ -44,7 +44,7 @@
 					<div class="rt-overflow-hidden rt-image-radious">
 						<img
 							class="rt-branch-image rt-autofit rt-tab-full-image"
-							src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfaf_Office.webp'}
+							src={getImage('image_2').url}
 							width="300"
 							height="310"
 							alt={getText('office', 'Office')}
@@ -63,7 +63,7 @@
 					<div class="rt-overflow-hidden rt-image-radious">
 						<img
 							class="rt-branch-image rt-autofit rt-tab-full-image"
-							src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfac_Office2.webp'}
+							src={getImage('image_3').url}
 							width="300"
 							height="310"
 							alt={getText('office', 'Office')}
@@ -82,7 +82,7 @@
 					<div class="rt-overflow-hidden rt-image-radious">
 						<img
 							class="rt-branch-image rt-autofit rt-tab-full-image"
-							src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfb2_Office%203.webp'}
+							src={getImage('image_4').url}
 							width="300"
 							height="310"
 							alt={getText('office', 'Office')}

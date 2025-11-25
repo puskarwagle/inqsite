@@ -12,7 +12,28 @@
     "ai_automation_heading": "AI Automation",
     "performance_driven_heading": "Performance-Driven"
   },
-  "images": {},
+  "images": {
+    "business_card_1_image": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8166_Business%203.webp",
+      "alt": "AI-powered business analytics dashboard"
+    },
+    "business_card_2_image": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8163_Business%202.webp",
+      "alt": "Business intelligence interface"
+    },
+    "business_card_3_image": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8169_Business%202%20(1).webp",
+      "alt": "AI automation workflow"
+    },
+    "business_card_4_image": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8160_Business.webp",
+      "alt": "Performance-driven analytics platform"
+    },
+    "button_arrow": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": "Arrow"
+    }
+  },
   "links": {
     "service_one_link": {
       "href": "service-one.html"

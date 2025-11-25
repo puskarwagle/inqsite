@@ -14,7 +14,24 @@
     "feature_3_heading": "Intelligent Automation, Powered by AI",
     "campaign": "Campaign"
   },
-  "images": {},
+  "images": {
+    "leverage_dashboard": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805dc25c341e38cf4d0c17b_Lverage.webp",
+      "alt": "Data-driven business leverage dashboard"
+    },
+    "button_arrow": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
+      "alt": "Arrow"
+    },
+    "tick_icon": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg",
+      "alt": "Tick"
+    },
+    "campaign_dashboard": {
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3543431d7970a8a0b5f4e_Campaign.webp",
+      "alt": "AI campaign management interface"
+    }
+  },
   "links": {
     "about_link": {
       "href": "about.html"
