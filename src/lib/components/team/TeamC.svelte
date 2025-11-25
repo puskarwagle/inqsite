@@ -21,11 +21,7 @@
 					<p
 						data-w-id="28385cd8-9007-ff34-ae51-eafc7837b470"
 						class="rt-gap-off rt-h2-paragraph-gap"
-					>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id justo rhoncuys
-						eleifend ipsum non, aliquet quam. Nulla sagittis porttitor sapien euismod sapien
-						sollicitudin Nunc ornare lacus sapien.
-					</p>
+					>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id justo rhoncuys eleifend ipsum non, aliquet quam. Nulla sagittis porttitor sapien euismod sapien sollicitudin Nunc ornare lacus sapien.')}</p>
 				</div>
 				<div class="w-layout-hflex rt-achievement-block">
 					<div
@@ -51,7 +47,7 @@
 				<img
 					width="584"
 					height="574"
-					alt="Message screen"
+					alt={getText('message_screen', 'Message screen')}
 					src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbe0_Message%20screen.webp'}
 					loading="lazy"
 					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbe0_Message%2520screen-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbe0_Message%2520screen-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbe0_Message%2520screen-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbe0_Message%20screen.webp 1168w"
@@ -62,7 +58,7 @@
 					<img
 						width="341"
 						height="76"
-						alt="Message"
+						alt={getText('message', 'Message')}
 						src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc5_Message.webp'}
 						loading="lazy"
 						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc5_Message-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc5_Message.webp 682w"
@@ -73,7 +69,7 @@
 						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbda_Message%203.webp'}
 						width="477"
 						height="101"
-						alt="Message"
+						alt={getText('message', 'Message')}
 						sizes="(max-width: 479px) 100vw, 477px"
 						data-w-id="28385cd8-9007-ff34-ae51-eafc7837b481"
 						loading="lazy"
@@ -81,7 +77,7 @@
 					/><img
 						width="414"
 						height="88"
-						alt="Message"
+						alt={getText('message', 'Message')}
 						src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc9_Message%202.webp'}
 						loading="lazy"
 						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc9_Message%25202-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc9_Message%25202-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbc9_Message%202.webp 828w"
@@ -92,7 +88,7 @@
 						src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ebd42a197e5490ceebcbd5_Message%204.webp'}
 						width="477"
 						height="102"
-						alt="Message"
+						alt={getText('message', 'Message')}
 						sizes="(max-width: 479px) 100vw, 477px"
 						data-w-id="28385cd8-9007-ff34-ae51-eafc7837b483"
 						loading="lazy"

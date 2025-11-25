@@ -24,7 +24,7 @@
 					<img
 						width="560"
 						height="698"
-						alt="Performance Dashboard"
+						alt={getText('performance_dashboard', 'Performance Dashboard')}
 						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp'}
 						loading="lazy"
 						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp 1122w"
@@ -35,7 +35,7 @@
 				<img
 					width="560"
 					height="698"
-					alt="Performance Dashboard"
+					alt={getText('performance_dashboard', 'Performance Dashboard')}
 					src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp'}
 					loading="lazy"
 					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp 1122w"
@@ -50,8 +50,7 @@
 						data-w-id="d8cc0c89-5611-467c-7b0c-409b05d85a8d"
 						class="rt-impact-paragraph rt-gap-off rt-h2-paragraph-gap"
 					>
-						Lorem ipsum dolor sit amet consectetur Amet ullamcorper atsit eros risus eget tristique
-						diam imperdiet. Eleifend et porttitor amet.
+						{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur Amet ullamcorper atsit eros risus eget tristique diam imperdiet. Eleifend et porttitor amet.')}
 					</p>
 				</div>
 				<div class="w-layout-hflex rt-impact-card-wrapper">

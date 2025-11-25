@@ -19,10 +19,7 @@
 			<p
 				data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cdd5"
 				class="rt-transform-top-paragraph rt-gap-off rt-h2-paragraph-gap"
-			>
-				Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-				vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.
-			</p>
+			>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.')}</p>
 		</div>
 		<div class="w-layout-vflex rt-transform-card-wrapper">
 			<div class="w-layout-hflex rt-transform-card-block">
@@ -34,7 +31,7 @@
 						<img
 							width="25"
 							height="25"
-							alt="Brand"
+							alt={getText('brand', 'Brand')}
 							src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e0a147f9db32c77edf60_Group%201321315615%20(1).svg'}
 							loading="lazy"
 						/>
@@ -52,7 +49,7 @@
 						<img
 							width="25"
 							height="25"
-							alt="Brand"
+							alt={getText('brand', 'Brand')}
 							src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e0a14c9eef54d4a7996d_Group%201321315616.svg'}
 							loading="lazy"
 						/>
@@ -72,7 +69,7 @@
 						<img
 							width="33"
 							height="28"
-							alt="Brand"
+							alt={getText('brand', 'Brand')}
 							src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e134401c74ef906779d2_Group%201321315624.svg'}
 							loading="lazy"
 						/>
@@ -90,7 +87,7 @@
 						<img
 							width="31"
 							height="31"
-							alt="Brand"
+							alt={getText('brand', 'Brand')}
 							src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1351bcb2dff073de7d8_Vector%20(1).svg'}
 							loading="lazy"
 						/>
@@ -108,7 +105,7 @@
 						<img
 							width="29"
 							height="29"
-							alt="Brand"
+							alt={getText('brand', 'Brand')}
 							src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e13483e9d2ad29725075_Vector%20(2).svg'}
 							loading="lazy"
 						/>

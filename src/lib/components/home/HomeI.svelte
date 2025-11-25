@@ -25,10 +25,7 @@
 					data-w-id="09bf4b3c-9e24-c6e7-7086-feb882cd3bb8"
 					class="rt-pricing-plan-top-paragraph rt-gap-off rt-h2-paragraph-gap"
 					style=""
-				>
-					Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis
-					tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam
-				</p>
+				>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam')}</p>
 			</div>
 			<div
 				data-w-id="09bf4b3c-9e24-c6e7-7086-feb882cd3bba"
@@ -101,7 +98,7 @@
 													<img
 														width="10"
 														height="9"
-														alt="Arrow"
+														alt={getText('arrow', 'Arrow')}
 														src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 														loading="lazy"
 														class="rt-button-arrow-image"
@@ -116,14 +113,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -136,14 +133,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -156,14 +153,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -176,14 +173,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -196,14 +193,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -216,14 +213,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -236,14 +233,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -256,14 +253,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -298,7 +295,7 @@
 													<img
 														width="10"
 														height="9"
-														alt="Arrow"
+														alt={getText('arrow', 'Arrow')}
 														src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 														loading="lazy"
 														class="rt-button-arrow-image"
@@ -313,14 +310,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -333,14 +330,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -353,14 +350,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -373,14 +370,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -393,14 +390,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -413,14 +410,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -433,14 +430,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -453,14 +450,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -495,7 +492,7 @@
 													<img
 														width="10"
 														height="9"
-														alt="Arrow"
+														alt={getText('arrow', 'Arrow')}
 														src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 														loading="lazy"
 														class="rt-button-arrow-image"
@@ -510,14 +507,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -530,14 +527,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -550,14 +547,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -570,14 +567,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -590,14 +587,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -610,14 +607,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -630,14 +627,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -650,14 +647,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -698,7 +695,7 @@
 													<img
 														width="10"
 														height="9"
-														alt="Arrow"
+														alt={getText('arrow', 'Arrow')}
 														src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 														loading="lazy"
 														class="rt-button-arrow-image"
@@ -713,14 +710,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -733,14 +730,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -753,14 +750,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -773,14 +770,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -793,14 +790,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -813,14 +810,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -833,14 +830,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -853,14 +850,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -891,7 +888,7 @@
 													<img
 														width="10"
 														height="9"
-														alt="Arrow"
+														alt={getText('arrow', 'Arrow')}
 														src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 														loading="lazy"
 														class="rt-button-arrow-image"
@@ -906,14 +903,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -926,14 +923,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -946,14 +943,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -966,14 +963,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -986,14 +983,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -1006,14 +1003,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -1026,14 +1023,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -1046,14 +1043,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two active"
@@ -1084,7 +1081,7 @@
 													<img
 														width="10"
 														height="9"
-														alt="Arrow"
+														alt={getText('arrow', 'Arrow')}
 														src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 														loading="lazy"
 														class="rt-button-arrow-image"
@@ -1099,14 +1096,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1119,14 +1116,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1139,14 +1136,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1159,14 +1156,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1179,14 +1176,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1199,14 +1196,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1219,14 +1216,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"
@@ -1239,14 +1236,14 @@
 												<img
 													width="18"
 													height="18"
-													alt="TIck"
+													alt={getText('tick', 'TIck')}
 													src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon"
 												/><img
 													width="18"
 													height="18"
-													alt="Tick"
+													alt={getText('tick', 'Tick')}
 													src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg'}
 													loading="lazy"
 													class="rt-price-icon-two one"

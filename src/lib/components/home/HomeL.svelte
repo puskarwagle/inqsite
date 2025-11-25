@@ -48,7 +48,7 @@
 									<img
 										width="18"
 										height="18"
-										alt="Calender"
+										alt={getText('calender', 'Calender')}
 										src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf925e3ae73778f61ace6_Calender.svg'}
 										loading="lazy"
 									/>
@@ -58,7 +58,7 @@
 									<img
 										width="18"
 										height="18"
-										alt="User"
+										alt={getText('user', 'User')}
 										src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7df_User.svg'}
 										loading="lazy"
 									/>
@@ -92,7 +92,7 @@
 									<img
 										width="18"
 										height="18"
-										alt="Calender"
+										alt={getText('calender', 'Calender')}
 										src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf925e3ae73778f61ace6_Calender.svg'}
 										loading="lazy"
 									/>
@@ -102,7 +102,7 @@
 									<img
 										width="18"
 										height="18"
-										alt="User"
+										alt={getText('user', 'User')}
 										src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7df_User.svg'}
 										loading="lazy"
 									/>
@@ -136,7 +136,7 @@
 									<img
 										width="18"
 										height="18"
-										alt="Calender"
+										alt={getText('calender', 'Calender')}
 										src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf925e3ae73778f61ace6_Calender.svg'}
 										loading="lazy"
 									/>
@@ -146,7 +146,7 @@
 									<img
 										width="18"
 										height="18"
-										alt="User"
+										alt={getText('user', 'User')}
 										src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7df_User.svg'}
 										loading="lazy"
 									/>

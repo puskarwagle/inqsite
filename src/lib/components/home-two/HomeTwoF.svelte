@@ -27,7 +27,7 @@
 								loading="lazy"
 								width="310"
 								height="630"
-								alt="Innovation"
+								alt={getText('innovation', 'Innovation')}
 								srcset="
 									https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217043835aecce9891_Screen%20one-p-500.webp 500w,
 									https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217043835aecce9891_Screen%20one.webp       616w
@@ -42,7 +42,7 @@
 								loading="lazy"
 								width="310"
 								height="630"
-								alt="Innovation"
+								alt={getText('innovation', 'Innovation')}
 								srcset="
 									https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217c70ff8ed3782287_Scree%20two-p-500.webp 500w,
 									https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217c70ff8ed3782287_Scree%20two.webp       615w
@@ -58,10 +58,7 @@
 							<p
 								data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce7d"
 								class="rt-ai-innovation-paragraph rt-gap-off rt-h2-paragraph-gap"
-							>
-								Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-								vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.
-							</p>
+							>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.')}</p>
 						</div>
 						<div class="w-layout-vflex rt-innovation-point-block">
 							<div
@@ -72,17 +69,14 @@
 									<img
 										width="24"
 										height="24"
-										alt="Settings"
+										alt={getText('settings', 'Settings')}
 										src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg'}
 										loading="lazy"
 									/>
 								</div>
 								<div class="w-layout-vflex rt-innovation-small-title-one">
 									<div class="rt-text-style-h5">{getText('realtime_ai_insights', 'Real-Time AI Insights')}</div>
-									<p>
-										Lorem ipsum dolor sit amet consectetur. Massa senectus enim sed in rutrum
-										aliquet fames a. Nisl massa a imperdiet.
-									</p>
+									<p>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Massa senectus enim sed in rutrum aliquet fames a. Nisl massa a imperdiet.')}</p>
 								</div>
 							</div>
 							<div
@@ -93,17 +87,14 @@
 									<img
 										width="20"
 										height="20"
-										alt="Configuration"
+										alt={getText('configuration', 'Configuration')}
 										src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1369e416066866d72b3_config-vertical.svg'}
 										loading="lazy"
 									/>
 								</div>
 								<div class="w-layout-vflex rt-innovation-small-title-one">
 									<div class="rt-text-style-h5">{getText('predictive_analytics', 'Predictive Analytics')}</div>
-									<p>
-										Lorem ipsum dolor sit amet consectetur. Nisl proin est sed ultricies magna elit
-										eros. Aliquet nam ipsum amet orci.
-									</p>
+									<p>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Nisl proin est sed ultricies magna elit eros. Aliquet nam ipsum amet orci.')}</p>
 								</div>
 							</div>
 						</div>
@@ -124,7 +115,7 @@
 									<img
 										width="10"
 										height="9"
-										alt="Arrow"
+										alt={getText('arrow', 'Arrow')}
 										src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 										loading="lazy"
 										class="rt-button-arrow-image"

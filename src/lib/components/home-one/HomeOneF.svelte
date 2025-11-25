@@ -21,10 +21,7 @@
 					<p
 						data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a755b7"
 						class="rt-work-paragraph rt-gap-off rt-h2-paragraph-gap"
-					>
-						Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-						vulputate. Cursus tempus congue faucibus faucibus.
-					</p>
+					>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus.')}</p>
 				</div>
 				<div class="w-layout-vflex rt-work-point-block">
 					<div
@@ -73,7 +70,7 @@
 					<img
 						width="550"
 						height="610"
-						alt="Dashboard Image"
+						alt={getText('dashboard_image', 'Dashboard Image')}
 						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b527854b22f07cfcb1939_Frame-2.webp'}
 						loading="lazy"
 						srcset="
@@ -92,17 +89,14 @@
 								<img
 									width="28"
 									height="28"
-									alt="Settings"
+									alt={getText('settings', 'Settings')}
 									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg'}
 									loading="lazy"
 								/>
 							</div>
 							<div class="rt-text-style-h5 rt-text-color-white">{getText('ai_that_makes', 'AI That Makes Everyday Tasks Easier')}</div>
 						</div>
-						<p class="rt-text-color-body-dark">
-							Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-							vulputate. Cursus tempus congue faucibus faucibus.
-						</p>
+						<p class="rt-text-color-body-dark">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus.')}</p>
 					</div>
 					<div
 						data-w-id="016bf853-cc66-8851-5284-f2e7eab7e569"
@@ -113,17 +107,14 @@
 								<img
 									width="28"
 									height="28"
-									alt="Settings"
+									alt={getText('settings', 'Settings')}
 									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg'}
 									loading="lazy"
 								/>
 							</div>
 							<div class="rt-text-style-h5 rt-text-color-white">{getText('ai_that_works', 'AI That Works While You Innovate')}</div>
 						</div>
-						<p class="rt-text-color-body-dark">
-							Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-							vulputate. Cursus tempus congue faucibus faucibus.
-						</p>
+						<p class="rt-text-color-body-dark">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus.')}</p>
 					</div>
 					<div
 						data-w-id="1dce0440-1875-16ed-5cfc-e2dbd891deb5"
@@ -134,17 +125,14 @@
 								<img
 									width="28"
 									height="28"
-									alt="Settings"
+									alt={getText('settings', 'Settings')}
 									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg'}
 									loading="lazy"
 								/>
 							</div>
 							<div class="rt-text-style-h5 rt-text-color-white">{getText('advancing_humanity_with', 'Advancing Humanity with Smart AI')}</div>
 						</div>
-						<p class="rt-text-color-body-dark">
-							Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-							vulputate. Cursus tempus congue faucibus faucibus.
-						</p>
+						<p class="rt-text-color-body-dark">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus.')}</p>
 					</div>
 				</div>
 			</div>

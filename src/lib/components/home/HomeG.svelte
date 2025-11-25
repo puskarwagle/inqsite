@@ -20,10 +20,7 @@
 				data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1018"
 				class="rt-ai-insights-top-title-paragraph"
 				style=""
-			>
-				Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis
-				tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam
-			</p>
+			>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam')}</p>
 		</div>
 		<div class="w-layout-hflex rt-insights-card-block">
 			<a
@@ -37,23 +34,20 @@
 						<img
 							width="12"
 							height="11"
-							alt="Arrow"
+							alt={getText('arrow', 'Arrow')}
 							src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 							loading="lazy"
 						/>
 					</div>
 				</div>
-				<p class="rt-insight-card-paragraph">
-					Lorem ipsum commodo sed dignissim suspendisse urna Aliquam aliquam nunc etac Sit dolor sed
-					gravida.
-				</p>
+				<p class="rt-insight-card-paragraph">{getText('lorem_ipsum_commodo_sed', 'Lorem ipsum commodo sed dignissim suspendisse urna Aliquam aliquam nunc etac Sit dolor sed gravida.')}</p>
 				<div class="w-layout-hflex rt-ai-insights-card-image-box rt-overflow-hidden">
 					<img
 						class="rt-autofit rt-drop-shadow rt-insight-image"
 						src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf925b82e7d923152249a_Insight-chart.webp'}
 						width="455"
 						height="317"
-						alt="Insight Chart"
+						alt={getText('insight_chart', 'Insight Chart')}
 						sizes="(max-width: 479px) 100vw, 455px"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1024"
 						loading="lazy"
@@ -76,23 +70,20 @@
 						<img
 							width="12"
 							height="11"
-							alt="Arrow"
+							alt={getText('arrow', 'Arrow')}
 							src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 							loading="lazy"
 						/>
 					</div>
 				</div>
-				<p class="rt-insight-card-paragraph">
-					Lorem ipsum commodo sed dignissim suspendisse urna Aliquam aliquam nunc etac Sit dolor sed
-					gravida.
-				</p>
+				<p class="rt-insight-card-paragraph">{getText('lorem_ipsum_commodo_sed', 'Lorem ipsum commodo sed dignissim suspendisse urna Aliquam aliquam nunc etac Sit dolor sed gravida.')}</p>
 				<div class="w-layout-hflex rt-ai-insights-card-image-box-two rt-overflow-hidden">
 					<img
 						class="rt-autofit rt-drop-shadow rt-insight-image-two"
 						src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c0_Insight-chart-two.webp'}
 						width="455"
 						height="317"
-						alt="Insight 2"
+						alt={getText('insight', 'Insight 2')}
 						sizes="(max-width: 479px) 100vw, 455px"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b102e"
 						loading="lazy"

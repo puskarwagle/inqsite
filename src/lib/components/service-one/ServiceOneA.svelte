@@ -1,3 +1,16 @@
+<script>
+	// CMS Integration
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-service-v1-hero rt-overflow-hidden">
 	<div class="w-layout-hflex rt-productivity-wrapper-v2">
 		<div class="w-layout-hflex rt-productivity-content-v2">
@@ -10,10 +23,7 @@
 						<p
 							data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b53b"
 							class="rt-productivity-paragraph-v2 rt-gap-off rt-h2-paragraph-gap"
-						>
-							Lorem ipsum dolor sit amet consectetur. Amet ullamcorper atsit eros risus eget
-							tristique diam imperdiet. Eleifend
-						</p>
+						>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Amet ullamcorper atsit eros risus eget tristique diam imperdiet. Eleifend')}</p>
 					</div>
 					<div data-w-id="2531efb5-0091-d846-b452-26d7bf230932">
 						<a
@@ -29,7 +39,7 @@
 								<img
 									width="10"
 									height="9"
-									alt="Arrow"
+									alt={getText('arrow', 'Arrow')}
 									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
 									loading="lazy"
 									class="rt-button-arrow-image"
@@ -45,14 +55,14 @@
 					data-w-id="78907169-fcd1-afed-0c8f-99c8abc938ab"
 					width="908"
 					height="646"
-					alt="Service Two Dashboard Image"
+					alt={getText('service_two_dashboard_image', 'Service Two Dashboard Image')}
 					class="rt-produvtivity-image rt-autofit rt-tab-full-image"
 				/><img
 					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ed10bdd83c178bfc2a5fd1_about%20line.png"
 					loading="lazy"
 					width="137"
 					height="117"
-					alt="Line"
+					alt={getText('line', 'Line')}
 					data-w-id="21d71efc-19e9-66f9-877c-13339e404bbe"
 					class="rt-produvtivity-line-float"
 				/>
@@ -62,7 +72,7 @@
 						loading="lazy"
 						width="409"
 						height="176"
-						alt="Spline Image one"
+						alt={getText('spline_image_one', 'Spline Image one')}
 						class="rt-autofit rt-robot-image"
 					/>
 				</div>

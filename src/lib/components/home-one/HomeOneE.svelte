@@ -23,7 +23,7 @@
 							<img
 								width="430"
 								height="185"
-								alt="Innovation Statistics"
+								alt={getText('innovation_statistics', 'Innovation Statistics')}
 								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800f2027a148c256e8b1340_Mask%20group%20(22).webp'}
 								loading="lazy"
 								data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a7557a"
@@ -36,7 +36,7 @@
 								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f2649775f90f30811f_Strategie%202.webp'}
 								width="430"
 								height="185"
-								alt="Strategy"
+								alt={getText('strategy', 'Strategy')}
 								sizes="(max-width: 479px) 100vw, 430px"
 								data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a7557b"
 								loading="lazy"
@@ -58,10 +58,7 @@
 						<p
 							data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a75580"
 							class="rt-ai-innovation-strategy-paragraph"
-						>
-							Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-							vulputate. Cursus tempus congue faucibus faucibus.
-						</p>
+						>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus.')}</p>
 					</div>
 					<div class="w-layout-vflex rt-strategie-point-block">
 						<div
@@ -72,17 +69,14 @@
 								<img
 									width="28"
 									height="28"
-									alt="Settings"
+									alt={getText('settings', 'Settings')}
 									src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg'}
 									loading="lazy"
 								/>
 							</div>
 							<div class="w-layout-vflex rt-strategie-text">
 								<div class="rt-text-style-h5">{getText('aipowered_smart_assistants', 'AI-Powered Smart Assistants')}</div>
-								<p class="rt-gap-off">
-									Lorem ipsum dolor sit amet consectetur. Massa senectus enim sed in rutrum aliquet
-									fames a. Nisl massa a imperdiet.
-								</p>
+								<p class="rt-gap-off">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Massa senectus enim sed in rutrum aliquet fames a. Nisl massa a imperdiet.')}</p>
 							</div>
 						</div>
 						<div
@@ -93,17 +87,14 @@
 								<img
 									width="24"
 									height="24"
-									alt="Code"
+									alt={getText('code', 'Code')}
 									src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1352316d137911a14a8_Group%201321315626.svg'}
 									loading="lazy"
 								/>
 							</div>
 							<div class="w-layout-vflex rt-strategie-text">
 								<div class="rt-text-style-h5">{getText('ai_that_simplifies', 'AI That Simplifies Daily Tasks')}</div>
-								<p>
-									Lorem ipsum dolor sit amet consectetur. Nisl proin est sed ultricies magna elit
-									eros. Aliquet nam ipsum amet orci.
-								</p>
+								<p>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Nisl proin est sed ultricies magna elit eros. Aliquet nam ipsum amet orci.')}</p>
 							</div>
 						</div>
 					</div>
@@ -117,7 +108,7 @@
 					<img
 						width="489"
 						height="478"
-						alt="Workflow"
+						alt={getText('workflow', 'Workflow')}
 						src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e02d_Workflow.webp'}
 						loading="lazy"
 						srcset="
@@ -134,10 +125,7 @@
 						<p
 							data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a7559a"
 							class="rt-stratagie-paragraph rt-gap-off rt-h2-paragraph-gap"
-						>
-							Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-							vulputate. Cursus tempus congue faucibus faucibus.
-						</p>
+						>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus.')}</p>
 					</div>
 					<div data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a7559c" class="w-layout-hflex">
 						<a
@@ -153,7 +141,7 @@
 								<img
 									width="10"
 									height="9"
-									alt="Arrow"
+									alt={getText('arrow', 'Arrow')}
 									src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 									loading="lazy"
 									class="rt-button-arrow-image"
@@ -213,7 +201,7 @@
 											<img
 												width="10"
 												height="9"
-												alt="Arrow"
+												alt={getText('arrow', 'Arrow')}
 												src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 												loading="lazy"
 												class="rt-button-arrow-image"

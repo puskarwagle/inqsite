@@ -1,3 +1,16 @@
+<script>
+	// CMS Integration
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section data-w-id="249552a4-b077-51ec-b20a-f9451528f7f6" class="rt-service-hero-v2">
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-hflex rt-efficiency">
@@ -8,10 +21,7 @@
 				<p
 					data-w-id="c33874e0-050b-268a-567d-ae90eb8f5973"
 					class="rt-efficiency-paragraph rt-gap-off rt-h2-paragraph-gap"
-				>
-					Lorem ipsum dolor sit amet consectetur. Amet ullamcorper atsit eros risus eget tristique
-					diam imperdiet. Eleifend
-				</p>
+				>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Amet ullamcorper atsit eros risus eget tristique diam imperdiet. Eleifend')}</p>
 				<div
 					data-w-id="c33874e0-050b-268a-567d-ae90eb8f5975"
 					class="w-layout-hflex rt-button-wrapper"
@@ -29,7 +39,7 @@
 							<img
 								width="10"
 								height="9"
-								alt="Arrow"
+								alt={getText('arrow', 'Arrow')}
 								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -47,7 +57,7 @@
 				data-w-id="fb42578d-8a72-9610-211f-08c7d6a63cd0"
 				width="907"
 				height="693"
-				alt="Banner"
+				alt={getText('banner', 'Banner')}
 				srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main-p-1600.webp 1600w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main.webp 1816w"
 				sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 907px"
 				class="rt-efficiency-banner-image rt-autofit rt-tab-full-image"
@@ -58,7 +68,7 @@
 					data-w-id="fec1f17d-0f6a-5390-180e-325ac6904c90"
 					width="200"
 					height="164"
-					alt="Statistics"
+					alt={getText('statistics', 'Statistics')}
 					class="rt-efficiency-image-two"
 				/>
 			</div>
@@ -68,7 +78,7 @@
 			>
 				<img
 					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dce59baabea457ef40b_Efficiency%20statistics.webp"
-					alt="Efficiency Statistics"
+					alt={getText('efficiency_statistics', 'Efficiency Statistics')}
 					width="222"
 					height="221"
 					class="rt-efficiency-image-three"
@@ -79,7 +89,7 @@
 				loading="lazy"
 				width="113"
 				height="Auto"
-				alt="Line"
+				alt={getText('line', 'Line')}
 				data-w-id="b0940305-fb32-499b-b3ac-c5ea46dff8ec"
 				class="rt-line"
 			/><img
@@ -87,7 +97,7 @@
 				loading="lazy"
 				width="230"
 				height="Auto"
-				alt="Line"
+				alt={getText('line', 'Line')}
 				data-w-id="a0dbf9f9-7ef4-b564-df3c-7cbb14a7e923"
 				class="rt-line-two"
 			/>

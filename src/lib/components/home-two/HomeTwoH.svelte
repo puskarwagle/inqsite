@@ -20,10 +20,7 @@
 				<p
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ceaa"
 					class="rt-capabilitiea-top-paragraph rt-gap-off rt-h2-paragraph-gap"
-				>
-					Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-					vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.
-				</p>
+				>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.')}</p>
 			</div>
 			<div
 				data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ceac"
@@ -38,7 +35,7 @@
 							<img
 								width="40"
 								height="40"
-								alt="Code"
+								alt={getText('code', 'Code')}
 								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1352316d137911a14a8_Group%201321315626.svg'}
 								loading="lazy"
 							/>
@@ -53,7 +50,7 @@
 								<img
 									width="12"
 									height="10"
-									alt="Arrow"
+									alt={getText('arrow', 'Arrow')}
 									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec08_Small%20arrow.svg'}
 									loading="lazy"
 									data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ceb7"
@@ -70,7 +67,7 @@
 							<img
 								width="40"
 								height="40"
-								alt="Brand"
+								alt={getText('brand', 'Brand')}
 								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e1352316d137911a14bf_brand-slack.svg'}
 								loading="lazy"
 							/>
@@ -85,7 +82,7 @@
 								<img
 									width="12"
 									height="10"
-									alt="Arrow"
+									alt={getText('arrow', 'Arrow')}
 									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec08_Small%20arrow.svg'}
 									loading="lazy"
 									data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cec2"
@@ -102,7 +99,7 @@
 							<img
 								width="40"
 								height="40"
-								alt="Brand"
+								alt={getText('brand', 'Brand')}
 								src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e13593e1bc968b98ab6b_components.svg'}
 								loading="lazy"
 							/>
@@ -117,7 +114,7 @@
 								<img
 									width="12"
 									height="10"
-									alt="Arrow"
+									alt={getText('arrow', 'Arrow')}
 									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec08_Small%20arrow.svg'}
 									loading="lazy"
 									data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cecd"
@@ -134,7 +131,7 @@
 							<img
 								width="40"
 								height="40"
-								alt="Brand"
+								alt={getText('brand', 'Brand')}
 								src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e13483e9d2ad29725075_Vector%20(2).svg'}
 								loading="lazy"
 							/>
@@ -149,7 +146,7 @@
 								<img
 									width="12"
 									height="10"
-									alt="Arrow"
+									alt={getText('arrow', 'Arrow')}
 									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec08_Small%20arrow.svg'}
 									loading="lazy"
 									data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ced8"

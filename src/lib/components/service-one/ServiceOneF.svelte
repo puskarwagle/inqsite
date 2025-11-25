@@ -1,13 +1,23 @@
+<script>
+	// CMS Integration
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-team-member rt-change">
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-vflex rt-team-top-text rt-desktop-text-center">
 			<h2 data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b69c" class="rt-gap-off rt-h2-gap">
 				Join our amazing team
 			</h2>
-			<p data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b69e" class="rt-gap-off rt-h2-paragraph-gap">
-				Lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod tempor incididunt ut
-				labore et dolore magna aliqua.
-			</p>
+			<p data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b69e" class="rt-gap-off rt-h2-paragraph-gap">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua.')}</p>
 		</div>
 		<div class="w-layout-grid rt-team-card-wrapper">
 			<div class="w-dyn-list">
@@ -43,7 +53,7 @@
 									><img
 										width="15"
 										height="15"
-										alt="Dribble"
+										alt={getText('dribble', 'Dribble')}
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8181_Dribble.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -55,7 +65,7 @@
 									><img
 										width="16"
 										height="16"
-										alt="Instagram"
+										alt={getText('instagram', 'Instagram')}
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a817f_Instagram.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -67,7 +77,7 @@
 									><img
 										width="16"
 										height="16"
-										alt="Pinterest"
+										alt={getText('pinterest', 'Pinterest')}
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8180_Pinterest.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -111,7 +121,7 @@
 									><img
 										width="15"
 										height="15"
-										alt="Dribble"
+										alt={getText('dribble', 'Dribble')}
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8181_Dribble.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -123,7 +133,7 @@
 									><img
 										width="16"
 										height="16"
-										alt="Instagram"
+										alt={getText('instagram', 'Instagram')}
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a817f_Instagram.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -135,7 +145,7 @@
 									><img
 										width="16"
 										height="16"
-										alt="Pinterest"
+										alt={getText('pinterest', 'Pinterest')}
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8180_Pinterest.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -179,7 +189,7 @@
 									><img
 										width="15"
 										height="15"
-										alt="Dribble"
+										alt={getText('dribble', 'Dribble')}
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8181_Dribble.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -191,7 +201,7 @@
 									><img
 										width="16"
 										height="16"
-										alt="Instagram"
+										alt={getText('instagram', 'Instagram')}
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a817f_Instagram.svg"
 										loading="lazy"
 										class="rt-autofit"
@@ -203,7 +213,7 @@
 									><img
 										width="16"
 										height="16"
-										alt="Pinterest"
+										alt={getText('pinterest', 'Pinterest')}
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8180_Pinterest.svg"
 										loading="lazy"
 										class="rt-autofit"

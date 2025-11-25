@@ -19,10 +19,7 @@
 			<p
 				data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce54"
 				class="rt-powered-solution-paragraph rt-gap-off rt-h2-paragraph-gap"
-			>
-				Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-				vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.
-			</p>
+			>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.')}</p>
 		</div>
 		<div class="w-layout-hflex rt-powered-solution-card-wrapper">
 			<div
@@ -45,7 +42,7 @@
 							<img
 								width="10"
 								height="9"
-								alt="Arrow"
+								alt={getText('arrow', 'Arrow')}
 								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -55,7 +52,7 @@
 				<img
 					width="95"
 					height="114"
-					alt="Rocket"
+					alt={getText('rocket', 'Rocket')}
 					src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf9266a29175f2e719597_rocket.webp'}
 					loading="lazy"
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce61"
@@ -70,7 +67,7 @@
 					<div class="rt-powered-solution-card-text rt-text-style-h5">{getText('empowering_expansion_with', 'Empowering Expansion with Intelligent AI')}</div>
 					<div class="w-layout-hflex rt-powered-solution-points rt-top-padding">
 						<div class="rt-black-dot"></div>
-						<div class="rt-text-color-black">Lorem ipsum dolor sit amet</div>
+						<div class="rt-text-color-black">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet')}</div>
 					</div>
 					<div class="w-layout-hflex rt-powered-solution-points rt-change">
 						<div class="rt-black-dot"></div>
@@ -89,7 +86,7 @@
 							<img
 								width="10"
 								height="9"
-								alt="Arrow"
+								alt={getText('arrow', 'Arrow')}
 								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image rt-color-change"
@@ -103,7 +100,7 @@
 					<img
 						width="270"
 						height="246"
-						alt="Growth"
+						alt={getText('growth', 'Growth')}
 						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febdc_Growth.webp'}
 						loading="lazy"
 						srcset="

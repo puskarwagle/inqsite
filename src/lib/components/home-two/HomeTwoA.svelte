@@ -48,7 +48,7 @@
 							<img
 								width="10"
 								height="9"
-								alt="Arrow"
+								alt={getText('arrow', 'Arrow')}
 								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -66,7 +66,7 @@
 								<img
 									width="15"
 									height="17"
-									alt="Play button"
+									alt={getText('play_button', 'Play button')}
 									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931bfc626df83f9d83c_Play%20button.svg'}
 									loading="lazy"
 								/>
@@ -108,7 +108,7 @@
 			<div data-w-id="3e644226-a296-7e69-8492-6e223b2c1b5e" class="rt-solution-dashboard-image-one">
 				<img
 					src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b3997c8e2f33aceabd809_Home%20Two%20Dashboard.avif'}
-					alt="Home Two Dashboard"
+					alt={getText('home_two_dashboard', 'Home Two Dashboard')}
 					width="1065"
 					height="630"
 					class="rt-autofit"
@@ -123,7 +123,7 @@
 					loading="lazy"
 					width="222"
 					height="221"
-					alt="Statistics"
+					alt={getText('statistics', 'Statistics')}
 					class="rt-solution-image-two rt-autofit"
 				/>
 			</div>

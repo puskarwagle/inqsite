@@ -1,10 +1,19 @@
 {
   "componentName": "HomeA",
-  "lastModified": "2025-11-24T19:37:09.793Z",
+  "lastModified": "2025-11-25T06:33:38.643Z",
   "texts": {
+    "shape": "Shape",
+    "dashboard_image": "Dashboard Image",
+    "cloud": "Cloud",
+    "rocket": "Rocket",
+    "user": "User",
     "hero_heading": "Elevate Productivity with Future-Ready AI Applications",
     "hero_paragraph": "Lorem ipsum dolor sit amet consectetur. Amet ullamcorper atsit eros risus eget tristique diam imperdiet. Eleifend",
-    "button_get_started": "Get Started"
+    "button_get_started": "Get Started",
+    "arrow": "Arrow",
+    "play_button": "Play button",
+    "users": "Users",
+    "star": "Star"
   },
   "images": {
     "robot_main": {

@@ -22,10 +22,7 @@
 					style=""
 				>
 					<h2 class="rt-gap-off rt-h2-gap">{getText('section_heading', 'Revolutionizing the Future with AI-Powered Solutions')}</h2>
-					<p class="rt-solution-paragraph rt-gap-off rt-h2-paragraph-gap">
-						Lorem ipsum dolor sit amet consectetur. Ipsum neque ridiculus quis dignissim vulputate
-						elementum netus. Fermentum in feugiat
-					</p>
+					<p class="rt-solution-paragraph rt-gap-off rt-h2-paragraph-gap">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Ipsum neque ridiculus quis dignissim vulputate elementum netus. Fermentum in feugiat')}</p>
 				</div>
 				<div class="rt-soluition-point-block">
 					<div
@@ -37,7 +34,7 @@
 							<img
 								width="27"
 								height="30"
-								alt="Brand"
+								alt={getText('brand', 'Brand')}
 								src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805e0a147f9db32c77edf60_Group%201321315615%20(1).svg'}
 								loading="lazy"
 							/>
@@ -64,7 +61,7 @@
 							<img
 								width="25"
 								height="25"
-								alt="Brand"
+								alt={getText('brand', 'Brand')}
 								src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805e0a14c9eef54d4a7996d_Group%201321315616.svg'}
 								loading="lazy"
 							/>
@@ -96,7 +93,7 @@
 							<img
 								width="10"
 								height="9"
-								alt="Arrow"
+								alt={getText('arrow', 'Arrow')}
 								src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -116,7 +113,7 @@
 						src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7a0_Revolution.webp'}
 						width="527"
 						height="554"
-						alt="Revolution"
+						alt={getText('revolution', 'Revolution')}
 						sizes="(max-width: 767px) 100vw, 527px"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f79"
 						loading="lazy"
@@ -129,7 +126,7 @@
 					/><img
 						width="184"
 						height="183"
-						alt="Statistics"
+						alt={getText('statistics', 'Statistics')}
 						src={getImage('image_5').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf92507c68ccfe6dff032_Line%20Styling.webp'}
 						loading="lazy"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f7a"

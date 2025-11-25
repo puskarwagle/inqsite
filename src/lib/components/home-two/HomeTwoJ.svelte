@@ -40,7 +40,7 @@
 									<img
 										width="10"
 										height="9"
-										alt="Arrow"
+										alt={getText('arrow', 'Arrow')}
 										src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 										loading="lazy"
 										class="rt-button-arrow-image"
@@ -57,7 +57,7 @@
 			<img
 				width="949.5"
 				height="494"
-				alt="Service"
+				alt={getText('service', 'Service')}
 				src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cf88b22d1ca52984253e_Service.webp'}
 				loading="lazy"
 				srcset="

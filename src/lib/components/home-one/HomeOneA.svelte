@@ -48,7 +48,7 @@
 							<img
 								width="10"
 								height="9"
-								alt="Arrow"
+								alt={getText('arrow', 'Arrow')}
 								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -66,7 +66,7 @@
 								<img
 									width="15"
 									height="17"
-									alt="Play button"
+									alt={getText('play_button', 'Play button')}
 									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931bfc626df83f9d83c_Play%20button.svg'}
 									loading="lazy"
 								/>
@@ -108,7 +108,7 @@
 						loading="lazy"
 						width="215"
 						height="377"
-						alt="Robot Small"
+						alt={getText('robot_small', 'Robot Small')}
 						data-w-id="6f4d1dbe-8c0d-0825-8652-35273102a2f1"
 						class="rt-autofit"
 					/>
@@ -118,7 +118,7 @@
 					data-w-id="e0dd51ef-3eaa-89e8-36d6-9eb7f0b2ec3d"
 					width="1065"
 					height="758"
-					alt="Dashboard"
+					alt={getText('dashboard', 'Dashboard')}
 					srcset="
 						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff5700d905dc1e4c0e4aed_Home%20three%20banner-p-500.webp   500w,
 						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff5700d905dc1e4c0e4aed_Home%20three%20banner-p-800.webp   800w,
@@ -134,21 +134,21 @@
 					data-w-id="ec3d56e6-4bcb-691d-4e27-c505359b1963"
 					width="802"
 					height="578"
-					alt="Dashboard"
+					alt={getText('dashboard', 'Dashboard')}
 					class="rt-automate-solution-image-two rt-autofit rt-tab-full-image"
 				/><img
 					src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea8a4e7d7db185a493ad83_Statistics.webp'}
 					data-w-id="f0f6f0f0-7486-fe5c-8bc5-32435480fadb"
 					width="249"
 					height="198"
-					alt="Members Chat"
+					alt={getText('members_chat', 'Members Chat')}
 					class="rt-automate-solution-image-three rt-autofit"
 				/><img
 					src={getImage('image_7').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea780c8f6403356889cafc_Users.webp'}
 					data-w-id="8d597ad8-8a8a-e579-0303-5b70726259b1"
 					width="230"
 					height="102"
-					alt="Users"
+					alt={getText('users', 'Users')}
 					class="rt-automate-solution-image-four"
 				/>
 			</div>

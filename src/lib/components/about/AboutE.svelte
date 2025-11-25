@@ -18,10 +18,7 @@
 			<div class="w-layout-vflex rt-industries-text-box-wrap">
 				<div class="w-layout-vflex rt-industries-text">
 					<h2 data-w-id="4721e793-9498-9902-6f2c-10a09ced4b8a" class="rt-gap-off rt-h2-gap">{getText('section_heading', 'Revolutionizing Industries with AI Intelligence')}</h2>
-					<p data-w-id="4721e793-9498-9902-6f2c-10a09ced4b8c">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis velit sed
-						sollicitudin semper. Donec mattis pulvinar quam
-					</p>
+					<p data-w-id="4721e793-9498-9902-6f2c-10a09ced4b8c">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis velit sed sollicitudin semper. Donec mattis pulvinar quam')}</p>
 				</div>
 				<div class="w-layout-vflex rt-industries-small-box-wrapper">
 					<div
@@ -34,7 +31,7 @@
 								loading="lazy"
 								width="27"
 								height="27"
-								alt="Intelligence Icon"
+								alt={getText('intelligence_icon', 'Intelligence Icon')}
 							/>
 						</div>
 						<div class="w-layout-vflex rt-industries-text-block">
@@ -52,7 +49,7 @@
 								loading="lazy"
 								width="24"
 								height="22"
-								alt="Intelligence Icon"
+								alt={getText('intelligence_icon', 'Intelligence Icon')}
 							/>
 						</div>
 						<div class="w-layout-vflex rt-industries-text-block">
@@ -70,7 +67,7 @@
 								loading="lazy"
 								width="26"
 								height="26"
-								alt="Intelligence Icon"
+								alt={getText('intelligence_icon', 'Intelligence Icon')}
 							/>
 						</div>
 						<div class="w-layout-vflex rt-industries-text-block">
@@ -89,7 +86,7 @@
 					loading="lazy"
 					width="716"
 					height="525"
-					alt="Chat"
+					alt={getText('chat', 'Chat')}
 					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0f7bc963f0394fa8e_1-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0f7bc963f0394fa8e_1-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0f7bc963f0394fa8e_1-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0f7bc963f0394fa8e_1.webp 1448w"
 					sizes="(max-width: 767px) 100vw, 716px"
 					class="rt-industries-image rt-tab-full-image"
@@ -98,7 +95,7 @@
 					src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0b65a027dddf454e3_2.webp'}
 					width="716"
 					height="525"
-					alt="Chat"
+					alt={getText('chat', 'Chat')}
 					sizes="(max-width: 767px) 100vw, 716px"
 					data-w-id="7cd4024f-9652-dbc0-c413-9f9eab23de74"
 					loading="lazy"
@@ -108,7 +105,7 @@
 					src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0ac7691cd07eded11_3.webp'}
 					width="716"
 					height="525"
-					alt="Chat"
+					alt={getText('chat', 'Chat')}
 					sizes="(max-width: 767px) 100vw, 716px"
 					data-w-id="0cca7acf-7d4c-5a55-0474-09de0342f994"
 					loading="lazy"

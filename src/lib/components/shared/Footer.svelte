@@ -91,7 +91,7 @@
 			<div class="w-layout-hflex rt-footer-social-link-block margin-off-39">
 				<div class="w-layout-vflex rt-nav-link-box-one">
 					<a href="/" class="w-inline-block"
-						><img width="192" height="36" alt="Logo White" src="/mylogo.png" loading="lazy" /></a
+						><img width="192" height="36" alt={getText('logo_white', 'Logo White')} src="/mylogo.png" loading="lazy" /></a
 					>
 					<p class="rt-footer-para">
 						Morbi sed libero consequat id suspendisse congue in tristique tincidunt.
@@ -104,13 +104,13 @@
 							<a href="/contact" class="rt-button w-inline-block"
 								><div class="w-layout-hflex rt-button-text-image-wrapper">
 									<div class="w-layout-hflex rt-button-text-wrap">
-										<div class="rt-button-text rt-button-hover-in">Get In Touch</div>
-										<div class="rt-button-text rt-button-hover-out">Get In Touch</div>
+										<div class="rt-button-text rt-button-hover-in">{getText('get_touch', 'Get In Touch')}</div>
+										<div class="rt-button-text rt-button-hover-out">{getText('get_touch', 'Get In Touch')}</div>
 									</div>
 									<img
 										width="10"
 										height="9"
-										alt="Arrow"
+										alt={getText('arrow', 'Arrow')}
 										src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
 										loading="lazy"
 										class="rt-button-arrow-image"
@@ -135,7 +135,7 @@
 					<img
 						width="47"
 						height="47"
-						alt="Big Arrow"
+						alt={getText('big_arrow', 'Big Arrow')}
 						src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e4_Arrow%202.svg"
 						loading="lazy"
 						class="rt-nav-social-arow one"
@@ -160,7 +160,7 @@
 						><img
 							width="9"
 							height="14"
-							alt="Facebook"
+							alt={getText('facebook', 'Facebook')}
 							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e5_Fb.svg"
 							loading="lazy"
 							class="rt-autofit rt-social-icon"
@@ -174,7 +174,7 @@
 						><img
 							width="15"
 							height="15"
-							alt="Twitter"
+							alt={getText('twitter', 'Twitter')}
 							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e7_Twitter.svg"
 							loading="lazy"
 							class="rt-autofit rt-social-icon"
@@ -188,7 +188,7 @@
 						><img
 							width="15"
 							height="15"
-							alt="Linkedin"
+							alt={getText('linkedin', 'Linkedin')}
 							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e6_Linkedin.svg"
 							loading="lazy"
 							class="rt-autofit rt-social-icon"
@@ -202,7 +202,7 @@
 						><img
 							width="15"
 							height="15"
-							alt="Instagram"
+							alt={getText('instagram', 'Instagram')}
 							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf628abf34dbb0271d7e8_Instagram.svg"
 							loading="lazy"
 							class="rt-autofit rt-social-icon"

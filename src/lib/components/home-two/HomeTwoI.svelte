@@ -21,7 +21,7 @@
 					<img
 						width="62"
 						height="54"
-						alt="Client"
+						alt={getText('client', 'Client')}
 						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c9_Uesr%207.svg'}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -31,7 +31,7 @@
 					<img
 						width="70"
 						height="70"
-						alt="Capabilities Icon"
+						alt={getText('capabilities_icon', 'Capabilities Icon')}
 						src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf2_Capabilities%20icon.svg'}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -41,7 +41,7 @@
 					<img
 						width="70"
 						height="70"
-						alt="Capabilities icon"
+						alt={getText('capabilities_icon', 'Capabilities icon')}
 						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febf3_Capabilities%20icon%202.svg'}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -51,7 +51,7 @@
 					<img
 						width="61"
 						height="61"
-						alt="Client"
+						alt={getText('client', 'Client')}
 						src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ca_User%203.svg'}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -61,7 +61,7 @@
 					<img
 						width="56"
 						height="56"
-						alt="Client"
+						alt={getText('client', 'Client')}
 						src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c8_User%204.svg'}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -71,7 +71,7 @@
 					<img
 						width="50"
 						height="50"
-						alt="Client"
+						alt={getText('client', 'Client')}
 						src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c5_User%205.svg'}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -81,7 +81,7 @@
 					<img
 						width="54"
 						height="54"
-						alt="Client"
+						alt={getText('client', 'Client')}
 						src={getImage('image_7').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c3_User%206.svg'}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -91,7 +91,7 @@
 					<img
 						width="51"
 						height="51"
-						alt="Capabilities Icon"
+						alt={getText('capabilities_icon', 'Capabilities Icon')}
 						src={getImage('image_8').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febef_Capabilities%20icon%203.svg'}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -101,7 +101,7 @@
 					<img
 						width="63"
 						height="56"
-						alt="Capabilities Icon"
+						alt={getText('capabilities_icon', 'Capabilities Icon')}
 						src={getImage('image_9').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febed_Capabilities%20icon%204.svg'}
 						loading="lazy"
 						class="rt-users-gallery-icon"
@@ -111,7 +111,7 @@
 					<img
 						width="60"
 						height="60"
-						alt="Capabilities Icon"
+						alt={getText('capabilities_icon', 'Capabilities Icon')}
 						src={getImage('image_10').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febec_Capabilities%20icon%205.svg'}
 						loading="lazy"
 						class="rt-users-gallery-icon"

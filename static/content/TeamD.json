@@ -1,40 +1,33 @@
 {
   "componentName": "TeamD",
-  "lastModified": "2025-11-24T19:37:09.820Z",
+  "lastModified": "2025-11-25T06:33:38.645Z",
   "texts": {
     "section_heading": "Testimonials that reflect our strong commitment",
-    "lorem_ipsum_dolor": "“Lorem ipsum dolor sit amet consectetur. Imperdiet elit lacus ultrices sed porta tincidunt lectus. Viverra elementum nunc molestie diam massa dignissim eu erat libero”.",
+    "lorem_ipsum_dolor_sit": "“Lorem ipsum dolor sit amet consectetur. Imperdiet elit lacus ultrices sed porta tincidunt lectus. Viverra elementum nunc molestie diam massa dignissim eu erat libero”.",
+    "user": "User 2",
     "david_k_kelly": "David K. Kelly",
     "sophia_jackson": "Sophia Jackson",
-    "shelli_della": "Shelli Della",
     "steven_rodriguez": "Steven Rodriguez",
-    "maria_carruthers": "Maria Carruthers",
     "john_puffer": "John Puffer"
   },
   "images": {
     "image_1": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe8_User.webp",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe8_User.webp"
     },
     "image_2": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febea_User%2012.webp",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febea_User%2012.webp"
     },
     "image_3": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febda_User%207.webp",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febda_User%207.webp"
     },
     "image_4": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febeb_User%2010.webp",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febeb_User%2010.webp"
     },
     "image_5": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febd1_User%208.webp",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febd1_User%208.webp"
     },
     "image_6": {
-      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe9_User%209.webp",
-      "alt": ""
+      "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febe9_User%209.webp"
     }
   },
   "links": {}

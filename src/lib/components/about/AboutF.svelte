@@ -21,7 +21,7 @@
 					src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800fb2113073c7667a03435_Group%201009004142.webp'}
 					width="724"
 					height="515"
-					alt="Decision"
+					alt={getText('decision', 'Decision')}
 					sizes="(max-width: 767px) 100vw, 724px"
 					data-w-id="d8cc0c89-5611-467c-7b0c-409b05d85abf"
 					loading="lazy"
@@ -31,9 +31,7 @@
 			<div class="w-layout-vflex rt-imapact-text-wrapper-v2">
 				<div class="w-layout-vflex rt-imapact-text-v2">
 					<h2 data-w-id="d8cc0c89-5611-467c-7b0c-409b05d85aa5" class="rt-gap-off rt-h2-gap">{getText('section_heading', 'Intelligent Decision-Making Made Easy')}</h2>
-					<p data-w-id="d8cc0c89-5611-467c-7b0c-409b05d85aa7" class="rt-imapact-text-paragraph-v2">
-						Lorem ipsum dolor sit amet consectetur Amet ullamcorper atsit eros risus eget tristique
-						diam imperdiet. Eleifend et porttitor amet.<br />
+					<p data-w-id="d8cc0c89-5611-467c-7b0c-409b05d85aa7" class="rt-imapact-text-paragraph-v2">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur Amet ullamcorper atsit eros risus eget tristique diam imperdiet. Eleifend et porttitor amet.')}<br />
 					</p>
 				</div>
 				<div
@@ -41,11 +39,7 @@
 					class="w-layout-vflex rt-impact-innovation-text-wrapper"
 				>
 					<div class="rt-text-style-h5">{getText('shaping_the_future', 'Shaping the Future with AI Innovation')}</div>
-					<p class="rt-impact-innovation-paragraph-wrapper">
-						Lorem ipsum dolor sit amet consectetur Molestie ullamcorp elit non diam at pharetra
-						integer non fringilla. Non cras sapien rutrum Maecenas tellus posuere faucibus
-						tincidunt.
-					</p>
+					<p class="rt-impact-innovation-paragraph-wrapper">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur Molestie ullamcorp elit non diam at pharetra integer non fringilla. Non cras sapien rutrum Maecenas tellus posuere faucibus tincidunt.')}</p>
 				</div>
 				<div class="w-layout-hflex rt-imapact-innovation-box-wrapper">
 					<div
@@ -56,7 +50,7 @@
 							<img
 								width="21"
 								height="21"
-								alt="Intelligence Icon"
+								alt={getText('intelligence_icon', 'Intelligence Icon')}
 								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e328ac7691cd07fe8503_Vector%20(3).svg'}
 								loading="lazy"
 								class="rt-autofit"
@@ -72,7 +66,7 @@
 							<img
 								width="23"
 								height="23"
-								alt="Intelligence Icon"
+								alt={getText('intelligence_icon', 'Intelligence Icon')}
 								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3286ff8c966566c97e0_atom.svg'}
 								loading="lazy"
 								class="rt-autofit"
@@ -95,7 +89,7 @@
 							<img
 								width="10"
 								height="9"
-								alt="Arrow"
+								alt={getText('arrow', 'Arrow')}
 								src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"

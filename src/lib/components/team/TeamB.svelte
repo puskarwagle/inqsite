@@ -16,10 +16,7 @@
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-vflex rt-team-top-text rt-desktop-text-center">
 			<h2 data-w-id="3de62447-9c24-7bb7-1178-d12017d4c51c" class="rt-gap-off rt-h2-gap">{getText('section_heading', 'Join our amazing team')}</h2>
-			<p data-w-id="3de62447-9c24-7bb7-1178-d12017d4c51e" class="rt-gap-off rt-h2-paragraph-gap">
-				Lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod tempor incididunt ut
-				labore et dolore magna aliqua.
-			</p>
+			<p data-w-id="3de62447-9c24-7bb7-1178-d12017d4c51e" class="rt-gap-off rt-h2-paragraph-gap">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua.')}</p>
 		</div>
 		<div class="w-layout-hflex rt-team-card-block">
 			<div class="w-layout-grid rt-team-card-wrapper-v2">
@@ -56,7 +53,7 @@
 										><img
 											width="15"
 											height="15"
-											alt="Dribble"
+											alt={getText('dribble', 'Dribble')}
 											src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8181_Dribble.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -68,7 +65,7 @@
 										><img
 											width="16"
 											height="16"
-											alt="Instagram"
+											alt={getText('instagram', 'Instagram')}
 											src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a817f_Instagram.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -80,7 +77,7 @@
 										><img
 											width="16"
 											height="16"
-											alt="Pinterest"
+											alt={getText('pinterest', 'Pinterest')}
 											src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8180_Pinterest.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -124,7 +121,7 @@
 										><img
 											width="15"
 											height="15"
-											alt="Dribble"
+											alt={getText('dribble', 'Dribble')}
 											src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8181_Dribble.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -136,7 +133,7 @@
 										><img
 											width="16"
 											height="16"
-											alt="Instagram"
+											alt={getText('instagram', 'Instagram')}
 											src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a817f_Instagram.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -148,7 +145,7 @@
 										><img
 											width="16"
 											height="16"
-											alt="Pinterest"
+											alt={getText('pinterest', 'Pinterest')}
 											src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8180_Pinterest.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -194,7 +191,7 @@
 										><img
 											width="15"
 											height="15"
-											alt="Dribble"
+											alt={getText('dribble', 'Dribble')}
 											src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8181_Dribble.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -206,7 +203,7 @@
 										><img
 											width="16"
 											height="16"
-											alt="Instagram"
+											alt={getText('instagram', 'Instagram')}
 											src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a817f_Instagram.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -218,7 +215,7 @@
 										><img
 											width="16"
 											height="16"
-											alt="Pinterest"
+											alt={getText('pinterest', 'Pinterest')}
 											src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8180_Pinterest.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -262,7 +259,7 @@
 										><img
 											width="15"
 											height="15"
-											alt="Dribble"
+											alt={getText('dribble', 'Dribble')}
 											src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8181_Dribble.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -274,7 +271,7 @@
 										><img
 											width="16"
 											height="16"
-											alt="Instagram"
+											alt={getText('instagram', 'Instagram')}
 											src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a817f_Instagram.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -286,7 +283,7 @@
 										><img
 											width="16"
 											height="16"
-											alt="Pinterest"
+											alt={getText('pinterest', 'Pinterest')}
 											src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8180_Pinterest.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -332,7 +329,7 @@
 										><img
 											width="15"
 											height="15"
-											alt="Dribble"
+											alt={getText('dribble', 'Dribble')}
 											src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8181_Dribble.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -344,7 +341,7 @@
 										><img
 											width="16"
 											height="16"
-											alt="Instagram"
+											alt={getText('instagram', 'Instagram')}
 											src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a817f_Instagram.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -356,7 +353,7 @@
 										><img
 											width="16"
 											height="16"
-											alt="Pinterest"
+											alt={getText('pinterest', 'Pinterest')}
 											src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8180_Pinterest.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -400,7 +397,7 @@
 										><img
 											width="15"
 											height="15"
-											alt="Dribble"
+											alt={getText('dribble', 'Dribble')}
 											src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8181_Dribble.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -412,7 +409,7 @@
 										><img
 											width="16"
 											height="16"
-											alt="Instagram"
+											alt={getText('instagram', 'Instagram')}
 											src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a817f_Instagram.svg'}
 											loading="lazy"
 											class="rt-autofit"
@@ -424,7 +421,7 @@
 										><img
 											width="16"
 											height="16"
-											alt="Pinterest"
+											alt={getText('pinterest', 'Pinterest')}
 											src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8180_Pinterest.svg'}
 											loading="lazy"
 											class="rt-autofit"

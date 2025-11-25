@@ -24,7 +24,7 @@
 					<img
 						width="172"
 						height="181"
-						alt="Performance Statistics"
+						alt={getText('performance_statistics', 'Performance Statistics')}
 						src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf92607c68ccfe6dff095_Performance-stat.webp'}
 						loading="lazy"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0fc5"
@@ -41,7 +41,7 @@
 						src={getImage('image_2').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6800841c90fb84230c9c4728_Complex.webp'}
 						width="630"
 						height="444"
-						alt="Complex"
+						alt={getText('complex', 'Complex')}
 						sizes="(max-width: 767px) 100vw, 630px"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0fc4"
 						loading="lazy"
@@ -61,10 +61,7 @@
 					style=""
 				>
 					<h2 class="rt-gap-off rt-h2-gap">{getText('section_heading', 'AI That Simplifies Complex Problems Instantly')}</h2>
-					<p class="rt-ai-problem-paragraph rt-gap-off rt-h2-paragraph-gap">
-						Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis
-						tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam
-					</p>
+					<p class="rt-ai-problem-paragraph rt-gap-off rt-h2-paragraph-gap">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam')}</p>
 				</div>
 				<div class="w-layout-hflex rt-problem-point-block">
 					<div
@@ -77,7 +74,7 @@
 								<img
 									width="33"
 									height="33"
-									alt="Tech"
+									alt={getText('tech', 'Tech')}
 									src={getImage('image_3').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805e0a15665bac885966e7d_chat-messages.svg'}
 									loading="lazy"
 								/>
@@ -96,7 +93,7 @@
 								<img
 									width="33"
 									height="33"
-									alt="Tech"
+									alt={getText('tech', 'Tech')}
 									src={getImage('image_4').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805e0a1d0576dff0ddb1030_Group%201321315622.svg'}
 									loading="lazy"
 								/>
@@ -124,7 +121,7 @@
 							<img
 								width="10"
 								height="9"
-								alt="Arrow"
+								alt={getText('arrow', 'Arrow')}
 								src={getImage('image_5').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"

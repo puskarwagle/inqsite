@@ -1,3 +1,16 @@
+<script>
+	// CMS Integration
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-price-wrapper">
 	<section class="rt-pricing-plan-block-v1">
 		<div class="w-layout-blockcontainer rt-container-small w-container">
@@ -12,10 +25,7 @@
 					<p
 						data-w-id="09bf4b3c-9e24-c6e7-7086-feb882cd3bb8"
 						class="rt-pricing-plan-top-paragraph rt-gap-off rt-h2-paragraph-gap"
-					>
-						Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis
-						tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam
-					</p>
+					>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam')}</p>
 				</div>
 				<div
 					data-w-id="09bf4b3c-9e24-c6e7-7086-feb882cd3bba"
@@ -65,7 +75,7 @@
 														<img
 															width="10"
 															height="9"
-															alt="Arrow"
+															alt={getText('arrow', 'Arrow')}
 															src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
 															loading="lazy"
 															class="rt-button-arrow-image"
@@ -80,14 +90,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -100,14 +110,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -120,14 +130,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -140,14 +150,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -160,14 +170,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -180,14 +190,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -200,14 +210,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -220,14 +230,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -261,7 +271,7 @@
 														<img
 															width="10"
 															height="9"
-															alt="Arrow"
+															alt={getText('arrow', 'Arrow')}
 															src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
 															loading="lazy"
 															class="rt-button-arrow-image"
@@ -276,14 +286,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -296,14 +306,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -316,14 +326,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -336,14 +346,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -356,14 +366,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -376,14 +386,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -396,14 +406,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -416,14 +426,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -457,7 +467,7 @@
 														<img
 															width="10"
 															height="9"
-															alt="Arrow"
+															alt={getText('arrow', 'Arrow')}
 															src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
 															loading="lazy"
 															class="rt-button-arrow-image"
@@ -472,14 +482,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -492,14 +502,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -512,14 +522,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -532,14 +542,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -552,14 +562,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -572,14 +582,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -592,14 +602,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -612,14 +622,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -654,7 +664,7 @@
 														<img
 															width="10"
 															height="9"
-															alt="Arrow"
+															alt={getText('arrow', 'Arrow')}
 															src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
 															loading="lazy"
 															class="rt-button-arrow-image"
@@ -669,14 +679,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -689,14 +699,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -709,14 +719,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -729,14 +739,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -749,14 +759,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -769,14 +779,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -789,14 +799,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -809,14 +819,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -847,7 +857,7 @@
 														<img
 															width="10"
 															height="9"
-															alt="Arrow"
+															alt={getText('arrow', 'Arrow')}
 															src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
 															loading="lazy"
 															class="rt-button-arrow-image"
@@ -862,14 +872,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -882,14 +892,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -902,14 +912,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -922,14 +932,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -942,14 +952,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -962,14 +972,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -982,14 +992,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -1002,14 +1012,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two active"
@@ -1040,7 +1050,7 @@
 														<img
 															width="10"
 															height="9"
-															alt="Arrow"
+															alt={getText('arrow', 'Arrow')}
 															src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
 															loading="lazy"
 															class="rt-button-arrow-image"
@@ -1055,14 +1065,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -1075,14 +1085,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -1095,14 +1105,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -1115,14 +1125,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -1135,14 +1145,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -1155,14 +1165,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -1175,14 +1185,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"
@@ -1195,14 +1205,14 @@
 													<img
 														width="18"
 														height="18"
-														alt="TIck"
+														alt={getText('tick', 'TIck')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon"
 													/><img
 														width="18"
 														height="18"
-														alt="Tick"
+														alt={getText('tick', 'Tick')}
 														src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
 														loading="lazy"
 														class="rt-price-icon-two one"

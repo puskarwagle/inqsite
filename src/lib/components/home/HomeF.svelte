@@ -26,10 +26,7 @@
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0fe9"
 						class="rt-ai-business-operation-paragraph rt-gap-off"
 						style=""
-					>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum odio eget
-						orci mattis laoreet. In nec
-					</p>
+					>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum odio eget orci mattis laoreet. In nec')}</p>
 				</div>
 				<div class="w-layout-vflex rt-business-operations">
 					<div
@@ -55,10 +52,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="rt-dropdown-text-width-v1 active" style="">
-							Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur mauris nulla,
-							eleifend quis ex eu tincidunt consequat erat
-						</div>
+						<div class="rt-dropdown-text-width-v1 active" style="">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur mauris nulla, eleifend quis ex eu tincidunt consequat erat')}</div>
 					</div>
 					<div
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0ff8"
@@ -83,10 +77,7 @@
 								</div>
 							</div>
 						</div>
-						<div style="height: 0px;" class="rt-dropdown-text-width-v1">
-							Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur mauris nulla,
-							eleifend quis ex eu tincidunt consequat erat
-						</div>
+						<div style="height: 0px;" class="rt-dropdown-text-width-v1">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur mauris nulla, eleifend quis ex eu tincidunt consequat erat')}</div>
 					</div>
 					<div
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1004"
@@ -111,10 +102,7 @@
 								</div>
 							</div>
 						</div>
-						<div style="height: 0px;" class="rt-dropdown-text-width-v1">
-							Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur mauris nulla,
-							eleifend quis ex eu tincidunt consequat erat
-						</div>
+						<div style="height: 0px;" class="rt-dropdown-text-width-v1">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur mauris nulla, eleifend quis ex eu tincidunt consequat erat')}</div>
 					</div>
 				</div>
 			</div>
@@ -126,7 +114,7 @@
 					src={getImage('image_1').url || 'https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7bb_AI%20Operations.webp'}
 					width="410"
 					height="650"
-					alt="AI Operations"
+					alt={getText('operations', 'AI Operations')}
 					sizes="(max-width: 479px) 100vw, 410px"
 					data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1011"
 					loading="lazy"

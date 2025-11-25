@@ -21,11 +21,7 @@
 					<p
 						data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce9c"
 						class="rt-growth-paragraph rt-gap-off rt-h2-paragraph-gap"
-					>
-						Lorem ipsum dolor sit amet consectetur. Convallis eget phasellus eget nibh eu ut etiam.
-						Tellus neque cras condimentum tristique a tempor. In auctor cras accumsan nam. Enim orci
-						fermentum ultrices sit donec.
-					</p>
+					>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Convallis eget phasellus eget nibh eu ut etiam. Tellus neque cras condimentum tristique a tempor. In auctor cras accumsan nam. Enim orci fermentum ultrices sit donec.')}</p>
 				</div>
 				<div data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce9e" class="w-layout-hflex">
 					<a
@@ -41,7 +37,7 @@
 							<img
 								width="10"
 								height="9"
-								alt="Arrow"
+								alt={getText('arrow', 'Arrow')}
 								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -58,7 +54,7 @@
 					src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec06_Growth.webp'}
 					width="399"
 					height="397"
-					alt="Growth"
+					alt={getText('growth', 'Growth')}
 					sizes="(max-width: 479px) 100vw, 399px"
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cea4"
 					loading="lazy"

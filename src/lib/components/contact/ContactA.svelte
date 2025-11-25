@@ -19,10 +19,7 @@
 			<p
 				data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206da5"
 				class="rt-paragraph-gap rt-contact-top-paragraph-v2"
-			>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id magna malesuada tempor mi
-				eget auctor dolor.
-			</p>
+			>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id magna malesuada tempor mi eget auctor dolor.')}</p>
 		</div>
 		<div class="w-layout-hflex rt-contact-details-v3">
 			<div
@@ -32,10 +29,7 @@
 				<div class="rt-contact-form-v2">
 					<div class="w-layout-vflex rt-connect-v3 rt-desktop-text-center">
 						<div data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206dab" class="rt-text-style-h3">{getText('send_a_message', 'Send a message')}</div>
-						<p data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206dad">
-							Lorem ipsum dolor sit amet consectetur adipiscing elit Proin sem eros ornare sed
-							lacinia
-						</p>
+						<p data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206dad">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit Proin sem eros ornare sed lacinia')}</p>
 					</div>
 					<div data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206daf" class="w-form">
 						<form
@@ -54,7 +48,7 @@
 									maxlength="256"
 									name="Name-3"
 									data-name="Name 3"
-									placeholder="Your Name*"
+									placeholder={getText('your_name', 'Your Name*')}
 									type="text"
 									id="Name-3"
 									required=""
@@ -66,7 +60,7 @@
 									maxlength="256"
 									name="Email-3"
 									data-name="Email 3"
-									placeholder="Email*"
+									placeholder={getText('email', 'Email*')}
 									type="email"
 									id="Email-3"
 									required=""
@@ -78,7 +72,7 @@
 									maxlength="256"
 									name="Phone-3"
 									data-name="Phone 3"
-									placeholder="Phone*"
+									placeholder={getText('phone', 'Phone*')}
 									type="tel"
 									id="Phone-3"
 									required=""
@@ -90,7 +84,7 @@
 									maxlength="256"
 									name="Subject-3"
 									data-name="Subject 3"
-									placeholder="Subject*"
+									placeholder={getText('subject', 'Subject*')}
 									type="text"
 									id="Subject-3"
 									required=""
@@ -102,7 +96,7 @@
 									name="Message"
 									maxlength="5000"
 									data-name="Message"
-									placeholder="Message*"
+									placeholder={getText('message', 'Message*')}
 									required=""
 									class="rt-textarea-v2 rt-change-v2 w-input"
 								></textarea>
@@ -119,7 +113,7 @@
 										data-name="Checkbox 3"
 										style="opacity:0;position:absolute;z-index:-1"
 									/><span class="rt-text-style-h6 w-form-label" for="Checkbox-3"
-										><span class="rt-text-color-dark">I agree to the</span> terms and conditions</span
+										><span class="rt-text-color-dark">{getText('agree_the', 'I agree to the')}</span>{getText('terms_and_conditions', ' terms and conditions')}</span
 									></label
 								>
 							</div>
@@ -131,9 +125,9 @@
 									>
 										<input
 											type="submit"
-											data-wait="Please wait..."
+											data-wait={getText('please_wait', 'Please wait...')}
 											class="rt-form-button w-button"
-											value="Submit Now"
+											value={getText('submit_now', 'Submit Now')}
 										/>
 										<div class="w-layout-hflex rt-button rt-event-none">
 											<div class="w-layout-hflex rt-button-text-image-wrapper">
@@ -150,7 +144,7 @@
 												<img
 													width="10"
 													height="9"
-													alt="Arrow"
+													alt={getText('arrow', 'Arrow')}
 													src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 													loading="lazy"
 													class="rt-button-arrow-image"
@@ -162,10 +156,10 @@
 							</div>
 						</form>
 						<div class="rt-success-message w-form-done">
-							<div>Thank you! Your submission has been received!</div>
+							<div>{getText('thank_you_your_submission', 'Thank you! Your submission has been received!')}</div>
 						</div>
 						<div class="w-form-fail">
-							<div>Oops! Something went wrong while submitting the form.</div>
+							<div>{getText('oops_something_went_wrong', 'Oops! Something went wrong while submitting the form.')}</div>
 						</div>
 					</div>
 				</div>
@@ -185,14 +179,14 @@
 								<img
 									width="17"
 									height="23"
-									alt="Location"
+									alt={getText('location', 'Location')}
 									src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e6c9903345d767d80297_Group%201000001678%20(1).svg'}
 									loading="lazy"
 								/>
 							</div>
 							<div class="w-layout-vflex rt-get-in-text-wrapper-v2 rt-chnage-width">
 								<div class="rt-text-style-h5">{getText('main_office', 'Main Office')}</div>
-								<div>410 Sandtown, California 94001, USA</div>
+								<div>{getText('410_sandtown_california_94001', '410 Sandtown, California 94001, USA')}</div>
 							</div>
 						</div>
 						<div
@@ -203,7 +197,7 @@
 								<img
 									width="20"
 									height="20"
-									alt="Call"
+									alt={getText('call', 'Call')}
 									src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e78b1bcb2dff07421493_Vector%20(7).svg'}
 									loading="lazy"
 								/>
@@ -212,11 +206,11 @@
 								<div class="rt-text-style-h5">{getText('phone_no', 'Phone No')}</div>
 								<div class="w-layout-vflex rt-contact-call-numbar-box">
 									<div>
-										<a href="tel:8884567890" class="rt-call-link">(888) 456 7890 </a>/
+										<a href="tel:8884567890" class="rt-call-link">{getText('888_456_7890', '(888) 456 7890 ')}</a>
 										<a href={getLink('phone_link').href || 'tel:8882345680'} class="rt-call-link">{getLink('phone_link').text || '(888) 234 5680'}</a>
 										<a href="contact-two.html#" class="rt-call-hide-slash">/</a>
 									</div>
-									<div><a href="tel:8884567890" class="rt-call-link">(888) 456 7890</a></div>
+									<div><a href="tel:8884567890" class="rt-call-link">{getText('888_456_7890', '(888) 456 7890')}</a></div>
 								</div>
 							</div>
 						</div>

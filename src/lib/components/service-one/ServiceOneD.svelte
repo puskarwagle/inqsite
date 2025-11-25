@@ -1,3 +1,16 @@
+<script>
+	// CMS Integration
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-possibilities">
 	<div data-w-id="b0970569-eae0-1832-c7f5-94d7755d2b57" class="rt-possibilities-scroll-wrapper">
 		<div class="rt-possibilities-scroll-content">
@@ -9,10 +22,7 @@
 					<p
 						data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b59e"
 						class="rt-gap-off rt-h2-paragraph-gap"
-					>
-						Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-						vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.
-					</p>
+					>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.')}</p>
 				</div>
 				<div class="w-layout-hflex rt-possibilities-ideas">
 					<div class="w-layout-vflex rt-possibilities-left-box">
@@ -21,7 +31,7 @@
 								<img
 									width="36"
 									height="24"
-									alt="Expert"
+									alt={getText('expert', 'Expert')}
 									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3a94c9eef54d4a99699_Vector%2032.svg"
 									loading="lazy"
 								/>
@@ -36,7 +46,7 @@
 								<img
 									width="27"
 									height="30"
-									alt="Expert"
+									alt={getText('expert', 'Expert')}
 									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3a97b5199127f892234_Group%202584.svg"
 									loading="lazy"
 								/>
@@ -51,7 +61,7 @@
 								<img
 									width="19"
 									height="28"
-									alt="Expert"
+									alt={getText('expert', 'Expert')}
 									src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e3a99e416066866f2423_Group%202585.svg"
 									loading="lazy"
 								/>
@@ -68,7 +78,7 @@
 						<img
 							width="654"
 							height="460"
-							alt="Possibilities Dashboard"
+							alt={getText('possibilities_dashboard', 'Possibilities Dashboard')}
 							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%20dashboard.webp"
 							loading="lazy"
 							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%2520dashboard-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%2520dashboard-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%2520dashboard-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%20dashboard.webp 1308w"
@@ -77,7 +87,7 @@
 						/><img
 							width="654"
 							height="460"
-							alt="Order"
+							alt={getText('order', 'Order')}
 							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order.webp"
 							loading="lazy"
 							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order.webp 1324w"
@@ -86,7 +96,7 @@
 						/><img
 							width="654"
 							height="460"
-							alt="Artificial"
+							alt={getText('artificial', 'Artificial')}
 							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial.webp"
 							loading="lazy"
 							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial.webp 1328w"

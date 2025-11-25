@@ -1,9 +1,12 @@
 {
   "componentName": "AboutA",
-  "lastModified": "2025-11-24T19:56:40.321Z",
+  "lastModified": "2025-11-25T06:29:36.174Z",
   "texts": {
-    "hero_heading": "Maximizing Productivity with AI-Powered Tracking ok",
-    "eu_eget_accumsan": "Eu eget accumsan risus montes nibh hac. Ut condimentum nunc accumsan mollis dis. Lacus non ante Netus ultricies."
+    "hero_heading": "Maximizing Productivity with AI-Powered Tracking",
+    "eu_eget_accumsan": "Eu eget accumsan risus montes nibh hac. Ut condimentum nunc accumsan mollis dis. Lacus non ante Netus ultricies.",
+    "our_services": "Our Services",
+    "arrow": "Arrow",
+    "banner": "Banner "
   },
   "images": {},
   "links": {}

@@ -1,3 +1,16 @@
+<script>
+	// CMS Integration
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-expertise">
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-hflex rt-xpertise-content-block">
@@ -9,11 +22,7 @@
 					<p
 						data-w-id="4176857f-2602-fec1-3f7a-7fd2a1d6c8e1"
 						class="rt-gap-off rt-h2-paragraph-gap"
-					>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat elit at
-						sollicitudin cursus. Nullam hendrerit orci vel pulvinar vestibulm. Donec vitae mattis
-						lorem. Class aptent taciti sociosqu.
-					</p>
+					>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat elit at sollicitudin cursus. Nullam hendrerit orci vel pulvinar vestibulm. Donec vitae mattis lorem. Class aptent taciti sociosqu.')}</p>
 				</div>
 				<div class="w-layout-vflex rt-expertise-points-block">
 					<div
@@ -26,15 +35,12 @@
 								loading="lazy"
 								width="20"
 								height="27"
-								alt="Lock"
+								alt={getText('lock', 'Lock')}
 							/>
 						</div>
 						<div class="w-layout-vflex rt-erpertise-text-block">
 							<div class="rt-text-style-h5">Secure the perfect platform fit</div>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis metus neque
-								lobortis pellentesque.
-							</p>
+							<p>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis metus neque lobortis pellentesque.')}</p>
 						</div>
 					</div>
 					<div
@@ -47,15 +53,12 @@
 								loading="lazy"
 								width="24"
 								height="20"
-								alt="Stat"
+								alt={getText('stat', 'Stat')}
 							/>
 						</div>
 						<div class="w-layout-vflex rt-erpertise-text-block">
 							<div class="rt-text-style-h5">Enhance algorithm capabilities</div>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis metus neque
-								lobortis pellentesque.
-							</p>
+							<p>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis metus neque lobortis pellentesque.')}</p>
 						</div>
 					</div>
 				</div>
@@ -66,7 +69,7 @@
 					src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efb7f1da377adba5726f2c_EXpertise%20Statistics.webp"
 					width="497"
 					height="510"
-					alt="Expertise Statistics"
+					alt={getText('expertise_statistics', 'Expertise Statistics')}
 					sizes="(max-width: 767px) 100vw, 497px"
 					data-w-id="7f0b0f18-9461-8f09-d0d1-ca36fdd66734"
 					loading="lazy"
@@ -81,7 +84,7 @@
 						loading="lazy"
 						width="298"
 						height="217"
-						alt="Expertise Statistics"
+						alt={getText('expertise_statistics', 'Expertise Statistics')}
 						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efaf2759b46941e44b6985_EXpertise%202-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efaf2759b46941e44b6985_EXpertise%202.webp 596w"
 						sizes="(max-width: 479px) 100vw, 298px"
 						class="rt-expertise-image-two rt-autofit"

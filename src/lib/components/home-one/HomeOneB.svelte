@@ -23,10 +23,7 @@
 							<p
 								data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a75526"
 								class="rt-gap-off rt-h2-paragraph-gap"
-							>
-								Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobo
-								Sed sollicitudin nec.
-							</p>
+							>{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobo Sed sollicitudin nec.')}</p>
 						</div>
 						<div class="w-layout-vflex rt-revolution-details">
 							<div
@@ -113,7 +110,7 @@
 							loading="lazy"
 							width="454"
 							height="692"
-							alt="Robot Small"
+							alt={getText('robot_small', 'Robot Small')}
 							class="rt-tab-full-image"
 						/>
 					</div>

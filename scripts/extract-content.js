@@ -207,8 +207,8 @@ function extractFromIntegratedComponent(html, componentName) {
 
 	console.log(`   → Detected integrated component, extracting fallback values...`);
 
-	// Extract getText patterns: {getText('key', 'fallback value')}
-	const getTextRegex = /\{getText\(['"]([^'"]+)['"]\s*,\s*['"]([^'"]*)['"]\)\}/g;
+	// Extract getText patterns: {getText('key', 'fallback value')} or alt={getText('key', 'fallback')}
+	const getTextRegex = /\{?getText\(['"]([^'"]+)['"]\s*,\s*['"]([^'"]*)['"]\)\}?/g;
 	let match;
 	while ((match = getTextRegex.exec(html)) !== null) {
 		const key = match[1];

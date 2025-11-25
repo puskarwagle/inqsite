@@ -34,7 +34,7 @@
 					><img
 						width="20"
 						height="21"
-						alt="Query"
+						alt={getText('query', 'Query')}
 						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec8142dbc93f64df00b_home-minus.svg'}
 						loading="lazy"
 					/>
@@ -43,7 +43,7 @@
 					><img
 						width="20"
 						height="21"
-						alt="Query"
+						alt={getText('query', 'Query')}
 						src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec8664314ab928bf3b3_question-square.svg'}
 						loading="lazy"
 					/>
@@ -52,7 +52,7 @@
 					><img
 						width="20"
 						height="21"
-						alt="Query"
+						alt={getText('query', 'Query')}
 						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68060ec86f7296d59b02abc9_rows.svg'}
 						loading="lazy"
 					/>
@@ -73,11 +73,7 @@
 							</div>
 						</div>
 						<div class="rt-overflow-hidden active">
-							<p class="rt-query-paragraph active">
-								Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit
-								blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac
-								interdum mauris. Augue non nec ultrices in.
-							</p>
+							<p class="rt-query-paragraph active">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.')}</p>
 						</div>
 					</div>
 					<div
@@ -92,11 +88,7 @@
 							</div>
 						</div>
 						<div class="rt-overflow-hidden">
-							<p class="rt-query-paragraph">
-								Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit
-								blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac
-								interdum mauris. Augue non nec ultrices in.
-							</p>
+							<p class="rt-query-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.')}</p>
 						</div>
 					</div>
 					<div
@@ -111,11 +103,7 @@
 							</div>
 						</div>
 						<div class="rt-overflow-hidden">
-							<p class="rt-query-paragraph">
-								Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit
-								blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac
-								interdum mauris. Augue non nec ultrices in.
-							</p>
+							<p class="rt-query-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.')}</p>
 						</div>
 					</div>
 					<div data-w-id="68fa8c62-2e74-f639-0ac0-9a0a43e29cdc" class="w-layout-vflex rt-faq-box">
@@ -127,11 +115,7 @@
 							</div>
 						</div>
 						<div class="rt-overflow-hidden">
-							<p class="rt-query-paragraph">
-								Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit
-								blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac
-								interdum mauris. Augue non nec ultrices in.
-							</p>
+							<p class="rt-query-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.')}</p>
 						</div>
 					</div>
 				</div>
@@ -148,11 +132,7 @@
 							</div>
 						</div>
 						<div class="rt-overflow-hidden active">
-							<p class="rt-query-paragraph active">
-								Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit
-								blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac
-								interdum mauris. Augue non nec ultrices in.
-							</p>
+							<p class="rt-query-paragraph active">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.')}</p>
 						</div>
 					</div>
 					<div
@@ -167,11 +147,7 @@
 							</div>
 						</div>
 						<div class="rt-overflow-hidden">
-							<p class="rt-query-paragraph">
-								Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit
-								blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac
-								interdum mauris. Augue non nec ultrices in.
-							</p>
+							<p class="rt-query-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.')}</p>
 						</div>
 					</div>
 					<div
@@ -186,11 +162,7 @@
 							</div>
 						</div>
 						<div class="rt-overflow-hidden">
-							<p class="rt-query-paragraph">
-								Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit
-								blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac
-								interdum mauris. Augue non nec ultrices in.
-							</p>
+							<p class="rt-query-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.')}</p>
 						</div>
 					</div>
 					<div data-w-id="ac04a20a-1fd4-7516-acb2-5e03ea24413c" class="w-layout-vflex rt-faq-box">
@@ -202,11 +174,7 @@
 							</div>
 						</div>
 						<div class="rt-overflow-hidden">
-							<p class="rt-query-paragraph">
-								Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit
-								blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac
-								interdum mauris. Augue non nec ultrices in.
-							</p>
+							<p class="rt-query-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.')}</p>
 						</div>
 					</div>
 				</div>
@@ -223,11 +191,7 @@
 							</div>
 						</div>
 						<div class="rt-overflow-hidden active">
-							<p class="rt-query-paragraph active">
-								Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit
-								blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac
-								interdum mauris. Augue non nec ultrices in.
-							</p>
+							<p class="rt-query-paragraph active">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.')}</p>
 						</div>
 					</div>
 					<div
@@ -242,11 +206,7 @@
 							</div>
 						</div>
 						<div class="rt-overflow-hidden">
-							<p class="rt-query-paragraph">
-								Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit
-								blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac
-								interdum mauris. Augue non nec ultrices in.
-							</p>
+							<p class="rt-query-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.')}</p>
 						</div>
 					</div>
 					<div
@@ -261,11 +221,7 @@
 							</div>
 						</div>
 						<div class="rt-overflow-hidden">
-							<p class="rt-query-paragraph">
-								Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit
-								blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac
-								interdum mauris. Augue non nec ultrices in.
-							</p>
+							<p class="rt-query-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.')}</p>
 						</div>
 					</div>
 					<div data-w-id="6cdd1185-984d-f42a-dc89-ae2282f6231a" class="w-layout-vflex rt-faq-box">
@@ -277,11 +233,7 @@
 							</div>
 						</div>
 						<div class="rt-overflow-hidden">
-							<p class="rt-query-paragraph">
-								Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit
-								blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac
-								interdum mauris. Augue non nec ultrices in.
-							</p>
+							<p class="rt-query-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Volutpat sed malesuada nam mattis. Felis sit blandit semper mattis. Adipiscing velit malesuada volutpat ultricies amet ac interdum mauris. Augue non nec ultrices in.')}</p>
 						</div>
 					</div>
 				</div>

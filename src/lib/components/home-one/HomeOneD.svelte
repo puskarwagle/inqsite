@@ -16,10 +16,7 @@
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-vflex rt-innovation-top-text rt-desktop-text-center">
 			<h2 data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a75556" class="rt-gap-off rt-h2-gap">{getText('section_heading', 'AI That Bridges Innovation and Human Intelligence')}</h2>
-			<p data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a75558" class="rt-gap-off rt-h2-paragraph-gap">
-				Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-				vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.
-			</p>
+			<p data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a75558" class="rt-gap-off rt-h2-paragraph-gap">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus dui feugiat sit.')}</p>
 		</div>
 		<div class="w-layout-grid rt-innovation-card-wrapper">
 			<div
@@ -30,7 +27,7 @@
 					<img
 						width="488"
 						height="350"
-						alt="Intelligence"
+						alt={getText('intelligence', 'Intelligence')}
 						src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e023_Intelligence%202.webp'}
 						loading="lazy"
 						srcset="
@@ -58,7 +55,7 @@
 							<img
 								width="10"
 								height="9"
-								alt="Arrow"
+								alt={getText('arrow', 'Arrow')}
 								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -74,7 +71,7 @@
 					<img
 						width="488"
 						height="350"
-						alt="Dashboard"
+						alt={getText('dashboard', 'Dashboard')}
 						src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f295e8dcb7a13ad9ad_Dashboard.webp'}
 						loading="lazy"
 						srcset="
@@ -102,7 +99,7 @@
 							<img
 								width="10"
 								height="9"
-								alt="Arrow"
+								alt={getText('arrow', 'Arrow')}
 								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg'}
 								loading="lazy"
 								class="rt-button-arrow-image"

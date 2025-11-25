@@ -25,28 +25,28 @@
 							<img
 								width="194"
 								height="172"
-								alt="Marquee Image"
+								alt={getText('marquee_image', 'Marquee Image')}
 								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec04_Marquee%20image.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febff_Marquee%20image%202.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfd_Marquee%20image%203.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="169"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec00_MArquee%20image%204.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
@@ -56,28 +56,28 @@
 							<img
 								width="194"
 								height="172"
-								alt="Marquee Image"
+								alt={getText('marquee_image', 'Marquee Image')}
 								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec04_Marquee%20image.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febff_Marquee%20image%202.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfd_Marquee%20image%203.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="169"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec00_MArquee%20image%204.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
@@ -87,28 +87,28 @@
 							<img
 								width="194"
 								height="172"
-								alt="Marquee Image"
+								alt={getText('marquee_image', 'Marquee Image')}
 								src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec04_Marquee%20image.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febff_Marquee%20image%202.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfd_Marquee%20image%203.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="169"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec00_MArquee%20image%204.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
@@ -132,28 +132,28 @@
 							<img
 								width="190"
 								height="146"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfd_Marquee%20image%203.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt="Perofrmance"
+								alt={getText('perofrmance', 'Perofrmance')}
 								src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec03_Marquee%20image%205.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="164"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec02_Marquee%20image%206.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="145"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_7').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec01_Marquee%20image%207.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
@@ -175,28 +175,28 @@
 							<img
 								width="190"
 								height="146"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfd_Marquee%20image%203.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt="Perofrmance"
+								alt={getText('perofrmance', 'Perofrmance')}
 								src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec03_Marquee%20image%205.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="164"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec02_Marquee%20image%206.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="145"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_7').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec01_Marquee%20image%207.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
@@ -218,28 +218,28 @@
 							<img
 								width="190"
 								height="146"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfd_Marquee%20image%203.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="146"
-								alt="Perofrmance"
+								alt={getText('perofrmance', 'Perofrmance')}
 								src={getImage('image_5').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec03_Marquee%20image%205.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="164"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_6').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec02_Marquee%20image%206.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
 							/><img
 								width="190"
 								height="145"
-								alt="Performance"
+								alt={getText('performance', 'Performance')}
 								src={getImage('image_7').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec01_Marquee%20image%207.webp'}
 								loading="lazy"
 								class="rt-complex-marquee-image rt-shadow rt-autofit"
@@ -251,10 +251,7 @@
 			<div class="w-layout-vflex rt-complex-problems-text-wrap">
 				<div class="rt-mobile-text-center">
 					<h2 data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce29" class="rt-gap-off rt-h2-gap">{getText('section_heading', 'AI That Simplifies Complex Problems Instantly')}</h2>
-					<p data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce2b" class="rt-complex-problems-paragraph">
-						Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in
-						vulputate. Cursus tempus congue.
-					</p>
+					<p data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1ce2b" class="rt-complex-problems-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue.')}</p>
 				</div>
 				<div class="w-layout-vflex rt-complex-problems-points">
 					<div
@@ -269,7 +266,7 @@
 									<img
 										width="15"
 										height="10"
-										alt="Arrow"
+										alt={getText('arrow', 'Arrow')}
 										src={getImage('image_8').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfc_Down%20arrow.svg'}
 										loading="lazy"
 										style="
@@ -304,7 +301,7 @@
 									<img
 										width="15"
 										height="10"
-										alt="Arrow"
+										alt={getText('arrow', 'Arrow')}
 										src={getImage('image_8').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfc_Down%20arrow.svg'}
 										loading="lazy"
 										style="
@@ -336,7 +333,7 @@
 									<img
 										width="15"
 										height="10"
-										alt="Arrow"
+										alt={getText('arrow', 'Arrow')}
 										src={getImage('image_8').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febfc_Down%20arrow.svg'}
 										loading="lazy"
 										style="

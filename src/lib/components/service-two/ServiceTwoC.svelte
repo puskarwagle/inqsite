@@ -1,3 +1,16 @@
+<script>
+	// CMS Integration
+	export let content = {
+		texts: {},
+		images: {},
+		links: {}
+	};
+
+	const getText = (key, fallback) => content.texts?.[key] || fallback;
+	const getImage = (key) => content.images?.[key] || {};
+	const getLink = (key) => content.links?.[key] || {};
+</script>
+
 <section class="rt-technology">
 	<div class="w-layout-blockcontainer rt-container-small w-container">
 		<div class="w-layout-grid rt-technology-card-wrapper">
@@ -11,7 +24,7 @@
 						loading="lazy"
 						width="397"
 						height="332"
-						alt="Technology"
+						alt={getText('technology', 'Technology')}
 						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbe41fd8e0afb35041215_Technology-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbe41fd8e0afb35041215_Technology.webp 794w"
 						sizes="(max-width: 479px) 100vw, 397px"
 						class="rt-technology-card-image rt-autofit rt-tab-full-image"
@@ -19,9 +32,7 @@
 				</div>
 				<div class="w-layout-vflex rt-technology-card-text-wrapper">
 					<div class="rt-text-style-h5">Revolutionizing AI Systems</div>
-					<p class="rt-technology-card-paragraph">
-						Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis.
-					</p>
+					<p class="rt-technology-card-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis.')}</p>
 				</div>
 				<div data-w-id="9eb56fab-101f-7be4-dc97-06c3132fef9a" class="rt-technology-card-line"></div>
 			</div>
@@ -35,7 +46,7 @@
 						loading="lazy"
 						width="397"
 						height="332"
-						alt="Technology Card"
+						alt={getText('technology_card', 'Technology Card')}
 						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc12e4acde8f5d907798_Technology%20card-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc12e4acde8f5d907798_Technology%20card-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc12e4acde8f5d907798_Technology%20card.webp 843w"
 						sizes="(max-width: 479px) 100vw, 397px"
 						class="rt-technology-card-image rt-autofit rt-tab-full-image"
@@ -43,9 +54,7 @@
 				</div>
 				<div class="w-layout-vflex rt-technology-card-text-wrapper">
 					<div class="rt-text-style-h5">Advanced AI Technology</div>
-					<p class="rt-technology-card-paragraph active">
-						Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis.
-					</p>
+					<p class="rt-technology-card-paragraph active">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis.')}</p>
 				</div>
 				<div
 					data-w-id="5933f521-d83a-3510-ff06-fd40f48b3c30"
@@ -62,7 +71,7 @@
 						loading="lazy"
 						width="397"
 						height="332"
-						alt="Technology Card"
+						alt={getText('technology_card', 'Technology Card')}
 						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc124780cd9faf40c438_Technology%20card%202-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc124780cd9faf40c438_Technology%20card%202-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc124780cd9faf40c438_Technology%20card%202.webp 824w"
 						sizes="(max-width: 479px) 100vw, 397px"
 						class="rt-technology-card-image rt-autofit rt-tab-full-image"
@@ -70,9 +79,7 @@
 				</div>
 				<div class="w-layout-vflex rt-technology-card-text-wrapper">
 					<div class="rt-text-style-h5">AI Mastery Hub</div>
-					<p class="rt-technology-card-paragraph">
-						Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis.
-					</p>
+					<p class="rt-technology-card-paragraph">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras quis.')}</p>
 				</div>
 				<div data-w-id="2a249cce-28b2-7138-c8ee-07c1d955822d" class="rt-technology-card-line"></div>
 			</div>

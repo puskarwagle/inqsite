@@ -1,26 +1,25 @@
 {
   "componentName": "HomeI",
-  "lastModified": "2025-11-24T19:37:09.806Z",
+  "lastModified": "2025-11-25T06:33:27.316Z",
   "texts": {
     "section_heading": "Select the pricing plan that best fits your business",
-    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam",
+    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobortis tincidunt Sed sollicitudin nec velit in accumsan. Etiam non urna rutrum, tincidunt diam",
     "basic_plan": "Basic Plan",
     "select_plan": "Select Plan",
+    "arrow": "Arrow",
+    "tick": "Tick",
     "standard_plan": "Standard Plan",
     "premium_plan": "Premium Plan"
   },
   "images": {
     "image_1": {
-      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg",
-      "alt": ""
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
     },
     "image_2": {
-      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg",
-      "alt": ""
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf931fb3a4dad2509f866_Skin%20tick.svg"
     },
     "image_3": {
-      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg",
-      "alt": ""
+      "url": "https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7cf_Full%20black%20tick.svg"
     }
   },
   "links": {}

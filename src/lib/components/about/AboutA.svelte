@@ -39,13 +39,13 @@
 						class="rt-button w-inline-block"
 						><div class="w-layout-hflex rt-button-text-image-wrapper">
 							<div class="w-layout-hflex rt-button-text-wrap">
-								<div class="rt-button-text rt-button-hover-in">Our Services</div>
-								<div class="rt-button-text rt-button-hover-out">Our Services</div>
+								<div class="rt-button-text rt-button-hover-in">{getText('our_services', 'Our Services')}</div>
+								<div class="rt-button-text rt-button-hover-out">{getText('our_services', 'Our Services')}</div>
 							</div>
 							<img
 								width="10"
 								height="9"
-								alt="Arrow"
+								alt={getText('arrow', 'Arrow')}
 								src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d792_arrow.svg"
 								loading="lazy"
 								class="rt-button-arrow-image"
@@ -64,7 +64,7 @@
 						<img
 							width="1011"
 							height="663"
-							alt="Banner "
+							alt={getText('banner', 'Banner ')}
 							src="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee565ccf66833f831163eb_Banner%20main%20image.webp"
 							sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
 							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee565ccf66833f831163eb_Banner%20main%20image-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee565ccf66833f831163eb_Banner%20main%20image-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee565ccf66833f831163eb_Banner%20main%20image-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee565ccf66833f831163eb_Banner%20main%20image-p-1600.webp 1600w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee565ccf66833f831163eb_Banner%20main%20image-p-2000.webp 2000w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee565ccf66833f831163eb_Banner%20main%20image.webp 2022w"

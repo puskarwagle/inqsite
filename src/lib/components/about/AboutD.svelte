@@ -18,9 +18,7 @@
 			<div class="w-layout-vflex rt-solution-text-block-v2">
 				<div class="w-layout-vflex rt-solution-text-v2">
 					<h2 data-w-id="f91ff35d-189d-d17a-6525-5715d98f646f" class="rt-gap-off rt-h2-gap">{getText('section_heading', 'Advanced solutions for your needs')}</h2>
-					<p data-w-id="f91ff35d-189d-d17a-6525-5715d98f6471" class="rt-gap-off">
-						Lorem ipsum dolor sit amet, verra, non facilisis lorem fringilla.
-					</p>
+					<p data-w-id="f91ff35d-189d-d17a-6525-5715d98f6471" class="rt-gap-off">{getText('lorem_ipsum_dolor_sit', 'Lorem ipsum dolor sit amet, verra, non facilisis lorem fringilla.')}</p>
 				</div>
 			</div>
 			<div class="w-layout-vflex rt-solution-right-block-v2">
@@ -31,7 +29,7 @@
 							src={getImage('image_1').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712d61624088e1cb5162_Solution%20block.webp'}
 							width="264"
 							height="240"
-							alt="Solution"
+							alt={getText('solution', 'Solution')}
 							sizes="(max-width: 479px) 100vw, 264px"
 							data-w-id="f91ff35d-189d-d17a-6525-5715d98f6478"
 							loading="lazy"
@@ -50,7 +48,7 @@
 							src={getImage('image_2').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712db518cdbd3fd581fe_Solution%202.webp'}
 							width="264"
 							height="240"
-							alt="Solution"
+							alt={getText('solution', 'Solution')}
 							sizes="(max-width: 479px) 100vw, 264px"
 							data-w-id="f91ff35d-189d-d17a-6525-5715d98f6480"
 							loading="lazy"
@@ -69,7 +67,7 @@
 							src={getImage('image_3').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712ea47c152f5bd98da8_Solution%203.webp'}
 							width="264"
 							height="240"
-							alt="Solution"
+							alt={getText('solution', 'Solution')}
 							sizes="(max-width: 479px) 100vw, 264px"
 							data-w-id="f91ff35d-189d-d17a-6525-5715d98f6488"
 							loading="lazy"
@@ -88,7 +86,7 @@
 							src={getImage('image_4').url || 'https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67fe36c35f933a91e1427bf8_Intellegence%20image.webp'}
 							width="264"
 							height="240"
-							alt="Intelligence"
+							alt={getText('intelligence', 'Intelligence')}
 							sizes="(max-width: 479px) 100vw, 264px"
 							data-w-id="f91ff35d-189d-d17a-6525-5715d98f6490"
 							loading="lazy"
