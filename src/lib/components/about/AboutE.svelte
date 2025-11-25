@@ -87,7 +87,6 @@
 					width="716"
 					height="525"
 					alt={getText('chat', 'Chat')}
-					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0f7bc963f0394fa8e_1-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0f7bc963f0394fa8e_1-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0f7bc963f0394fa8e_1-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0f7bc963f0394fa8e_1.webp 1448w"
 					sizes="(max-width: 767px) 100vw, 716px"
 					class="rt-industries-image rt-tab-full-image"
 				/><img
@@ -99,7 +98,6 @@
 					sizes="(max-width: 767px) 100vw, 716px"
 					data-w-id="7cd4024f-9652-dbc0-c413-9f9eab23de74"
 					loading="lazy"
-					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0b65a027dddf454e3_2-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0b65a027dddf454e3_2-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0b65a027dddf454e3_2-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0b65a027dddf454e3_2.webp 1454w"
 				/><img
 					class="rt-industries-image rt-tab-full-image three"
 					src={getImage('image_6').url}
@@ -109,7 +107,6 @@
 					sizes="(max-width: 767px) 100vw, 716px"
 					data-w-id="0cca7acf-7d4c-5a55-0474-09de0342f994"
 					loading="lazy"
-					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0ac7691cd07eded11_3-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0ac7691cd07eded11_3-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0ac7691cd07eded11_3-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cac0ac7691cd07eded11_3.webp 1432w"
 				/>
 			</div>
 		</div>

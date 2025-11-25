@@ -49,11 +49,6 @@
 					alt={getText('dashboard_image', 'Dashboard Image')}
 					src="https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a35d8c8a43a90efd9fc6e_Frame.webp"
 					data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0e30"
-					srcset="
-                https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a35d8c8a43a90efd9fc6e_Frame-p-500.webp 500w,
-                https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a35d8c8a43a90efd9fc6e_Frame-p-800.webp 800w,
-                https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/680a35d8c8a43a90efd9fc6e_Frame.webp       806w
-              "
 					sizes="(max-width: 479px) 100vw, 403px"
 					class="rt-stat-one"
 					style="opacity: 1; transform-style: preserve-3d;"

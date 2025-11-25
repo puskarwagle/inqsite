@@ -33,7 +33,6 @@
 							sizes="(max-width: 479px) 100vw, 264px"
 							data-w-id="f91ff35d-189d-d17a-6525-5715d98f6478"
 							loading="lazy"
-							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712d61624088e1cb5162_Solution%20block-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712d61624088e1cb5162_Solution%20block.webp 529w"
 						/>
 					</div>
 					<div class="w-layout-vflex rt-solution-box-text-wrapper">
@@ -52,7 +51,6 @@
 							sizes="(max-width: 479px) 100vw, 264px"
 							data-w-id="f91ff35d-189d-d17a-6525-5715d98f6480"
 							loading="lazy"
-							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712db518cdbd3fd581fe_Solution%202-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712db518cdbd3fd581fe_Solution%202.webp 528w"
 						/>
 					</div>
 					<div class="w-layout-vflex rt-solution-box-text-wrapper">
@@ -71,7 +69,6 @@
 							sizes="(max-width: 479px) 100vw, 264px"
 							data-w-id="f91ff35d-189d-d17a-6525-5715d98f6488"
 							loading="lazy"
-							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712ea47c152f5bd98da8_Solution%203-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ee712ea47c152f5bd98da8_Solution%203.webp 523w"
 						/>
 					</div>
 					<div class="w-layout-vflex rt-solution-box-text-wrapper">
@@ -90,7 +87,6 @@
 							sizes="(max-width: 479px) 100vw, 264px"
 							data-w-id="f91ff35d-189d-d17a-6525-5715d98f6490"
 							loading="lazy"
-							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67fe36c35f933a91e1427bf8_Intellegence%20image-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67fe36c35f933a91e1427bf8_Intellegence%20image.webp 510w"
 						/>
 					</div>
 					<div class="w-layout-vflex rt-solution-box-text-wrapper">

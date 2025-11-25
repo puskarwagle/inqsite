@@ -73,7 +73,6 @@
 					sizes="(max-width: 767px) 100vw, 497px"
 					data-w-id="7f0b0f18-9461-8f09-d0d1-ca36fdd66734"
 					loading="lazy"
-					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efb7f1da377adba5726f2c_EXpertise%20Statistics-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efb7f1da377adba5726f2c_EXpertise%20Statistics-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efb7f1da377adba5726f2c_EXpertise%20Statistics.webp 994w"
 				/>
 				<div
 					data-w-id="8d60adae-521a-890d-e2d0-8164a83e5a2b"
@@ -85,7 +84,6 @@
 						width="298"
 						height="217"
 						alt={getImage('expertise_statistics_overlay').alt || getText('expertise_statistics', 'Expertise Statistics')}
-						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efaf2759b46941e44b6985_EXpertise%202-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efaf2759b46941e44b6985_EXpertise%202.webp 596w"
 						sizes="(max-width: 479px) 100vw, 298px"
 						class="rt-expertise-image-two rt-autofit"
 					/>

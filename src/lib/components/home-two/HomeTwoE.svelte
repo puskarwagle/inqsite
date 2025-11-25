@@ -103,10 +103,6 @@
 						alt={getText('growth', 'Growth')}
 						src={getImage('image_3').url}
 						loading="lazy"
-						srcset="
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febdc_Growth-p-500.webp 500w,
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7febdc_Growth.webp       543w
-						"
 						sizes="(max-width: 479px) 100vw, 270px"
 						class="rt-powered-solution-card-image"
 					/>

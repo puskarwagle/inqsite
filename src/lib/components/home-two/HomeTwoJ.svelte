@@ -59,13 +59,6 @@
 				alt={getText('service', 'Service')}
 				src={getImage('image_2').url}
 				loading="lazy"
-				srcset="
-					https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cf88b22d1ca52984253e_Service-p-500.webp   500w,
-					https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cf88b22d1ca52984253e_Service-p-800.webp   800w,
-					https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cf88b22d1ca52984253e_Service-p-1080.webp 1080w,
-					https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cf88b22d1ca52984253e_Service-p-1600.webp 1600w,
-					https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805cf88b22d1ca52984253e_Service.webp        1899w
-				"
 				sizes="(max-width: 991px) 100vw, 949.5px"
 				class="rt-service-image rt-autofit"
 			/>

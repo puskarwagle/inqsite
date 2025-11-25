@@ -31,7 +31,6 @@
 						alt={getImage('business_card_1_image').alt || getText('business', 'Business')}
 						src={getImage('business_card_1_image').url}
 						loading="lazy"
-						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8166_Business%25203-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8166_Business%203.webp 630w"
 						sizes="(max-width: 479px) 100vw, 315px"
 						class="rt-business-strategies-image-two rt-autofit"
 					/><img
@@ -40,7 +39,6 @@
 						alt={getImage('business_card_2_image').alt || getText('business', 'Business')}
 						src={getImage('business_card_2_image').url}
 						loading="lazy"
-						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8163_Business%25202-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8163_Business%202.webp 596w"
 						sizes="(max-width: 479px) 100vw, 297px"
 						class="rt-business-strategies-image-three rt-autofit"
 					/>
@@ -89,7 +87,6 @@
 						alt={getImage('business_card_3_image').alt || getText('business', 'Business')}
 						src={getImage('business_card_3_image').url}
 						loading="lazy"
-						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8169_Business%25202%2520(1)-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8169_Business%202%20(1).webp 688w"
 						sizes="(max-width: 479px) 100vw, 345px"
 						class="rt-business-strategies-image rt-autofit rt-tab-full-image"
 					/>
@@ -137,7 +134,6 @@
 						alt={getImage('business_card_4_image').alt || getText('business', 'Business')}
 						src={getImage('business_card_4_image').url}
 						loading="lazy"
-						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8160_Business-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8160_Business.webp 716w"
 						sizes="(max-width: 479px) 100vw, 345px"
 						class="rt-business-strategies-image rt-autofit rt-tab-full-image"
 					/>

@@ -30,11 +30,6 @@
 						alt={getText('intelligence', 'Intelligence')}
 						src={getImage('image_1').url}
 						loading="lazy"
-						srcset="
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e023_Intelligence%25202-p-500.webp 500w,
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e023_Intelligence%25202-p-800.webp 800w,
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e023_Intelligence%202.webp         976w
-						"
 						sizes="(max-width: 767px) 100vw, 488px"
 						class="rt-innovation-image rt-autofit rt-tab-full-image"
 					/>
@@ -74,11 +69,6 @@
 						alt={getText('dashboard', 'Dashboard')}
 						src={getImage('image_3').url}
 						loading="lazy"
-						srcset="
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f295e8dcb7a13ad9ad_Dashboard-p-500.webp 500w,
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f295e8dcb7a13ad9ad_Dashboard-p-800.webp 800w,
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f295e8dcb7a13ad9ad_Dashboard.webp       849w
-						"
 						sizes="(max-width: 767px) 100vw, 488px"
 						class="rt-innovation-image rt-autofit rt-tab-full-image"
 					/>

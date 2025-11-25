@@ -25,7 +25,6 @@
 						sizes="(max-width: 767px) 100vw, 590px"
 						data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b581"
 						loading="lazy"
-						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d302f3bd2444df9a4936_Industries%20dashboard-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d302f3bd2444df9a4936_Industries%20dashboard-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d302f3bd2444df9a4936_Industries%20dashboard-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d302f3bd2444df9a4936_Industries%20dashboard.webp 1182w"
 					/>
 				</div>
 				<div class="rt-revolution-image-two-v3">
@@ -38,7 +37,6 @@
 						sizes="(max-width: 479px) 100vw, 287px"
 						data-w-id="b1df3202-e056-36f7-b9dc-7f9b02f8b582"
 						loading="lazy"
-						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a816d_Revolution%25203-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a816d_Revolution%25203-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a816d_Revolution%203.webp 822w"
 					/>
 				</div>
 			</div>

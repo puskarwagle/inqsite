@@ -40,11 +40,6 @@
 								sizes="(max-width: 479px) 100vw, 430px"
 								data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a7557b"
 								loading="lazy"
-								srcset="
-									https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f2649775f90f30811f_Strategie%202-p-500.webp 500w,
-									https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f2649775f90f30811f_Strategie%202-p-800.webp 800w,
-									https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd47f2649775f90f30811f_Strategie%202.webp       881w
-								"
 							/>
 						</div>
 					</div>
@@ -111,10 +106,6 @@
 						alt={getText('workflow', 'Workflow')}
 						src={getImage('image_5').url}
 						loading="lazy"
-						srcset="
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e02d_Workflow-p-500.webp 500w,
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd46958348c1c7eb22e02d_Workflow.webp       978w
-						"
 						sizes="(max-width: 767px) 100vw, 489px"
 						class="rt-company-strategie-image-copy rt-autofit rt-tab-full-image"
 					/>
@@ -168,12 +159,6 @@
 									alt="CTA"
 									src={getImage('image_7').url}
 									loading="lazy"
-									srcset="
-										https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800e5cea79ab1712ce75ed1_Cta-p-500.webp   500w,
-										https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800e5cea79ab1712ce75ed1_Cta-p-800.webp   800w,
-										https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800e5cea79ab1712ce75ed1_Cta-p-1080.webp 1080w,
-										https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800e5cea79ab1712ce75ed1_Cta.webp        1258w
-									"
 									sizes="(max-width: 767px) 100vw, 630px"
 									class="rt-radious-fifteen rt-autofit rt-tab-full-image"
 								/>

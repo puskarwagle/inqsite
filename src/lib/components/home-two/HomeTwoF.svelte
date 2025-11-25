@@ -28,10 +28,6 @@
 								width="310"
 								height="630"
 								alt={getText('innovation', 'Innovation')}
-								srcset="
-									https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217043835aecce9891_Screen%20one-p-500.webp 500w,
-									https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217043835aecce9891_Screen%20one.webp       616w
-								"
 								sizes="(max-width: 479px) 100vw, 310px"
 								class="rt-ai-innovation-mobile-one-image rt-autofit"
 							/>
@@ -43,10 +39,6 @@
 								width="310"
 								height="630"
 								alt={getText('innovation', 'Innovation')}
-								srcset="
-									https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217c70ff8ed3782287_Scree%20two-p-500.webp 500w,
-									https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/68009c217c70ff8ed3782287_Scree%20two.webp       615w
-								"
 								sizes="(max-width: 479px) 100vw, 310px"
 								class="rt-ai-innovation-mobile-two-image rt-autofit"
 							/>

@@ -38,7 +38,6 @@
 								alt={getText('operation', 'Operation 2')}
 								src={getImage('image_1').url}
 								loading="lazy"
-								srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e143a4013924794b675f8a_Operation%25202-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e143a4013924794b675f8a_Operation%202.webp 552w"
 								sizes="(max-width: 479px) 100vw, 276px"
 								class="rt-business-operation-image rt-autofit"
 							/>
@@ -58,7 +57,6 @@
 								alt={getText('operation', 'Operation 2')}
 								src={getImage('image_2').url}
 								loading="lazy"
-								srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e143a4013924794b675f8d_Operation-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e143a4013924794b675f8d_Operation.webp 510w"
 								sizes="(max-width: 479px) 100vw, 276px"
 								class="rt-business-operation-image rt-autofit"
 							/>
@@ -78,7 +76,6 @@
 								alt={getText('operation', 'Operation 2')}
 								src={getImage('image_3').url}
 								loading="lazy"
-								srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e143a4013924794b675f87_Operation%25204-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e143a4013924794b675f87_Operation%204.webp 603w"
 								sizes="(max-width: 479px) 100vw, 276px"
 								class="rt-business-operation-image-two rt-autofit"
 							/>
@@ -98,7 +95,6 @@
 								alt={getText('operation', 'Operation')}
 								src={getImage('image_4').url}
 								loading="lazy"
-								srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e143a4013924794b675f84_Operation%25203-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e143a4013924794b675f84_Operation%203.webp 566w"
 								sizes="(max-width: 479px) 100vw, 276px"
 								class="rt-business-operation-image rt-autofit"
 							/>

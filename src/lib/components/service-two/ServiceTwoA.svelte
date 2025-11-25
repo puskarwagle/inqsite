@@ -58,7 +58,6 @@
 				width="907"
 				height="693"
 				alt={getImage('banner_main').alt || getText('banner', 'Banner')}
-				srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main-p-1600.webp 1600w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f36dcf486ca6235167ec55_Banner%20main.webp 1816w"
 				sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 907px"
 				class="rt-efficiency-banner-image rt-autofit rt-tab-full-image"
 			/>

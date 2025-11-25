@@ -24,7 +24,6 @@
 					width="711"
 					height="430"
 					alt={getImage('leverage_dashboard').alt || getText('leverage', 'Leverage')}
-					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805dc25c341e38cf4d0c17b_Lverage-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805dc25c341e38cf4d0c17b_Lverage-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805dc25c341e38cf4d0c17b_Lverage-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805dc25c341e38cf4d0c17b_Lverage.webp 1422w"
 					sizes="(max-width: 767px) 100vw, 711px"
 					class="rt-data-driven-image"
 				/>
@@ -126,7 +125,6 @@
 					width="636"
 					height="500"
 					alt={getImage('campaign_dashboard').alt || getText('campaign', 'Campaign')}
-					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3543431d7970a8a0b5f4e_Campaign-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3543431d7970a8a0b5f4e_Campaign-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3543431d7970a8a0b5f4e_Campaign-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67f3543431d7970a8a0b5f4e_Campaign.webp 1273w"
 					sizes="(max-width: 767px) 100vw, 636px"
 					class="rt-data-driven-image-v2"
 				/>

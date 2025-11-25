@@ -40,10 +40,6 @@
 							sizes="(max-width: 479px) 100vw, 330px"
 							data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f88"
 							loading="lazy"
-							srcset="
-                    https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7a7_AI%2520data-p-500.webp 500w,
-                    https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7a7_AI%20data.webp         660w
-                  "
 							style=""
 						/>
 					</div>
@@ -219,10 +215,6 @@
 								alt={getText('intelligence', 'Intelligence')}
 								src={getImage('image_14').url}
 								loading="lazy"
-								srcset="
-                      https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805cd53d5c6efbff6fdc703_Intelligence-p-500.webp 500w,
-                      https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/6805cd53d5c6efbff6fdc703_Intelligence.webp       698w
-                    "
 								sizes="(max-width: 479px) 100vw, 350px"
 								class="rt-data-card-four-image rt-autofit rt-tab-full-image"
 							/>
@@ -245,10 +237,6 @@
 								alt={getText('data', 'AI Data')}
 								src={getImage('image_15').url}
 								loading="lazy"
-								srcset="
-                      https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ae_Ai%2520bar-p-500.webp 500w,
-                      https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7ae_Ai%20bar.webp         635w
-                    "
 								sizes="(max-width: 479px) 100vw, 350px"
 								class="rt-data-card-four-image rt-autofit rt-tab-full-image"
 							/>

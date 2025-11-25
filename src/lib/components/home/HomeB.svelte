@@ -38,10 +38,6 @@
 							sizes="(max-width: 479px) 100vw, 280px"
 							data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f38"
 							loading="lazy"
-							srcset="
-                    https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d798_Operation-p-500.webp 500w,
-                    https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d798_Operation.webp       560w
-                  "
 							style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
 						/>
 					</div>
@@ -94,10 +90,6 @@
 							sizes="(max-width: 479px) 100vw, 280px"
 							data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f43"
 							loading="lazy"
-							srcset="
-                    https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d795_Operations%25202-p-500.webp 500w,
-                    https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d795_Operations%202.webp         566w
-                  "
 							style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
 						/>
 					</div>
@@ -150,10 +142,6 @@
 							sizes="(max-width: 479px) 100vw, 280px"
 							data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b0f4e"
 							loading="lazy"
-							srcset="
-                    https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d79b_Operation%25203-p-500.webp 500w,
-                    https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d79b_Operation%203.webp         564w
-                  "
 							style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg); transform-style: preserve-3d;"
 						/>
 					</div>

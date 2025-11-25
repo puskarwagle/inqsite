@@ -118,11 +118,6 @@
 					sizes="(max-width: 479px) 100vw, 410px"
 					data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1011"
 					loading="lazy"
-					srcset="
-                https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7bb_AI%2520Operations-p-500.webp 500w,
-                https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7bb_AI%2520Operations-p-800.webp 800w,
-                https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7bb_AI%20Operations.webp         811w
-              "
 					style=""
 				/>
 				<div

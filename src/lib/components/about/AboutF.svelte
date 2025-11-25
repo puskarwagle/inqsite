@@ -25,7 +25,6 @@
 					sizes="(max-width: 767px) 100vw, 724px"
 					data-w-id="d8cc0c89-5611-467c-7b0c-409b05d85abf"
 					loading="lazy"
-					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800fb2113073c7667a03435_Group%201009004142-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800fb2113073c7667a03435_Group%201009004142-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800fb2113073c7667a03435_Group%201009004142-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6800fb2113073c7667a03435_Group%201009004142.webp 1263w"
 				/>
 			</div>
 			<div class="w-layout-vflex rt-imapact-text-wrapper-v2">

@@ -25,10 +25,6 @@
 					alt={getText('digital', 'Digital')}
 					src={getImage('image_1').url}
 					loading="lazy"
-					srcset="
-						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff326bbf4bb92961422ef9_Digital%20image-p-500.webp 500w,
-						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff326bbf4bb92961422ef9_Digital%20image.webp       791w
-					"
 					sizes="(max-width: 479px) 100vw, 397px"
 					class="rt-radious-ten rt-autofit rt-tab-full-image"
 				/><img
@@ -37,10 +33,6 @@
 					alt={getText('digital', 'Digital')}
 					src={getImage('image_2').url}
 					loading="lazy"
-					srcset="
-						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff326b808437661828b4b2_Digital%20image%20two-p-500.webp 500w,
-						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff326b808437661828b4b2_Digital%20image%20two.webp       794w
-					"
 					sizes="(max-width: 479px) 100vw, 397px"
 					class="rt-radious-ten rt-autofit rt-tab-full-image"
 				/>

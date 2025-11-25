@@ -39,7 +39,6 @@
 									src={getImage('image_1').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
-									srcset="https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/68060095b0772f5c96e3de97_Small%20Image%20(7)-p-500.webp 500w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/68060095b0772f5c96e3de97_Small%20Image%20(7)-p-800.webp 800w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/68060095b0772f5c96e3de97_Small%20Image%20(7)-p-1080.webp 1080w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/68060095b0772f5c96e3de97_Small%20Image%20(7).webp 1260w"
 									class="rt-autofit rt-radious-ten rt-tab-full-image"
 								/>
 							</div>
@@ -83,7 +82,6 @@
 									src={getImage('image_4').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
-									srcset="https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/6805f384894ded930d20c714_Small%20Image(8)-p-500.webp 500w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/6805f384894ded930d20c714_Small%20Image(8)-p-800.webp 800w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/6805f384894ded930d20c714_Small%20Image(8)-p-1080.webp 1080w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/6805f384894ded930d20c714_Small%20Image(8).webp 1260w"
 									class="rt-autofit rt-radious-ten rt-tab-full-image"
 								/>
 							</div>
@@ -127,7 +125,6 @@
 									src={getImage('image_5').url}
 									loading="lazy"
 									sizes="(max-width: 479px) 100vw, 410px"
-									srcset="https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67ea227fe2ee3679eab02ea3_Post%20image%20(7)-p-500.webp 500w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67ea227fe2ee3679eab02ea3_Post%20image%20(7)-p-800.webp 800w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67ea227fe2ee3679eab02ea3_Post%20image%20(7)-p-1080.webp 1080w, https://cdn.prod.website-files.com/67e0fe61aeef80d2da1f13ba/67ea227fe2ee3679eab02ea3_Post%20image%20(7).webp 1260w"
 									class="rt-autofit rt-radious-ten rt-tab-full-image"
 								/>
 							</div>

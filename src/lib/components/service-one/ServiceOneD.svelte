@@ -81,7 +81,6 @@
 							alt={getImage('possibilities_dashboard').alt || getText('possibilities_dashboard', 'Possibilities Dashboard')}
 							src={getImage('possibilities_dashboard').url}
 							loading="lazy"
-							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%2520dashboard-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%2520dashboard-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%2520dashboard-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67e2a165f3cea78a742a8175_Posssibilities%20dashboard.webp 1308w"
 							sizes="(max-width: 767px) 100vw, 654px"
 							class="rt-possibilities-right-box-image"
 						/><img
@@ -90,7 +89,6 @@
 							alt={getImage('order_dashboard').alt || getText('order', 'Order')}
 							src={getImage('order_dashboard').url}
 							loading="lazy"
-							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d8b7b775b8c77226ae82_Order.webp 1324w"
 							sizes="(max-width: 767px) 100vw, 654px"
 							class="rt-possibilities-right-box-image-two"
 						/><img
@@ -99,7 +97,6 @@
 							alt={getImage('artificial_dashboard').alt || getText('artificial', 'Artificial')}
 							src={getImage('artificial_dashboard').url}
 							loading="lazy"
-							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805d7e085017b3502ee2df7_Artificial.webp 1328w"
 							sizes="(max-width: 767px) 100vw, 654px"
 							class="rt-possibilities-right-box-image-three"
 						/>

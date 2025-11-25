@@ -30,7 +30,6 @@
 							sizes="(max-width: 479px) 100vw, 300px"
 							data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206dfa"
 							loading="lazy"
-							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfa9_Singapore-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfa9_Singapore.webp 600w"
 						/>
 					</div>
 					<div class="w-layout-vflex rt-branches-details">
@@ -51,7 +50,6 @@
 							sizes="(max-width: 479px) 100vw, 300px"
 							data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206e01"
 							loading="lazy"
-							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfaf_Office-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfaf_Office.webp 600w"
 						/>
 					</div>
 					<div class="w-layout-vflex rt-branches-details rt-resize">
@@ -70,7 +68,6 @@
 							sizes="(max-width: 479px) 100vw, 300px"
 							data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206e08"
 							loading="lazy"
-							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfac_Office2-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfac_Office2.webp 600w"
 						/>
 					</div>
 					<div class="w-layout-vflex rt-branches-details">
@@ -89,7 +86,6 @@
 							sizes="(max-width: 479px) 100vw, 300px"
 							data-w-id="cbacd7a6-1db3-3668-2b7a-cd57bb206e0f"
 							loading="lazy"
-							srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfb2_Office%25203-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ea1884f6c2d761158ebfb2_Office%203.webp 600w"
 						/>
 					</div>
 					<div class="w-layout-vflex rt-branches-details">

@@ -58,10 +58,6 @@
 					sizes="(max-width: 479px) 100vw, 399px"
 					data-w-id="fe20c1ac-25b5-cccb-2709-cd906db1cea4"
 					loading="lazy"
-					srcset="
-						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec06_Growth-p-500.webp 500w,
-						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67dd3480ed5458fc5f7fec06_Growth.webp       797w
-					"
 				/>
 			</div>
 		</div>

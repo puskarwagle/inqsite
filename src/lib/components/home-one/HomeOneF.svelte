@@ -73,11 +73,6 @@
 						alt={getText('dashboard_image', 'Dashboard Image')}
 						src={getImage('image_1').url}
 						loading="lazy"
-						srcset="
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b527854b22f07cfcb1939_Frame-2-p-500.webp  500w,
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b527854b22f07cfcb1939_Frame-2-p-800.webp  800w,
-							https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b527854b22f07cfcb1939_Frame-2.webp       1046w
-						"
 						sizes="(max-width: 767px) 100vw, 550px"
 						class="rt-work-image rt-autofit rt-tab-full-image"
 					/>

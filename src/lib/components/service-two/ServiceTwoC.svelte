@@ -25,7 +25,6 @@
 						width="397"
 						height="332"
 						alt={getImage('technology_card_1').alt || getText('technology', 'Technology')}
-						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbe41fd8e0afb35041215_Technology-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbe41fd8e0afb35041215_Technology.webp 794w"
 						sizes="(max-width: 479px) 100vw, 397px"
 						class="rt-technology-card-image rt-autofit rt-tab-full-image"
 					/>
@@ -47,7 +46,6 @@
 						width="397"
 						height="332"
 						alt={getImage('technology_card_2').alt || getText('technology_card', 'Technology Card')}
-						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc12e4acde8f5d907798_Technology%20card-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc12e4acde8f5d907798_Technology%20card-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc12e4acde8f5d907798_Technology%20card.webp 843w"
 						sizes="(max-width: 479px) 100vw, 397px"
 						class="rt-technology-card-image rt-autofit rt-tab-full-image"
 					/>
@@ -72,7 +70,6 @@
 						width="397"
 						height="332"
 						alt={getImage('technology_card_3').alt || getText('technology_card', 'Technology Card')}
-						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc124780cd9faf40c438_Technology%20card%202-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc124780cd9faf40c438_Technology%20card%202-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67efbc124780cd9faf40c438_Technology%20card%202.webp 824w"
 						sizes="(max-width: 479px) 100vw, 397px"
 						class="rt-technology-card-image rt-autofit rt-tab-full-image"
 					/>

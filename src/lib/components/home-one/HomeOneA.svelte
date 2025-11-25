@@ -119,14 +119,6 @@
 					width="1065"
 					height="758"
 					alt={getText('dashboard', 'Dashboard')}
-					srcset="
-						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff5700d905dc1e4c0e4aed_Home%20three%20banner-p-500.webp   500w,
-						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff5700d905dc1e4c0e4aed_Home%20three%20banner-p-800.webp   800w,
-						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff5700d905dc1e4c0e4aed_Home%20three%20banner-p-1080.webp 1080w,
-						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff5700d905dc1e4c0e4aed_Home%20three%20banner-p-1600.webp 1600w,
-						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff5700d905dc1e4c0e4aed_Home%20three%20banner-p-2000.webp 2000w,
-						https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff5700d905dc1e4c0e4aed_Home%20three%20banner.webp        2132w
-					"
 					sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
 					class="rt-automate-solution-image-one rt-autofit rt-tab-full-image"
 				/><img

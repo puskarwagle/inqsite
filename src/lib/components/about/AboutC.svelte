@@ -27,7 +27,6 @@
 						alt={getText('performance_dashboard', 'Performance Dashboard')}
 						src={getImage('image_1').url}
 						loading="lazy"
-						srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp 1122w"
 						sizes="(max-width: 767px) 100vw, 560px"
 						class="rt-autofit rt-tab-full-image"
 					/>
@@ -38,7 +37,6 @@
 					alt={getText('performance_dashboard', 'Performance Dashboard')}
 					src={getImage('image_1').url}
 					loading="lazy"
-					srcset="https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-500.webp 500w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-800.webp 800w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard-p-1080.webp 1080w, https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff66242531d6dc346df4ee_Performance%20dashboard.webp 1122w"
 					sizes="(max-width: 767px) 100vw, 560px"
 					class="rt-impact-image-two rt-autofit rt-tab-full-image"
 				/>

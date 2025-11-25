@@ -51,11 +51,6 @@
 						sizes="(max-width: 479px) 100vw, 455px"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b1024"
 						loading="lazy"
-						srcset="
-                  https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf925b82e7d923152249a_Insight-chart-p-500.webp 500w,
-                  https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf925b82e7d923152249a_Insight-chart-p-800.webp 800w,
-                  https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf925b82e7d923152249a_Insight-chart.webp       910w
-                "
 						style=""
 					/>
 				</div></a
@@ -87,15 +82,10 @@
 						sizes="(max-width: 479px) 100vw, 455px"
 						data-w-id="e0a8f063-0a46-3e02-55a6-47cb858b102e"
 						loading="lazy"
-						srcset="
-                  https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c0_Insight-chart-two-p-500.webp 500w,
-                  https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c0_Insight-chart-two-p-800.webp 800w,
-                  https://wubflow-shield.NOCODEXPORT.DEV/67a1ea8462c51e3f81e40a7e/67dcf627abf34dbb0271d7c0_Insight-chart-two.webp       934w
-                "
 						style=""
 					/>
-				</div></a
-			>
+				</div>
+			</a>
 		</div>
 	</div>
 </section>
