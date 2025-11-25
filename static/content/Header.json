@@ -3,7 +3,7 @@
   "lastModified": "2025-11-24T19:37:09.836Z",
   "texts": {
     "button_get_started": "Get Started",
-    "jobquest": "JobQuest",
+    "jobquest": "QuestBot",
     "inqcrm": "InqCrm",
     "aiagents": "AiAgents",
     "pages": "Pages",
@@ -55,8 +55,8 @@
   },
   "links": {
     "jobquest": {
-      "href": "/",
-      "text": "JobQuest"
+      "href": "/home-one",
+      "text": "QuestBot"
     },
     "inqcrm": {
       "href": "/home-one",

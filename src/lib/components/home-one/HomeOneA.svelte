@@ -22,14 +22,13 @@
 		<div class="w-layout-vflex rt-automate-solution rt-change">
 			<div class="w-layout-vflex rt-automate-solution-text-wrapper rt-desktop-text-center">
 				<h1 data-w-id="9ee8ad4e-f15e-5c8b-fa16-b415dbf46872" class="rt-gap-off rt-h1-gap">
-					AI-Powered Analytics for Better Decision <span>Making</span>
+					{getText('hero_heading', 'Quest Bot - Your AI-Powered Job Search Team')}
 				</h1>
 				<p
 					data-w-id="b98fe9fb-c1a1-6e28-b3c4-a129db49c1ea"
 					class="rt-automate-solution-paragraph rt-gap-off rt-h2-paragraph-gap"
 				>
-					Eu eget accumsan risus montes nibh hac. Ut condimentum nunc accumsan mollis dis. Lacus non
-					ante Netus ultricies.
+					{getText('hero_description', 'A suite of intelligent AI agents that work together to automate and accelerate your job search. Think of it as having a dedicated team of specialists working 24/7 to land your dream job.')}
 				</p>
 				<div
 					data-w-id="b98fe9fb-c1a1-6e28-b3c4-a129db49c1ec"

@@ -1,18 +1,22 @@
 {
   "componentName": "HomeOneB",
-  "lastModified": "2025-11-24T19:37:09.823Z",
+  "lastModified": "2025-11-26T00:00:00.000Z",
   "texts": {
-    "section_heading": "Revolutionizing Technology with AI Intelligence",
-    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae.",
-    "smarter_ai_for": "Smarter AI for Smarter Living",
-    "ai_that_enhances": "AI That Enhances Banking Security",
-    "aidriven_risk_management": "AI-Driven Risk Management Solutions",
-    "ai_for_a": "AI for a Smarter Digital Lifestyle"
+    "section_heading": "Meet Your AI Agents",
+    "lorem_ipsum_dolor": "A specialized team of AI agents working together to automate your entire job search process.",
+    "smarter_ai_for": "Job Hunter Agent",
+    "job_hunter_desc": "Your tireless job search companion that scours Seek, LinkedIn, and Indeed simultaneously to find opportunities matching your criteria.",
+    "ai_that_enhances": "Application Agent",
+    "application_desc": "Automatically fills out application forms, uploads your resume, and handles multi-step flows with human-like behavior.",
+    "aidriven_risk_management": "Cover Letter Agent",
+    "cover_letter_desc": "Crafts personalized, compelling cover letters in seconds by analyzing job descriptions and matching your experience.",
+    "ai_for_a": "Resume Builder Agent",
+    "resume_desc": "Creates professional, ATS-friendly resumes with multiple templates and customizable styling."
   },
   "images": {
     "image_1": {
       "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b6ab735df412ded9b7a84_Robot%20Big.avif",
-      "alt": ""
+      "alt": "Quest Bot AI Agents"
     }
   },
   "links": {}

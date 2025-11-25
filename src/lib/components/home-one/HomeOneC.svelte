@@ -60,8 +60,8 @@
 						/>
 					</div>
 					<div class="w-layout-vflex rt-intelligence-box-text-wrapper">
-						<div class="rt-text-style-h5">{getText('intelligent_ai_tools', 'Intelligent AI Tools Driving Growth')}</div>
-						<p class="rt-gap-off">{getText('lorem_ipsum_dolor', 'Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien')}</p>
+						<div class="rt-text-style-h5">{getText('intelligent_ai_tools', 'Q&A Agent')}</div>
+						<p class="rt-gap-off">{getText('lorem_ipsum_dolor', 'Intelligently answers employer-specific application questions while maintaining consistency across all your applications.')}</p>
 					</div>
 				</div>
 				<div
@@ -78,8 +78,8 @@
 						/>
 					</div>
 					<div class="w-layout-vflex rt-intelligence-box-text-wrapper">
-						<div class="rt-text-style-h5">{getText('aipowered_solutions_for', 'AI-Powered Solutions for Growth')}</div>
-						<p class="rt-gap-off">{getText('lorem_ipsum_dolor', 'Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien')}</p>
+						<div class="rt-text-style-h5">{getText('aipowered_solutions_for', 'Save Hours Every Week')}</div>
+						<p class="rt-gap-off">{getText('solutions_desc', 'Average job seeker spends 11 hours/week on applications. Quest Bot reduces this to minutes of setup.')}</p>
 					</div>
 				</div>
 				<div
@@ -96,8 +96,8 @@
 						/>
 					</div>
 					<div class="w-layout-vflex rt-intelligence-box-text-wrapper">
-						<div class="rt-text-style-h5">{getText('ai_solutions_to', 'AI Solutions to Scale Smarter')}</div>
-						<p class="rt-gap-off">{getText('lorem_ipsum_dolor', 'Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien')}</p>
+						<div class="rt-text-style-h5">{getText('ai_solutions_to', 'Apply to More Jobs')}</div>
+						<p class="rt-gap-off">{getText('apply_desc', 'Typical manual approach: 5-10 applications/day. With Quest Bot: 50+ quality applications/day.')}</p>
 					</div>
 				</div>
 			</div>

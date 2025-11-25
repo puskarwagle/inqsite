@@ -1,9 +1,11 @@
 {
   "componentName": "HomeOneA",
-  "lastModified": "2025-11-24T19:46:48.718Z",
+  "lastModified": "2025-11-26T00:00:00.000Z",
   "texts": {
-    "join_us_today": "Join Us Today",
-    "button_watch_video": "Watch video"
+    "hero_heading": "Quest Bot - Your AI-Powered Job Search Team",
+    "hero_description": "A suite of intelligent AI agents that work together to automate and accelerate your job search. Think of it as having a dedicated team of specialists working 24/7 to land your dream job.",
+    "join_us_today": "Get Started Today",
+    "button_watch_video": "Watch Demo"
   },
   "images": {
     "image_1": {

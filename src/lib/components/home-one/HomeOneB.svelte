@@ -36,12 +36,12 @@
 								></div>
 								<div class="w-layout-hflex rt-revolution-details-title">
 									<div class="rt-text-style-h5">01</div>
-									<div class="rt-text-style-h5">{getText('smarter_ai_for', 'Smarter AI for Smarter Living')}</div>
+									<div class="rt-text-style-h5">{getText('smarter_ai_for', 'Job Hunter Agent')}</div>
 								</div>
 								<div
 									class="w-layout-hflex rt-revolution-details-paragraph-block rt-overflow-hidden active"
 								>
-									<p>{getText('lorem_ipsum_dolor', 'Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae.')}</p>
+									<p>{getText('job_hunter_desc', 'Your tireless job search companion that scours Seek, LinkedIn, and Indeed simultaneously to find opportunities matching your criteria.')}</p>
 								</div>
 							</div>
 							<div
@@ -54,13 +54,13 @@
 								></div>
 								<div class="w-layout-hflex rt-revolution-details-title">
 									<div class="rt-text-style-h5">02</div>
-									<div class="rt-text-style-h5">{getText('ai_that_enhances', 'AI That Enhances Banking Security')}</div>
+									<div class="rt-text-style-h5">{getText('ai_that_enhances', 'Application Agent')}</div>
 								</div>
 								<div
 									data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a75544"
 									class="w-layout-hflex rt-revolution-details-paragraph-block rt-overflow-hidden"
 								>
-									<p>{getText('lorem_ipsum_dolor', 'Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae.')}</p>
+									<p>{getText('application_desc', 'Automatically fills out application forms, uploads your resume, and handles multi-step flows with human-like behavior.')}</p>
 								</div>
 							</div>
 							<div
@@ -73,13 +73,13 @@
 								></div>
 								<div class="w-layout-hflex rt-revolution-details-title">
 									<div class="rt-text-style-h5">03</div>
-									<div class="rt-text-style-h5">{getText('aidriven_risk_management', 'AI-Driven Risk Management Solutions')}</div>
+									<div class="rt-text-style-h5">{getText('aidriven_risk_management', 'Cover Letter Agent')}</div>
 								</div>
 								<div
 									data-w-id="6f17e9a6-85a8-a2cd-5e12-7de1859e7804"
 									class="w-layout-hflex rt-revolution-details-paragraph-block rt-overflow-hidden"
 								>
-									<p>{getText('lorem_ipsum_dolor', 'Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae.')}</p>
+									<p>{getText('cover_letter_desc', 'Crafts personalized, compelling cover letters in seconds by analyzing job descriptions and matching your experience.')}</p>
 								</div>
 							</div>
 							<div
@@ -93,13 +93,13 @@
 								></div>
 								<div class="w-layout-hflex rt-revolution-details-title">
 									<div class="rt-text-style-h5">04</div>
-									<div class="rt-text-style-h5">{getText('ai_for_a', 'AI for a Smarter Digital Lifestyle')}</div>
+									<div class="rt-text-style-h5">{getText('ai_for_a', 'Resume Builder Agent')}</div>
 								</div>
 								<div
 									data-w-id="2db9ea1b-8d09-a03c-b9de-ccfc78a7554e"
 									class="w-layout-hflex rt-revolution-details-paragraph-block rt-overflow-hidden"
 								>
-									<p>{getText('lorem_ipsum_dolor', 'Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae.')}</p>
+									<p>{getText('resume_desc', 'Creates professional, ATS-friendly resumes with multiple templates and customizable styling.')}</p>
 								</div>
 							</div>
 						</div>

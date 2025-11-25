@@ -1,20 +1,22 @@
 {
   "componentName": "HomeOneH",
-  "lastModified": "2025-11-24T19:37:09.828Z",
+  "lastModified": "2025-11-26T00:00:00.000Z",
   "texts": {
-    "section_heading": "AI-Driven Security for a Safer Digital World",
-    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Massa senectus enim sed in rutrum aliquet fames a. Nisl massa a imperdiet.",
-    "ai_that_protects": "AI That Protects and Secures Your Data",
-    "smart_ai_for": "Smart AI for Ultimate Cybersecurity"
+    "section_heading": "Secure, Private, and Powerful",
+    "lorem_ipsum_dolor": "Quest Bot runs locally on your machine, keeping your data private and secure while delivering enterprise-grade automation.",
+    "ai_that_protects": "Desktop Application",
+    "desktop_desc": "Native performance on Windows, Mac, and Linux. Your data never leaves your computer.",
+    "smart_ai_for": "Smart Automation",
+    "automation_desc": "Human-like behavior patterns prevent detection. Advanced session management keeps you logged in across runs."
   },
   "images": {
     "image_1": {
       "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff326bbf4bb92961422ef9_Digital%20image.webp",
-      "alt": ""
+      "alt": "Security"
     },
     "image_2": {
       "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/67ff326b808437661828b4b2_Digital%20image%20two.webp",
-      "alt": ""
+      "alt": "Privacy"
     }
   },
   "links": {}

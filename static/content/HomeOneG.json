@@ -1,12 +1,12 @@
 {
   "componentName": "HomeOneG",
-  "lastModified": "2025-11-25T08:40:22.085Z",
+  "lastModified": "2025-11-26T00:00:00.000Z",
   "texts": {
-    "client": "Client",
-    "capabilities_icon": "Capabilities Icon",
-    "section_heading": "Transform Operations Through Seamless Platform Integrations",
-    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus.",
-    "explore_more": "Explore More",
+    "client": "Platform",
+    "capabilities_icon": "Features Icon",
+    "section_heading": "Full Platform Integration",
+    "lorem_ipsum_dolor_sit": "Quest Bot works seamlessly across all major job boards, giving you comprehensive coverage of the job market.",
+    "explore_more": "Get Started",
     "arrow": "Arrow"
   },
   "images": {

@@ -1,21 +1,24 @@
 {
   "componentName": "HomeOneF",
-  "lastModified": "2025-11-24T19:37:09.827Z",
+  "lastModified": "2025-11-26T00:00:00.000Z",
   "texts": {
-    "section_heading": "AI That Works Behind the Scenes to Enhance Your Life",
-    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur. Suscipit viverra donec scelerisque tellus in vulputate. Cursus tempus congue faucibus faucibus.",
-    "ai_that_makes": "AI That Makes Everyday Tasks Easier",
-    "ai_that_works": "AI That Works While You Innovate",
-    "advancing_humanity_with": "Advancing Humanity with Smart AI"
+    "section_heading": "Who Is Quest Bot For?",
+    "lorem_ipsum_dolor": "Quest Bot is designed to help job seekers at every stage of their career journey maximize their opportunities.",
+    "ai_that_makes": "Active Job Seekers",
+    "active_desc": "Maximize your application volume without burnout. Apply to 50+ jobs daily while maintaining quality.",
+    "ai_that_works": "Career Changers",
+    "career_desc": "Apply broadly while exploring new industries. Let Quest Bot handle the volume while you focus on skill development.",
+    "advancing_humanity_with": "Recent Graduates",
+    "graduates_desc": "Compete with experienced candidates through volume. Get your foot in the door at more companies simultaneously."
   },
   "images": {
     "image_1": {
       "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/680b527854b22f07cfcb1939_Frame-2.webp",
-      "alt": ""
+      "alt": "Job Seekers"
     },
     "image_2": {
       "url": "https://cdn.prod.website-files.com/67a1ea8462c51e3f81e40a7e/6805e135c4caeee148fd3518_cog.svg",
-      "alt": ""
+      "alt": "Settings"
     }
   },
   "links": {}

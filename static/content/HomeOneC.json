@@ -1,16 +1,18 @@
 {
   "componentName": "HomeOneC",
-  "lastModified": "2025-11-25T08:40:21.532Z",
+  "lastModified": "2025-11-26T00:00:00.000Z",
   "texts": {
-    "section_heading": "Unleashing the Power of Artificial Intelligence",
-    "lorem_ipsum_dolor_sit": "Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien vitae augue lobo Sed sollicitudin nec.",
+    "section_heading": "Powerful Features That Work Together",
+    "lorem_ipsum_dolor_sit": "Every feature is designed to save you time and maximize your job search effectiveness.",
     "explore_more": "Explore More",
     "arrow": "Arrow",
     "brand": "Brand",
-    "intelligent_ai_tools": "Intelligent AI Tools Driving Growth",
-    "lorem_ipsum_dolor": "Lorem ipsum dolor sit amet consectetur adipiscing elit In et sapien",
-    "aipowered_solutions_for": "AI-Powered Solutions for Growth",
-    "ai_solutions_to": "AI Solutions to Scale Smarter"
+    "intelligent_ai_tools": "Q&A Agent",
+    "lorem_ipsum_dolor": "Intelligently answers employer-specific application questions while maintaining consistency across all your applications.",
+    "aipowered_solutions_for": "Save Hours Every Week",
+    "solutions_desc": "Average job seeker spends 11 hours/week on applications. Quest Bot reduces this to minutes of setup.",
+    "ai_solutions_to": "Apply to More Jobs",
+    "apply_desc": "Typical manual approach: 5-10 applications/day. With Quest Bot: 50+ quality applications/day."
   },
   "images": {
     "image_1": {
